@@ -1,0 +1,707 @@
+abstraction for transport-strips-transport-l4-t1-p3---int100n150-m25---int100c110---s1---e0
+41 N0 1 N1 1 N2 1 N3 1 N4 1 N5 1 N6 1 N7 1 N8 1 N9 1 B0 0 B1 0 B2 0 B3 0 B4 0 B5 0 B6 0 B7 0 B8 0 B9 0 B10 0 B11 0 B12 0 B13 0 B14 0 B15 0 B16 0 B17 0 B18 0 B19 0 B20 0 B21 0 B22 0 B23 0 B24 0 B25 0 B26 0 B27 0 B28 0 B29 0 B30 0
+41 B30 1 B2 1 B0 0 B1 0 B3 0 B4 0 B5 0 B6 0 B7 0 B8 0 B9 0 B10 0 B11 0 B12 0 B13 0 B14 0 B15 0 B16 0 B17 0 B18 0 B19 0 B20 0 B21 0 B22 0 B23 0 B24 0 B25 0 B26 0 B27 0 B28 0 B29 0 N0 1 N1 0 N2 0 N3 0 N4 0 N5 0 N6 1 N7 0 N8 1 N9 0
+8 N0 0 N2 0 N3 0 N4 0 N6 0 N7 0 N8 0 N9 0
+234
+load((N0), t0, l0)
+2 B0 1 N0 1
+2 N0 0 N4 1
+load((N1), t0, l1)
+2 B1 1 N1 1
+2 N1 0 N4 1
+load((N2), t0, l2)
+2 B2 1 N2 1
+2 N2 0 N4 1
+load((N3), t0, l3)
+2 B3 1 N3 1
+2 N3 0 N4 1
+load((N5), t0, l0)
+2 B0 1 N5 1
+2 N5 0 N9 1
+load((N6), t0, l1)
+2 B1 1 N6 1
+2 N6 0 N9 1
+load((N7), t0, l2)
+2 B2 1 N7 1
+2 N7 0 N9 1
+load((N8), t0, l3)
+2 B3 1 N8 1
+2 N8 0 N9 1
+unload((N4), t0, l0)
+2 B0 1 N4 1
+2 N4 0 N0 1
+unload((N4), t0, l1)
+2 B1 1 N4 1
+2 N4 0 N1 1
+unload((N4), t0, l2)
+2 B2 1 N4 1
+2 N4 0 N2 1
+unload((N4), t0, l3)
+2 B3 1 N4 1
+2 N4 0 N3 1
+unload((N9), t0, l0)
+2 B0 1 N9 1
+2 N9 0 N5 1
+unload((N9), t0, l1)
+2 B1 1 N9 1
+2 N9 0 N6 1
+unload((N9), t0, l2)
+2 B2 1 N9 1
+2 N9 0 N7 1
+unload((N9), t0, l3)
+2 B3 1 N9 1
+2 N9 0 N8 1
+drive(t0, l0, l1, level0, level13, level13)
+2 B17 1 B0 1
+4 B1 1 B4 1 B0 0 B17 0
+drive(t0, l0, l1, level1, level13, level14)
+2 B18 1 B0 1
+4 B1 1 B5 1 B0 0 B18 0
+drive(t0, l0, l1, level10, level13, level23)
+2 B27 1 B0 1
+4 B1 1 B14 1 B0 0 B27 0
+drive(t0, l0, l1, level11, level13, level24)
+2 B28 1 B0 1
+4 B1 1 B15 1 B0 0 B28 0
+drive(t0, l0, l1, level12, level13, level25)
+2 B29 1 B0 1
+4 B1 1 B16 1 B0 0 B29 0
+drive(t0, l0, l1, level13, level13, level26)
+2 B30 1 B0 1
+4 B1 1 B17 1 B0 0 B30 0
+drive(t0, l0, l1, level2, level13, level15)
+2 B19 1 B0 1
+4 B1 1 B6 1 B0 0 B19 0
+drive(t0, l0, l1, level3, level13, level16)
+2 B20 1 B0 1
+4 B1 1 B7 1 B0 0 B20 0
+drive(t0, l0, l1, level4, level13, level17)
+2 B21 1 B0 1
+4 B1 1 B8 1 B0 0 B21 0
+drive(t0, l0, l1, level5, level13, level18)
+2 B22 1 B0 1
+4 B1 1 B9 1 B0 0 B22 0
+drive(t0, l0, l1, level6, level13, level19)
+2 B23 1 B0 1
+4 B1 1 B10 1 B0 0 B23 0
+drive(t0, l0, l1, level7, level13, level20)
+2 B24 1 B0 1
+4 B1 1 B11 1 B0 0 B24 0
+drive(t0, l0, l1, level8, level13, level21)
+2 B25 1 B0 1
+4 B1 1 B12 1 B0 0 B25 0
+drive(t0, l0, l1, level9, level13, level22)
+2 B26 1 B0 1
+4 B1 1 B13 1 B0 0 B26 0
+drive(t0, l0, l2, level0, level2, level2)
+2 B6 1 B0 1
+4 B2 1 B4 1 B0 0 B6 0
+drive(t0, l0, l2, level1, level2, level3)
+2 B7 1 B0 1
+4 B2 1 B5 1 B0 0 B7 0
+drive(t0, l0, l2, level10, level2, level12)
+2 B16 1 B0 1
+4 B2 1 B14 1 B0 0 B16 0
+drive(t0, l0, l2, level11, level2, level13)
+2 B17 1 B0 1
+4 B2 1 B15 1 B0 0 B17 0
+drive(t0, l0, l2, level12, level2, level14)
+2 B18 1 B0 1
+4 B2 1 B16 1 B0 0 B18 0
+drive(t0, l0, l2, level13, level2, level15)
+2 B19 1 B0 1
+4 B2 1 B17 1 B0 0 B19 0
+drive(t0, l0, l2, level14, level2, level16)
+2 B20 1 B0 1
+4 B2 1 B18 1 B0 0 B20 0
+drive(t0, l0, l2, level15, level2, level17)
+2 B21 1 B0 1
+4 B2 1 B19 1 B0 0 B21 0
+drive(t0, l0, l2, level16, level2, level18)
+2 B22 1 B0 1
+4 B2 1 B20 1 B0 0 B22 0
+drive(t0, l0, l2, level17, level2, level19)
+2 B23 1 B0 1
+4 B2 1 B21 1 B0 0 B23 0
+drive(t0, l0, l2, level18, level2, level20)
+2 B24 1 B0 1
+4 B2 1 B22 1 B0 0 B24 0
+drive(t0, l0, l2, level19, level2, level21)
+2 B25 1 B0 1
+4 B2 1 B23 1 B0 0 B25 0
+drive(t0, l0, l2, level2, level2, level4)
+2 B8 1 B0 1
+4 B2 1 B6 1 B0 0 B8 0
+drive(t0, l0, l2, level20, level2, level22)
+2 B26 1 B0 1
+4 B2 1 B24 1 B0 0 B26 0
+drive(t0, l0, l2, level21, level2, level23)
+2 B27 1 B0 1
+4 B2 1 B25 1 B0 0 B27 0
+drive(t0, l0, l2, level22, level2, level24)
+2 B28 1 B0 1
+4 B2 1 B26 1 B0 0 B28 0
+drive(t0, l0, l2, level23, level2, level25)
+2 B29 1 B0 1
+4 B2 1 B27 1 B0 0 B29 0
+drive(t0, l0, l2, level24, level2, level26)
+2 B30 1 B0 1
+4 B2 1 B28 1 B0 0 B30 0
+drive(t0, l0, l2, level3, level2, level5)
+2 B9 1 B0 1
+4 B2 1 B7 1 B0 0 B9 0
+drive(t0, l0, l2, level4, level2, level6)
+2 B10 1 B0 1
+4 B2 1 B8 1 B0 0 B10 0
+drive(t0, l0, l2, level5, level2, level7)
+2 B11 1 B0 1
+4 B2 1 B9 1 B0 0 B11 0
+drive(t0, l0, l2, level6, level2, level8)
+2 B12 1 B0 1
+4 B2 1 B10 1 B0 0 B12 0
+drive(t0, l0, l2, level7, level2, level9)
+2 B13 1 B0 1
+4 B2 1 B11 1 B0 0 B13 0
+drive(t0, l0, l2, level8, level2, level10)
+2 B14 1 B0 1
+4 B2 1 B12 1 B0 0 B14 0
+drive(t0, l0, l2, level9, level2, level11)
+2 B15 1 B0 1
+4 B2 1 B13 1 B0 0 B15 0
+drive(t0, l0, l3, level0, level18, level18)
+2 B22 1 B0 1
+4 B3 1 B4 1 B0 0 B22 0
+drive(t0, l0, l3, level1, level18, level19)
+2 B23 1 B0 1
+4 B3 1 B5 1 B0 0 B23 0
+drive(t0, l0, l3, level2, level18, level20)
+2 B24 1 B0 1
+4 B3 1 B6 1 B0 0 B24 0
+drive(t0, l0, l3, level3, level18, level21)
+2 B25 1 B0 1
+4 B3 1 B7 1 B0 0 B25 0
+drive(t0, l0, l3, level4, level18, level22)
+2 B26 1 B0 1
+4 B3 1 B8 1 B0 0 B26 0
+drive(t0, l0, l3, level5, level18, level23)
+2 B27 1 B0 1
+4 B3 1 B9 1 B0 0 B27 0
+drive(t0, l0, l3, level6, level18, level24)
+2 B28 1 B0 1
+4 B3 1 B10 1 B0 0 B28 0
+drive(t0, l0, l3, level7, level18, level25)
+2 B29 1 B0 1
+4 B3 1 B11 1 B0 0 B29 0
+drive(t0, l0, l3, level8, level18, level26)
+2 B30 1 B0 1
+4 B3 1 B12 1 B0 0 B30 0
+drive(t0, l1, l0, level0, level13, level13)
+2 B17 1 B1 1
+4 B0 1 B4 1 B1 0 B17 0
+drive(t0, l1, l0, level1, level13, level14)
+2 B18 1 B1 1
+4 B0 1 B5 1 B1 0 B18 0
+drive(t0, l1, l0, level10, level13, level23)
+2 B27 1 B1 1
+4 B0 1 B14 1 B1 0 B27 0
+drive(t0, l1, l0, level11, level13, level24)
+2 B28 1 B1 1
+4 B0 1 B15 1 B1 0 B28 0
+drive(t0, l1, l0, level12, level13, level25)
+2 B29 1 B1 1
+4 B0 1 B16 1 B1 0 B29 0
+drive(t0, l1, l0, level13, level13, level26)
+2 B30 1 B1 1
+4 B0 1 B17 1 B1 0 B30 0
+drive(t0, l1, l0, level2, level13, level15)
+2 B19 1 B1 1
+4 B0 1 B6 1 B1 0 B19 0
+drive(t0, l1, l0, level3, level13, level16)
+2 B20 1 B1 1
+4 B0 1 B7 1 B1 0 B20 0
+drive(t0, l1, l0, level4, level13, level17)
+2 B21 1 B1 1
+4 B0 1 B8 1 B1 0 B21 0
+drive(t0, l1, l0, level5, level13, level18)
+2 B22 1 B1 1
+4 B0 1 B9 1 B1 0 B22 0
+drive(t0, l1, l0, level6, level13, level19)
+2 B23 1 B1 1
+4 B0 1 B10 1 B1 0 B23 0
+drive(t0, l1, l0, level7, level13, level20)
+2 B24 1 B1 1
+4 B0 1 B11 1 B1 0 B24 0
+drive(t0, l1, l0, level8, level13, level21)
+2 B25 1 B1 1
+4 B0 1 B12 1 B1 0 B25 0
+drive(t0, l1, l0, level9, level13, level22)
+2 B26 1 B1 1
+4 B0 1 B13 1 B1 0 B26 0
+drive(t0, l1, l2, level0, level3, level3)
+2 B7 1 B1 1
+4 B2 1 B4 1 B1 0 B7 0
+drive(t0, l1, l2, level1, level3, level4)
+2 B8 1 B1 1
+4 B2 1 B5 1 B1 0 B8 0
+drive(t0, l1, l2, level10, level3, level13)
+2 B17 1 B1 1
+4 B2 1 B14 1 B1 0 B17 0
+drive(t0, l1, l2, level11, level3, level14)
+2 B18 1 B1 1
+4 B2 1 B15 1 B1 0 B18 0
+drive(t0, l1, l2, level12, level3, level15)
+2 B19 1 B1 1
+4 B2 1 B16 1 B1 0 B19 0
+drive(t0, l1, l2, level13, level3, level16)
+2 B20 1 B1 1
+4 B2 1 B17 1 B1 0 B20 0
+drive(t0, l1, l2, level14, level3, level17)
+2 B21 1 B1 1
+4 B2 1 B18 1 B1 0 B21 0
+drive(t0, l1, l2, level15, level3, level18)
+2 B22 1 B1 1
+4 B2 1 B19 1 B1 0 B22 0
+drive(t0, l1, l2, level16, level3, level19)
+2 B23 1 B1 1
+4 B2 1 B20 1 B1 0 B23 0
+drive(t0, l1, l2, level17, level3, level20)
+2 B24 1 B1 1
+4 B2 1 B21 1 B1 0 B24 0
+drive(t0, l1, l2, level18, level3, level21)
+2 B25 1 B1 1
+4 B2 1 B22 1 B1 0 B25 0
+drive(t0, l1, l2, level19, level3, level22)
+2 B26 1 B1 1
+4 B2 1 B23 1 B1 0 B26 0
+drive(t0, l1, l2, level2, level3, level5)
+2 B9 1 B1 1
+4 B2 1 B6 1 B1 0 B9 0
+drive(t0, l1, l2, level20, level3, level23)
+2 B27 1 B1 1
+4 B2 1 B24 1 B1 0 B27 0
+drive(t0, l1, l2, level21, level3, level24)
+2 B28 1 B1 1
+4 B2 1 B25 1 B1 0 B28 0
+drive(t0, l1, l2, level22, level3, level25)
+2 B29 1 B1 1
+4 B2 1 B26 1 B1 0 B29 0
+drive(t0, l1, l2, level23, level3, level26)
+2 B30 1 B1 1
+4 B2 1 B27 1 B1 0 B30 0
+drive(t0, l1, l2, level3, level3, level6)
+2 B10 1 B1 1
+4 B2 1 B7 1 B1 0 B10 0
+drive(t0, l1, l2, level4, level3, level7)
+2 B11 1 B1 1
+4 B2 1 B8 1 B1 0 B11 0
+drive(t0, l1, l2, level5, level3, level8)
+2 B12 1 B1 1
+4 B2 1 B9 1 B1 0 B12 0
+drive(t0, l1, l2, level6, level3, level9)
+2 B13 1 B1 1
+4 B2 1 B10 1 B1 0 B13 0
+drive(t0, l1, l2, level7, level3, level10)
+2 B14 1 B1 1
+4 B2 1 B11 1 B1 0 B14 0
+drive(t0, l1, l2, level8, level3, level11)
+2 B15 1 B1 1
+4 B2 1 B12 1 B1 0 B15 0
+drive(t0, l1, l2, level9, level3, level12)
+2 B16 1 B1 1
+4 B2 1 B13 1 B1 0 B16 0
+drive(t0, l1, l3, level0, level11, level11)
+2 B15 1 B1 1
+4 B3 1 B4 1 B1 0 B15 0
+drive(t0, l1, l3, level1, level11, level12)
+2 B16 1 B1 1
+4 B3 1 B5 1 B1 0 B16 0
+drive(t0, l1, l3, level10, level11, level21)
+2 B25 1 B1 1
+4 B3 1 B14 1 B1 0 B25 0
+drive(t0, l1, l3, level11, level11, level22)
+2 B26 1 B1 1
+4 B3 1 B15 1 B1 0 B26 0
+drive(t0, l1, l3, level12, level11, level23)
+2 B27 1 B1 1
+4 B3 1 B16 1 B1 0 B27 0
+drive(t0, l1, l3, level13, level11, level24)
+2 B28 1 B1 1
+4 B3 1 B17 1 B1 0 B28 0
+drive(t0, l1, l3, level14, level11, level25)
+2 B29 1 B1 1
+4 B3 1 B18 1 B1 0 B29 0
+drive(t0, l1, l3, level15, level11, level26)
+2 B30 1 B1 1
+4 B3 1 B19 1 B1 0 B30 0
+drive(t0, l1, l3, level2, level11, level13)
+2 B17 1 B1 1
+4 B3 1 B6 1 B1 0 B17 0
+drive(t0, l1, l3, level3, level11, level14)
+2 B18 1 B1 1
+4 B3 1 B7 1 B1 0 B18 0
+drive(t0, l1, l3, level4, level11, level15)
+2 B19 1 B1 1
+4 B3 1 B8 1 B1 0 B19 0
+drive(t0, l1, l3, level5, level11, level16)
+2 B20 1 B1 1
+4 B3 1 B9 1 B1 0 B20 0
+drive(t0, l1, l3, level6, level11, level17)
+2 B21 1 B1 1
+4 B3 1 B10 1 B1 0 B21 0
+drive(t0, l1, l3, level7, level11, level18)
+2 B22 1 B1 1
+4 B3 1 B11 1 B1 0 B22 0
+drive(t0, l1, l3, level8, level11, level19)
+2 B23 1 B1 1
+4 B3 1 B12 1 B1 0 B23 0
+drive(t0, l1, l3, level9, level11, level20)
+2 B24 1 B1 1
+4 B3 1 B13 1 B1 0 B24 0
+drive(t0, l2, l0, level0, level2, level2)
+2 B6 1 B2 1
+4 B0 1 B4 1 B2 0 B6 0
+drive(t0, l2, l0, level1, level2, level3)
+2 B7 1 B2 1
+4 B0 1 B5 1 B2 0 B7 0
+drive(t0, l2, l0, level10, level2, level12)
+2 B16 1 B2 1
+4 B0 1 B14 1 B2 0 B16 0
+drive(t0, l2, l0, level11, level2, level13)
+2 B17 1 B2 1
+4 B0 1 B15 1 B2 0 B17 0
+drive(t0, l2, l0, level12, level2, level14)
+2 B18 1 B2 1
+4 B0 1 B16 1 B2 0 B18 0
+drive(t0, l2, l0, level13, level2, level15)
+2 B19 1 B2 1
+4 B0 1 B17 1 B2 0 B19 0
+drive(t0, l2, l0, level14, level2, level16)
+2 B20 1 B2 1
+4 B0 1 B18 1 B2 0 B20 0
+drive(t0, l2, l0, level15, level2, level17)
+2 B21 1 B2 1
+4 B0 1 B19 1 B2 0 B21 0
+drive(t0, l2, l0, level16, level2, level18)
+2 B22 1 B2 1
+4 B0 1 B20 1 B2 0 B22 0
+drive(t0, l2, l0, level17, level2, level19)
+2 B23 1 B2 1
+4 B0 1 B21 1 B2 0 B23 0
+drive(t0, l2, l0, level18, level2, level20)
+2 B24 1 B2 1
+4 B0 1 B22 1 B2 0 B24 0
+drive(t0, l2, l0, level19, level2, level21)
+2 B25 1 B2 1
+4 B0 1 B23 1 B2 0 B25 0
+drive(t0, l2, l0, level2, level2, level4)
+2 B8 1 B2 1
+4 B0 1 B6 1 B2 0 B8 0
+drive(t0, l2, l0, level20, level2, level22)
+2 B26 1 B2 1
+4 B0 1 B24 1 B2 0 B26 0
+drive(t0, l2, l0, level21, level2, level23)
+2 B27 1 B2 1
+4 B0 1 B25 1 B2 0 B27 0
+drive(t0, l2, l0, level22, level2, level24)
+2 B28 1 B2 1
+4 B0 1 B26 1 B2 0 B28 0
+drive(t0, l2, l0, level23, level2, level25)
+2 B29 1 B2 1
+4 B0 1 B27 1 B2 0 B29 0
+drive(t0, l2, l0, level24, level2, level26)
+2 B30 1 B2 1
+4 B0 1 B28 1 B2 0 B30 0
+drive(t0, l2, l0, level3, level2, level5)
+2 B9 1 B2 1
+4 B0 1 B7 1 B2 0 B9 0
+drive(t0, l2, l0, level4, level2, level6)
+2 B10 1 B2 1
+4 B0 1 B8 1 B2 0 B10 0
+drive(t0, l2, l0, level5, level2, level7)
+2 B11 1 B2 1
+4 B0 1 B9 1 B2 0 B11 0
+drive(t0, l2, l0, level6, level2, level8)
+2 B12 1 B2 1
+4 B0 1 B10 1 B2 0 B12 0
+drive(t0, l2, l0, level7, level2, level9)
+2 B13 1 B2 1
+4 B0 1 B11 1 B2 0 B13 0
+drive(t0, l2, l0, level8, level2, level10)
+2 B14 1 B2 1
+4 B0 1 B12 1 B2 0 B14 0
+drive(t0, l2, l0, level9, level2, level11)
+2 B15 1 B2 1
+4 B0 1 B13 1 B2 0 B15 0
+drive(t0, l2, l1, level0, level3, level3)
+2 B7 1 B2 1
+4 B1 1 B4 1 B2 0 B7 0
+drive(t0, l2, l1, level1, level3, level4)
+2 B8 1 B2 1
+4 B1 1 B5 1 B2 0 B8 0
+drive(t0, l2, l1, level10, level3, level13)
+2 B17 1 B2 1
+4 B1 1 B14 1 B2 0 B17 0
+drive(t0, l2, l1, level11, level3, level14)
+2 B18 1 B2 1
+4 B1 1 B15 1 B2 0 B18 0
+drive(t0, l2, l1, level12, level3, level15)
+2 B19 1 B2 1
+4 B1 1 B16 1 B2 0 B19 0
+drive(t0, l2, l1, level13, level3, level16)
+2 B20 1 B2 1
+4 B1 1 B17 1 B2 0 B20 0
+drive(t0, l2, l1, level14, level3, level17)
+2 B21 1 B2 1
+4 B1 1 B18 1 B2 0 B21 0
+drive(t0, l2, l1, level15, level3, level18)
+2 B22 1 B2 1
+4 B1 1 B19 1 B2 0 B22 0
+drive(t0, l2, l1, level16, level3, level19)
+2 B23 1 B2 1
+4 B1 1 B20 1 B2 0 B23 0
+drive(t0, l2, l1, level17, level3, level20)
+2 B24 1 B2 1
+4 B1 1 B21 1 B2 0 B24 0
+drive(t0, l2, l1, level18, level3, level21)
+2 B25 1 B2 1
+4 B1 1 B22 1 B2 0 B25 0
+drive(t0, l2, l1, level19, level3, level22)
+2 B26 1 B2 1
+4 B1 1 B23 1 B2 0 B26 0
+drive(t0, l2, l1, level2, level3, level5)
+2 B9 1 B2 1
+4 B1 1 B6 1 B2 0 B9 0
+drive(t0, l2, l1, level20, level3, level23)
+2 B27 1 B2 1
+4 B1 1 B24 1 B2 0 B27 0
+drive(t0, l2, l1, level21, level3, level24)
+2 B28 1 B2 1
+4 B1 1 B25 1 B2 0 B28 0
+drive(t0, l2, l1, level22, level3, level25)
+2 B29 1 B2 1
+4 B1 1 B26 1 B2 0 B29 0
+drive(t0, l2, l1, level23, level3, level26)
+2 B30 1 B2 1
+4 B1 1 B27 1 B2 0 B30 0
+drive(t0, l2, l1, level3, level3, level6)
+2 B10 1 B2 1
+4 B1 1 B7 1 B2 0 B10 0
+drive(t0, l2, l1, level4, level3, level7)
+2 B11 1 B2 1
+4 B1 1 B8 1 B2 0 B11 0
+drive(t0, l2, l1, level5, level3, level8)
+2 B12 1 B2 1
+4 B1 1 B9 1 B2 0 B12 0
+drive(t0, l2, l1, level6, level3, level9)
+2 B13 1 B2 1
+4 B1 1 B10 1 B2 0 B13 0
+drive(t0, l2, l1, level7, level3, level10)
+2 B14 1 B2 1
+4 B1 1 B11 1 B2 0 B14 0
+drive(t0, l2, l1, level8, level3, level11)
+2 B15 1 B2 1
+4 B1 1 B12 1 B2 0 B15 0
+drive(t0, l2, l1, level9, level3, level12)
+2 B16 1 B2 1
+4 B1 1 B13 1 B2 0 B16 0
+drive(t0, l2, l3, level0, level6, level6)
+2 B10 1 B2 1
+4 B3 1 B4 1 B2 0 B10 0
+drive(t0, l2, l3, level1, level6, level7)
+2 B11 1 B2 1
+4 B3 1 B5 1 B2 0 B11 0
+drive(t0, l2, l3, level10, level6, level16)
+2 B20 1 B2 1
+4 B3 1 B14 1 B2 0 B20 0
+drive(t0, l2, l3, level11, level6, level17)
+2 B21 1 B2 1
+4 B3 1 B15 1 B2 0 B21 0
+drive(t0, l2, l3, level12, level6, level18)
+2 B22 1 B2 1
+4 B3 1 B16 1 B2 0 B22 0
+drive(t0, l2, l3, level13, level6, level19)
+2 B23 1 B2 1
+4 B3 1 B17 1 B2 0 B23 0
+drive(t0, l2, l3, level14, level6, level20)
+2 B24 1 B2 1
+4 B3 1 B18 1 B2 0 B24 0
+drive(t0, l2, l3, level15, level6, level21)
+2 B25 1 B2 1
+4 B3 1 B19 1 B2 0 B25 0
+drive(t0, l2, l3, level16, level6, level22)
+2 B26 1 B2 1
+4 B3 1 B20 1 B2 0 B26 0
+drive(t0, l2, l3, level17, level6, level23)
+2 B27 1 B2 1
+4 B3 1 B21 1 B2 0 B27 0
+drive(t0, l2, l3, level18, level6, level24)
+2 B28 1 B2 1
+4 B3 1 B22 1 B2 0 B28 0
+drive(t0, l2, l3, level19, level6, level25)
+2 B29 1 B2 1
+4 B3 1 B23 1 B2 0 B29 0
+drive(t0, l2, l3, level2, level6, level8)
+2 B12 1 B2 1
+4 B3 1 B6 1 B2 0 B12 0
+drive(t0, l2, l3, level20, level6, level26)
+2 B30 1 B2 1
+4 B3 1 B24 1 B2 0 B30 0
+drive(t0, l2, l3, level3, level6, level9)
+2 B13 1 B2 1
+4 B3 1 B7 1 B2 0 B13 0
+drive(t0, l2, l3, level4, level6, level10)
+2 B14 1 B2 1
+4 B3 1 B8 1 B2 0 B14 0
+drive(t0, l2, l3, level5, level6, level11)
+2 B15 1 B2 1
+4 B3 1 B9 1 B2 0 B15 0
+drive(t0, l2, l3, level6, level6, level12)
+2 B16 1 B2 1
+4 B3 1 B10 1 B2 0 B16 0
+drive(t0, l2, l3, level7, level6, level13)
+2 B17 1 B2 1
+4 B3 1 B11 1 B2 0 B17 0
+drive(t0, l2, l3, level8, level6, level14)
+2 B18 1 B2 1
+4 B3 1 B12 1 B2 0 B18 0
+drive(t0, l2, l3, level9, level6, level15)
+2 B19 1 B2 1
+4 B3 1 B13 1 B2 0 B19 0
+drive(t0, l3, l0, level0, level18, level18)
+2 B22 1 B3 1
+4 B0 1 B4 1 B3 0 B22 0
+drive(t0, l3, l0, level1, level18, level19)
+2 B23 1 B3 1
+4 B0 1 B5 1 B3 0 B23 0
+drive(t0, l3, l0, level2, level18, level20)
+2 B24 1 B3 1
+4 B0 1 B6 1 B3 0 B24 0
+drive(t0, l3, l0, level3, level18, level21)
+2 B25 1 B3 1
+4 B0 1 B7 1 B3 0 B25 0
+drive(t0, l3, l0, level4, level18, level22)
+2 B26 1 B3 1
+4 B0 1 B8 1 B3 0 B26 0
+drive(t0, l3, l0, level5, level18, level23)
+2 B27 1 B3 1
+4 B0 1 B9 1 B3 0 B27 0
+drive(t0, l3, l0, level6, level18, level24)
+2 B28 1 B3 1
+4 B0 1 B10 1 B3 0 B28 0
+drive(t0, l3, l0, level7, level18, level25)
+2 B29 1 B3 1
+4 B0 1 B11 1 B3 0 B29 0
+drive(t0, l3, l0, level8, level18, level26)
+2 B30 1 B3 1
+4 B0 1 B12 1 B3 0 B30 0
+drive(t0, l3, l1, level0, level11, level11)
+2 B15 1 B3 1
+4 B1 1 B4 1 B3 0 B15 0
+drive(t0, l3, l1, level1, level11, level12)
+2 B16 1 B3 1
+4 B1 1 B5 1 B3 0 B16 0
+drive(t0, l3, l1, level10, level11, level21)
+2 B25 1 B3 1
+4 B1 1 B14 1 B3 0 B25 0
+drive(t0, l3, l1, level11, level11, level22)
+2 B26 1 B3 1
+4 B1 1 B15 1 B3 0 B26 0
+drive(t0, l3, l1, level12, level11, level23)
+2 B27 1 B3 1
+4 B1 1 B16 1 B3 0 B27 0
+drive(t0, l3, l1, level13, level11, level24)
+2 B28 1 B3 1
+4 B1 1 B17 1 B3 0 B28 0
+drive(t0, l3, l1, level14, level11, level25)
+2 B29 1 B3 1
+4 B1 1 B18 1 B3 0 B29 0
+drive(t0, l3, l1, level15, level11, level26)
+2 B30 1 B3 1
+4 B1 1 B19 1 B3 0 B30 0
+drive(t0, l3, l1, level2, level11, level13)
+2 B17 1 B3 1
+4 B1 1 B6 1 B3 0 B17 0
+drive(t0, l3, l1, level3, level11, level14)
+2 B18 1 B3 1
+4 B1 1 B7 1 B3 0 B18 0
+drive(t0, l3, l1, level4, level11, level15)
+2 B19 1 B3 1
+4 B1 1 B8 1 B3 0 B19 0
+drive(t0, l3, l1, level5, level11, level16)
+2 B20 1 B3 1
+4 B1 1 B9 1 B3 0 B20 0
+drive(t0, l3, l1, level6, level11, level17)
+2 B21 1 B3 1
+4 B1 1 B10 1 B3 0 B21 0
+drive(t0, l3, l1, level7, level11, level18)
+2 B22 1 B3 1
+4 B1 1 B11 1 B3 0 B22 0
+drive(t0, l3, l1, level8, level11, level19)
+2 B23 1 B3 1
+4 B1 1 B12 1 B3 0 B23 0
+drive(t0, l3, l1, level9, level11, level20)
+2 B24 1 B3 1
+4 B1 1 B13 1 B3 0 B24 0
+drive(t0, l3, l2, level0, level6, level6)
+2 B10 1 B3 1
+4 B2 1 B4 1 B3 0 B10 0
+drive(t0, l3, l2, level1, level6, level7)
+2 B11 1 B3 1
+4 B2 1 B5 1 B3 0 B11 0
+drive(t0, l3, l2, level10, level6, level16)
+2 B20 1 B3 1
+4 B2 1 B14 1 B3 0 B20 0
+drive(t0, l3, l2, level11, level6, level17)
+2 B21 1 B3 1
+4 B2 1 B15 1 B3 0 B21 0
+drive(t0, l3, l2, level12, level6, level18)
+2 B22 1 B3 1
+4 B2 1 B16 1 B3 0 B22 0
+drive(t0, l3, l2, level13, level6, level19)
+2 B23 1 B3 1
+4 B2 1 B17 1 B3 0 B23 0
+drive(t0, l3, l2, level14, level6, level20)
+2 B24 1 B3 1
+4 B2 1 B18 1 B3 0 B24 0
+drive(t0, l3, l2, level15, level6, level21)
+2 B25 1 B3 1
+4 B2 1 B19 1 B3 0 B25 0
+drive(t0, l3, l2, level16, level6, level22)
+2 B26 1 B3 1
+4 B2 1 B20 1 B3 0 B26 0
+drive(t0, l3, l2, level17, level6, level23)
+2 B27 1 B3 1
+4 B2 1 B21 1 B3 0 B27 0
+drive(t0, l3, l2, level18, level6, level24)
+2 B28 1 B3 1
+4 B2 1 B22 1 B3 0 B28 0
+drive(t0, l3, l2, level19, level6, level25)
+2 B29 1 B3 1
+4 B2 1 B23 1 B3 0 B29 0
+drive(t0, l3, l2, level2, level6, level8)
+2 B12 1 B3 1
+4 B2 1 B6 1 B3 0 B12 0
+drive(t0, l3, l2, level20, level6, level26)
+2 B30 1 B3 1
+4 B2 1 B24 1 B3 0 B30 0
+drive(t0, l3, l2, level3, level6, level9)
+2 B13 1 B3 1
+4 B2 1 B7 1 B3 0 B13 0
+drive(t0, l3, l2, level4, level6, level10)
+2 B14 1 B3 1
+4 B2 1 B8 1 B3 0 B14 0
+drive(t0, l3, l2, level5, level6, level11)
+2 B15 1 B3 1
+4 B2 1 B9 1 B3 0 B15 0
+drive(t0, l3, l2, level6, level6, level12)
+2 B16 1 B3 1
+4 B2 1 B10 1 B3 0 B16 0
+drive(t0, l3, l2, level7, level6, level13)
+2 B17 1 B3 1
+4 B2 1 B11 1 B3 0 B17 0
+drive(t0, l3, l2, level8, level6, level14)
+2 B18 1 B3 1
+4 B2 1 B12 1 B3 0 B18 0
+drive(t0, l3, l2, level9, level6, level15)
+2 B19 1 B3 1
+4 B2 1 B13 1 B3 0 B19 0

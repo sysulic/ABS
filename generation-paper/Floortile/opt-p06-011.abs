@@ -1,0 +1,289 @@
+===========================
+Subtypes:
+
+Subtypes of robot:
+	st1(robot) = { robot1 robot2 }
+
+===========================
+Feature Mapping:
+
+N0 = ( { st1(robot) } , { robot-at(robot, tile_0-1) robot-has(robot, black) } )
+
+N1 = ( { st1(robot) } , { robot-at(robot, tile_0-1) robot-has(robot, white) } )
+
+N2 = ( { st1(robot) } , { robot-at(robot, tile_0-2) robot-has(robot, black) } )
+
+N3 = ( { st1(robot) } , { robot-at(robot, tile_0-2) robot-has(robot, white) } )
+
+N4 = ( { st1(robot) } , { robot-at(robot, tile_0-3) robot-has(robot, black) } )
+
+N5 = ( { st1(robot) } , { robot-at(robot, tile_0-3) robot-has(robot, white) } )
+
+N6 = ( { st1(robot) } , { robot-at(robot, tile_0-4) robot-has(robot, black) } )
+
+N7 = ( { st1(robot) } , { robot-at(robot, tile_0-4) robot-has(robot, white) } )
+
+N8 = ( { st1(robot) } , { robot-at(robot, tile_1-1) robot-has(robot, black) } )
+
+N9 = ( { st1(robot) } , { robot-at(robot, tile_1-1) robot-has(robot, white) } )
+
+N10 = ( { st1(robot) } , { robot-at(robot, tile_1-2) robot-has(robot, black) } )
+
+N11 = ( { st1(robot) } , { robot-at(robot, tile_1-2) robot-has(robot, white) } )
+
+N12 = ( { st1(robot) } , { robot-at(robot, tile_1-3) robot-has(robot, black) } )
+
+N13 = ( { st1(robot) } , { robot-at(robot, tile_1-3) robot-has(robot, white) } )
+
+N14 = ( { st1(robot) } , { robot-at(robot, tile_1-4) robot-has(robot, black) } )
+
+N15 = ( { st1(robot) } , { robot-at(robot, tile_1-4) robot-has(robot, white) } )
+
+N16 = ( { st1(robot) } , { robot-at(robot, tile_2-1) robot-has(robot, black) } )
+
+N17 = ( { st1(robot) } , { robot-at(robot, tile_2-1) robot-has(robot, white) } )
+
+N18 = ( { st1(robot) } , { robot-at(robot, tile_2-2) robot-has(robot, black) } )
+
+N19 = ( { st1(robot) } , { robot-at(robot, tile_2-2) robot-has(robot, white) } )
+
+N20 = ( { st1(robot) } , { robot-at(robot, tile_2-3) robot-has(robot, black) } )
+
+N21 = ( { st1(robot) } , { robot-at(robot, tile_2-3) robot-has(robot, white) } )
+
+N22 = ( { st1(robot) } , { robot-at(robot, tile_2-4) robot-has(robot, black) } )
+
+N23 = ( { st1(robot) } , { robot-at(robot, tile_2-4) robot-has(robot, white) } )
+
+N24 = ( { st1(robot) } , { robot-at(robot, tile_3-1) robot-has(robot, black) } )
+
+N25 = ( { st1(robot) } , { robot-at(robot, tile_3-1) robot-has(robot, white) } )
+
+N26 = ( { st1(robot) } , { robot-at(robot, tile_3-2) robot-has(robot, black) } )
+
+N27 = ( { st1(robot) } , { robot-at(robot, tile_3-2) robot-has(robot, white) } )
+
+N28 = ( { st1(robot) } , { robot-at(robot, tile_3-3) robot-has(robot, black) } )
+
+N29 = ( { st1(robot) } , { robot-at(robot, tile_3-3) robot-has(robot, white) } )
+
+N30 = ( { st1(robot) } , { robot-at(robot, tile_3-4) robot-has(robot, black) } )
+
+N31 = ( { st1(robot) } , { robot-at(robot, tile_3-4) robot-has(robot, white) } )
+
+N32 = ( { st1(robot) } , { robot-at(robot, tile_4-1) robot-has(robot, black) } )
+
+N33 = ( { st1(robot) } , { robot-at(robot, tile_4-1) robot-has(robot, white) } )
+
+N34 = ( { st1(robot) } , { robot-at(robot, tile_4-2) robot-has(robot, black) } )
+
+N35 = ( { st1(robot) } , { robot-at(robot, tile_4-2) robot-has(robot, white) } )
+
+N36 = ( { st1(robot) } , { robot-at(robot, tile_4-3) robot-has(robot, black) } )
+
+N37 = ( { st1(robot) } , { robot-at(robot, tile_4-3) robot-has(robot, white) } )
+
+N38 = ( { st1(robot) } , { robot-at(robot, tile_4-4) robot-has(robot, black) } )
+
+N39 = ( { st1(robot) } , { robot-at(robot, tile_4-4) robot-has(robot, white) } )
+
+N40 = ( { st1(robot) } , { robot-at(robot, tile_5-1) robot-has(robot, black) } )
+
+N41 = ( { st1(robot) } , { robot-at(robot, tile_5-1) robot-has(robot, white) } )
+
+N42 = ( { st1(robot) } , { robot-at(robot, tile_5-2) robot-has(robot, black) } )
+
+N43 = ( { st1(robot) } , { robot-at(robot, tile_5-2) robot-has(robot, white) } )
+
+N44 = ( { st1(robot) } , { robot-at(robot, tile_5-3) robot-has(robot, black) } )
+
+N45 = ( { st1(robot) } , { robot-at(robot, tile_5-3) robot-has(robot, white) } )
+
+N46 = ( { st1(robot) } , { robot-at(robot, tile_5-4) robot-has(robot, black) } )
+
+N47 = ( { st1(robot) } , { robot-at(robot, tile_5-4) robot-has(robot, white) } )
+
+N48 = ( { st1(robot) } , { robot-at(robot, tile_6-1) robot-has(robot, black) } )
+
+N49 = ( { st1(robot) } , { robot-at(robot, tile_6-1) robot-has(robot, white) } )
+
+N50 = ( { st1(robot) } , { robot-at(robot, tile_6-2) robot-has(robot, black) } )
+
+N51 = ( { st1(robot) } , { robot-at(robot, tile_6-2) robot-has(robot, white) } )
+
+N52 = ( { st1(robot) } , { robot-at(robot, tile_6-3) robot-has(robot, black) } )
+
+N53 = ( { st1(robot) } , { robot-at(robot, tile_6-3) robot-has(robot, white) } )
+
+N54 = ( { st1(robot) } , { robot-at(robot, tile_6-4) robot-has(robot, black) } )
+
+N55 = ( { st1(robot) } , { robot-at(robot, tile_6-4) robot-has(robot, white) } )
+
+B0 = clear(tile_0-1)
+
+B1 = clear(tile_0-2)
+
+B2 = clear(tile_0-3)
+
+B3 = clear(tile_0-4)
+
+B4 = clear(tile_1-1)
+
+B5 = clear(tile_1-2)
+
+B6 = clear(tile_1-3)
+
+B7 = clear(tile_1-4)
+
+B8 = clear(tile_2-1)
+
+B9 = clear(tile_2-2)
+
+B10 = clear(tile_2-3)
+
+B11 = clear(tile_2-4)
+
+B12 = clear(tile_3-1)
+
+B13 = clear(tile_3-2)
+
+B14 = clear(tile_3-3)
+
+B15 = clear(tile_3-4)
+
+B16 = clear(tile_4-1)
+
+B17 = clear(tile_4-2)
+
+B18 = clear(tile_4-3)
+
+B19 = clear(tile_4-4)
+
+B20 = clear(tile_5-1)
+
+B21 = clear(tile_5-2)
+
+B22 = clear(tile_5-3)
+
+B23 = clear(tile_5-4)
+
+B24 = clear(tile_6-1)
+
+B25 = clear(tile_6-2)
+
+B26 = clear(tile_6-3)
+
+B27 = clear(tile_6-4)
+
+B28 = painted(tile_0-1, white)
+
+B29 = painted(tile_0-1, black)
+
+B30 = painted(tile_0-2, white)
+
+B31 = painted(tile_0-2, black)
+
+B32 = painted(tile_0-3, white)
+
+B33 = painted(tile_0-3, black)
+
+B34 = painted(tile_0-4, white)
+
+B35 = painted(tile_0-4, black)
+
+B36 = painted(tile_1-1, white)
+
+B37 = painted(tile_1-1, black)
+
+B38 = painted(tile_1-2, white)
+
+B39 = painted(tile_1-2, black)
+
+B40 = painted(tile_1-3, white)
+
+B41 = painted(tile_1-3, black)
+
+B42 = painted(tile_1-4, white)
+
+B43 = painted(tile_1-4, black)
+
+B44 = painted(tile_2-1, white)
+
+B45 = painted(tile_2-1, black)
+
+B46 = painted(tile_2-2, white)
+
+B47 = painted(tile_2-2, black)
+
+B48 = painted(tile_2-3, white)
+
+B49 = painted(tile_2-3, black)
+
+B50 = painted(tile_2-4, white)
+
+B51 = painted(tile_2-4, black)
+
+B52 = painted(tile_3-1, white)
+
+B53 = painted(tile_3-1, black)
+
+B54 = painted(tile_3-2, white)
+
+B55 = painted(tile_3-2, black)
+
+B56 = painted(tile_3-3, white)
+
+B57 = painted(tile_3-3, black)
+
+B58 = painted(tile_3-4, white)
+
+B59 = painted(tile_3-4, black)
+
+B60 = painted(tile_4-1, white)
+
+B61 = painted(tile_4-1, black)
+
+B62 = painted(tile_4-2, white)
+
+B63 = painted(tile_4-2, black)
+
+B64 = painted(tile_4-3, white)
+
+B65 = painted(tile_4-3, black)
+
+B66 = painted(tile_4-4, white)
+
+B67 = painted(tile_4-4, black)
+
+B68 = painted(tile_5-1, white)
+
+B69 = painted(tile_5-1, black)
+
+B70 = painted(tile_5-2, white)
+
+B71 = painted(tile_5-2, black)
+
+B72 = painted(tile_5-3, white)
+
+B73 = painted(tile_5-3, black)
+
+B74 = painted(tile_5-4, white)
+
+B75 = painted(tile_5-4, black)
+
+B76 = painted(tile_6-1, white)
+
+B77 = painted(tile_6-1, black)
+
+B78 = painted(tile_6-2, white)
+
+B79 = painted(tile_6-2, black)
+
+B80 = painted(tile_6-3, white)
+
+B81 = painted(tile_6-3, black)
+
+B82 = painted(tile_6-4, white)
+
+B83 = painted(tile_6-4, black)
+

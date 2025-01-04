@@ -1,0 +1,216 @@
+===========================
+Subtypes:
+
+Subtypes of passenger:
+	st1(passenger) = { p0 }
+	st2(passenger) = { p1 p3 }
+	st3(passenger) = { p2 }
+	st4(passenger) = { p4 }
+
+===========================
+Feature Mapping:
+
+N0 = ( { st1(passenger) } , { boarded(passenger, fast0) } )
+
+N1 = ( { st1(passenger) } , { boarded(passenger, slow0-0) } )
+
+N2 = ( { st1(passenger) } , { boarded(passenger, slow1-0) } )
+
+N3 = ( { st1(passenger) } , { passenger-at(passenger, n0) } )
+
+N4 = ( { st1(passenger) } , { passenger-at(passenger, n1) } )
+
+N5 = ( { st1(passenger) } , { passenger-at(passenger, n2) } )
+
+N6 = ( { st1(passenger) } , { passenger-at(passenger, n3) } )
+
+N7 = ( { st1(passenger) } , { passenger-at(passenger, n4) } )
+
+N8 = ( { st1(passenger) } , { passenger-at(passenger, n5) } )
+
+N9 = ( { st1(passenger) } , { passenger-at(passenger, n6) } )
+
+N10 = ( { st1(passenger) } , { passenger-at(passenger, n7) } )
+
+N11 = ( { st1(passenger) } , { passenger-at(passenger, n8) } )
+
+N12 = ( { st2(passenger) } , { boarded(passenger, fast0) } )
+
+N13 = ( { st2(passenger) } , { boarded(passenger, slow0-0) } )
+
+N14 = ( { st2(passenger) } , { boarded(passenger, slow1-0) } )
+
+N15 = ( { st2(passenger) } , { passenger-at(passenger, n0) } )
+
+N16 = ( { st2(passenger) } , { passenger-at(passenger, n1) } )
+
+N17 = ( { st2(passenger) } , { passenger-at(passenger, n2) } )
+
+N18 = ( { st2(passenger) } , { passenger-at(passenger, n3) } )
+
+N19 = ( { st2(passenger) } , { passenger-at(passenger, n4) } )
+
+N20 = ( { st2(passenger) } , { passenger-at(passenger, n5) } )
+
+N21 = ( { st2(passenger) } , { passenger-at(passenger, n6) } )
+
+N22 = ( { st2(passenger) } , { passenger-at(passenger, n7) } )
+
+N23 = ( { st2(passenger) } , { passenger-at(passenger, n8) } )
+
+N24 = ( { st3(passenger) } , { boarded(passenger, fast0) } )
+
+N25 = ( { st3(passenger) } , { boarded(passenger, slow0-0) } )
+
+N26 = ( { st3(passenger) } , { boarded(passenger, slow1-0) } )
+
+N27 = ( { st3(passenger) } , { passenger-at(passenger, n0) } )
+
+N28 = ( { st3(passenger) } , { passenger-at(passenger, n1) } )
+
+N29 = ( { st3(passenger) } , { passenger-at(passenger, n2) } )
+
+N30 = ( { st3(passenger) } , { passenger-at(passenger, n3) } )
+
+N31 = ( { st3(passenger) } , { passenger-at(passenger, n4) } )
+
+N32 = ( { st3(passenger) } , { passenger-at(passenger, n5) } )
+
+N33 = ( { st3(passenger) } , { passenger-at(passenger, n6) } )
+
+N34 = ( { st3(passenger) } , { passenger-at(passenger, n7) } )
+
+N35 = ( { st3(passenger) } , { passenger-at(passenger, n8) } )
+
+N36 = ( { st4(passenger) } , { boarded(passenger, fast0) } )
+
+N37 = ( { st4(passenger) } , { boarded(passenger, slow0-0) } )
+
+N38 = ( { st4(passenger) } , { boarded(passenger, slow1-0) } )
+
+N39 = ( { st4(passenger) } , { passenger-at(passenger, n0) } )
+
+N40 = ( { st4(passenger) } , { passenger-at(passenger, n1) } )
+
+N41 = ( { st4(passenger) } , { passenger-at(passenger, n2) } )
+
+N42 = ( { st4(passenger) } , { passenger-at(passenger, n3) } )
+
+N43 = ( { st4(passenger) } , { passenger-at(passenger, n4) } )
+
+N44 = ( { st4(passenger) } , { passenger-at(passenger, n5) } )
+
+N45 = ( { st4(passenger) } , { passenger-at(passenger, n6) } )
+
+N46 = ( { st4(passenger) } , { passenger-at(passenger, n7) } )
+
+N47 = ( { st4(passenger) } , { passenger-at(passenger, n8) } )
+
+B0 = lift-at(fast0, n0)
+
+B1 = lift-at(fast0, n1)
+
+B2 = lift-at(fast0, n2)
+
+B3 = lift-at(fast0, n3)
+
+B4 = lift-at(fast0, n4)
+
+B5 = lift-at(fast0, n5)
+
+B6 = lift-at(fast0, n6)
+
+B7 = lift-at(fast0, n7)
+
+B8 = lift-at(fast0, n8)
+
+B9 = lift-at(slow0-0, n0)
+
+B10 = lift-at(slow0-0, n1)
+
+B11 = lift-at(slow0-0, n2)
+
+B12 = lift-at(slow0-0, n3)
+
+B13 = lift-at(slow0-0, n4)
+
+B14 = lift-at(slow0-0, n5)
+
+B15 = lift-at(slow0-0, n6)
+
+B16 = lift-at(slow0-0, n7)
+
+B17 = lift-at(slow0-0, n8)
+
+B18 = lift-at(slow1-0, n0)
+
+B19 = lift-at(slow1-0, n1)
+
+B20 = lift-at(slow1-0, n2)
+
+B21 = lift-at(slow1-0, n3)
+
+B22 = lift-at(slow1-0, n4)
+
+B23 = lift-at(slow1-0, n5)
+
+B24 = lift-at(slow1-0, n6)
+
+B25 = lift-at(slow1-0, n7)
+
+B26 = lift-at(slow1-0, n8)
+
+B27 = passengers(fast0, n0)
+
+B28 = passengers(fast0, n1)
+
+B29 = passengers(fast0, n2)
+
+B30 = passengers(fast0, n3)
+
+B31 = passengers(fast0, n4)
+
+B32 = passengers(fast0, n5)
+
+B33 = passengers(fast0, n6)
+
+B34 = passengers(fast0, n7)
+
+B35 = passengers(fast0, n8)
+
+B36 = passengers(slow0-0, n0)
+
+B37 = passengers(slow0-0, n1)
+
+B38 = passengers(slow0-0, n2)
+
+B39 = passengers(slow0-0, n3)
+
+B40 = passengers(slow0-0, n4)
+
+B41 = passengers(slow0-0, n5)
+
+B42 = passengers(slow0-0, n6)
+
+B43 = passengers(slow0-0, n7)
+
+B44 = passengers(slow0-0, n8)
+
+B45 = passengers(slow1-0, n0)
+
+B46 = passengers(slow1-0, n1)
+
+B47 = passengers(slow1-0, n2)
+
+B48 = passengers(slow1-0, n3)
+
+B49 = passengers(slow1-0, n4)
+
+B50 = passengers(slow1-0, n5)
+
+B51 = passengers(slow1-0, n6)
+
+B52 = passengers(slow1-0, n7)
+
+B53 = passengers(slow1-0, n8)
+

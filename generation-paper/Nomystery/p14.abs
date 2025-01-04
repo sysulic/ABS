@@ -1,0 +1,219 @@
+===========================
+Subtypes:
+
+Subtypes of package:
+	st1(package) = { p0 p1 }
+	st2(package) = { p2 p3 p5 }
+	st3(package) = { p4 }
+
+===========================
+Feature Mapping:
+
+N0 = ( { st1(package) } , { at(package, l0) } )
+
+N1 = ( { st1(package) } , { at(package, l1) } )
+
+N2 = ( { st1(package) } , { at(package, l2) } )
+
+N3 = ( { st1(package) } , { at(package, l3) } )
+
+N4 = ( { st1(package) } , { at(package, l4) } )
+
+N5 = ( { st1(package) } , { at(package, l5) } )
+
+N6 = ( { st1(package) } , { at(package, l6) } )
+
+N7 = ( { st1(package) } , { in(package, t0) } )
+
+N8 = ( { st2(package) } , { at(package, l0) } )
+
+N9 = ( { st2(package) } , { at(package, l1) } )
+
+N10 = ( { st2(package) } , { at(package, l2) } )
+
+N11 = ( { st2(package) } , { at(package, l3) } )
+
+N12 = ( { st2(package) } , { at(package, l4) } )
+
+N13 = ( { st2(package) } , { at(package, l5) } )
+
+N14 = ( { st2(package) } , { at(package, l6) } )
+
+N15 = ( { st2(package) } , { in(package, t0) } )
+
+N16 = ( { st3(package) } , { at(package, l0) } )
+
+N17 = ( { st3(package) } , { at(package, l1) } )
+
+N18 = ( { st3(package) } , { at(package, l2) } )
+
+N19 = ( { st3(package) } , { at(package, l3) } )
+
+N20 = ( { st3(package) } , { at(package, l4) } )
+
+N21 = ( { st3(package) } , { at(package, l5) } )
+
+N22 = ( { st3(package) } , { at(package, l6) } )
+
+N23 = ( { st3(package) } , { in(package, t0) } )
+
+B0 = at(t0, l0)
+
+B1 = at(t0, l1)
+
+B2 = at(t0, l2)
+
+B3 = at(t0, l3)
+
+B4 = at(t0, l4)
+
+B5 = at(t0, l5)
+
+B6 = at(t0, l6)
+
+B7 = fuel(t0, level0)
+
+B8 = fuel(t0, level1)
+
+B9 = fuel(t0, level2)
+
+B10 = fuel(t0, level3)
+
+B11 = fuel(t0, level4)
+
+B12 = fuel(t0, level5)
+
+B13 = fuel(t0, level6)
+
+B14 = fuel(t0, level7)
+
+B15 = fuel(t0, level8)
+
+B16 = fuel(t0, level9)
+
+B17 = fuel(t0, level10)
+
+B18 = fuel(t0, level11)
+
+B19 = fuel(t0, level12)
+
+B20 = fuel(t0, level13)
+
+B21 = fuel(t0, level14)
+
+B22 = fuel(t0, level15)
+
+B23 = fuel(t0, level16)
+
+B24 = fuel(t0, level17)
+
+B25 = fuel(t0, level18)
+
+B26 = fuel(t0, level19)
+
+B27 = fuel(t0, level20)
+
+B28 = fuel(t0, level21)
+
+B29 = fuel(t0, level22)
+
+B30 = fuel(t0, level23)
+
+B31 = fuel(t0, level24)
+
+B32 = fuel(t0, level25)
+
+B33 = fuel(t0, level26)
+
+B34 = fuel(t0, level27)
+
+B35 = fuel(t0, level28)
+
+B36 = fuel(t0, level29)
+
+B37 = fuel(t0, level30)
+
+B38 = fuel(t0, level31)
+
+B39 = fuel(t0, level32)
+
+B40 = fuel(t0, level33)
+
+B41 = fuel(t0, level34)
+
+B42 = fuel(t0, level35)
+
+B43 = fuel(t0, level36)
+
+B44 = fuel(t0, level37)
+
+B45 = fuel(t0, level38)
+
+B46 = fuel(t0, level39)
+
+B47 = fuel(t0, level40)
+
+B48 = fuel(t0, level41)
+
+B49 = fuel(t0, level42)
+
+B50 = fuel(t0, level43)
+
+B51 = fuel(t0, level44)
+
+B52 = fuel(t0, level45)
+
+B53 = fuel(t0, level46)
+
+B54 = fuel(t0, level47)
+
+B55 = fuel(t0, level48)
+
+B56 = fuel(t0, level49)
+
+B57 = fuel(t0, level50)
+
+B58 = fuel(t0, level51)
+
+B59 = fuel(t0, level52)
+
+B60 = fuel(t0, level53)
+
+B61 = fuel(t0, level54)
+
+B62 = fuel(t0, level55)
+
+B63 = fuel(t0, level56)
+
+B64 = fuel(t0, level57)
+
+B65 = fuel(t0, level58)
+
+B66 = fuel(t0, level59)
+
+B67 = fuel(t0, level60)
+
+B68 = fuel(t0, level61)
+
+B69 = fuel(t0, level62)
+
+B70 = fuel(t0, level63)
+
+B71 = fuel(t0, level64)
+
+B72 = fuel(t0, level65)
+
+B73 = fuel(t0, level66)
+
+B74 = fuel(t0, level67)
+
+B75 = fuel(t0, level68)
+
+B76 = fuel(t0, level69)
+
+B77 = fuel(t0, level70)
+
+B78 = fuel(t0, level71)
+
+B79 = fuel(t0, level72)
+

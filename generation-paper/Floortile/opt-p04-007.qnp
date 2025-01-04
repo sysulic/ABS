@@ -1,0 +1,689 @@
+abstraction for floor-tile-prob007
+100 N0 1 N1 1 N2 1 N3 1 N4 1 N5 1 N6 1 N7 1 N8 1 N9 1 N10 1 N11 1 N12 1 N13 1 N14 1 N15 1 N16 1 N17 1 N18 1 N19 1 N20 1 N21 1 N22 1 N23 1 N24 1 N25 1 N26 1 N27 1 N28 1 N29 1 N30 1 N31 1 N32 1 N33 1 N34 1 N35 1 N36 1 N37 1 N38 1 N39 1 B0 0 B1 0 B2 0 B3 0 B4 0 B5 0 B6 0 B7 0 B8 0 B9 0 B10 0 B11 0 B12 0 B13 0 B14 0 B15 0 B16 0 B17 0 B18 0 B19 0 B20 0 B21 0 B22 0 B23 0 B24 0 B25 0 B26 0 B27 0 B28 0 B29 0 B30 0 B31 0 B32 0 B33 0 B34 0 B35 0 B36 0 B37 0 B38 0 B39 0 B40 0 B41 0 B42 0 B43 0 B44 0 B45 0 B46 0 B47 0 B48 0 B49 0 B50 0 B51 0 B52 0 B53 0 B54 0 B55 0 B56 0 B57 0 B58 0 B59 0
+100 B10 1 B13 1 B3 1 B14 1 B19 1 B1 1 B8 1 B15 1 B6 1 B18 1 B2 1 B9 1 B4 1 B17 1 B16 1 B0 1 B11 1 B7 1 B5 0 B12 0 B20 0 B21 0 B22 0 B23 0 B24 0 B25 0 B26 0 B27 0 B28 0 B29 0 B30 0 B31 0 B32 0 B33 0 B34 0 B35 0 B36 0 B37 0 B38 0 B39 0 B40 0 B41 0 B42 0 B43 0 B44 0 B45 0 B46 0 B47 0 B48 0 B49 0 B50 0 B51 0 B52 0 B53 0 B54 0 B55 0 B56 0 B57 0 B58 0 B59 0 N0 0 N1 0 N2 0 N3 0 N4 0 N5 0 N6 0 N7 0 N8 0 N9 0 N10 1 N11 1 N12 0 N13 0 N14 0 N15 0 N16 0 N17 0 N18 0 N19 0 N20 0 N21 0 N22 0 N23 0 N24 1 N25 1 N26 0 N27 0 N28 0 N29 0 N30 0 N31 0 N32 0 N33 0 N34 0 N35 0 N36 0 N37 0 N38 0 N39 0
+16 B57 1 B31 1 B44 1 B28 1 B48 1 B35 1 B38 1 B53 1 B32 1 B42 1 B58 1 B41 1 B54 1 B37 1 B47 1 B51 1
+228
+change-color((N1), white, black)
+1 N1 1
+2 N1 0 N0 1
+change-color((N3), white, black)
+1 N3 1
+2 N3 0 N2 1
+change-color((N5), white, black)
+1 N5 1
+2 N5 0 N4 1
+change-color((N7), white, black)
+1 N7 1
+2 N7 0 N6 1
+change-color((N9), white, black)
+1 N9 1
+2 N9 0 N8 1
+change-color((N11), white, black)
+1 N11 1
+2 N11 0 N10 1
+change-color((N13), white, black)
+1 N13 1
+2 N13 0 N12 1
+change-color((N15), white, black)
+1 N15 1
+2 N15 0 N14 1
+change-color((N17), white, black)
+1 N17 1
+2 N17 0 N16 1
+change-color((N19), white, black)
+1 N19 1
+2 N19 0 N18 1
+change-color((N21), white, black)
+1 N21 1
+2 N21 0 N20 1
+change-color((N23), white, black)
+1 N23 1
+2 N23 0 N22 1
+change-color((N25), white, black)
+1 N25 1
+2 N25 0 N24 1
+change-color((N27), white, black)
+1 N27 1
+2 N27 0 N26 1
+change-color((N29), white, black)
+1 N29 1
+2 N29 0 N28 1
+change-color((N31), white, black)
+1 N31 1
+2 N31 0 N30 1
+change-color((N33), white, black)
+1 N33 1
+2 N33 0 N32 1
+change-color((N35), white, black)
+1 N35 1
+2 N35 0 N34 1
+change-color((N37), white, black)
+1 N37 1
+2 N37 0 N36 1
+change-color((N39), white, black)
+1 N39 1
+2 N39 0 N38 1
+change-color((N0), black, white)
+1 N0 1
+2 N0 0 N1 1
+change-color((N2), black, white)
+1 N2 1
+2 N2 0 N3 1
+change-color((N4), black, white)
+1 N4 1
+2 N4 0 N5 1
+change-color((N6), black, white)
+1 N6 1
+2 N6 0 N7 1
+change-color((N8), black, white)
+1 N8 1
+2 N8 0 N9 1
+change-color((N10), black, white)
+1 N10 1
+2 N10 0 N11 1
+change-color((N12), black, white)
+1 N12 1
+2 N12 0 N13 1
+change-color((N14), black, white)
+1 N14 1
+2 N14 0 N15 1
+change-color((N16), black, white)
+1 N16 1
+2 N16 0 N17 1
+change-color((N18), black, white)
+1 N18 1
+2 N18 0 N19 1
+change-color((N20), black, white)
+1 N20 1
+2 N20 0 N21 1
+change-color((N22), black, white)
+1 N22 1
+2 N22 0 N23 1
+change-color((N24), black, white)
+1 N24 1
+2 N24 0 N25 1
+change-color((N26), black, white)
+1 N26 1
+2 N26 0 N27 1
+change-color((N28), black, white)
+1 N28 1
+2 N28 0 N29 1
+change-color((N30), black, white)
+1 N30 1
+2 N30 0 N31 1
+change-color((N32), black, white)
+1 N32 1
+2 N32 0 N33 1
+change-color((N34), black, white)
+1 N34 1
+2 N34 0 N35 1
+change-color((N36), black, white)
+1 N36 1
+2 N36 0 N37 1
+change-color((N38), black, white)
+1 N38 1
+2 N38 0 N39 1
+paint-up((N0), tile_1-1, tile_0-1, black)
+2 B4 1 N0 1
+2 B29 1 B4 0
+paint-up((N1), tile_1-1, tile_0-1, white)
+2 B4 1 N1 1
+2 B28 1 B4 0
+paint-up((N2), tile_1-2, tile_0-2, black)
+2 B5 1 N2 1
+2 B31 1 B5 0
+paint-up((N3), tile_1-2, tile_0-2, white)
+2 B5 1 N3 1
+2 B30 1 B5 0
+paint-up((N4), tile_1-3, tile_0-3, black)
+2 B6 1 N4 1
+2 B33 1 B6 0
+paint-up((N5), tile_1-3, tile_0-3, white)
+2 B6 1 N5 1
+2 B32 1 B6 0
+paint-up((N6), tile_1-4, tile_0-4, black)
+2 B7 1 N6 1
+2 B35 1 B7 0
+paint-up((N7), tile_1-4, tile_0-4, white)
+2 B7 1 N7 1
+2 B34 1 B7 0
+paint-up((N8), tile_2-1, tile_1-1, black)
+2 B8 1 N8 1
+2 B37 1 B8 0
+paint-up((N9), tile_2-1, tile_1-1, white)
+2 B8 1 N9 1
+2 B36 1 B8 0
+paint-up((N10), tile_2-2, tile_1-2, black)
+2 B9 1 N10 1
+2 B39 1 B9 0
+paint-up((N11), tile_2-2, tile_1-2, white)
+2 B9 1 N11 1
+2 B38 1 B9 0
+paint-up((N12), tile_2-3, tile_1-3, black)
+2 B10 1 N12 1
+2 B41 1 B10 0
+paint-up((N13), tile_2-3, tile_1-3, white)
+2 B10 1 N13 1
+2 B40 1 B10 0
+paint-up((N14), tile_2-4, tile_1-4, black)
+2 B11 1 N14 1
+2 B43 1 B11 0
+paint-up((N15), tile_2-4, tile_1-4, white)
+2 B11 1 N15 1
+2 B42 1 B11 0
+paint-up((N16), tile_3-1, tile_2-1, black)
+2 B12 1 N16 1
+2 B45 1 B12 0
+paint-up((N17), tile_3-1, tile_2-1, white)
+2 B12 1 N17 1
+2 B44 1 B12 0
+paint-up((N18), tile_3-2, tile_2-2, black)
+2 B13 1 N18 1
+2 B47 1 B13 0
+paint-up((N19), tile_3-2, tile_2-2, white)
+2 B13 1 N19 1
+2 B46 1 B13 0
+paint-up((N20), tile_3-3, tile_2-3, black)
+2 B14 1 N20 1
+2 B49 1 B14 0
+paint-up((N21), tile_3-3, tile_2-3, white)
+2 B14 1 N21 1
+2 B48 1 B14 0
+paint-up((N22), tile_3-4, tile_2-4, black)
+2 B15 1 N22 1
+2 B51 1 B15 0
+paint-up((N23), tile_3-4, tile_2-4, white)
+2 B15 1 N23 1
+2 B50 1 B15 0
+paint-up((N24), tile_4-1, tile_3-1, black)
+2 B16 1 N24 1
+2 B53 1 B16 0
+paint-up((N25), tile_4-1, tile_3-1, white)
+2 B16 1 N25 1
+2 B52 1 B16 0
+paint-up((N26), tile_4-2, tile_3-2, black)
+2 B17 1 N26 1
+2 B55 1 B17 0
+paint-up((N27), tile_4-2, tile_3-2, white)
+2 B17 1 N27 1
+2 B54 1 B17 0
+paint-up((N28), tile_4-3, tile_3-3, black)
+2 B18 1 N28 1
+2 B57 1 B18 0
+paint-up((N29), tile_4-3, tile_3-3, white)
+2 B18 1 N29 1
+2 B56 1 B18 0
+paint-up((N30), tile_4-4, tile_3-4, black)
+2 B19 1 N30 1
+2 B59 1 B19 0
+paint-up((N31), tile_4-4, tile_3-4, white)
+2 B19 1 N31 1
+2 B58 1 B19 0
+paint-down((N8), tile_0-1, tile_1-1, black)
+2 B0 1 N8 1
+2 B21 1 B0 0
+paint-down((N9), tile_0-1, tile_1-1, white)
+2 B0 1 N9 1
+2 B20 1 B0 0
+paint-down((N10), tile_0-2, tile_1-2, black)
+2 B1 1 N10 1
+2 B23 1 B1 0
+paint-down((N11), tile_0-2, tile_1-2, white)
+2 B1 1 N11 1
+2 B22 1 B1 0
+paint-down((N12), tile_0-3, tile_1-3, black)
+2 B2 1 N12 1
+2 B25 1 B2 0
+paint-down((N13), tile_0-3, tile_1-3, white)
+2 B2 1 N13 1
+2 B24 1 B2 0
+paint-down((N14), tile_0-4, tile_1-4, black)
+2 B3 1 N14 1
+2 B27 1 B3 0
+paint-down((N15), tile_0-4, tile_1-4, white)
+2 B3 1 N15 1
+2 B26 1 B3 0
+paint-down((N16), tile_1-1, tile_2-1, black)
+2 B4 1 N16 1
+2 B29 1 B4 0
+paint-down((N17), tile_1-1, tile_2-1, white)
+2 B4 1 N17 1
+2 B28 1 B4 0
+paint-down((N18), tile_1-2, tile_2-2, black)
+2 B5 1 N18 1
+2 B31 1 B5 0
+paint-down((N19), tile_1-2, tile_2-2, white)
+2 B5 1 N19 1
+2 B30 1 B5 0
+paint-down((N20), tile_1-3, tile_2-3, black)
+2 B6 1 N20 1
+2 B33 1 B6 0
+paint-down((N21), tile_1-3, tile_2-3, white)
+2 B6 1 N21 1
+2 B32 1 B6 0
+paint-down((N22), tile_1-4, tile_2-4, black)
+2 B7 1 N22 1
+2 B35 1 B7 0
+paint-down((N23), tile_1-4, tile_2-4, white)
+2 B7 1 N23 1
+2 B34 1 B7 0
+paint-down((N24), tile_2-1, tile_3-1, black)
+2 B8 1 N24 1
+2 B37 1 B8 0
+paint-down((N25), tile_2-1, tile_3-1, white)
+2 B8 1 N25 1
+2 B36 1 B8 0
+paint-down((N26), tile_2-2, tile_3-2, black)
+2 B9 1 N26 1
+2 B39 1 B9 0
+paint-down((N27), tile_2-2, tile_3-2, white)
+2 B9 1 N27 1
+2 B38 1 B9 0
+paint-down((N28), tile_2-3, tile_3-3, black)
+2 B10 1 N28 1
+2 B41 1 B10 0
+paint-down((N29), tile_2-3, tile_3-3, white)
+2 B10 1 N29 1
+2 B40 1 B10 0
+paint-down((N30), tile_2-4, tile_3-4, black)
+2 B11 1 N30 1
+2 B43 1 B11 0
+paint-down((N31), tile_2-4, tile_3-4, white)
+2 B11 1 N31 1
+2 B42 1 B11 0
+paint-down((N32), tile_3-1, tile_4-1, black)
+2 B12 1 N32 1
+2 B45 1 B12 0
+paint-down((N33), tile_3-1, tile_4-1, white)
+2 B12 1 N33 1
+2 B44 1 B12 0
+paint-down((N34), tile_3-2, tile_4-2, black)
+2 B13 1 N34 1
+2 B47 1 B13 0
+paint-down((N35), tile_3-2, tile_4-2, white)
+2 B13 1 N35 1
+2 B46 1 B13 0
+paint-down((N36), tile_3-3, tile_4-3, black)
+2 B14 1 N36 1
+2 B49 1 B14 0
+paint-down((N37), tile_3-3, tile_4-3, white)
+2 B14 1 N37 1
+2 B48 1 B14 0
+paint-down((N38), tile_3-4, tile_4-4, black)
+2 B15 1 N38 1
+2 B51 1 B15 0
+paint-down((N39), tile_3-4, tile_4-4, white)
+2 B15 1 N39 1
+2 B50 1 B15 0
+up((N0), tile_0-1, tile_1-1)
+2 B4 1 N0 1
+4 B0 1 B4 0 N0 0 N8 1
+up((N1), tile_0-1, tile_1-1)
+2 B4 1 N1 1
+4 B0 1 B4 0 N1 0 N9 1
+up((N2), tile_0-2, tile_1-2)
+2 B5 1 N2 1
+4 B1 1 B5 0 N2 0 N10 1
+up((N3), tile_0-2, tile_1-2)
+2 B5 1 N3 1
+4 B1 1 B5 0 N3 0 N11 1
+up((N4), tile_0-3, tile_1-3)
+2 B6 1 N4 1
+4 B2 1 B6 0 N4 0 N12 1
+up((N5), tile_0-3, tile_1-3)
+2 B6 1 N5 1
+4 B2 1 B6 0 N5 0 N13 1
+up((N6), tile_0-4, tile_1-4)
+2 B7 1 N6 1
+4 B3 1 B7 0 N6 0 N14 1
+up((N7), tile_0-4, tile_1-4)
+2 B7 1 N7 1
+4 B3 1 B7 0 N7 0 N15 1
+up((N8), tile_1-1, tile_2-1)
+2 B8 1 N8 1
+4 B4 1 B8 0 N8 0 N16 1
+up((N9), tile_1-1, tile_2-1)
+2 B8 1 N9 1
+4 B4 1 B8 0 N9 0 N17 1
+up((N10), tile_1-2, tile_2-2)
+2 B9 1 N10 1
+4 B5 1 B9 0 N10 0 N18 1
+up((N11), tile_1-2, tile_2-2)
+2 B9 1 N11 1
+4 B5 1 B9 0 N11 0 N19 1
+up((N12), tile_1-3, tile_2-3)
+2 B10 1 N12 1
+4 B6 1 B10 0 N12 0 N20 1
+up((N13), tile_1-3, tile_2-3)
+2 B10 1 N13 1
+4 B6 1 B10 0 N13 0 N21 1
+up((N14), tile_1-4, tile_2-4)
+2 B11 1 N14 1
+4 B7 1 B11 0 N14 0 N22 1
+up((N15), tile_1-4, tile_2-4)
+2 B11 1 N15 1
+4 B7 1 B11 0 N15 0 N23 1
+up((N16), tile_2-1, tile_3-1)
+2 B12 1 N16 1
+4 B8 1 B12 0 N16 0 N24 1
+up((N17), tile_2-1, tile_3-1)
+2 B12 1 N17 1
+4 B8 1 B12 0 N17 0 N25 1
+up((N18), tile_2-2, tile_3-2)
+2 B13 1 N18 1
+4 B9 1 B13 0 N18 0 N26 1
+up((N19), tile_2-2, tile_3-2)
+2 B13 1 N19 1
+4 B9 1 B13 0 N19 0 N27 1
+up((N20), tile_2-3, tile_3-3)
+2 B14 1 N20 1
+4 B10 1 B14 0 N20 0 N28 1
+up((N21), tile_2-3, tile_3-3)
+2 B14 1 N21 1
+4 B10 1 B14 0 N21 0 N29 1
+up((N22), tile_2-4, tile_3-4)
+2 B15 1 N22 1
+4 B11 1 B15 0 N22 0 N30 1
+up((N23), tile_2-4, tile_3-4)
+2 B15 1 N23 1
+4 B11 1 B15 0 N23 0 N31 1
+up((N24), tile_3-1, tile_4-1)
+2 B16 1 N24 1
+4 B12 1 B16 0 N24 0 N32 1
+up((N25), tile_3-1, tile_4-1)
+2 B16 1 N25 1
+4 B12 1 B16 0 N25 0 N33 1
+up((N26), tile_3-2, tile_4-2)
+2 B17 1 N26 1
+4 B13 1 B17 0 N26 0 N34 1
+up((N27), tile_3-2, tile_4-2)
+2 B17 1 N27 1
+4 B13 1 B17 0 N27 0 N35 1
+up((N28), tile_3-3, tile_4-3)
+2 B18 1 N28 1
+4 B14 1 B18 0 N28 0 N36 1
+up((N29), tile_3-3, tile_4-3)
+2 B18 1 N29 1
+4 B14 1 B18 0 N29 0 N37 1
+up((N30), tile_3-4, tile_4-4)
+2 B19 1 N30 1
+4 B15 1 B19 0 N30 0 N38 1
+up((N31), tile_3-4, tile_4-4)
+2 B19 1 N31 1
+4 B15 1 B19 0 N31 0 N39 1
+down((N8), tile_1-1, tile_0-1)
+2 B0 1 N8 1
+4 B4 1 B0 0 N8 0 N0 1
+down((N9), tile_1-1, tile_0-1)
+2 B0 1 N9 1
+4 B4 1 B0 0 N9 0 N1 1
+down((N10), tile_1-2, tile_0-2)
+2 B1 1 N10 1
+4 B5 1 B1 0 N10 0 N2 1
+down((N11), tile_1-2, tile_0-2)
+2 B1 1 N11 1
+4 B5 1 B1 0 N11 0 N3 1
+down((N12), tile_1-3, tile_0-3)
+2 B2 1 N12 1
+4 B6 1 B2 0 N12 0 N4 1
+down((N13), tile_1-3, tile_0-3)
+2 B2 1 N13 1
+4 B6 1 B2 0 N13 0 N5 1
+down((N14), tile_1-4, tile_0-4)
+2 B3 1 N14 1
+4 B7 1 B3 0 N14 0 N6 1
+down((N15), tile_1-4, tile_0-4)
+2 B3 1 N15 1
+4 B7 1 B3 0 N15 0 N7 1
+down((N16), tile_2-1, tile_1-1)
+2 B4 1 N16 1
+4 B8 1 B4 0 N16 0 N8 1
+down((N17), tile_2-1, tile_1-1)
+2 B4 1 N17 1
+4 B8 1 B4 0 N17 0 N9 1
+down((N18), tile_2-2, tile_1-2)
+2 B5 1 N18 1
+4 B9 1 B5 0 N18 0 N10 1
+down((N19), tile_2-2, tile_1-2)
+2 B5 1 N19 1
+4 B9 1 B5 0 N19 0 N11 1
+down((N20), tile_2-3, tile_1-3)
+2 B6 1 N20 1
+4 B10 1 B6 0 N20 0 N12 1
+down((N21), tile_2-3, tile_1-3)
+2 B6 1 N21 1
+4 B10 1 B6 0 N21 0 N13 1
+down((N22), tile_2-4, tile_1-4)
+2 B7 1 N22 1
+4 B11 1 B7 0 N22 0 N14 1
+down((N23), tile_2-4, tile_1-4)
+2 B7 1 N23 1
+4 B11 1 B7 0 N23 0 N15 1
+down((N24), tile_3-1, tile_2-1)
+2 B8 1 N24 1
+4 B12 1 B8 0 N24 0 N16 1
+down((N25), tile_3-1, tile_2-1)
+2 B8 1 N25 1
+4 B12 1 B8 0 N25 0 N17 1
+down((N26), tile_3-2, tile_2-2)
+2 B9 1 N26 1
+4 B13 1 B9 0 N26 0 N18 1
+down((N27), tile_3-2, tile_2-2)
+2 B9 1 N27 1
+4 B13 1 B9 0 N27 0 N19 1
+down((N28), tile_3-3, tile_2-3)
+2 B10 1 N28 1
+4 B14 1 B10 0 N28 0 N20 1
+down((N29), tile_3-3, tile_2-3)
+2 B10 1 N29 1
+4 B14 1 B10 0 N29 0 N21 1
+down((N30), tile_3-4, tile_2-4)
+2 B11 1 N30 1
+4 B15 1 B11 0 N30 0 N22 1
+down((N31), tile_3-4, tile_2-4)
+2 B11 1 N31 1
+4 B15 1 B11 0 N31 0 N23 1
+down((N32), tile_4-1, tile_3-1)
+2 B12 1 N32 1
+4 B16 1 B12 0 N32 0 N24 1
+down((N33), tile_4-1, tile_3-1)
+2 B12 1 N33 1
+4 B16 1 B12 0 N33 0 N25 1
+down((N34), tile_4-2, tile_3-2)
+2 B13 1 N34 1
+4 B17 1 B13 0 N34 0 N26 1
+down((N35), tile_4-2, tile_3-2)
+2 B13 1 N35 1
+4 B17 1 B13 0 N35 0 N27 1
+down((N36), tile_4-3, tile_3-3)
+2 B14 1 N36 1
+4 B18 1 B14 0 N36 0 N28 1
+down((N37), tile_4-3, tile_3-3)
+2 B14 1 N37 1
+4 B18 1 B14 0 N37 0 N29 1
+down((N38), tile_4-4, tile_3-4)
+2 B15 1 N38 1
+4 B19 1 B15 0 N38 0 N30 1
+down((N39), tile_4-4, tile_3-4)
+2 B15 1 N39 1
+4 B19 1 B15 0 N39 0 N31 1
+right((N0), tile_0-1, tile_0-2)
+2 B1 1 N0 1
+4 B0 1 B1 0 N0 0 N2 1
+right((N1), tile_0-1, tile_0-2)
+2 B1 1 N1 1
+4 B0 1 B1 0 N1 0 N3 1
+right((N2), tile_0-2, tile_0-3)
+2 B2 1 N2 1
+4 B1 1 B2 0 N2 0 N4 1
+right((N3), tile_0-2, tile_0-3)
+2 B2 1 N3 1
+4 B1 1 B2 0 N3 0 N5 1
+right((N4), tile_0-3, tile_0-4)
+2 B3 1 N4 1
+4 B2 1 B3 0 N4 0 N6 1
+right((N5), tile_0-3, tile_0-4)
+2 B3 1 N5 1
+4 B2 1 B3 0 N5 0 N7 1
+right((N8), tile_1-1, tile_1-2)
+2 B5 1 N8 1
+4 B4 1 B5 0 N8 0 N10 1
+right((N9), tile_1-1, tile_1-2)
+2 B5 1 N9 1
+4 B4 1 B5 0 N9 0 N11 1
+right((N10), tile_1-2, tile_1-3)
+2 B6 1 N10 1
+4 B5 1 B6 0 N10 0 N12 1
+right((N11), tile_1-2, tile_1-3)
+2 B6 1 N11 1
+4 B5 1 B6 0 N11 0 N13 1
+right((N12), tile_1-3, tile_1-4)
+2 B7 1 N12 1
+4 B6 1 B7 0 N12 0 N14 1
+right((N13), tile_1-3, tile_1-4)
+2 B7 1 N13 1
+4 B6 1 B7 0 N13 0 N15 1
+right((N16), tile_2-1, tile_2-2)
+2 B9 1 N16 1
+4 B8 1 B9 0 N16 0 N18 1
+right((N17), tile_2-1, tile_2-2)
+2 B9 1 N17 1
+4 B8 1 B9 0 N17 0 N19 1
+right((N18), tile_2-2, tile_2-3)
+2 B10 1 N18 1
+4 B9 1 B10 0 N18 0 N20 1
+right((N19), tile_2-2, tile_2-3)
+2 B10 1 N19 1
+4 B9 1 B10 0 N19 0 N21 1
+right((N20), tile_2-3, tile_2-4)
+2 B11 1 N20 1
+4 B10 1 B11 0 N20 0 N22 1
+right((N21), tile_2-3, tile_2-4)
+2 B11 1 N21 1
+4 B10 1 B11 0 N21 0 N23 1
+right((N24), tile_3-1, tile_3-2)
+2 B13 1 N24 1
+4 B12 1 B13 0 N24 0 N26 1
+right((N25), tile_3-1, tile_3-2)
+2 B13 1 N25 1
+4 B12 1 B13 0 N25 0 N27 1
+right((N26), tile_3-2, tile_3-3)
+2 B14 1 N26 1
+4 B13 1 B14 0 N26 0 N28 1
+right((N27), tile_3-2, tile_3-3)
+2 B14 1 N27 1
+4 B13 1 B14 0 N27 0 N29 1
+right((N28), tile_3-3, tile_3-4)
+2 B15 1 N28 1
+4 B14 1 B15 0 N28 0 N30 1
+right((N29), tile_3-3, tile_3-4)
+2 B15 1 N29 1
+4 B14 1 B15 0 N29 0 N31 1
+right((N32), tile_4-1, tile_4-2)
+2 B17 1 N32 1
+4 B16 1 B17 0 N32 0 N34 1
+right((N33), tile_4-1, tile_4-2)
+2 B17 1 N33 1
+4 B16 1 B17 0 N33 0 N35 1
+right((N34), tile_4-2, tile_4-3)
+2 B18 1 N34 1
+4 B17 1 B18 0 N34 0 N36 1
+right((N35), tile_4-2, tile_4-3)
+2 B18 1 N35 1
+4 B17 1 B18 0 N35 0 N37 1
+right((N36), tile_4-3, tile_4-4)
+2 B19 1 N36 1
+4 B18 1 B19 0 N36 0 N38 1
+right((N37), tile_4-3, tile_4-4)
+2 B19 1 N37 1
+4 B18 1 B19 0 N37 0 N39 1
+left((N2), tile_0-2, tile_0-1)
+2 B0 1 N2 1
+4 B1 1 B0 0 N2 0 N0 1
+left((N3), tile_0-2, tile_0-1)
+2 B0 1 N3 1
+4 B1 1 B0 0 N3 0 N1 1
+left((N4), tile_0-3, tile_0-2)
+2 B1 1 N4 1
+4 B2 1 B1 0 N4 0 N2 1
+left((N5), tile_0-3, tile_0-2)
+2 B1 1 N5 1
+4 B2 1 B1 0 N5 0 N3 1
+left((N6), tile_0-4, tile_0-3)
+2 B2 1 N6 1
+4 B3 1 B2 0 N6 0 N4 1
+left((N7), tile_0-4, tile_0-3)
+2 B2 1 N7 1
+4 B3 1 B2 0 N7 0 N5 1
+left((N10), tile_1-2, tile_1-1)
+2 B4 1 N10 1
+4 B5 1 B4 0 N10 0 N8 1
+left((N11), tile_1-2, tile_1-1)
+2 B4 1 N11 1
+4 B5 1 B4 0 N11 0 N9 1
+left((N12), tile_1-3, tile_1-2)
+2 B5 1 N12 1
+4 B6 1 B5 0 N12 0 N10 1
+left((N13), tile_1-3, tile_1-2)
+2 B5 1 N13 1
+4 B6 1 B5 0 N13 0 N11 1
+left((N14), tile_1-4, tile_1-3)
+2 B6 1 N14 1
+4 B7 1 B6 0 N14 0 N12 1
+left((N15), tile_1-4, tile_1-3)
+2 B6 1 N15 1
+4 B7 1 B6 0 N15 0 N13 1
+left((N18), tile_2-2, tile_2-1)
+2 B8 1 N18 1
+4 B9 1 B8 0 N18 0 N16 1
+left((N19), tile_2-2, tile_2-1)
+2 B8 1 N19 1
+4 B9 1 B8 0 N19 0 N17 1
+left((N20), tile_2-3, tile_2-2)
+2 B9 1 N20 1
+4 B10 1 B9 0 N20 0 N18 1
+left((N21), tile_2-3, tile_2-2)
+2 B9 1 N21 1
+4 B10 1 B9 0 N21 0 N19 1
+left((N22), tile_2-4, tile_2-3)
+2 B10 1 N22 1
+4 B11 1 B10 0 N22 0 N20 1
+left((N23), tile_2-4, tile_2-3)
+2 B10 1 N23 1
+4 B11 1 B10 0 N23 0 N21 1
+left((N26), tile_3-2, tile_3-1)
+2 B12 1 N26 1
+4 B13 1 B12 0 N26 0 N24 1
+left((N27), tile_3-2, tile_3-1)
+2 B12 1 N27 1
+4 B13 1 B12 0 N27 0 N25 1
+left((N28), tile_3-3, tile_3-2)
+2 B13 1 N28 1
+4 B14 1 B13 0 N28 0 N26 1
+left((N29), tile_3-3, tile_3-2)
+2 B13 1 N29 1
+4 B14 1 B13 0 N29 0 N27 1
+left((N30), tile_3-4, tile_3-3)
+2 B14 1 N30 1
+4 B15 1 B14 0 N30 0 N28 1
+left((N31), tile_3-4, tile_3-3)
+2 B14 1 N31 1
+4 B15 1 B14 0 N31 0 N29 1
+left((N34), tile_4-2, tile_4-1)
+2 B16 1 N34 1
+4 B17 1 B16 0 N34 0 N32 1
+left((N35), tile_4-2, tile_4-1)
+2 B16 1 N35 1
+4 B17 1 B16 0 N35 0 N33 1
+left((N36), tile_4-3, tile_4-2)
+2 B17 1 N36 1
+4 B18 1 B17 0 N36 0 N34 1
+left((N37), tile_4-3, tile_4-2)
+2 B17 1 N37 1
+4 B18 1 B17 0 N37 0 N35 1
+left((N38), tile_4-4, tile_4-3)
+2 B18 1 N38 1
+4 B19 1 B18 0 N38 0 N36 1
+left((N39), tile_4-4, tile_4-3)
+2 B18 1 N39 1
+4 B19 1 B18 0 N39 0 N37 1

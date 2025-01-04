@@ -1,0 +1,55 @@
+===========================
+Subtypes:
+
+Subtypes of person:
+	st1(person) = { person1 }
+	st2(person) = { person2 }
+	st3(person) = { person3 }
+
+===========================
+Feature Mapping:
+
+N0 = ( { st1(person) } , { at(person, city0) } )
+
+N1 = ( { st1(person) } , { at(person, city1) } )
+
+N2 = ( { st1(person) } , { at(person, city2) } )
+
+N3 = ( { st1(person) } , { in(person, plane1) } )
+
+N4 = ( { st2(person) } , { at(person, city0) } )
+
+N5 = ( { st2(person) } , { at(person, city1) } )
+
+N6 = ( { st2(person) } , { at(person, city2) } )
+
+N7 = ( { st2(person) } , { in(person, plane1) } )
+
+N8 = ( { st3(person) } , { at(person, city0) } )
+
+N9 = ( { st3(person) } , { at(person, city1) } )
+
+N10 = ( { st3(person) } , { at(person, city2) } )
+
+N11 = ( { st3(person) } , { in(person, plane1) } )
+
+B0 = at(plane1, city0)
+
+B1 = at(plane1, city1)
+
+B2 = at(plane1, city2)
+
+B3 = fuel-level(plane1, fl0)
+
+B4 = fuel-level(plane1, fl1)
+
+B5 = fuel-level(plane1, fl2)
+
+B6 = fuel-level(plane1, fl3)
+
+B7 = fuel-level(plane1, fl4)
+
+B8 = fuel-level(plane1, fl5)
+
+B9 = fuel-level(plane1, fl6)
+

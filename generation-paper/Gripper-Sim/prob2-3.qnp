@@ -1,0 +1,77 @@
+abstraction for gripper-prob02
+16 N0 1 N1 1 N2 1 N3 1 N4 1 N5 1 N6 1 N7 1 N8 1 N9 1 N10 1 N11 1 N12 1 B0 0 B1 0 B2 0
+16 B0 1 B1 0 B2 0 N0 0 N1 0 N2 0 N3 1 N4 1 N5 0 N6 0 N7 0 N8 1 N9 0 N10 0 N11 0 N12 1
+9 N0 0 N1 0 N2 0 N4 0 N5 0 N8 0 N9 0 N10 0 N12 0
+24
+move(rooma, roomb)
+1 B0 1
+2 B1 1 B0 0
+move(rooma, roomc)
+1 B0 1
+2 B2 1 B0 0
+move(roomb, rooma)
+1 B1 1
+2 B0 1 B1 0
+move(roomb, roomc)
+1 B1 1
+2 B2 1 B1 0
+move(roomc, rooma)
+1 B2 1
+2 B0 1 B2 0
+move(roomc, roomb)
+1 B2 1
+2 B1 1 B2 0
+pick((N3, N4), rooma)
+3 B0 1 N3 1 N4 1
+3 N3 0 N4 0 N0 1
+pick((N3, N5), roomb)
+3 B1 1 N3 1 N5 1
+3 N3 0 N5 0 N0 1
+pick((N3, N6), roomc)
+3 B2 1 N3 1 N6 1
+3 N3 0 N6 0 N0 1
+pick((N3, N10), rooma)
+3 B0 1 N3 1 N10 1
+3 N3 0 N10 0 N1 1
+pick((N3, N11), roomb)
+3 B1 1 N3 1 N11 1
+3 N3 0 N11 0 N1 1
+pick((N3, N12), roomc)
+3 B2 1 N3 1 N12 1
+3 N3 0 N12 0 N1 1
+pick((N3, N7), rooma)
+3 B0 1 N3 1 N7 1
+3 N3 0 N7 0 N2 1
+pick((N3, N8), roomb)
+3 B1 1 N3 1 N8 1
+3 N3 0 N8 0 N2 1
+pick((N3, N9), roomc)
+3 B2 1 N3 1 N9 1
+3 N3 0 N9 0 N2 1
+drop((N0), rooma)
+2 B0 1 N0 1
+3 N0 0 N3 1 N4 1
+drop((N0), roomb)
+2 B1 1 N0 1
+3 N0 0 N3 1 N5 1
+drop((N0), roomc)
+2 B2 1 N0 1
+3 N0 0 N3 1 N6 1
+drop((N1), rooma)
+2 B0 1 N1 1
+3 N1 0 N3 1 N10 1
+drop((N1), roomb)
+2 B1 1 N1 1
+3 N1 0 N3 1 N11 1
+drop((N1), roomc)
+2 B2 1 N1 1
+3 N1 0 N3 1 N12 1
+drop((N2), rooma)
+2 B0 1 N2 1
+3 N2 0 N3 1 N7 1
+drop((N2), roomb)
+2 B1 1 N2 1
+3 N2 0 N3 1 N8 1
+drop((N2), roomc)
+2 B2 1 N2 1
+3 N2 0 N3 1 N9 1

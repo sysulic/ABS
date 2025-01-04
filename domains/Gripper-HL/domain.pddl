@@ -1,0 +1,51 @@
+(define (domain gripper)
+(:requirements :strips :typing :negative-preconditions)
+(:types
+	ball - object
+	gripper - object
+	room - object
+)
+(:predicates
+	(at-robby ?r - room)
+	(at ?b - ball ?r - room)
+	(free ?g - gripper)
+	(carry ?b - ball ?g - gripper)
+	(he ?g - gripper)
+	(le ?g - gripper)
+)
+(:action move
+	:parameters (?from - room ?to - room)
+                :precondition (at-robby ?from)
+	:effect  (and (at-robby ?to)  
+	              (not (at-robby ?from)))
+)
+(:action pick
+	:parameters (?b - ball ?r - room ?g - gripper)
+    :precondition (and (at ?b ?r) 
+	              (at-robby ?r) 
+                  (free ?g)
+				  (he ?g))
+    :effect (and (carry ?b ?g)
+	             (not (at ?b ?r))
+		         (not (free ?g))
+				 (not (he ?g))
+                 (le ?g))
+)
+(:action drop
+	:parameters  (?b - ball ?r - room ?g - gripper)
+    :precondition (and (at-robby ?r) 
+                       (carry ?b ?g)
+					   (he ?g))
+    :effect (and (at ?b ?r) 
+		         (free ?g)
+		         (not (carry ?b ?g))
+				 (not (he ?g))
+				 (le ?g))
+)
+(:action charge
+	:parameters  (?g - gripper)
+    :precondition (le ?g)
+    :effect (and (he ?g)
+		         (not (le ?g)))
+)
+)

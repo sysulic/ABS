@@ -1,0 +1,46 @@
+===========================
+Subtypes:
+
+Subtypes of gripper:
+	st1(gripper) = { left1 right1 mid1 left2 right2 }
+
+Subtypes of ball:
+	st2(ball) = { ball1 ball2 ball3 ball4 ball5 ball6 }
+	st3(ball) = { ball7 ball8 ball9 ball10 ball11 ball12 }
+	st4(ball) = { ball13 ball14 ball15 ball16 ball17 ball18 ball19 ball20 }
+
+===========================
+Feature Mapping:
+
+N0 = ( { st1(gripper) st2(ball) } , { carry(ball, gripper) } )
+
+N1 = ( { st1(gripper) st4(ball) } , { carry(ball, gripper) } )
+
+N2 = ( { st1(gripper) st3(ball) } , { carry(ball, gripper) } )
+
+N3 = ( { st1(gripper) } , { free(gripper) } )
+
+N4 = ( { st2(ball) } , { at(ball, rooma) } )
+
+N5 = ( { st2(ball) } , { at(ball, roomb) } )
+
+N6 = ( { st2(ball) } , { at(ball, roomc) } )
+
+N7 = ( { st3(ball) } , { at(ball, rooma) } )
+
+N8 = ( { st3(ball) } , { at(ball, roomb) } )
+
+N9 = ( { st3(ball) } , { at(ball, roomc) } )
+
+N10 = ( { st4(ball) } , { at(ball, rooma) } )
+
+N11 = ( { st4(ball) } , { at(ball, roomb) } )
+
+N12 = ( { st4(ball) } , { at(ball, roomc) } )
+
+B0 = at-robby(rooma)
+
+B1 = at-robby(roomb)
+
+B2 = at-robby(roomc)
+

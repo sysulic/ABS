@@ -1,0 +1,69 @@
+===========================
+Subtypes:
+
+Subtypes of package:
+	st1(package) = { package4 package3 package2 package1 }
+
+===========================
+Feature Mapping:
+
+N0 = ( { st1(package) } , { in-airplane(package, plane1) } )
+
+N1 = ( { st1(package) } , { in-airplane(package, plane2) } )
+
+N2 = ( { st1(package) } , { in-truck(package, truck1) } )
+
+N3 = ( { st1(package) } , { in-truck(package, truck2) } )
+
+N4 = ( { st1(package) } , { in-truck(package, truck3) } )
+
+N5 = ( { st1(package) } , { in-truck(package, truck4) } )
+
+N6 = ( { st1(package) } , { package-at(package, city1-1) } )
+
+N7 = ( { st1(package) } , { package-at(package, city1-2) } )
+
+N8 = ( { st1(package) } , { package-at(package, city2-1) } )
+
+N9 = ( { st1(package) } , { package-at(package, city2-2) } )
+
+B0 = truck-at(truck4, city2-1)
+
+B1 = truck-at(truck4, city1-1)
+
+B2 = truck-at(truck4, city2-2)
+
+B3 = truck-at(truck4, city1-2)
+
+B4 = truck-at(truck3, city2-1)
+
+B5 = truck-at(truck3, city1-1)
+
+B6 = truck-at(truck3, city2-2)
+
+B7 = truck-at(truck3, city1-2)
+
+B8 = truck-at(truck2, city2-1)
+
+B9 = truck-at(truck2, city1-1)
+
+B10 = truck-at(truck2, city2-2)
+
+B11 = truck-at(truck2, city1-2)
+
+B12 = truck-at(truck1, city2-1)
+
+B13 = truck-at(truck1, city1-1)
+
+B14 = truck-at(truck1, city2-2)
+
+B15 = truck-at(truck1, city1-2)
+
+B16 = airplane-at(plane2, city2-2)
+
+B17 = airplane-at(plane2, city1-2)
+
+B18 = airplane-at(plane1, city2-2)
+
+B19 = airplane-at(plane1, city1-2)
+

@@ -1,0 +1,293 @@
+abstraction for zeno-travel-ztravel-1-2
+18 N0 1 N1 1 N2 1 N3 1 N4 1 N5 1 N6 1 N7 1 B0 0 B1 0 B2 0 B3 0 B4 0 B5 0 B6 0 B7 0 B8 0 B9 0
+18 B0 1 B4 1 B1 0 B2 0 B3 0 B5 0 B6 0 B7 0 B8 0 B9 0 N0 1 N1 0 N2 0 N3 0 N4 0 N5 0 N6 1 N7 0
+7 B1 1 N1 0 N2 0 N3 0 N4 0 N5 0 N7 0
+96
+board((N0), plane1, city0)
+2 B0 1 N0 1
+2 N0 0 N3 1
+board((N1), plane1, city1)
+2 B1 1 N1 1
+2 N1 0 N3 1
+board((N2), plane1, city2)
+2 B2 1 N2 1
+2 N2 0 N3 1
+board((N4), plane1, city0)
+2 B0 1 N4 1
+2 N4 0 N7 1
+board((N5), plane1, city1)
+2 B1 1 N5 1
+2 N5 0 N7 1
+board((N6), plane1, city2)
+2 B2 1 N6 1
+2 N6 0 N7 1
+debark((N3), plane1, city0)
+2 B0 1 N3 1
+2 N3 0 N0 1
+debark((N3), plane1, city1)
+2 B1 1 N3 1
+2 N3 0 N1 1
+debark((N3), plane1, city2)
+2 B2 1 N3 1
+2 N3 0 N2 1
+debark((N7), plane1, city0)
+2 B0 1 N7 1
+2 N7 0 N4 1
+debark((N7), plane1, city1)
+2 B1 1 N7 1
+2 N7 0 N5 1
+debark((N7), plane1, city2)
+2 B2 1 N7 1
+2 N7 0 N6 1
+fly(plane1, city0, city1, fl1, fl0)
+2 B0 1 B4 1
+4 B1 1 B3 1 B0 0 B4 0
+fly(plane1, city0, city2, fl1, fl0)
+2 B0 1 B4 1
+4 B2 1 B3 1 B0 0 B4 0
+fly(plane1, city1, city0, fl1, fl0)
+2 B1 1 B4 1
+4 B0 1 B3 1 B1 0 B4 0
+fly(plane1, city1, city2, fl1, fl0)
+2 B1 1 B4 1
+4 B2 1 B3 1 B1 0 B4 0
+fly(plane1, city2, city0, fl1, fl0)
+2 B2 1 B4 1
+4 B0 1 B3 1 B2 0 B4 0
+fly(plane1, city2, city1, fl1, fl0)
+2 B2 1 B4 1
+4 B1 1 B3 1 B2 0 B4 0
+fly(plane1, city0, city1, fl2, fl1)
+2 B0 1 B5 1
+4 B1 1 B4 1 B0 0 B5 0
+fly(plane1, city0, city2, fl2, fl1)
+2 B0 1 B5 1
+4 B2 1 B4 1 B0 0 B5 0
+fly(plane1, city1, city0, fl2, fl1)
+2 B1 1 B5 1
+4 B0 1 B4 1 B1 0 B5 0
+fly(plane1, city1, city2, fl2, fl1)
+2 B1 1 B5 1
+4 B2 1 B4 1 B1 0 B5 0
+fly(plane1, city2, city0, fl2, fl1)
+2 B2 1 B5 1
+4 B0 1 B4 1 B2 0 B5 0
+fly(plane1, city2, city1, fl2, fl1)
+2 B2 1 B5 1
+4 B1 1 B4 1 B2 0 B5 0
+fly(plane1, city0, city1, fl3, fl2)
+2 B0 1 B6 1
+4 B1 1 B5 1 B0 0 B6 0
+fly(plane1, city0, city2, fl3, fl2)
+2 B0 1 B6 1
+4 B2 1 B5 1 B0 0 B6 0
+fly(plane1, city1, city0, fl3, fl2)
+2 B1 1 B6 1
+4 B0 1 B5 1 B1 0 B6 0
+fly(plane1, city1, city2, fl3, fl2)
+2 B1 1 B6 1
+4 B2 1 B5 1 B1 0 B6 0
+fly(plane1, city2, city0, fl3, fl2)
+2 B2 1 B6 1
+4 B0 1 B5 1 B2 0 B6 0
+fly(plane1, city2, city1, fl3, fl2)
+2 B2 1 B6 1
+4 B1 1 B5 1 B2 0 B6 0
+fly(plane1, city0, city1, fl4, fl3)
+2 B0 1 B7 1
+4 B1 1 B6 1 B0 0 B7 0
+fly(plane1, city0, city2, fl4, fl3)
+2 B0 1 B7 1
+4 B2 1 B6 1 B0 0 B7 0
+fly(plane1, city1, city0, fl4, fl3)
+2 B1 1 B7 1
+4 B0 1 B6 1 B1 0 B7 0
+fly(plane1, city1, city2, fl4, fl3)
+2 B1 1 B7 1
+4 B2 1 B6 1 B1 0 B7 0
+fly(plane1, city2, city0, fl4, fl3)
+2 B2 1 B7 1
+4 B0 1 B6 1 B2 0 B7 0
+fly(plane1, city2, city1, fl4, fl3)
+2 B2 1 B7 1
+4 B1 1 B6 1 B2 0 B7 0
+fly(plane1, city0, city1, fl5, fl4)
+2 B0 1 B8 1
+4 B1 1 B7 1 B0 0 B8 0
+fly(plane1, city0, city2, fl5, fl4)
+2 B0 1 B8 1
+4 B2 1 B7 1 B0 0 B8 0
+fly(plane1, city1, city0, fl5, fl4)
+2 B1 1 B8 1
+4 B0 1 B7 1 B1 0 B8 0
+fly(plane1, city1, city2, fl5, fl4)
+2 B1 1 B8 1
+4 B2 1 B7 1 B1 0 B8 0
+fly(plane1, city2, city0, fl5, fl4)
+2 B2 1 B8 1
+4 B0 1 B7 1 B2 0 B8 0
+fly(plane1, city2, city1, fl5, fl4)
+2 B2 1 B8 1
+4 B1 1 B7 1 B2 0 B8 0
+fly(plane1, city0, city1, fl6, fl5)
+2 B0 1 B9 1
+4 B1 1 B8 1 B0 0 B9 0
+fly(plane1, city0, city2, fl6, fl5)
+2 B0 1 B9 1
+4 B2 1 B8 1 B0 0 B9 0
+fly(plane1, city1, city0, fl6, fl5)
+2 B1 1 B9 1
+4 B0 1 B8 1 B1 0 B9 0
+fly(plane1, city1, city2, fl6, fl5)
+2 B1 1 B9 1
+4 B2 1 B8 1 B1 0 B9 0
+fly(plane1, city2, city0, fl6, fl5)
+2 B2 1 B9 1
+4 B0 1 B8 1 B2 0 B9 0
+fly(plane1, city2, city1, fl6, fl5)
+2 B2 1 B9 1
+4 B1 1 B8 1 B2 0 B9 0
+zoom(plane1, city0, city1, fl2, fl1, fl0)
+2 B0 1 B5 1
+4 B1 1 B3 1 B0 0 B5 0
+zoom(plane1, city0, city2, fl2, fl1, fl0)
+2 B0 1 B5 1
+4 B2 1 B3 1 B0 0 B5 0
+zoom(plane1, city1, city0, fl2, fl1, fl0)
+2 B1 1 B5 1
+4 B0 1 B3 1 B1 0 B5 0
+zoom(plane1, city1, city2, fl2, fl1, fl0)
+2 B1 1 B5 1
+4 B2 1 B3 1 B1 0 B5 0
+zoom(plane1, city2, city0, fl2, fl1, fl0)
+2 B2 1 B5 1
+4 B0 1 B3 1 B2 0 B5 0
+zoom(plane1, city2, city1, fl2, fl1, fl0)
+2 B2 1 B5 1
+4 B1 1 B3 1 B2 0 B5 0
+zoom(plane1, city0, city1, fl3, fl2, fl1)
+2 B0 1 B6 1
+4 B1 1 B4 1 B0 0 B6 0
+zoom(plane1, city0, city2, fl3, fl2, fl1)
+2 B0 1 B6 1
+4 B2 1 B4 1 B0 0 B6 0
+zoom(plane1, city1, city0, fl3, fl2, fl1)
+2 B1 1 B6 1
+4 B0 1 B4 1 B1 0 B6 0
+zoom(plane1, city1, city2, fl3, fl2, fl1)
+2 B1 1 B6 1
+4 B2 1 B4 1 B1 0 B6 0
+zoom(plane1, city2, city0, fl3, fl2, fl1)
+2 B2 1 B6 1
+4 B0 1 B4 1 B2 0 B6 0
+zoom(plane1, city2, city1, fl3, fl2, fl1)
+2 B2 1 B6 1
+4 B1 1 B4 1 B2 0 B6 0
+zoom(plane1, city0, city1, fl4, fl3, fl2)
+2 B0 1 B7 1
+4 B1 1 B5 1 B0 0 B7 0
+zoom(plane1, city0, city2, fl4, fl3, fl2)
+2 B0 1 B7 1
+4 B2 1 B5 1 B0 0 B7 0
+zoom(plane1, city1, city0, fl4, fl3, fl2)
+2 B1 1 B7 1
+4 B0 1 B5 1 B1 0 B7 0
+zoom(plane1, city1, city2, fl4, fl3, fl2)
+2 B1 1 B7 1
+4 B2 1 B5 1 B1 0 B7 0
+zoom(plane1, city2, city0, fl4, fl3, fl2)
+2 B2 1 B7 1
+4 B0 1 B5 1 B2 0 B7 0
+zoom(plane1, city2, city1, fl4, fl3, fl2)
+2 B2 1 B7 1
+4 B1 1 B5 1 B2 0 B7 0
+zoom(plane1, city0, city1, fl5, fl4, fl3)
+2 B0 1 B8 1
+4 B1 1 B6 1 B0 0 B8 0
+zoom(plane1, city0, city2, fl5, fl4, fl3)
+2 B0 1 B8 1
+4 B2 1 B6 1 B0 0 B8 0
+zoom(plane1, city1, city0, fl5, fl4, fl3)
+2 B1 1 B8 1
+4 B0 1 B6 1 B1 0 B8 0
+zoom(plane1, city1, city2, fl5, fl4, fl3)
+2 B1 1 B8 1
+4 B2 1 B6 1 B1 0 B8 0
+zoom(plane1, city2, city0, fl5, fl4, fl3)
+2 B2 1 B8 1
+4 B0 1 B6 1 B2 0 B8 0
+zoom(plane1, city2, city1, fl5, fl4, fl3)
+2 B2 1 B8 1
+4 B1 1 B6 1 B2 0 B8 0
+zoom(plane1, city0, city1, fl6, fl5, fl4)
+2 B0 1 B9 1
+4 B1 1 B7 1 B0 0 B9 0
+zoom(plane1, city0, city2, fl6, fl5, fl4)
+2 B0 1 B9 1
+4 B2 1 B7 1 B0 0 B9 0
+zoom(plane1, city1, city0, fl6, fl5, fl4)
+2 B1 1 B9 1
+4 B0 1 B7 1 B1 0 B9 0
+zoom(plane1, city1, city2, fl6, fl5, fl4)
+2 B1 1 B9 1
+4 B2 1 B7 1 B1 0 B9 0
+zoom(plane1, city2, city0, fl6, fl5, fl4)
+2 B2 1 B9 1
+4 B0 1 B7 1 B2 0 B9 0
+zoom(plane1, city2, city1, fl6, fl5, fl4)
+2 B2 1 B9 1
+4 B1 1 B7 1 B2 0 B9 0
+refuel(plane1, city0, fl0, fl1)
+2 B3 1 B0 1
+2 B4 1 B3 0
+refuel(plane1, city1, fl0, fl1)
+2 B3 1 B1 1
+2 B4 1 B3 0
+refuel(plane1, city2, fl0, fl1)
+2 B3 1 B2 1
+2 B4 1 B3 0
+refuel(plane1, city0, fl1, fl2)
+2 B4 1 B0 1
+2 B5 1 B4 0
+refuel(plane1, city1, fl1, fl2)
+2 B4 1 B1 1
+2 B5 1 B4 0
+refuel(plane1, city2, fl1, fl2)
+2 B4 1 B2 1
+2 B5 1 B4 0
+refuel(plane1, city0, fl2, fl3)
+2 B5 1 B0 1
+2 B6 1 B5 0
+refuel(plane1, city1, fl2, fl3)
+2 B5 1 B1 1
+2 B6 1 B5 0
+refuel(plane1, city2, fl2, fl3)
+2 B5 1 B2 1
+2 B6 1 B5 0
+refuel(plane1, city0, fl3, fl4)
+2 B6 1 B0 1
+2 B7 1 B6 0
+refuel(plane1, city1, fl3, fl4)
+2 B6 1 B1 1
+2 B7 1 B6 0
+refuel(plane1, city2, fl3, fl4)
+2 B6 1 B2 1
+2 B7 1 B6 0
+refuel(plane1, city0, fl4, fl5)
+2 B7 1 B0 1
+2 B8 1 B7 0
+refuel(plane1, city1, fl4, fl5)
+2 B7 1 B1 1
+2 B8 1 B7 0
+refuel(plane1, city2, fl4, fl5)
+2 B7 1 B2 1
+2 B8 1 B7 0
+refuel(plane1, city0, fl5, fl6)
+2 B8 1 B0 1
+2 B9 1 B8 0
+refuel(plane1, city1, fl5, fl6)
+2 B8 1 B1 1
+2 B9 1 B8 0
+refuel(plane1, city2, fl5, fl6)
+2 B8 1 B2 1
+2 B9 1 B8 0

@@ -1,0 +1,13 @@
+=================================
+#Baggable-Types: 1
+=================================
+#BaggableObjects/#NotBaggableObjects: 6/13
+#GroundProps/#facts: 384/74
+#GroundActions: 35640
+=================================
+ABS time(s): 1.7690
+#Subtypes: 4
+=================================
+#Numerical-Variables: 52
+#Propositional-Variables: 72
+#Abstract-Actions: 1832

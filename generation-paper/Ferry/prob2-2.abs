@@ -1,0 +1,37 @@
+===========================
+Subtypes:
+
+Subtypes of car:
+	st1(car) = { c0 c1 c2 c3 c4 }
+
+===========================
+Feature Mapping:
+
+N0 = ( { st1(car) } , { at(car, l0) } )
+
+N1 = ( { st1(car) } , { at(car, l1) } )
+
+N2 = ( { st1(car) } , { at(car, l2) } )
+
+N3 = ( { st1(car) } , { at(car, l3) } )
+
+N4 = ( { st1(car) } , { at(car, l4) } )
+
+N5 = ( { st1(car) } , { at(car, l5) } )
+
+N6 = ( { st1(car) } , { on(car) } )
+
+B0 = at-ferry(l0)
+
+B1 = at-ferry(l1)
+
+B2 = at-ferry(l2)
+
+B3 = at-ferry(l3)
+
+B4 = at-ferry(l4)
+
+B5 = at-ferry(l5)
+
+B6 = empty-ferry
+

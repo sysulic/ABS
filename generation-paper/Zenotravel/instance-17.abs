@@ -1,0 +1,797 @@
+===========================
+Subtypes:
+
+Subtypes of person:
+	st1(person) = { person1 }
+	st2(person) = { person2 }
+	st3(person) = { person3 person6 }
+	st4(person) = { person4 person5 person16 }
+	st5(person) = { person7 person19 }
+	st6(person) = { person8 person20 }
+	st7(person) = { person9 }
+	st8(person) = { person10 person11 }
+	st9(person) = { person12 }
+	st10(person) = { person13 }
+	st11(person) = { person14 }
+	st12(person) = { person15 }
+	st13(person) = { person17 person18 }
+
+===========================
+Feature Mapping:
+
+N0 = ( { st1(person) } , { at(person, city0) } )
+
+N1 = ( { st1(person) } , { at(person, city1) } )
+
+N2 = ( { st1(person) } , { at(person, city10) } )
+
+N3 = ( { st1(person) } , { at(person, city11) } )
+
+N4 = ( { st1(person) } , { at(person, city12) } )
+
+N5 = ( { st1(person) } , { at(person, city13) } )
+
+N6 = ( { st1(person) } , { at(person, city14) } )
+
+N7 = ( { st1(person) } , { at(person, city15) } )
+
+N8 = ( { st1(person) } , { at(person, city2) } )
+
+N9 = ( { st1(person) } , { at(person, city3) } )
+
+N10 = ( { st1(person) } , { at(person, city4) } )
+
+N11 = ( { st1(person) } , { at(person, city5) } )
+
+N12 = ( { st1(person) } , { at(person, city6) } )
+
+N13 = ( { st1(person) } , { at(person, city7) } )
+
+N14 = ( { st1(person) } , { at(person, city8) } )
+
+N15 = ( { st1(person) } , { at(person, city9) } )
+
+N16 = ( { st1(person) } , { in(person, plane1) } )
+
+N17 = ( { st1(person) } , { in(person, plane2) } )
+
+N18 = ( { st1(person) } , { in(person, plane3) } )
+
+N19 = ( { st1(person) } , { in(person, plane4) } )
+
+N20 = ( { st1(person) } , { in(person, plane5) } )
+
+N21 = ( { st2(person) } , { at(person, city0) } )
+
+N22 = ( { st2(person) } , { at(person, city1) } )
+
+N23 = ( { st2(person) } , { at(person, city10) } )
+
+N24 = ( { st2(person) } , { at(person, city11) } )
+
+N25 = ( { st2(person) } , { at(person, city12) } )
+
+N26 = ( { st2(person) } , { at(person, city13) } )
+
+N27 = ( { st2(person) } , { at(person, city14) } )
+
+N28 = ( { st2(person) } , { at(person, city15) } )
+
+N29 = ( { st2(person) } , { at(person, city2) } )
+
+N30 = ( { st2(person) } , { at(person, city3) } )
+
+N31 = ( { st2(person) } , { at(person, city4) } )
+
+N32 = ( { st2(person) } , { at(person, city5) } )
+
+N33 = ( { st2(person) } , { at(person, city6) } )
+
+N34 = ( { st2(person) } , { at(person, city7) } )
+
+N35 = ( { st2(person) } , { at(person, city8) } )
+
+N36 = ( { st2(person) } , { at(person, city9) } )
+
+N37 = ( { st2(person) } , { in(person, plane1) } )
+
+N38 = ( { st2(person) } , { in(person, plane2) } )
+
+N39 = ( { st2(person) } , { in(person, plane3) } )
+
+N40 = ( { st2(person) } , { in(person, plane4) } )
+
+N41 = ( { st2(person) } , { in(person, plane5) } )
+
+N42 = ( { st3(person) } , { at(person, city0) } )
+
+N43 = ( { st3(person) } , { at(person, city1) } )
+
+N44 = ( { st3(person) } , { at(person, city10) } )
+
+N45 = ( { st3(person) } , { at(person, city11) } )
+
+N46 = ( { st3(person) } , { at(person, city12) } )
+
+N47 = ( { st3(person) } , { at(person, city13) } )
+
+N48 = ( { st3(person) } , { at(person, city14) } )
+
+N49 = ( { st3(person) } , { at(person, city15) } )
+
+N50 = ( { st3(person) } , { at(person, city2) } )
+
+N51 = ( { st3(person) } , { at(person, city3) } )
+
+N52 = ( { st3(person) } , { at(person, city4) } )
+
+N53 = ( { st3(person) } , { at(person, city5) } )
+
+N54 = ( { st3(person) } , { at(person, city6) } )
+
+N55 = ( { st3(person) } , { at(person, city7) } )
+
+N56 = ( { st3(person) } , { at(person, city8) } )
+
+N57 = ( { st3(person) } , { at(person, city9) } )
+
+N58 = ( { st3(person) } , { in(person, plane1) } )
+
+N59 = ( { st3(person) } , { in(person, plane2) } )
+
+N60 = ( { st3(person) } , { in(person, plane3) } )
+
+N61 = ( { st3(person) } , { in(person, plane4) } )
+
+N62 = ( { st3(person) } , { in(person, plane5) } )
+
+N63 = ( { st4(person) } , { at(person, city0) } )
+
+N64 = ( { st4(person) } , { at(person, city1) } )
+
+N65 = ( { st4(person) } , { at(person, city10) } )
+
+N66 = ( { st4(person) } , { at(person, city11) } )
+
+N67 = ( { st4(person) } , { at(person, city12) } )
+
+N68 = ( { st4(person) } , { at(person, city13) } )
+
+N69 = ( { st4(person) } , { at(person, city14) } )
+
+N70 = ( { st4(person) } , { at(person, city15) } )
+
+N71 = ( { st4(person) } , { at(person, city2) } )
+
+N72 = ( { st4(person) } , { at(person, city3) } )
+
+N73 = ( { st4(person) } , { at(person, city4) } )
+
+N74 = ( { st4(person) } , { at(person, city5) } )
+
+N75 = ( { st4(person) } , { at(person, city6) } )
+
+N76 = ( { st4(person) } , { at(person, city7) } )
+
+N77 = ( { st4(person) } , { at(person, city8) } )
+
+N78 = ( { st4(person) } , { at(person, city9) } )
+
+N79 = ( { st4(person) } , { in(person, plane1) } )
+
+N80 = ( { st4(person) } , { in(person, plane2) } )
+
+N81 = ( { st4(person) } , { in(person, plane3) } )
+
+N82 = ( { st4(person) } , { in(person, plane4) } )
+
+N83 = ( { st4(person) } , { in(person, plane5) } )
+
+N84 = ( { st5(person) } , { at(person, city0) } )
+
+N85 = ( { st5(person) } , { at(person, city1) } )
+
+N86 = ( { st5(person) } , { at(person, city10) } )
+
+N87 = ( { st5(person) } , { at(person, city11) } )
+
+N88 = ( { st5(person) } , { at(person, city12) } )
+
+N89 = ( { st5(person) } , { at(person, city13) } )
+
+N90 = ( { st5(person) } , { at(person, city14) } )
+
+N91 = ( { st5(person) } , { at(person, city15) } )
+
+N92 = ( { st5(person) } , { at(person, city2) } )
+
+N93 = ( { st5(person) } , { at(person, city3) } )
+
+N94 = ( { st5(person) } , { at(person, city4) } )
+
+N95 = ( { st5(person) } , { at(person, city5) } )
+
+N96 = ( { st5(person) } , { at(person, city6) } )
+
+N97 = ( { st5(person) } , { at(person, city7) } )
+
+N98 = ( { st5(person) } , { at(person, city8) } )
+
+N99 = ( { st5(person) } , { at(person, city9) } )
+
+N100 = ( { st5(person) } , { in(person, plane1) } )
+
+N101 = ( { st5(person) } , { in(person, plane2) } )
+
+N102 = ( { st5(person) } , { in(person, plane3) } )
+
+N103 = ( { st5(person) } , { in(person, plane4) } )
+
+N104 = ( { st5(person) } , { in(person, plane5) } )
+
+N105 = ( { st6(person) } , { at(person, city0) } )
+
+N106 = ( { st6(person) } , { at(person, city1) } )
+
+N107 = ( { st6(person) } , { at(person, city10) } )
+
+N108 = ( { st6(person) } , { at(person, city11) } )
+
+N109 = ( { st6(person) } , { at(person, city12) } )
+
+N110 = ( { st6(person) } , { at(person, city13) } )
+
+N111 = ( { st6(person) } , { at(person, city14) } )
+
+N112 = ( { st6(person) } , { at(person, city15) } )
+
+N113 = ( { st6(person) } , { at(person, city2) } )
+
+N114 = ( { st6(person) } , { at(person, city3) } )
+
+N115 = ( { st6(person) } , { at(person, city4) } )
+
+N116 = ( { st6(person) } , { at(person, city5) } )
+
+N117 = ( { st6(person) } , { at(person, city6) } )
+
+N118 = ( { st6(person) } , { at(person, city7) } )
+
+N119 = ( { st6(person) } , { at(person, city8) } )
+
+N120 = ( { st6(person) } , { at(person, city9) } )
+
+N121 = ( { st6(person) } , { in(person, plane1) } )
+
+N122 = ( { st6(person) } , { in(person, plane2) } )
+
+N123 = ( { st6(person) } , { in(person, plane3) } )
+
+N124 = ( { st6(person) } , { in(person, plane4) } )
+
+N125 = ( { st6(person) } , { in(person, plane5) } )
+
+N126 = ( { st7(person) } , { at(person, city0) } )
+
+N127 = ( { st7(person) } , { at(person, city1) } )
+
+N128 = ( { st7(person) } , { at(person, city10) } )
+
+N129 = ( { st7(person) } , { at(person, city11) } )
+
+N130 = ( { st7(person) } , { at(person, city12) } )
+
+N131 = ( { st7(person) } , { at(person, city13) } )
+
+N132 = ( { st7(person) } , { at(person, city14) } )
+
+N133 = ( { st7(person) } , { at(person, city15) } )
+
+N134 = ( { st7(person) } , { at(person, city2) } )
+
+N135 = ( { st7(person) } , { at(person, city3) } )
+
+N136 = ( { st7(person) } , { at(person, city4) } )
+
+N137 = ( { st7(person) } , { at(person, city5) } )
+
+N138 = ( { st7(person) } , { at(person, city6) } )
+
+N139 = ( { st7(person) } , { at(person, city7) } )
+
+N140 = ( { st7(person) } , { at(person, city8) } )
+
+N141 = ( { st7(person) } , { at(person, city9) } )
+
+N142 = ( { st7(person) } , { in(person, plane1) } )
+
+N143 = ( { st7(person) } , { in(person, plane2) } )
+
+N144 = ( { st7(person) } , { in(person, plane3) } )
+
+N145 = ( { st7(person) } , { in(person, plane4) } )
+
+N146 = ( { st7(person) } , { in(person, plane5) } )
+
+N147 = ( { st8(person) } , { at(person, city0) } )
+
+N148 = ( { st8(person) } , { at(person, city1) } )
+
+N149 = ( { st8(person) } , { at(person, city10) } )
+
+N150 = ( { st8(person) } , { at(person, city11) } )
+
+N151 = ( { st8(person) } , { at(person, city12) } )
+
+N152 = ( { st8(person) } , { at(person, city13) } )
+
+N153 = ( { st8(person) } , { at(person, city14) } )
+
+N154 = ( { st8(person) } , { at(person, city15) } )
+
+N155 = ( { st8(person) } , { at(person, city2) } )
+
+N156 = ( { st8(person) } , { at(person, city3) } )
+
+N157 = ( { st8(person) } , { at(person, city4) } )
+
+N158 = ( { st8(person) } , { at(person, city5) } )
+
+N159 = ( { st8(person) } , { at(person, city6) } )
+
+N160 = ( { st8(person) } , { at(person, city7) } )
+
+N161 = ( { st8(person) } , { at(person, city8) } )
+
+N162 = ( { st8(person) } , { at(person, city9) } )
+
+N163 = ( { st8(person) } , { in(person, plane1) } )
+
+N164 = ( { st8(person) } , { in(person, plane2) } )
+
+N165 = ( { st8(person) } , { in(person, plane3) } )
+
+N166 = ( { st8(person) } , { in(person, plane4) } )
+
+N167 = ( { st8(person) } , { in(person, plane5) } )
+
+N168 = ( { st9(person) } , { at(person, city0) } )
+
+N169 = ( { st9(person) } , { at(person, city1) } )
+
+N170 = ( { st9(person) } , { at(person, city10) } )
+
+N171 = ( { st9(person) } , { at(person, city11) } )
+
+N172 = ( { st9(person) } , { at(person, city12) } )
+
+N173 = ( { st9(person) } , { at(person, city13) } )
+
+N174 = ( { st9(person) } , { at(person, city14) } )
+
+N175 = ( { st9(person) } , { at(person, city15) } )
+
+N176 = ( { st9(person) } , { at(person, city2) } )
+
+N177 = ( { st9(person) } , { at(person, city3) } )
+
+N178 = ( { st9(person) } , { at(person, city4) } )
+
+N179 = ( { st9(person) } , { at(person, city5) } )
+
+N180 = ( { st9(person) } , { at(person, city6) } )
+
+N181 = ( { st9(person) } , { at(person, city7) } )
+
+N182 = ( { st9(person) } , { at(person, city8) } )
+
+N183 = ( { st9(person) } , { at(person, city9) } )
+
+N184 = ( { st9(person) } , { in(person, plane1) } )
+
+N185 = ( { st9(person) } , { in(person, plane2) } )
+
+N186 = ( { st9(person) } , { in(person, plane3) } )
+
+N187 = ( { st9(person) } , { in(person, plane4) } )
+
+N188 = ( { st9(person) } , { in(person, plane5) } )
+
+N189 = ( { st10(person) } , { at(person, city0) } )
+
+N190 = ( { st10(person) } , { at(person, city1) } )
+
+N191 = ( { st10(person) } , { at(person, city10) } )
+
+N192 = ( { st10(person) } , { at(person, city11) } )
+
+N193 = ( { st10(person) } , { at(person, city12) } )
+
+N194 = ( { st10(person) } , { at(person, city13) } )
+
+N195 = ( { st10(person) } , { at(person, city14) } )
+
+N196 = ( { st10(person) } , { at(person, city15) } )
+
+N197 = ( { st10(person) } , { at(person, city2) } )
+
+N198 = ( { st10(person) } , { at(person, city3) } )
+
+N199 = ( { st10(person) } , { at(person, city4) } )
+
+N200 = ( { st10(person) } , { at(person, city5) } )
+
+N201 = ( { st10(person) } , { at(person, city6) } )
+
+N202 = ( { st10(person) } , { at(person, city7) } )
+
+N203 = ( { st10(person) } , { at(person, city8) } )
+
+N204 = ( { st10(person) } , { at(person, city9) } )
+
+N205 = ( { st10(person) } , { in(person, plane1) } )
+
+N206 = ( { st10(person) } , { in(person, plane2) } )
+
+N207 = ( { st10(person) } , { in(person, plane3) } )
+
+N208 = ( { st10(person) } , { in(person, plane4) } )
+
+N209 = ( { st10(person) } , { in(person, plane5) } )
+
+N210 = ( { st11(person) } , { at(person, city0) } )
+
+N211 = ( { st11(person) } , { at(person, city1) } )
+
+N212 = ( { st11(person) } , { at(person, city10) } )
+
+N213 = ( { st11(person) } , { at(person, city11) } )
+
+N214 = ( { st11(person) } , { at(person, city12) } )
+
+N215 = ( { st11(person) } , { at(person, city13) } )
+
+N216 = ( { st11(person) } , { at(person, city14) } )
+
+N217 = ( { st11(person) } , { at(person, city15) } )
+
+N218 = ( { st11(person) } , { at(person, city2) } )
+
+N219 = ( { st11(person) } , { at(person, city3) } )
+
+N220 = ( { st11(person) } , { at(person, city4) } )
+
+N221 = ( { st11(person) } , { at(person, city5) } )
+
+N222 = ( { st11(person) } , { at(person, city6) } )
+
+N223 = ( { st11(person) } , { at(person, city7) } )
+
+N224 = ( { st11(person) } , { at(person, city8) } )
+
+N225 = ( { st11(person) } , { at(person, city9) } )
+
+N226 = ( { st11(person) } , { in(person, plane1) } )
+
+N227 = ( { st11(person) } , { in(person, plane2) } )
+
+N228 = ( { st11(person) } , { in(person, plane3) } )
+
+N229 = ( { st11(person) } , { in(person, plane4) } )
+
+N230 = ( { st11(person) } , { in(person, plane5) } )
+
+N231 = ( { st12(person) } , { at(person, city0) } )
+
+N232 = ( { st12(person) } , { at(person, city1) } )
+
+N233 = ( { st12(person) } , { at(person, city10) } )
+
+N234 = ( { st12(person) } , { at(person, city11) } )
+
+N235 = ( { st12(person) } , { at(person, city12) } )
+
+N236 = ( { st12(person) } , { at(person, city13) } )
+
+N237 = ( { st12(person) } , { at(person, city14) } )
+
+N238 = ( { st12(person) } , { at(person, city15) } )
+
+N239 = ( { st12(person) } , { at(person, city2) } )
+
+N240 = ( { st12(person) } , { at(person, city3) } )
+
+N241 = ( { st12(person) } , { at(person, city4) } )
+
+N242 = ( { st12(person) } , { at(person, city5) } )
+
+N243 = ( { st12(person) } , { at(person, city6) } )
+
+N244 = ( { st12(person) } , { at(person, city7) } )
+
+N245 = ( { st12(person) } , { at(person, city8) } )
+
+N246 = ( { st12(person) } , { at(person, city9) } )
+
+N247 = ( { st12(person) } , { in(person, plane1) } )
+
+N248 = ( { st12(person) } , { in(person, plane2) } )
+
+N249 = ( { st12(person) } , { in(person, plane3) } )
+
+N250 = ( { st12(person) } , { in(person, plane4) } )
+
+N251 = ( { st12(person) } , { in(person, plane5) } )
+
+N252 = ( { st13(person) } , { at(person, city0) } )
+
+N253 = ( { st13(person) } , { at(person, city1) } )
+
+N254 = ( { st13(person) } , { at(person, city10) } )
+
+N255 = ( { st13(person) } , { at(person, city11) } )
+
+N256 = ( { st13(person) } , { at(person, city12) } )
+
+N257 = ( { st13(person) } , { at(person, city13) } )
+
+N258 = ( { st13(person) } , { at(person, city14) } )
+
+N259 = ( { st13(person) } , { at(person, city15) } )
+
+N260 = ( { st13(person) } , { at(person, city2) } )
+
+N261 = ( { st13(person) } , { at(person, city3) } )
+
+N262 = ( { st13(person) } , { at(person, city4) } )
+
+N263 = ( { st13(person) } , { at(person, city5) } )
+
+N264 = ( { st13(person) } , { at(person, city6) } )
+
+N265 = ( { st13(person) } , { at(person, city7) } )
+
+N266 = ( { st13(person) } , { at(person, city8) } )
+
+N267 = ( { st13(person) } , { at(person, city9) } )
+
+N268 = ( { st13(person) } , { in(person, plane1) } )
+
+N269 = ( { st13(person) } , { in(person, plane2) } )
+
+N270 = ( { st13(person) } , { in(person, plane3) } )
+
+N271 = ( { st13(person) } , { in(person, plane4) } )
+
+N272 = ( { st13(person) } , { in(person, plane5) } )
+
+B0 = at(plane1, city0)
+
+B1 = at(plane1, city1)
+
+B2 = at(plane1, city2)
+
+B3 = at(plane1, city3)
+
+B4 = at(plane1, city4)
+
+B5 = at(plane1, city5)
+
+B6 = at(plane1, city6)
+
+B7 = at(plane1, city7)
+
+B8 = at(plane1, city8)
+
+B9 = at(plane1, city9)
+
+B10 = at(plane1, city10)
+
+B11 = at(plane1, city11)
+
+B12 = at(plane1, city12)
+
+B13 = at(plane1, city13)
+
+B14 = at(plane1, city14)
+
+B15 = at(plane1, city15)
+
+B16 = at(plane2, city0)
+
+B17 = at(plane2, city1)
+
+B18 = at(plane2, city2)
+
+B19 = at(plane2, city3)
+
+B20 = at(plane2, city4)
+
+B21 = at(plane2, city5)
+
+B22 = at(plane2, city6)
+
+B23 = at(plane2, city7)
+
+B24 = at(plane2, city8)
+
+B25 = at(plane2, city9)
+
+B26 = at(plane2, city10)
+
+B27 = at(plane2, city11)
+
+B28 = at(plane2, city12)
+
+B29 = at(plane2, city13)
+
+B30 = at(plane2, city14)
+
+B31 = at(plane2, city15)
+
+B32 = at(plane3, city0)
+
+B33 = at(plane3, city1)
+
+B34 = at(plane3, city2)
+
+B35 = at(plane3, city3)
+
+B36 = at(plane3, city4)
+
+B37 = at(plane3, city5)
+
+B38 = at(plane3, city6)
+
+B39 = at(plane3, city7)
+
+B40 = at(plane3, city8)
+
+B41 = at(plane3, city9)
+
+B42 = at(plane3, city10)
+
+B43 = at(plane3, city11)
+
+B44 = at(plane3, city12)
+
+B45 = at(plane3, city13)
+
+B46 = at(plane3, city14)
+
+B47 = at(plane3, city15)
+
+B48 = at(plane4, city0)
+
+B49 = at(plane4, city1)
+
+B50 = at(plane4, city2)
+
+B51 = at(plane4, city3)
+
+B52 = at(plane4, city4)
+
+B53 = at(plane4, city5)
+
+B54 = at(plane4, city6)
+
+B55 = at(plane4, city7)
+
+B56 = at(plane4, city8)
+
+B57 = at(plane4, city9)
+
+B58 = at(plane4, city10)
+
+B59 = at(plane4, city11)
+
+B60 = at(plane4, city12)
+
+B61 = at(plane4, city13)
+
+B62 = at(plane4, city14)
+
+B63 = at(plane4, city15)
+
+B64 = at(plane5, city0)
+
+B65 = at(plane5, city1)
+
+B66 = at(plane5, city2)
+
+B67 = at(plane5, city3)
+
+B68 = at(plane5, city4)
+
+B69 = at(plane5, city5)
+
+B70 = at(plane5, city6)
+
+B71 = at(plane5, city7)
+
+B72 = at(plane5, city8)
+
+B73 = at(plane5, city9)
+
+B74 = at(plane5, city10)
+
+B75 = at(plane5, city11)
+
+B76 = at(plane5, city12)
+
+B77 = at(plane5, city13)
+
+B78 = at(plane5, city14)
+
+B79 = at(plane5, city15)
+
+B80 = fuel-level(plane1, fl0)
+
+B81 = fuel-level(plane1, fl1)
+
+B82 = fuel-level(plane1, fl2)
+
+B83 = fuel-level(plane1, fl3)
+
+B84 = fuel-level(plane1, fl4)
+
+B85 = fuel-level(plane1, fl5)
+
+B86 = fuel-level(plane1, fl6)
+
+B87 = fuel-level(plane2, fl0)
+
+B88 = fuel-level(plane2, fl1)
+
+B89 = fuel-level(plane2, fl2)
+
+B90 = fuel-level(plane2, fl3)
+
+B91 = fuel-level(plane2, fl4)
+
+B92 = fuel-level(plane2, fl5)
+
+B93 = fuel-level(plane2, fl6)
+
+B94 = fuel-level(plane3, fl0)
+
+B95 = fuel-level(plane3, fl1)
+
+B96 = fuel-level(plane3, fl2)
+
+B97 = fuel-level(plane3, fl3)
+
+B98 = fuel-level(plane3, fl4)
+
+B99 = fuel-level(plane3, fl5)
+
+B100 = fuel-level(plane3, fl6)
+
+B101 = fuel-level(plane4, fl0)
+
+B102 = fuel-level(plane4, fl1)
+
+B103 = fuel-level(plane4, fl2)
+
+B104 = fuel-level(plane4, fl3)
+
+B105 = fuel-level(plane4, fl4)
+
+B106 = fuel-level(plane4, fl5)
+
+B107 = fuel-level(plane4, fl6)
+
+B108 = fuel-level(plane5, fl0)
+
+B109 = fuel-level(plane5, fl1)
+
+B110 = fuel-level(plane5, fl2)
+
+B111 = fuel-level(plane5, fl3)
+
+B112 = fuel-level(plane5, fl4)
+
+B113 = fuel-level(plane5, fl5)
+
+B114 = fuel-level(plane5, fl6)
+

@@ -1,0 +1,165 @@
+===========================
+Subtypes:
+
+Subtypes of person:
+	st1(person) = { person1 person4 }
+	st2(person) = { person2 }
+	st3(person) = { person3 person6 person8 }
+	st4(person) = { person5 }
+	st5(person) = { person7 }
+
+===========================
+Feature Mapping:
+
+N0 = ( { st1(person) } , { at(person, city0) } )
+
+N1 = ( { st1(person) } , { at(person, city1) } )
+
+N2 = ( { st1(person) } , { at(person, city2) } )
+
+N3 = ( { st1(person) } , { at(person, city3) } )
+
+N4 = ( { st1(person) } , { at(person, city4) } )
+
+N5 = ( { st1(person) } , { in(person, plane1) } )
+
+N6 = ( { st1(person) } , { in(person, plane2) } )
+
+N7 = ( { st1(person) } , { in(person, plane3) } )
+
+N8 = ( { st2(person) } , { at(person, city0) } )
+
+N9 = ( { st2(person) } , { at(person, city1) } )
+
+N10 = ( { st2(person) } , { at(person, city2) } )
+
+N11 = ( { st2(person) } , { at(person, city3) } )
+
+N12 = ( { st2(person) } , { at(person, city4) } )
+
+N13 = ( { st2(person) } , { in(person, plane1) } )
+
+N14 = ( { st2(person) } , { in(person, plane2) } )
+
+N15 = ( { st2(person) } , { in(person, plane3) } )
+
+N16 = ( { st3(person) } , { at(person, city0) } )
+
+N17 = ( { st3(person) } , { at(person, city1) } )
+
+N18 = ( { st3(person) } , { at(person, city2) } )
+
+N19 = ( { st3(person) } , { at(person, city3) } )
+
+N20 = ( { st3(person) } , { at(person, city4) } )
+
+N21 = ( { st3(person) } , { in(person, plane1) } )
+
+N22 = ( { st3(person) } , { in(person, plane2) } )
+
+N23 = ( { st3(person) } , { in(person, plane3) } )
+
+N24 = ( { st4(person) } , { at(person, city0) } )
+
+N25 = ( { st4(person) } , { at(person, city1) } )
+
+N26 = ( { st4(person) } , { at(person, city2) } )
+
+N27 = ( { st4(person) } , { at(person, city3) } )
+
+N28 = ( { st4(person) } , { at(person, city4) } )
+
+N29 = ( { st4(person) } , { in(person, plane1) } )
+
+N30 = ( { st4(person) } , { in(person, plane2) } )
+
+N31 = ( { st4(person) } , { in(person, plane3) } )
+
+N32 = ( { st5(person) } , { at(person, city0) } )
+
+N33 = ( { st5(person) } , { at(person, city1) } )
+
+N34 = ( { st5(person) } , { at(person, city2) } )
+
+N35 = ( { st5(person) } , { at(person, city3) } )
+
+N36 = ( { st5(person) } , { at(person, city4) } )
+
+N37 = ( { st5(person) } , { in(person, plane1) } )
+
+N38 = ( { st5(person) } , { in(person, plane2) } )
+
+N39 = ( { st5(person) } , { in(person, plane3) } )
+
+B0 = at(plane1, city0)
+
+B1 = at(plane1, city1)
+
+B2 = at(plane1, city2)
+
+B3 = at(plane1, city3)
+
+B4 = at(plane1, city4)
+
+B5 = at(plane2, city0)
+
+B6 = at(plane2, city1)
+
+B7 = at(plane2, city2)
+
+B8 = at(plane2, city3)
+
+B9 = at(plane2, city4)
+
+B10 = at(plane3, city0)
+
+B11 = at(plane3, city1)
+
+B12 = at(plane3, city2)
+
+B13 = at(plane3, city3)
+
+B14 = at(plane3, city4)
+
+B15 = fuel-level(plane1, fl0)
+
+B16 = fuel-level(plane1, fl1)
+
+B17 = fuel-level(plane1, fl2)
+
+B18 = fuel-level(plane1, fl3)
+
+B19 = fuel-level(plane1, fl4)
+
+B20 = fuel-level(plane1, fl5)
+
+B21 = fuel-level(plane1, fl6)
+
+B22 = fuel-level(plane2, fl0)
+
+B23 = fuel-level(plane2, fl1)
+
+B24 = fuel-level(plane2, fl2)
+
+B25 = fuel-level(plane2, fl3)
+
+B26 = fuel-level(plane2, fl4)
+
+B27 = fuel-level(plane2, fl5)
+
+B28 = fuel-level(plane2, fl6)
+
+B29 = fuel-level(plane3, fl0)
+
+B30 = fuel-level(plane3, fl1)
+
+B31 = fuel-level(plane3, fl2)
+
+B32 = fuel-level(plane3, fl3)
+
+B33 = fuel-level(plane3, fl4)
+
+B34 = fuel-level(plane3, fl5)
+
+B35 = fuel-level(plane3, fl6)
+

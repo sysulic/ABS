@@ -1,0 +1,5501 @@
+abstraction for elevators-sequencedstrips-elevators-sequencedstrips-p8_5_2
+124 N0 1 N1 1 N2 1 N3 1 N4 1 N5 1 N6 1 N7 1 N8 1 N9 1 N10 1 N11 1 N12 1 N13 1 N14 1 N15 1 N16 1 N17 1 N18 1 N19 1 N20 1 N21 1 N22 1 N23 1 N24 1 N25 1 N26 1 N27 1 N28 1 N29 1 N30 1 N31 1 N32 1 N33 1 N34 1 N35 1 N36 1 N37 1 N38 1 N39 1 N40 1 N41 1 N42 1 N43 1 N44 1 N45 1 N46 1 N47 1 N48 1 N49 1 N50 1 N51 1 B0 0 B1 0 B2 0 B3 0 B4 0 B5 0 B6 0 B7 0 B8 0 B9 0 B10 0 B11 0 B12 0 B13 0 B14 0 B15 0 B16 0 B17 0 B18 0 B19 0 B20 0 B21 0 B22 0 B23 0 B24 0 B25 0 B26 0 B27 0 B28 0 B29 0 B30 0 B31 0 B32 0 B33 0 B34 0 B35 0 B36 0 B37 0 B38 0 B39 0 B40 0 B41 0 B42 0 B43 0 B44 0 B45 0 B46 0 B47 0 B48 0 B49 0 B50 0 B51 0 B52 0 B53 0 B54 0 B55 0 B56 0 B57 0 B58 0 B59 0 B60 0 B61 0 B62 0 B63 0 B64 0 B65 0 B66 0 B67 0 B68 0 B69 0 B70 0 B71 0
+124 B4 1 B63 1 B54 1 B17 1 B22 1 B34 1 B45 1 B36 1 B0 0 B1 0 B2 0 B3 0 B5 0 B6 0 B7 0 B8 0 B9 0 B10 0 B11 0 B12 0 B13 0 B14 0 B15 0 B16 0 B18 0 B19 0 B20 0 B21 0 B23 0 B24 0 B25 0 B26 0 B27 0 B28 0 B29 0 B30 0 B31 0 B32 0 B33 0 B35 0 B37 0 B38 0 B39 0 B40 0 B41 0 B42 0 B43 0 B44 0 B46 0 B47 0 B48 0 B49 0 B50 0 B51 0 B52 0 B53 0 B55 0 B56 0 B57 0 B58 0 B59 0 B60 0 B61 0 B62 0 B64 0 B65 0 B66 0 B67 0 B68 0 B69 0 B70 0 B71 0 N0 0 N1 0 N2 0 N3 0 N4 0 N5 0 N6 0 N7 1 N8 0 N9 0 N10 0 N11 0 N12 0 N13 0 N14 0 N15 0 N16 0 N17 0 N18 0 N19 0 N20 0 N21 0 N22 1 N23 0 N24 0 N25 0 N26 0 N27 0 N28 0 N29 0 N30 0 N31 0 N32 0 N33 0 N34 0 N35 0 N36 0 N37 0 N38 1 N39 0 N40 0 N41 0 N42 0 N43 0 N44 0 N45 0 N46 0 N47 0 N48 0 N49 0 N50 0 N51 1
+48 N0 0 N1 0 N2 0 N3 0 N4 0 N5 0 N6 0 N7 0 N8 0 N9 0 N11 0 N12 0 N13 0 N14 0 N15 0 N16 0 N17 0 N18 0 N19 0 N21 0 N22 0 N23 0 N24 0 N25 0 N26 0 N27 0 N28 0 N29 0 N31 0 N32 0 N33 0 N34 0 N35 0 N36 0 N37 0 N38 0 N39 0 N40 0 N41 0 N42 0 N43 0 N44 0 N45 0 N46 0 N47 0 N48 0 N49 0 N51 0
+1832
+move-up-slow(slow0-0, n0, n1)
+1 B18 1
+2 B19 1 B18 0
+move-up-slow(fast0, n0, n2)
+1 B0 1
+2 B2 1 B0 0
+move-up-slow(fast1, n0, n2)
+1 B9 1
+2 B11 1 B9 0
+move-up-slow(slow0-0, n0, n2)
+1 B18 1
+2 B20 1 B18 0
+move-up-slow(slow0-0, n0, n3)
+1 B18 1
+2 B21 1 B18 0
+move-up-slow(fast0, n0, n4)
+1 B0 1
+2 B4 1 B0 0
+move-up-slow(fast1, n0, n4)
+1 B9 1
+2 B13 1 B9 0
+move-up-slow(slow0-0, n0, n4)
+1 B18 1
+2 B22 1 B18 0
+move-up-slow(slow1-0, n0, n4)
+1 B27 1
+2 B31 1 B27 0
+move-up-slow(slow1-0, n0, n5)
+1 B27 1
+2 B32 1 B27 0
+move-up-slow(fast0, n0, n6)
+1 B0 1
+2 B6 1 B0 0
+move-up-slow(fast1, n0, n6)
+1 B9 1
+2 B15 1 B9 0
+move-up-slow(slow1-0, n0, n6)
+1 B27 1
+2 B33 1 B27 0
+move-up-slow(slow1-0, n0, n7)
+1 B27 1
+2 B34 1 B27 0
+move-up-slow(fast0, n0, n8)
+1 B0 1
+2 B8 1 B0 0
+move-up-slow(fast1, n0, n8)
+1 B9 1
+2 B17 1 B9 0
+move-up-slow(slow1-0, n0, n8)
+1 B27 1
+2 B35 1 B27 0
+move-up-slow(fast0, n1, n2)
+1 B1 1
+2 B2 1 B1 0
+move-up-slow(fast1, n1, n2)
+1 B10 1
+2 B11 1 B10 0
+move-up-slow(slow0-0, n1, n2)
+1 B19 1
+2 B20 1 B19 0
+move-up-slow(slow0-0, n1, n3)
+1 B19 1
+2 B21 1 B19 0
+move-up-slow(fast0, n1, n4)
+1 B1 1
+2 B4 1 B1 0
+move-up-slow(fast1, n1, n4)
+1 B10 1
+2 B13 1 B10 0
+move-up-slow(slow0-0, n1, n4)
+1 B19 1
+2 B22 1 B19 0
+move-up-slow(slow1-0, n1, n4)
+1 B28 1
+2 B31 1 B28 0
+move-up-slow(slow1-0, n1, n5)
+1 B28 1
+2 B32 1 B28 0
+move-up-slow(fast0, n1, n6)
+1 B1 1
+2 B6 1 B1 0
+move-up-slow(fast1, n1, n6)
+1 B10 1
+2 B15 1 B10 0
+move-up-slow(slow1-0, n1, n6)
+1 B28 1
+2 B33 1 B28 0
+move-up-slow(slow1-0, n1, n7)
+1 B28 1
+2 B34 1 B28 0
+move-up-slow(fast0, n1, n8)
+1 B1 1
+2 B8 1 B1 0
+move-up-slow(fast1, n1, n8)
+1 B10 1
+2 B17 1 B10 0
+move-up-slow(slow1-0, n1, n8)
+1 B28 1
+2 B35 1 B28 0
+move-up-slow(slow0-0, n2, n3)
+1 B20 1
+2 B21 1 B20 0
+move-up-slow(fast0, n2, n4)
+1 B2 1
+2 B4 1 B2 0
+move-up-slow(fast1, n2, n4)
+1 B11 1
+2 B13 1 B11 0
+move-up-slow(slow0-0, n2, n4)
+1 B20 1
+2 B22 1 B20 0
+move-up-slow(slow1-0, n2, n4)
+1 B29 1
+2 B31 1 B29 0
+move-up-slow(slow1-0, n2, n5)
+1 B29 1
+2 B32 1 B29 0
+move-up-slow(fast0, n2, n6)
+1 B2 1
+2 B6 1 B2 0
+move-up-slow(fast1, n2, n6)
+1 B11 1
+2 B15 1 B11 0
+move-up-slow(slow1-0, n2, n6)
+1 B29 1
+2 B33 1 B29 0
+move-up-slow(slow1-0, n2, n7)
+1 B29 1
+2 B34 1 B29 0
+move-up-slow(fast0, n2, n8)
+1 B2 1
+2 B8 1 B2 0
+move-up-slow(fast1, n2, n8)
+1 B11 1
+2 B17 1 B11 0
+move-up-slow(slow1-0, n2, n8)
+1 B29 1
+2 B35 1 B29 0
+move-up-slow(fast0, n3, n4)
+1 B3 1
+2 B4 1 B3 0
+move-up-slow(fast1, n3, n4)
+1 B12 1
+2 B13 1 B12 0
+move-up-slow(slow0-0, n3, n4)
+1 B21 1
+2 B22 1 B21 0
+move-up-slow(slow1-0, n3, n4)
+1 B30 1
+2 B31 1 B30 0
+move-up-slow(slow1-0, n3, n5)
+1 B30 1
+2 B32 1 B30 0
+move-up-slow(fast0, n3, n6)
+1 B3 1
+2 B6 1 B3 0
+move-up-slow(fast1, n3, n6)
+1 B12 1
+2 B15 1 B12 0
+move-up-slow(slow1-0, n3, n6)
+1 B30 1
+2 B33 1 B30 0
+move-up-slow(slow1-0, n3, n7)
+1 B30 1
+2 B34 1 B30 0
+move-up-slow(fast0, n3, n8)
+1 B3 1
+2 B8 1 B3 0
+move-up-slow(fast1, n3, n8)
+1 B12 1
+2 B17 1 B12 0
+move-up-slow(slow1-0, n3, n8)
+1 B30 1
+2 B35 1 B30 0
+move-up-slow(slow1-0, n4, n5)
+1 B31 1
+2 B32 1 B31 0
+move-up-slow(fast0, n4, n6)
+1 B4 1
+2 B6 1 B4 0
+move-up-slow(fast1, n4, n6)
+1 B13 1
+2 B15 1 B13 0
+move-up-slow(slow1-0, n4, n6)
+1 B31 1
+2 B33 1 B31 0
+move-up-slow(slow1-0, n4, n7)
+1 B31 1
+2 B34 1 B31 0
+move-up-slow(fast0, n4, n8)
+1 B4 1
+2 B8 1 B4 0
+move-up-slow(fast1, n4, n8)
+1 B13 1
+2 B17 1 B13 0
+move-up-slow(slow1-0, n4, n8)
+1 B31 1
+2 B35 1 B31 0
+move-up-slow(fast0, n5, n6)
+1 B5 1
+2 B6 1 B5 0
+move-up-slow(fast1, n5, n6)
+1 B14 1
+2 B15 1 B14 0
+move-up-slow(slow1-0, n5, n6)
+1 B32 1
+2 B33 1 B32 0
+move-up-slow(slow1-0, n5, n7)
+1 B32 1
+2 B34 1 B32 0
+move-up-slow(fast0, n5, n8)
+1 B5 1
+2 B8 1 B5 0
+move-up-slow(fast1, n5, n8)
+1 B14 1
+2 B17 1 B14 0
+move-up-slow(slow1-0, n5, n8)
+1 B32 1
+2 B35 1 B32 0
+move-up-slow(slow1-0, n6, n7)
+1 B33 1
+2 B34 1 B33 0
+move-up-slow(fast0, n6, n8)
+1 B6 1
+2 B8 1 B6 0
+move-up-slow(fast1, n6, n8)
+1 B15 1
+2 B17 1 B15 0
+move-up-slow(slow1-0, n6, n8)
+1 B33 1
+2 B35 1 B33 0
+move-up-slow(fast0, n7, n8)
+1 B7 1
+2 B8 1 B7 0
+move-up-slow(fast1, n7, n8)
+1 B16 1
+2 B17 1 B16 0
+move-up-slow(slow1-0, n7, n8)
+1 B34 1
+2 B35 1 B34 0
+move-down-slow(fast0, n1, n0)
+1 B1 1
+2 B0 1 B1 0
+move-down-slow(fast1, n1, n0)
+1 B10 1
+2 B9 1 B10 0
+move-down-slow(slow0-0, n1, n0)
+1 B19 1
+2 B18 1 B19 0
+move-down-slow(fast0, n2, n0)
+1 B2 1
+2 B0 1 B2 0
+move-down-slow(fast1, n2, n0)
+1 B11 1
+2 B9 1 B11 0
+move-down-slow(slow0-0, n2, n0)
+1 B20 1
+2 B18 1 B20 0
+move-down-slow(fast0, n3, n0)
+1 B3 1
+2 B0 1 B3 0
+move-down-slow(fast1, n3, n0)
+1 B12 1
+2 B9 1 B12 0
+move-down-slow(slow0-0, n3, n0)
+1 B21 1
+2 B18 1 B21 0
+move-down-slow(fast0, n4, n0)
+1 B4 1
+2 B0 1 B4 0
+move-down-slow(fast1, n4, n0)
+1 B13 1
+2 B9 1 B13 0
+move-down-slow(slow0-0, n4, n0)
+1 B22 1
+2 B18 1 B22 0
+move-down-slow(fast0, n5, n0)
+1 B5 1
+2 B0 1 B5 0
+move-down-slow(fast1, n5, n0)
+1 B14 1
+2 B9 1 B14 0
+move-down-slow(slow0-0, n5, n0)
+1 B23 1
+2 B18 1 B23 0
+move-down-slow(fast0, n6, n0)
+1 B6 1
+2 B0 1 B6 0
+move-down-slow(fast1, n6, n0)
+1 B15 1
+2 B9 1 B15 0
+move-down-slow(slow0-0, n6, n0)
+1 B24 1
+2 B18 1 B24 0
+move-down-slow(fast0, n7, n0)
+1 B7 1
+2 B0 1 B7 0
+move-down-slow(fast1, n7, n0)
+1 B16 1
+2 B9 1 B16 0
+move-down-slow(slow0-0, n7, n0)
+1 B25 1
+2 B18 1 B25 0
+move-down-slow(fast0, n8, n0)
+1 B8 1
+2 B0 1 B8 0
+move-down-slow(fast1, n8, n0)
+1 B17 1
+2 B9 1 B17 0
+move-down-slow(slow0-0, n8, n0)
+1 B26 1
+2 B18 1 B26 0
+move-down-slow(slow0-0, n2, n1)
+1 B20 1
+2 B19 1 B20 0
+move-down-slow(slow0-0, n3, n1)
+1 B21 1
+2 B19 1 B21 0
+move-down-slow(slow0-0, n4, n1)
+1 B22 1
+2 B19 1 B22 0
+move-down-slow(slow0-0, n5, n1)
+1 B23 1
+2 B19 1 B23 0
+move-down-slow(slow0-0, n6, n1)
+1 B24 1
+2 B19 1 B24 0
+move-down-slow(slow0-0, n7, n1)
+1 B25 1
+2 B19 1 B25 0
+move-down-slow(slow0-0, n8, n1)
+1 B26 1
+2 B19 1 B26 0
+move-down-slow(fast0, n3, n2)
+1 B3 1
+2 B2 1 B3 0
+move-down-slow(fast1, n3, n2)
+1 B12 1
+2 B11 1 B12 0
+move-down-slow(slow0-0, n3, n2)
+1 B21 1
+2 B20 1 B21 0
+move-down-slow(fast0, n4, n2)
+1 B4 1
+2 B2 1 B4 0
+move-down-slow(fast1, n4, n2)
+1 B13 1
+2 B11 1 B13 0
+move-down-slow(slow0-0, n4, n2)
+1 B22 1
+2 B20 1 B22 0
+move-down-slow(fast0, n5, n2)
+1 B5 1
+2 B2 1 B5 0
+move-down-slow(fast1, n5, n2)
+1 B14 1
+2 B11 1 B14 0
+move-down-slow(slow0-0, n5, n2)
+1 B23 1
+2 B20 1 B23 0
+move-down-slow(fast0, n6, n2)
+1 B6 1
+2 B2 1 B6 0
+move-down-slow(fast1, n6, n2)
+1 B15 1
+2 B11 1 B15 0
+move-down-slow(slow0-0, n6, n2)
+1 B24 1
+2 B20 1 B24 0
+move-down-slow(fast0, n7, n2)
+1 B7 1
+2 B2 1 B7 0
+move-down-slow(fast1, n7, n2)
+1 B16 1
+2 B11 1 B16 0
+move-down-slow(slow0-0, n7, n2)
+1 B25 1
+2 B20 1 B25 0
+move-down-slow(fast0, n8, n2)
+1 B8 1
+2 B2 1 B8 0
+move-down-slow(fast1, n8, n2)
+1 B17 1
+2 B11 1 B17 0
+move-down-slow(slow0-0, n8, n2)
+1 B26 1
+2 B20 1 B26 0
+move-down-slow(slow0-0, n4, n3)
+1 B22 1
+2 B21 1 B22 0
+move-down-slow(slow0-0, n5, n3)
+1 B23 1
+2 B21 1 B23 0
+move-down-slow(slow0-0, n6, n3)
+1 B24 1
+2 B21 1 B24 0
+move-down-slow(slow0-0, n7, n3)
+1 B25 1
+2 B21 1 B25 0
+move-down-slow(slow0-0, n8, n3)
+1 B26 1
+2 B21 1 B26 0
+move-down-slow(fast0, n5, n4)
+1 B5 1
+2 B4 1 B5 0
+move-down-slow(fast1, n5, n4)
+1 B14 1
+2 B13 1 B14 0
+move-down-slow(slow0-0, n5, n4)
+1 B23 1
+2 B22 1 B23 0
+move-down-slow(slow1-0, n5, n4)
+1 B32 1
+2 B31 1 B32 0
+move-down-slow(fast0, n6, n4)
+1 B6 1
+2 B4 1 B6 0
+move-down-slow(fast1, n6, n4)
+1 B15 1
+2 B13 1 B15 0
+move-down-slow(slow0-0, n6, n4)
+1 B24 1
+2 B22 1 B24 0
+move-down-slow(slow1-0, n6, n4)
+1 B33 1
+2 B31 1 B33 0
+move-down-slow(fast0, n7, n4)
+1 B7 1
+2 B4 1 B7 0
+move-down-slow(fast1, n7, n4)
+1 B16 1
+2 B13 1 B16 0
+move-down-slow(slow0-0, n7, n4)
+1 B25 1
+2 B22 1 B25 0
+move-down-slow(slow1-0, n7, n4)
+1 B34 1
+2 B31 1 B34 0
+move-down-slow(fast0, n8, n4)
+1 B8 1
+2 B4 1 B8 0
+move-down-slow(fast1, n8, n4)
+1 B17 1
+2 B13 1 B17 0
+move-down-slow(slow0-0, n8, n4)
+1 B26 1
+2 B22 1 B26 0
+move-down-slow(slow1-0, n8, n4)
+1 B35 1
+2 B31 1 B35 0
+move-down-slow(slow1-0, n6, n5)
+1 B33 1
+2 B32 1 B33 0
+move-down-slow(slow1-0, n7, n5)
+1 B34 1
+2 B32 1 B34 0
+move-down-slow(slow1-0, n8, n5)
+1 B35 1
+2 B32 1 B35 0
+move-down-slow(fast0, n7, n6)
+1 B7 1
+2 B6 1 B7 0
+move-down-slow(fast1, n7, n6)
+1 B16 1
+2 B15 1 B16 0
+move-down-slow(slow1-0, n7, n6)
+1 B34 1
+2 B33 1 B34 0
+move-down-slow(fast0, n8, n6)
+1 B8 1
+2 B6 1 B8 0
+move-down-slow(fast1, n8, n6)
+1 B17 1
+2 B15 1 B17 0
+move-down-slow(slow1-0, n8, n6)
+1 B35 1
+2 B33 1 B35 0
+move-down-slow(slow1-0, n8, n7)
+1 B35 1
+2 B34 1 B35 0
+move-up-fast(slow0-0, n0, n1)
+1 B18 1
+2 B19 1 B18 0
+move-up-fast(fast0, n0, n2)
+1 B0 1
+2 B2 1 B0 0
+move-up-fast(fast1, n0, n2)
+1 B9 1
+2 B11 1 B9 0
+move-up-fast(slow0-0, n0, n2)
+1 B18 1
+2 B20 1 B18 0
+move-up-fast(slow0-0, n0, n3)
+1 B18 1
+2 B21 1 B18 0
+move-up-fast(fast0, n0, n4)
+1 B0 1
+2 B4 1 B0 0
+move-up-fast(fast1, n0, n4)
+1 B9 1
+2 B13 1 B9 0
+move-up-fast(slow0-0, n0, n4)
+1 B18 1
+2 B22 1 B18 0
+move-up-fast(slow1-0, n0, n4)
+1 B27 1
+2 B31 1 B27 0
+move-up-fast(slow1-0, n0, n5)
+1 B27 1
+2 B32 1 B27 0
+move-up-fast(fast0, n0, n6)
+1 B0 1
+2 B6 1 B0 0
+move-up-fast(fast1, n0, n6)
+1 B9 1
+2 B15 1 B9 0
+move-up-fast(slow1-0, n0, n6)
+1 B27 1
+2 B33 1 B27 0
+move-up-fast(slow1-0, n0, n7)
+1 B27 1
+2 B34 1 B27 0
+move-up-fast(fast0, n0, n8)
+1 B0 1
+2 B8 1 B0 0
+move-up-fast(fast1, n0, n8)
+1 B9 1
+2 B17 1 B9 0
+move-up-fast(slow1-0, n0, n8)
+1 B27 1
+2 B35 1 B27 0
+move-up-fast(fast0, n1, n2)
+1 B1 1
+2 B2 1 B1 0
+move-up-fast(fast1, n1, n2)
+1 B10 1
+2 B11 1 B10 0
+move-up-fast(slow0-0, n1, n2)
+1 B19 1
+2 B20 1 B19 0
+move-up-fast(slow0-0, n1, n3)
+1 B19 1
+2 B21 1 B19 0
+move-up-fast(fast0, n1, n4)
+1 B1 1
+2 B4 1 B1 0
+move-up-fast(fast1, n1, n4)
+1 B10 1
+2 B13 1 B10 0
+move-up-fast(slow0-0, n1, n4)
+1 B19 1
+2 B22 1 B19 0
+move-up-fast(slow1-0, n1, n4)
+1 B28 1
+2 B31 1 B28 0
+move-up-fast(slow1-0, n1, n5)
+1 B28 1
+2 B32 1 B28 0
+move-up-fast(fast0, n1, n6)
+1 B1 1
+2 B6 1 B1 0
+move-up-fast(fast1, n1, n6)
+1 B10 1
+2 B15 1 B10 0
+move-up-fast(slow1-0, n1, n6)
+1 B28 1
+2 B33 1 B28 0
+move-up-fast(slow1-0, n1, n7)
+1 B28 1
+2 B34 1 B28 0
+move-up-fast(fast0, n1, n8)
+1 B1 1
+2 B8 1 B1 0
+move-up-fast(fast1, n1, n8)
+1 B10 1
+2 B17 1 B10 0
+move-up-fast(slow1-0, n1, n8)
+1 B28 1
+2 B35 1 B28 0
+move-up-fast(slow0-0, n2, n3)
+1 B20 1
+2 B21 1 B20 0
+move-up-fast(fast0, n2, n4)
+1 B2 1
+2 B4 1 B2 0
+move-up-fast(fast1, n2, n4)
+1 B11 1
+2 B13 1 B11 0
+move-up-fast(slow0-0, n2, n4)
+1 B20 1
+2 B22 1 B20 0
+move-up-fast(slow1-0, n2, n4)
+1 B29 1
+2 B31 1 B29 0
+move-up-fast(slow1-0, n2, n5)
+1 B29 1
+2 B32 1 B29 0
+move-up-fast(fast0, n2, n6)
+1 B2 1
+2 B6 1 B2 0
+move-up-fast(fast1, n2, n6)
+1 B11 1
+2 B15 1 B11 0
+move-up-fast(slow1-0, n2, n6)
+1 B29 1
+2 B33 1 B29 0
+move-up-fast(slow1-0, n2, n7)
+1 B29 1
+2 B34 1 B29 0
+move-up-fast(fast0, n2, n8)
+1 B2 1
+2 B8 1 B2 0
+move-up-fast(fast1, n2, n8)
+1 B11 1
+2 B17 1 B11 0
+move-up-fast(slow1-0, n2, n8)
+1 B29 1
+2 B35 1 B29 0
+move-up-fast(fast0, n3, n4)
+1 B3 1
+2 B4 1 B3 0
+move-up-fast(fast1, n3, n4)
+1 B12 1
+2 B13 1 B12 0
+move-up-fast(slow0-0, n3, n4)
+1 B21 1
+2 B22 1 B21 0
+move-up-fast(slow1-0, n3, n4)
+1 B30 1
+2 B31 1 B30 0
+move-up-fast(slow1-0, n3, n5)
+1 B30 1
+2 B32 1 B30 0
+move-up-fast(fast0, n3, n6)
+1 B3 1
+2 B6 1 B3 0
+move-up-fast(fast1, n3, n6)
+1 B12 1
+2 B15 1 B12 0
+move-up-fast(slow1-0, n3, n6)
+1 B30 1
+2 B33 1 B30 0
+move-up-fast(slow1-0, n3, n7)
+1 B30 1
+2 B34 1 B30 0
+move-up-fast(fast0, n3, n8)
+1 B3 1
+2 B8 1 B3 0
+move-up-fast(fast1, n3, n8)
+1 B12 1
+2 B17 1 B12 0
+move-up-fast(slow1-0, n3, n8)
+1 B30 1
+2 B35 1 B30 0
+move-up-fast(slow1-0, n4, n5)
+1 B31 1
+2 B32 1 B31 0
+move-up-fast(fast0, n4, n6)
+1 B4 1
+2 B6 1 B4 0
+move-up-fast(fast1, n4, n6)
+1 B13 1
+2 B15 1 B13 0
+move-up-fast(slow1-0, n4, n6)
+1 B31 1
+2 B33 1 B31 0
+move-up-fast(slow1-0, n4, n7)
+1 B31 1
+2 B34 1 B31 0
+move-up-fast(fast0, n4, n8)
+1 B4 1
+2 B8 1 B4 0
+move-up-fast(fast1, n4, n8)
+1 B13 1
+2 B17 1 B13 0
+move-up-fast(slow1-0, n4, n8)
+1 B31 1
+2 B35 1 B31 0
+move-up-fast(fast0, n5, n6)
+1 B5 1
+2 B6 1 B5 0
+move-up-fast(fast1, n5, n6)
+1 B14 1
+2 B15 1 B14 0
+move-up-fast(slow1-0, n5, n6)
+1 B32 1
+2 B33 1 B32 0
+move-up-fast(slow1-0, n5, n7)
+1 B32 1
+2 B34 1 B32 0
+move-up-fast(fast0, n5, n8)
+1 B5 1
+2 B8 1 B5 0
+move-up-fast(fast1, n5, n8)
+1 B14 1
+2 B17 1 B14 0
+move-up-fast(slow1-0, n5, n8)
+1 B32 1
+2 B35 1 B32 0
+move-up-fast(slow1-0, n6, n7)
+1 B33 1
+2 B34 1 B33 0
+move-up-fast(fast0, n6, n8)
+1 B6 1
+2 B8 1 B6 0
+move-up-fast(fast1, n6, n8)
+1 B15 1
+2 B17 1 B15 0
+move-up-fast(slow1-0, n6, n8)
+1 B33 1
+2 B35 1 B33 0
+move-up-fast(fast0, n7, n8)
+1 B7 1
+2 B8 1 B7 0
+move-up-fast(fast1, n7, n8)
+1 B16 1
+2 B17 1 B16 0
+move-up-fast(slow1-0, n7, n8)
+1 B34 1
+2 B35 1 B34 0
+move-down-fast(fast0, n1, n0)
+1 B1 1
+2 B0 1 B1 0
+move-down-fast(fast1, n1, n0)
+1 B10 1
+2 B9 1 B10 0
+move-down-fast(slow0-0, n1, n0)
+1 B19 1
+2 B18 1 B19 0
+move-down-fast(fast0, n2, n0)
+1 B2 1
+2 B0 1 B2 0
+move-down-fast(fast1, n2, n0)
+1 B11 1
+2 B9 1 B11 0
+move-down-fast(slow0-0, n2, n0)
+1 B20 1
+2 B18 1 B20 0
+move-down-fast(fast0, n3, n0)
+1 B3 1
+2 B0 1 B3 0
+move-down-fast(fast1, n3, n0)
+1 B12 1
+2 B9 1 B12 0
+move-down-fast(slow0-0, n3, n0)
+1 B21 1
+2 B18 1 B21 0
+move-down-fast(fast0, n4, n0)
+1 B4 1
+2 B0 1 B4 0
+move-down-fast(fast1, n4, n0)
+1 B13 1
+2 B9 1 B13 0
+move-down-fast(slow0-0, n4, n0)
+1 B22 1
+2 B18 1 B22 0
+move-down-fast(fast0, n5, n0)
+1 B5 1
+2 B0 1 B5 0
+move-down-fast(fast1, n5, n0)
+1 B14 1
+2 B9 1 B14 0
+move-down-fast(slow0-0, n5, n0)
+1 B23 1
+2 B18 1 B23 0
+move-down-fast(fast0, n6, n0)
+1 B6 1
+2 B0 1 B6 0
+move-down-fast(fast1, n6, n0)
+1 B15 1
+2 B9 1 B15 0
+move-down-fast(slow0-0, n6, n0)
+1 B24 1
+2 B18 1 B24 0
+move-down-fast(fast0, n7, n0)
+1 B7 1
+2 B0 1 B7 0
+move-down-fast(fast1, n7, n0)
+1 B16 1
+2 B9 1 B16 0
+move-down-fast(slow0-0, n7, n0)
+1 B25 1
+2 B18 1 B25 0
+move-down-fast(fast0, n8, n0)
+1 B8 1
+2 B0 1 B8 0
+move-down-fast(fast1, n8, n0)
+1 B17 1
+2 B9 1 B17 0
+move-down-fast(slow0-0, n8, n0)
+1 B26 1
+2 B18 1 B26 0
+move-down-fast(slow0-0, n2, n1)
+1 B20 1
+2 B19 1 B20 0
+move-down-fast(slow0-0, n3, n1)
+1 B21 1
+2 B19 1 B21 0
+move-down-fast(slow0-0, n4, n1)
+1 B22 1
+2 B19 1 B22 0
+move-down-fast(slow0-0, n5, n1)
+1 B23 1
+2 B19 1 B23 0
+move-down-fast(slow0-0, n6, n1)
+1 B24 1
+2 B19 1 B24 0
+move-down-fast(slow0-0, n7, n1)
+1 B25 1
+2 B19 1 B25 0
+move-down-fast(slow0-0, n8, n1)
+1 B26 1
+2 B19 1 B26 0
+move-down-fast(fast0, n3, n2)
+1 B3 1
+2 B2 1 B3 0
+move-down-fast(fast1, n3, n2)
+1 B12 1
+2 B11 1 B12 0
+move-down-fast(slow0-0, n3, n2)
+1 B21 1
+2 B20 1 B21 0
+move-down-fast(fast0, n4, n2)
+1 B4 1
+2 B2 1 B4 0
+move-down-fast(fast1, n4, n2)
+1 B13 1
+2 B11 1 B13 0
+move-down-fast(slow0-0, n4, n2)
+1 B22 1
+2 B20 1 B22 0
+move-down-fast(fast0, n5, n2)
+1 B5 1
+2 B2 1 B5 0
+move-down-fast(fast1, n5, n2)
+1 B14 1
+2 B11 1 B14 0
+move-down-fast(slow0-0, n5, n2)
+1 B23 1
+2 B20 1 B23 0
+move-down-fast(fast0, n6, n2)
+1 B6 1
+2 B2 1 B6 0
+move-down-fast(fast1, n6, n2)
+1 B15 1
+2 B11 1 B15 0
+move-down-fast(slow0-0, n6, n2)
+1 B24 1
+2 B20 1 B24 0
+move-down-fast(fast0, n7, n2)
+1 B7 1
+2 B2 1 B7 0
+move-down-fast(fast1, n7, n2)
+1 B16 1
+2 B11 1 B16 0
+move-down-fast(slow0-0, n7, n2)
+1 B25 1
+2 B20 1 B25 0
+move-down-fast(fast0, n8, n2)
+1 B8 1
+2 B2 1 B8 0
+move-down-fast(fast1, n8, n2)
+1 B17 1
+2 B11 1 B17 0
+move-down-fast(slow0-0, n8, n2)
+1 B26 1
+2 B20 1 B26 0
+move-down-fast(slow0-0, n4, n3)
+1 B22 1
+2 B21 1 B22 0
+move-down-fast(slow0-0, n5, n3)
+1 B23 1
+2 B21 1 B23 0
+move-down-fast(slow0-0, n6, n3)
+1 B24 1
+2 B21 1 B24 0
+move-down-fast(slow0-0, n7, n3)
+1 B25 1
+2 B21 1 B25 0
+move-down-fast(slow0-0, n8, n3)
+1 B26 1
+2 B21 1 B26 0
+move-down-fast(fast0, n5, n4)
+1 B5 1
+2 B4 1 B5 0
+move-down-fast(fast1, n5, n4)
+1 B14 1
+2 B13 1 B14 0
+move-down-fast(slow0-0, n5, n4)
+1 B23 1
+2 B22 1 B23 0
+move-down-fast(slow1-0, n5, n4)
+1 B32 1
+2 B31 1 B32 0
+move-down-fast(fast0, n6, n4)
+1 B6 1
+2 B4 1 B6 0
+move-down-fast(fast1, n6, n4)
+1 B15 1
+2 B13 1 B15 0
+move-down-fast(slow0-0, n6, n4)
+1 B24 1
+2 B22 1 B24 0
+move-down-fast(slow1-0, n6, n4)
+1 B33 1
+2 B31 1 B33 0
+move-down-fast(fast0, n7, n4)
+1 B7 1
+2 B4 1 B7 0
+move-down-fast(fast1, n7, n4)
+1 B16 1
+2 B13 1 B16 0
+move-down-fast(slow0-0, n7, n4)
+1 B25 1
+2 B22 1 B25 0
+move-down-fast(slow1-0, n7, n4)
+1 B34 1
+2 B31 1 B34 0
+move-down-fast(fast0, n8, n4)
+1 B8 1
+2 B4 1 B8 0
+move-down-fast(fast1, n8, n4)
+1 B17 1
+2 B13 1 B17 0
+move-down-fast(slow0-0, n8, n4)
+1 B26 1
+2 B22 1 B26 0
+move-down-fast(slow1-0, n8, n4)
+1 B35 1
+2 B31 1 B35 0
+move-down-fast(slow1-0, n6, n5)
+1 B33 1
+2 B32 1 B33 0
+move-down-fast(slow1-0, n7, n5)
+1 B34 1
+2 B32 1 B34 0
+move-down-fast(slow1-0, n8, n5)
+1 B35 1
+2 B32 1 B35 0
+move-down-fast(fast0, n7, n6)
+1 B7 1
+2 B6 1 B7 0
+move-down-fast(fast1, n7, n6)
+1 B16 1
+2 B15 1 B16 0
+move-down-fast(slow1-0, n7, n6)
+1 B34 1
+2 B33 1 B34 0
+move-down-fast(fast0, n8, n6)
+1 B8 1
+2 B6 1 B8 0
+move-down-fast(fast1, n8, n6)
+1 B17 1
+2 B15 1 B17 0
+move-down-fast(slow1-0, n8, n6)
+1 B35 1
+2 B33 1 B35 0
+move-down-fast(slow1-0, n8, n7)
+1 B35 1
+2 B34 1 B35 0
+board((N4), fast0, n0, n0, n1)
+3 B0 1 B36 1 N4 1
+4 B37 1 B36 0 N4 0 N0 1
+board((N5), fast0, n1, n0, n1)
+3 B1 1 B36 1 N5 1
+4 B37 1 B36 0 N5 0 N0 1
+board((N6), fast0, n2, n0, n1)
+3 B2 1 B36 1 N6 1
+4 B37 1 B36 0 N6 0 N0 1
+board((N7), fast0, n3, n0, n1)
+3 B3 1 B36 1 N7 1
+4 B37 1 B36 0 N7 0 N0 1
+board((N8), fast0, n4, n0, n1)
+3 B4 1 B36 1 N8 1
+4 B37 1 B36 0 N8 0 N0 1
+board((N9), fast0, n5, n0, n1)
+3 B5 1 B36 1 N9 1
+4 B37 1 B36 0 N9 0 N0 1
+board((N10), fast0, n6, n0, n1)
+3 B6 1 B36 1 N10 1
+4 B37 1 B36 0 N10 0 N0 1
+board((N11), fast0, n7, n0, n1)
+3 B7 1 B36 1 N11 1
+4 B37 1 B36 0 N11 0 N0 1
+board((N12), fast0, n8, n0, n1)
+3 B8 1 B36 1 N12 1
+4 B37 1 B36 0 N12 0 N0 1
+board((N17), fast0, n0, n0, n1)
+3 B0 1 B36 1 N17 1
+4 B37 1 B36 0 N17 0 N13 1
+board((N18), fast0, n1, n0, n1)
+3 B1 1 B36 1 N18 1
+4 B37 1 B36 0 N18 0 N13 1
+board((N19), fast0, n2, n0, n1)
+3 B2 1 B36 1 N19 1
+4 B37 1 B36 0 N19 0 N13 1
+board((N20), fast0, n3, n0, n1)
+3 B3 1 B36 1 N20 1
+4 B37 1 B36 0 N20 0 N13 1
+board((N21), fast0, n4, n0, n1)
+3 B4 1 B36 1 N21 1
+4 B37 1 B36 0 N21 0 N13 1
+board((N22), fast0, n5, n0, n1)
+3 B5 1 B36 1 N22 1
+4 B37 1 B36 0 N22 0 N13 1
+board((N23), fast0, n6, n0, n1)
+3 B6 1 B36 1 N23 1
+4 B37 1 B36 0 N23 0 N13 1
+board((N24), fast0, n7, n0, n1)
+3 B7 1 B36 1 N24 1
+4 B37 1 B36 0 N24 0 N13 1
+board((N25), fast0, n8, n0, n1)
+3 B8 1 B36 1 N25 1
+4 B37 1 B36 0 N25 0 N13 1
+board((N30), fast0, n0, n0, n1)
+3 B0 1 B36 1 N30 1
+4 B37 1 B36 0 N30 0 N26 1
+board((N31), fast0, n1, n0, n1)
+3 B1 1 B36 1 N31 1
+4 B37 1 B36 0 N31 0 N26 1
+board((N32), fast0, n2, n0, n1)
+3 B2 1 B36 1 N32 1
+4 B37 1 B36 0 N32 0 N26 1
+board((N33), fast0, n3, n0, n1)
+3 B3 1 B36 1 N33 1
+4 B37 1 B36 0 N33 0 N26 1
+board((N34), fast0, n4, n0, n1)
+3 B4 1 B36 1 N34 1
+4 B37 1 B36 0 N34 0 N26 1
+board((N35), fast0, n5, n0, n1)
+3 B5 1 B36 1 N35 1
+4 B37 1 B36 0 N35 0 N26 1
+board((N36), fast0, n6, n0, n1)
+3 B6 1 B36 1 N36 1
+4 B37 1 B36 0 N36 0 N26 1
+board((N37), fast0, n7, n0, n1)
+3 B7 1 B36 1 N37 1
+4 B37 1 B36 0 N37 0 N26 1
+board((N38), fast0, n8, n0, n1)
+3 B8 1 B36 1 N38 1
+4 B37 1 B36 0 N38 0 N26 1
+board((N43), fast0, n0, n0, n1)
+3 B0 1 B36 1 N43 1
+4 B37 1 B36 0 N43 0 N39 1
+board((N44), fast0, n1, n0, n1)
+3 B1 1 B36 1 N44 1
+4 B37 1 B36 0 N44 0 N39 1
+board((N45), fast0, n2, n0, n1)
+3 B2 1 B36 1 N45 1
+4 B37 1 B36 0 N45 0 N39 1
+board((N46), fast0, n3, n0, n1)
+3 B3 1 B36 1 N46 1
+4 B37 1 B36 0 N46 0 N39 1
+board((N47), fast0, n4, n0, n1)
+3 B4 1 B36 1 N47 1
+4 B37 1 B36 0 N47 0 N39 1
+board((N48), fast0, n5, n0, n1)
+3 B5 1 B36 1 N48 1
+4 B37 1 B36 0 N48 0 N39 1
+board((N49), fast0, n6, n0, n1)
+3 B6 1 B36 1 N49 1
+4 B37 1 B36 0 N49 0 N39 1
+board((N50), fast0, n7, n0, n1)
+3 B7 1 B36 1 N50 1
+4 B37 1 B36 0 N50 0 N39 1
+board((N51), fast0, n8, n0, n1)
+3 B8 1 B36 1 N51 1
+4 B37 1 B36 0 N51 0 N39 1
+board((N4), fast1, n0, n0, n1)
+3 B9 1 B45 1 N4 1
+4 B46 1 B45 0 N4 0 N1 1
+board((N5), fast1, n1, n0, n1)
+3 B10 1 B45 1 N5 1
+4 B46 1 B45 0 N5 0 N1 1
+board((N6), fast1, n2, n0, n1)
+3 B11 1 B45 1 N6 1
+4 B46 1 B45 0 N6 0 N1 1
+board((N7), fast1, n3, n0, n1)
+3 B12 1 B45 1 N7 1
+4 B46 1 B45 0 N7 0 N1 1
+board((N8), fast1, n4, n0, n1)
+3 B13 1 B45 1 N8 1
+4 B46 1 B45 0 N8 0 N1 1
+board((N9), fast1, n5, n0, n1)
+3 B14 1 B45 1 N9 1
+4 B46 1 B45 0 N9 0 N1 1
+board((N10), fast1, n6, n0, n1)
+3 B15 1 B45 1 N10 1
+4 B46 1 B45 0 N10 0 N1 1
+board((N11), fast1, n7, n0, n1)
+3 B16 1 B45 1 N11 1
+4 B46 1 B45 0 N11 0 N1 1
+board((N12), fast1, n8, n0, n1)
+3 B17 1 B45 1 N12 1
+4 B46 1 B45 0 N12 0 N1 1
+board((N17), fast1, n0, n0, n1)
+3 B9 1 B45 1 N17 1
+4 B46 1 B45 0 N17 0 N14 1
+board((N18), fast1, n1, n0, n1)
+3 B10 1 B45 1 N18 1
+4 B46 1 B45 0 N18 0 N14 1
+board((N19), fast1, n2, n0, n1)
+3 B11 1 B45 1 N19 1
+4 B46 1 B45 0 N19 0 N14 1
+board((N20), fast1, n3, n0, n1)
+3 B12 1 B45 1 N20 1
+4 B46 1 B45 0 N20 0 N14 1
+board((N21), fast1, n4, n0, n1)
+3 B13 1 B45 1 N21 1
+4 B46 1 B45 0 N21 0 N14 1
+board((N22), fast1, n5, n0, n1)
+3 B14 1 B45 1 N22 1
+4 B46 1 B45 0 N22 0 N14 1
+board((N23), fast1, n6, n0, n1)
+3 B15 1 B45 1 N23 1
+4 B46 1 B45 0 N23 0 N14 1
+board((N24), fast1, n7, n0, n1)
+3 B16 1 B45 1 N24 1
+4 B46 1 B45 0 N24 0 N14 1
+board((N25), fast1, n8, n0, n1)
+3 B17 1 B45 1 N25 1
+4 B46 1 B45 0 N25 0 N14 1
+board((N30), fast1, n0, n0, n1)
+3 B9 1 B45 1 N30 1
+4 B46 1 B45 0 N30 0 N27 1
+board((N31), fast1, n1, n0, n1)
+3 B10 1 B45 1 N31 1
+4 B46 1 B45 0 N31 0 N27 1
+board((N32), fast1, n2, n0, n1)
+3 B11 1 B45 1 N32 1
+4 B46 1 B45 0 N32 0 N27 1
+board((N33), fast1, n3, n0, n1)
+3 B12 1 B45 1 N33 1
+4 B46 1 B45 0 N33 0 N27 1
+board((N34), fast1, n4, n0, n1)
+3 B13 1 B45 1 N34 1
+4 B46 1 B45 0 N34 0 N27 1
+board((N35), fast1, n5, n0, n1)
+3 B14 1 B45 1 N35 1
+4 B46 1 B45 0 N35 0 N27 1
+board((N36), fast1, n6, n0, n1)
+3 B15 1 B45 1 N36 1
+4 B46 1 B45 0 N36 0 N27 1
+board((N37), fast1, n7, n0, n1)
+3 B16 1 B45 1 N37 1
+4 B46 1 B45 0 N37 0 N27 1
+board((N38), fast1, n8, n0, n1)
+3 B17 1 B45 1 N38 1
+4 B46 1 B45 0 N38 0 N27 1
+board((N43), fast1, n0, n0, n1)
+3 B9 1 B45 1 N43 1
+4 B46 1 B45 0 N43 0 N40 1
+board((N44), fast1, n1, n0, n1)
+3 B10 1 B45 1 N44 1
+4 B46 1 B45 0 N44 0 N40 1
+board((N45), fast1, n2, n0, n1)
+3 B11 1 B45 1 N45 1
+4 B46 1 B45 0 N45 0 N40 1
+board((N46), fast1, n3, n0, n1)
+3 B12 1 B45 1 N46 1
+4 B46 1 B45 0 N46 0 N40 1
+board((N47), fast1, n4, n0, n1)
+3 B13 1 B45 1 N47 1
+4 B46 1 B45 0 N47 0 N40 1
+board((N48), fast1, n5, n0, n1)
+3 B14 1 B45 1 N48 1
+4 B46 1 B45 0 N48 0 N40 1
+board((N49), fast1, n6, n0, n1)
+3 B15 1 B45 1 N49 1
+4 B46 1 B45 0 N49 0 N40 1
+board((N50), fast1, n7, n0, n1)
+3 B16 1 B45 1 N50 1
+4 B46 1 B45 0 N50 0 N40 1
+board((N51), fast1, n8, n0, n1)
+3 B17 1 B45 1 N51 1
+4 B46 1 B45 0 N51 0 N40 1
+board((N4), slow0-0, n0, n0, n1)
+3 B18 1 B54 1 N4 1
+4 B55 1 B54 0 N4 0 N2 1
+board((N5), slow0-0, n1, n0, n1)
+3 B19 1 B54 1 N5 1
+4 B55 1 B54 0 N5 0 N2 1
+board((N6), slow0-0, n2, n0, n1)
+3 B20 1 B54 1 N6 1
+4 B55 1 B54 0 N6 0 N2 1
+board((N7), slow0-0, n3, n0, n1)
+3 B21 1 B54 1 N7 1
+4 B55 1 B54 0 N7 0 N2 1
+board((N8), slow0-0, n4, n0, n1)
+3 B22 1 B54 1 N8 1
+4 B55 1 B54 0 N8 0 N2 1
+board((N9), slow0-0, n5, n0, n1)
+3 B23 1 B54 1 N9 1
+4 B55 1 B54 0 N9 0 N2 1
+board((N10), slow0-0, n6, n0, n1)
+3 B24 1 B54 1 N10 1
+4 B55 1 B54 0 N10 0 N2 1
+board((N11), slow0-0, n7, n0, n1)
+3 B25 1 B54 1 N11 1
+4 B55 1 B54 0 N11 0 N2 1
+board((N12), slow0-0, n8, n0, n1)
+3 B26 1 B54 1 N12 1
+4 B55 1 B54 0 N12 0 N2 1
+board((N17), slow0-0, n0, n0, n1)
+3 B18 1 B54 1 N17 1
+4 B55 1 B54 0 N17 0 N15 1
+board((N18), slow0-0, n1, n0, n1)
+3 B19 1 B54 1 N18 1
+4 B55 1 B54 0 N18 0 N15 1
+board((N19), slow0-0, n2, n0, n1)
+3 B20 1 B54 1 N19 1
+4 B55 1 B54 0 N19 0 N15 1
+board((N20), slow0-0, n3, n0, n1)
+3 B21 1 B54 1 N20 1
+4 B55 1 B54 0 N20 0 N15 1
+board((N21), slow0-0, n4, n0, n1)
+3 B22 1 B54 1 N21 1
+4 B55 1 B54 0 N21 0 N15 1
+board((N22), slow0-0, n5, n0, n1)
+3 B23 1 B54 1 N22 1
+4 B55 1 B54 0 N22 0 N15 1
+board((N23), slow0-0, n6, n0, n1)
+3 B24 1 B54 1 N23 1
+4 B55 1 B54 0 N23 0 N15 1
+board((N24), slow0-0, n7, n0, n1)
+3 B25 1 B54 1 N24 1
+4 B55 1 B54 0 N24 0 N15 1
+board((N25), slow0-0, n8, n0, n1)
+3 B26 1 B54 1 N25 1
+4 B55 1 B54 0 N25 0 N15 1
+board((N30), slow0-0, n0, n0, n1)
+3 B18 1 B54 1 N30 1
+4 B55 1 B54 0 N30 0 N28 1
+board((N31), slow0-0, n1, n0, n1)
+3 B19 1 B54 1 N31 1
+4 B55 1 B54 0 N31 0 N28 1
+board((N32), slow0-0, n2, n0, n1)
+3 B20 1 B54 1 N32 1
+4 B55 1 B54 0 N32 0 N28 1
+board((N33), slow0-0, n3, n0, n1)
+3 B21 1 B54 1 N33 1
+4 B55 1 B54 0 N33 0 N28 1
+board((N34), slow0-0, n4, n0, n1)
+3 B22 1 B54 1 N34 1
+4 B55 1 B54 0 N34 0 N28 1
+board((N35), slow0-0, n5, n0, n1)
+3 B23 1 B54 1 N35 1
+4 B55 1 B54 0 N35 0 N28 1
+board((N36), slow0-0, n6, n0, n1)
+3 B24 1 B54 1 N36 1
+4 B55 1 B54 0 N36 0 N28 1
+board((N37), slow0-0, n7, n0, n1)
+3 B25 1 B54 1 N37 1
+4 B55 1 B54 0 N37 0 N28 1
+board((N38), slow0-0, n8, n0, n1)
+3 B26 1 B54 1 N38 1
+4 B55 1 B54 0 N38 0 N28 1
+board((N43), slow0-0, n0, n0, n1)
+3 B18 1 B54 1 N43 1
+4 B55 1 B54 0 N43 0 N41 1
+board((N44), slow0-0, n1, n0, n1)
+3 B19 1 B54 1 N44 1
+4 B55 1 B54 0 N44 0 N41 1
+board((N45), slow0-0, n2, n0, n1)
+3 B20 1 B54 1 N45 1
+4 B55 1 B54 0 N45 0 N41 1
+board((N46), slow0-0, n3, n0, n1)
+3 B21 1 B54 1 N46 1
+4 B55 1 B54 0 N46 0 N41 1
+board((N47), slow0-0, n4, n0, n1)
+3 B22 1 B54 1 N47 1
+4 B55 1 B54 0 N47 0 N41 1
+board((N48), slow0-0, n5, n0, n1)
+3 B23 1 B54 1 N48 1
+4 B55 1 B54 0 N48 0 N41 1
+board((N49), slow0-0, n6, n0, n1)
+3 B24 1 B54 1 N49 1
+4 B55 1 B54 0 N49 0 N41 1
+board((N50), slow0-0, n7, n0, n1)
+3 B25 1 B54 1 N50 1
+4 B55 1 B54 0 N50 0 N41 1
+board((N51), slow0-0, n8, n0, n1)
+3 B26 1 B54 1 N51 1
+4 B55 1 B54 0 N51 0 N41 1
+board((N4), slow1-0, n0, n0, n1)
+3 B27 1 B63 1 N4 1
+4 B64 1 B63 0 N4 0 N3 1
+board((N5), slow1-0, n1, n0, n1)
+3 B28 1 B63 1 N5 1
+4 B64 1 B63 0 N5 0 N3 1
+board((N6), slow1-0, n2, n0, n1)
+3 B29 1 B63 1 N6 1
+4 B64 1 B63 0 N6 0 N3 1
+board((N7), slow1-0, n3, n0, n1)
+3 B30 1 B63 1 N7 1
+4 B64 1 B63 0 N7 0 N3 1
+board((N8), slow1-0, n4, n0, n1)
+3 B31 1 B63 1 N8 1
+4 B64 1 B63 0 N8 0 N3 1
+board((N9), slow1-0, n5, n0, n1)
+3 B32 1 B63 1 N9 1
+4 B64 1 B63 0 N9 0 N3 1
+board((N10), slow1-0, n6, n0, n1)
+3 B33 1 B63 1 N10 1
+4 B64 1 B63 0 N10 0 N3 1
+board((N11), slow1-0, n7, n0, n1)
+3 B34 1 B63 1 N11 1
+4 B64 1 B63 0 N11 0 N3 1
+board((N12), slow1-0, n8, n0, n1)
+3 B35 1 B63 1 N12 1
+4 B64 1 B63 0 N12 0 N3 1
+board((N17), slow1-0, n0, n0, n1)
+3 B27 1 B63 1 N17 1
+4 B64 1 B63 0 N17 0 N16 1
+board((N18), slow1-0, n1, n0, n1)
+3 B28 1 B63 1 N18 1
+4 B64 1 B63 0 N18 0 N16 1
+board((N19), slow1-0, n2, n0, n1)
+3 B29 1 B63 1 N19 1
+4 B64 1 B63 0 N19 0 N16 1
+board((N20), slow1-0, n3, n0, n1)
+3 B30 1 B63 1 N20 1
+4 B64 1 B63 0 N20 0 N16 1
+board((N21), slow1-0, n4, n0, n1)
+3 B31 1 B63 1 N21 1
+4 B64 1 B63 0 N21 0 N16 1
+board((N22), slow1-0, n5, n0, n1)
+3 B32 1 B63 1 N22 1
+4 B64 1 B63 0 N22 0 N16 1
+board((N23), slow1-0, n6, n0, n1)
+3 B33 1 B63 1 N23 1
+4 B64 1 B63 0 N23 0 N16 1
+board((N24), slow1-0, n7, n0, n1)
+3 B34 1 B63 1 N24 1
+4 B64 1 B63 0 N24 0 N16 1
+board((N25), slow1-0, n8, n0, n1)
+3 B35 1 B63 1 N25 1
+4 B64 1 B63 0 N25 0 N16 1
+board((N30), slow1-0, n0, n0, n1)
+3 B27 1 B63 1 N30 1
+4 B64 1 B63 0 N30 0 N29 1
+board((N31), slow1-0, n1, n0, n1)
+3 B28 1 B63 1 N31 1
+4 B64 1 B63 0 N31 0 N29 1
+board((N32), slow1-0, n2, n0, n1)
+3 B29 1 B63 1 N32 1
+4 B64 1 B63 0 N32 0 N29 1
+board((N33), slow1-0, n3, n0, n1)
+3 B30 1 B63 1 N33 1
+4 B64 1 B63 0 N33 0 N29 1
+board((N34), slow1-0, n4, n0, n1)
+3 B31 1 B63 1 N34 1
+4 B64 1 B63 0 N34 0 N29 1
+board((N35), slow1-0, n5, n0, n1)
+3 B32 1 B63 1 N35 1
+4 B64 1 B63 0 N35 0 N29 1
+board((N36), slow1-0, n6, n0, n1)
+3 B33 1 B63 1 N36 1
+4 B64 1 B63 0 N36 0 N29 1
+board((N37), slow1-0, n7, n0, n1)
+3 B34 1 B63 1 N37 1
+4 B64 1 B63 0 N37 0 N29 1
+board((N38), slow1-0, n8, n0, n1)
+3 B35 1 B63 1 N38 1
+4 B64 1 B63 0 N38 0 N29 1
+board((N43), slow1-0, n0, n0, n1)
+3 B27 1 B63 1 N43 1
+4 B64 1 B63 0 N43 0 N42 1
+board((N44), slow1-0, n1, n0, n1)
+3 B28 1 B63 1 N44 1
+4 B64 1 B63 0 N44 0 N42 1
+board((N45), slow1-0, n2, n0, n1)
+3 B29 1 B63 1 N45 1
+4 B64 1 B63 0 N45 0 N42 1
+board((N46), slow1-0, n3, n0, n1)
+3 B30 1 B63 1 N46 1
+4 B64 1 B63 0 N46 0 N42 1
+board((N47), slow1-0, n4, n0, n1)
+3 B31 1 B63 1 N47 1
+4 B64 1 B63 0 N47 0 N42 1
+board((N48), slow1-0, n5, n0, n1)
+3 B32 1 B63 1 N48 1
+4 B64 1 B63 0 N48 0 N42 1
+board((N49), slow1-0, n6, n0, n1)
+3 B33 1 B63 1 N49 1
+4 B64 1 B63 0 N49 0 N42 1
+board((N50), slow1-0, n7, n0, n1)
+3 B34 1 B63 1 N50 1
+4 B64 1 B63 0 N50 0 N42 1
+board((N51), slow1-0, n8, n0, n1)
+3 B35 1 B63 1 N51 1
+4 B64 1 B63 0 N51 0 N42 1
+board((N4), fast0, n0, n1, n2)
+3 B0 1 B37 1 N4 1
+4 B38 1 B37 0 N4 0 N0 1
+board((N5), fast0, n1, n1, n2)
+3 B1 1 B37 1 N5 1
+4 B38 1 B37 0 N5 0 N0 1
+board((N6), fast0, n2, n1, n2)
+3 B2 1 B37 1 N6 1
+4 B38 1 B37 0 N6 0 N0 1
+board((N7), fast0, n3, n1, n2)
+3 B3 1 B37 1 N7 1
+4 B38 1 B37 0 N7 0 N0 1
+board((N8), fast0, n4, n1, n2)
+3 B4 1 B37 1 N8 1
+4 B38 1 B37 0 N8 0 N0 1
+board((N9), fast0, n5, n1, n2)
+3 B5 1 B37 1 N9 1
+4 B38 1 B37 0 N9 0 N0 1
+board((N10), fast0, n6, n1, n2)
+3 B6 1 B37 1 N10 1
+4 B38 1 B37 0 N10 0 N0 1
+board((N11), fast0, n7, n1, n2)
+3 B7 1 B37 1 N11 1
+4 B38 1 B37 0 N11 0 N0 1
+board((N12), fast0, n8, n1, n2)
+3 B8 1 B37 1 N12 1
+4 B38 1 B37 0 N12 0 N0 1
+board((N17), fast0, n0, n1, n2)
+3 B0 1 B37 1 N17 1
+4 B38 1 B37 0 N17 0 N13 1
+board((N18), fast0, n1, n1, n2)
+3 B1 1 B37 1 N18 1
+4 B38 1 B37 0 N18 0 N13 1
+board((N19), fast0, n2, n1, n2)
+3 B2 1 B37 1 N19 1
+4 B38 1 B37 0 N19 0 N13 1
+board((N20), fast0, n3, n1, n2)
+3 B3 1 B37 1 N20 1
+4 B38 1 B37 0 N20 0 N13 1
+board((N21), fast0, n4, n1, n2)
+3 B4 1 B37 1 N21 1
+4 B38 1 B37 0 N21 0 N13 1
+board((N22), fast0, n5, n1, n2)
+3 B5 1 B37 1 N22 1
+4 B38 1 B37 0 N22 0 N13 1
+board((N23), fast0, n6, n1, n2)
+3 B6 1 B37 1 N23 1
+4 B38 1 B37 0 N23 0 N13 1
+board((N24), fast0, n7, n1, n2)
+3 B7 1 B37 1 N24 1
+4 B38 1 B37 0 N24 0 N13 1
+board((N25), fast0, n8, n1, n2)
+3 B8 1 B37 1 N25 1
+4 B38 1 B37 0 N25 0 N13 1
+board((N30), fast0, n0, n1, n2)
+3 B0 1 B37 1 N30 1
+4 B38 1 B37 0 N30 0 N26 1
+board((N31), fast0, n1, n1, n2)
+3 B1 1 B37 1 N31 1
+4 B38 1 B37 0 N31 0 N26 1
+board((N32), fast0, n2, n1, n2)
+3 B2 1 B37 1 N32 1
+4 B38 1 B37 0 N32 0 N26 1
+board((N33), fast0, n3, n1, n2)
+3 B3 1 B37 1 N33 1
+4 B38 1 B37 0 N33 0 N26 1
+board((N34), fast0, n4, n1, n2)
+3 B4 1 B37 1 N34 1
+4 B38 1 B37 0 N34 0 N26 1
+board((N35), fast0, n5, n1, n2)
+3 B5 1 B37 1 N35 1
+4 B38 1 B37 0 N35 0 N26 1
+board((N36), fast0, n6, n1, n2)
+3 B6 1 B37 1 N36 1
+4 B38 1 B37 0 N36 0 N26 1
+board((N37), fast0, n7, n1, n2)
+3 B7 1 B37 1 N37 1
+4 B38 1 B37 0 N37 0 N26 1
+board((N38), fast0, n8, n1, n2)
+3 B8 1 B37 1 N38 1
+4 B38 1 B37 0 N38 0 N26 1
+board((N43), fast0, n0, n1, n2)
+3 B0 1 B37 1 N43 1
+4 B38 1 B37 0 N43 0 N39 1
+board((N44), fast0, n1, n1, n2)
+3 B1 1 B37 1 N44 1
+4 B38 1 B37 0 N44 0 N39 1
+board((N45), fast0, n2, n1, n2)
+3 B2 1 B37 1 N45 1
+4 B38 1 B37 0 N45 0 N39 1
+board((N46), fast0, n3, n1, n2)
+3 B3 1 B37 1 N46 1
+4 B38 1 B37 0 N46 0 N39 1
+board((N47), fast0, n4, n1, n2)
+3 B4 1 B37 1 N47 1
+4 B38 1 B37 0 N47 0 N39 1
+board((N48), fast0, n5, n1, n2)
+3 B5 1 B37 1 N48 1
+4 B38 1 B37 0 N48 0 N39 1
+board((N49), fast0, n6, n1, n2)
+3 B6 1 B37 1 N49 1
+4 B38 1 B37 0 N49 0 N39 1
+board((N50), fast0, n7, n1, n2)
+3 B7 1 B37 1 N50 1
+4 B38 1 B37 0 N50 0 N39 1
+board((N51), fast0, n8, n1, n2)
+3 B8 1 B37 1 N51 1
+4 B38 1 B37 0 N51 0 N39 1
+board((N4), fast1, n0, n1, n2)
+3 B9 1 B46 1 N4 1
+4 B47 1 B46 0 N4 0 N1 1
+board((N5), fast1, n1, n1, n2)
+3 B10 1 B46 1 N5 1
+4 B47 1 B46 0 N5 0 N1 1
+board((N6), fast1, n2, n1, n2)
+3 B11 1 B46 1 N6 1
+4 B47 1 B46 0 N6 0 N1 1
+board((N7), fast1, n3, n1, n2)
+3 B12 1 B46 1 N7 1
+4 B47 1 B46 0 N7 0 N1 1
+board((N8), fast1, n4, n1, n2)
+3 B13 1 B46 1 N8 1
+4 B47 1 B46 0 N8 0 N1 1
+board((N9), fast1, n5, n1, n2)
+3 B14 1 B46 1 N9 1
+4 B47 1 B46 0 N9 0 N1 1
+board((N10), fast1, n6, n1, n2)
+3 B15 1 B46 1 N10 1
+4 B47 1 B46 0 N10 0 N1 1
+board((N11), fast1, n7, n1, n2)
+3 B16 1 B46 1 N11 1
+4 B47 1 B46 0 N11 0 N1 1
+board((N12), fast1, n8, n1, n2)
+3 B17 1 B46 1 N12 1
+4 B47 1 B46 0 N12 0 N1 1
+board((N17), fast1, n0, n1, n2)
+3 B9 1 B46 1 N17 1
+4 B47 1 B46 0 N17 0 N14 1
+board((N18), fast1, n1, n1, n2)
+3 B10 1 B46 1 N18 1
+4 B47 1 B46 0 N18 0 N14 1
+board((N19), fast1, n2, n1, n2)
+3 B11 1 B46 1 N19 1
+4 B47 1 B46 0 N19 0 N14 1
+board((N20), fast1, n3, n1, n2)
+3 B12 1 B46 1 N20 1
+4 B47 1 B46 0 N20 0 N14 1
+board((N21), fast1, n4, n1, n2)
+3 B13 1 B46 1 N21 1
+4 B47 1 B46 0 N21 0 N14 1
+board((N22), fast1, n5, n1, n2)
+3 B14 1 B46 1 N22 1
+4 B47 1 B46 0 N22 0 N14 1
+board((N23), fast1, n6, n1, n2)
+3 B15 1 B46 1 N23 1
+4 B47 1 B46 0 N23 0 N14 1
+board((N24), fast1, n7, n1, n2)
+3 B16 1 B46 1 N24 1
+4 B47 1 B46 0 N24 0 N14 1
+board((N25), fast1, n8, n1, n2)
+3 B17 1 B46 1 N25 1
+4 B47 1 B46 0 N25 0 N14 1
+board((N30), fast1, n0, n1, n2)
+3 B9 1 B46 1 N30 1
+4 B47 1 B46 0 N30 0 N27 1
+board((N31), fast1, n1, n1, n2)
+3 B10 1 B46 1 N31 1
+4 B47 1 B46 0 N31 0 N27 1
+board((N32), fast1, n2, n1, n2)
+3 B11 1 B46 1 N32 1
+4 B47 1 B46 0 N32 0 N27 1
+board((N33), fast1, n3, n1, n2)
+3 B12 1 B46 1 N33 1
+4 B47 1 B46 0 N33 0 N27 1
+board((N34), fast1, n4, n1, n2)
+3 B13 1 B46 1 N34 1
+4 B47 1 B46 0 N34 0 N27 1
+board((N35), fast1, n5, n1, n2)
+3 B14 1 B46 1 N35 1
+4 B47 1 B46 0 N35 0 N27 1
+board((N36), fast1, n6, n1, n2)
+3 B15 1 B46 1 N36 1
+4 B47 1 B46 0 N36 0 N27 1
+board((N37), fast1, n7, n1, n2)
+3 B16 1 B46 1 N37 1
+4 B47 1 B46 0 N37 0 N27 1
+board((N38), fast1, n8, n1, n2)
+3 B17 1 B46 1 N38 1
+4 B47 1 B46 0 N38 0 N27 1
+board((N43), fast1, n0, n1, n2)
+3 B9 1 B46 1 N43 1
+4 B47 1 B46 0 N43 0 N40 1
+board((N44), fast1, n1, n1, n2)
+3 B10 1 B46 1 N44 1
+4 B47 1 B46 0 N44 0 N40 1
+board((N45), fast1, n2, n1, n2)
+3 B11 1 B46 1 N45 1
+4 B47 1 B46 0 N45 0 N40 1
+board((N46), fast1, n3, n1, n2)
+3 B12 1 B46 1 N46 1
+4 B47 1 B46 0 N46 0 N40 1
+board((N47), fast1, n4, n1, n2)
+3 B13 1 B46 1 N47 1
+4 B47 1 B46 0 N47 0 N40 1
+board((N48), fast1, n5, n1, n2)
+3 B14 1 B46 1 N48 1
+4 B47 1 B46 0 N48 0 N40 1
+board((N49), fast1, n6, n1, n2)
+3 B15 1 B46 1 N49 1
+4 B47 1 B46 0 N49 0 N40 1
+board((N50), fast1, n7, n1, n2)
+3 B16 1 B46 1 N50 1
+4 B47 1 B46 0 N50 0 N40 1
+board((N51), fast1, n8, n1, n2)
+3 B17 1 B46 1 N51 1
+4 B47 1 B46 0 N51 0 N40 1
+board((N4), slow0-0, n0, n1, n2)
+3 B18 1 B55 1 N4 1
+4 B56 1 B55 0 N4 0 N2 1
+board((N5), slow0-0, n1, n1, n2)
+3 B19 1 B55 1 N5 1
+4 B56 1 B55 0 N5 0 N2 1
+board((N6), slow0-0, n2, n1, n2)
+3 B20 1 B55 1 N6 1
+4 B56 1 B55 0 N6 0 N2 1
+board((N7), slow0-0, n3, n1, n2)
+3 B21 1 B55 1 N7 1
+4 B56 1 B55 0 N7 0 N2 1
+board((N8), slow0-0, n4, n1, n2)
+3 B22 1 B55 1 N8 1
+4 B56 1 B55 0 N8 0 N2 1
+board((N9), slow0-0, n5, n1, n2)
+3 B23 1 B55 1 N9 1
+4 B56 1 B55 0 N9 0 N2 1
+board((N10), slow0-0, n6, n1, n2)
+3 B24 1 B55 1 N10 1
+4 B56 1 B55 0 N10 0 N2 1
+board((N11), slow0-0, n7, n1, n2)
+3 B25 1 B55 1 N11 1
+4 B56 1 B55 0 N11 0 N2 1
+board((N12), slow0-0, n8, n1, n2)
+3 B26 1 B55 1 N12 1
+4 B56 1 B55 0 N12 0 N2 1
+board((N17), slow0-0, n0, n1, n2)
+3 B18 1 B55 1 N17 1
+4 B56 1 B55 0 N17 0 N15 1
+board((N18), slow0-0, n1, n1, n2)
+3 B19 1 B55 1 N18 1
+4 B56 1 B55 0 N18 0 N15 1
+board((N19), slow0-0, n2, n1, n2)
+3 B20 1 B55 1 N19 1
+4 B56 1 B55 0 N19 0 N15 1
+board((N20), slow0-0, n3, n1, n2)
+3 B21 1 B55 1 N20 1
+4 B56 1 B55 0 N20 0 N15 1
+board((N21), slow0-0, n4, n1, n2)
+3 B22 1 B55 1 N21 1
+4 B56 1 B55 0 N21 0 N15 1
+board((N22), slow0-0, n5, n1, n2)
+3 B23 1 B55 1 N22 1
+4 B56 1 B55 0 N22 0 N15 1
+board((N23), slow0-0, n6, n1, n2)
+3 B24 1 B55 1 N23 1
+4 B56 1 B55 0 N23 0 N15 1
+board((N24), slow0-0, n7, n1, n2)
+3 B25 1 B55 1 N24 1
+4 B56 1 B55 0 N24 0 N15 1
+board((N25), slow0-0, n8, n1, n2)
+3 B26 1 B55 1 N25 1
+4 B56 1 B55 0 N25 0 N15 1
+board((N30), slow0-0, n0, n1, n2)
+3 B18 1 B55 1 N30 1
+4 B56 1 B55 0 N30 0 N28 1
+board((N31), slow0-0, n1, n1, n2)
+3 B19 1 B55 1 N31 1
+4 B56 1 B55 0 N31 0 N28 1
+board((N32), slow0-0, n2, n1, n2)
+3 B20 1 B55 1 N32 1
+4 B56 1 B55 0 N32 0 N28 1
+board((N33), slow0-0, n3, n1, n2)
+3 B21 1 B55 1 N33 1
+4 B56 1 B55 0 N33 0 N28 1
+board((N34), slow0-0, n4, n1, n2)
+3 B22 1 B55 1 N34 1
+4 B56 1 B55 0 N34 0 N28 1
+board((N35), slow0-0, n5, n1, n2)
+3 B23 1 B55 1 N35 1
+4 B56 1 B55 0 N35 0 N28 1
+board((N36), slow0-0, n6, n1, n2)
+3 B24 1 B55 1 N36 1
+4 B56 1 B55 0 N36 0 N28 1
+board((N37), slow0-0, n7, n1, n2)
+3 B25 1 B55 1 N37 1
+4 B56 1 B55 0 N37 0 N28 1
+board((N38), slow0-0, n8, n1, n2)
+3 B26 1 B55 1 N38 1
+4 B56 1 B55 0 N38 0 N28 1
+board((N43), slow0-0, n0, n1, n2)
+3 B18 1 B55 1 N43 1
+4 B56 1 B55 0 N43 0 N41 1
+board((N44), slow0-0, n1, n1, n2)
+3 B19 1 B55 1 N44 1
+4 B56 1 B55 0 N44 0 N41 1
+board((N45), slow0-0, n2, n1, n2)
+3 B20 1 B55 1 N45 1
+4 B56 1 B55 0 N45 0 N41 1
+board((N46), slow0-0, n3, n1, n2)
+3 B21 1 B55 1 N46 1
+4 B56 1 B55 0 N46 0 N41 1
+board((N47), slow0-0, n4, n1, n2)
+3 B22 1 B55 1 N47 1
+4 B56 1 B55 0 N47 0 N41 1
+board((N48), slow0-0, n5, n1, n2)
+3 B23 1 B55 1 N48 1
+4 B56 1 B55 0 N48 0 N41 1
+board((N49), slow0-0, n6, n1, n2)
+3 B24 1 B55 1 N49 1
+4 B56 1 B55 0 N49 0 N41 1
+board((N50), slow0-0, n7, n1, n2)
+3 B25 1 B55 1 N50 1
+4 B56 1 B55 0 N50 0 N41 1
+board((N51), slow0-0, n8, n1, n2)
+3 B26 1 B55 1 N51 1
+4 B56 1 B55 0 N51 0 N41 1
+board((N4), slow1-0, n0, n1, n2)
+3 B27 1 B64 1 N4 1
+4 B65 1 B64 0 N4 0 N3 1
+board((N5), slow1-0, n1, n1, n2)
+3 B28 1 B64 1 N5 1
+4 B65 1 B64 0 N5 0 N3 1
+board((N6), slow1-0, n2, n1, n2)
+3 B29 1 B64 1 N6 1
+4 B65 1 B64 0 N6 0 N3 1
+board((N7), slow1-0, n3, n1, n2)
+3 B30 1 B64 1 N7 1
+4 B65 1 B64 0 N7 0 N3 1
+board((N8), slow1-0, n4, n1, n2)
+3 B31 1 B64 1 N8 1
+4 B65 1 B64 0 N8 0 N3 1
+board((N9), slow1-0, n5, n1, n2)
+3 B32 1 B64 1 N9 1
+4 B65 1 B64 0 N9 0 N3 1
+board((N10), slow1-0, n6, n1, n2)
+3 B33 1 B64 1 N10 1
+4 B65 1 B64 0 N10 0 N3 1
+board((N11), slow1-0, n7, n1, n2)
+3 B34 1 B64 1 N11 1
+4 B65 1 B64 0 N11 0 N3 1
+board((N12), slow1-0, n8, n1, n2)
+3 B35 1 B64 1 N12 1
+4 B65 1 B64 0 N12 0 N3 1
+board((N17), slow1-0, n0, n1, n2)
+3 B27 1 B64 1 N17 1
+4 B65 1 B64 0 N17 0 N16 1
+board((N18), slow1-0, n1, n1, n2)
+3 B28 1 B64 1 N18 1
+4 B65 1 B64 0 N18 0 N16 1
+board((N19), slow1-0, n2, n1, n2)
+3 B29 1 B64 1 N19 1
+4 B65 1 B64 0 N19 0 N16 1
+board((N20), slow1-0, n3, n1, n2)
+3 B30 1 B64 1 N20 1
+4 B65 1 B64 0 N20 0 N16 1
+board((N21), slow1-0, n4, n1, n2)
+3 B31 1 B64 1 N21 1
+4 B65 1 B64 0 N21 0 N16 1
+board((N22), slow1-0, n5, n1, n2)
+3 B32 1 B64 1 N22 1
+4 B65 1 B64 0 N22 0 N16 1
+board((N23), slow1-0, n6, n1, n2)
+3 B33 1 B64 1 N23 1
+4 B65 1 B64 0 N23 0 N16 1
+board((N24), slow1-0, n7, n1, n2)
+3 B34 1 B64 1 N24 1
+4 B65 1 B64 0 N24 0 N16 1
+board((N25), slow1-0, n8, n1, n2)
+3 B35 1 B64 1 N25 1
+4 B65 1 B64 0 N25 0 N16 1
+board((N30), slow1-0, n0, n1, n2)
+3 B27 1 B64 1 N30 1
+4 B65 1 B64 0 N30 0 N29 1
+board((N31), slow1-0, n1, n1, n2)
+3 B28 1 B64 1 N31 1
+4 B65 1 B64 0 N31 0 N29 1
+board((N32), slow1-0, n2, n1, n2)
+3 B29 1 B64 1 N32 1
+4 B65 1 B64 0 N32 0 N29 1
+board((N33), slow1-0, n3, n1, n2)
+3 B30 1 B64 1 N33 1
+4 B65 1 B64 0 N33 0 N29 1
+board((N34), slow1-0, n4, n1, n2)
+3 B31 1 B64 1 N34 1
+4 B65 1 B64 0 N34 0 N29 1
+board((N35), slow1-0, n5, n1, n2)
+3 B32 1 B64 1 N35 1
+4 B65 1 B64 0 N35 0 N29 1
+board((N36), slow1-0, n6, n1, n2)
+3 B33 1 B64 1 N36 1
+4 B65 1 B64 0 N36 0 N29 1
+board((N37), slow1-0, n7, n1, n2)
+3 B34 1 B64 1 N37 1
+4 B65 1 B64 0 N37 0 N29 1
+board((N38), slow1-0, n8, n1, n2)
+3 B35 1 B64 1 N38 1
+4 B65 1 B64 0 N38 0 N29 1
+board((N43), slow1-0, n0, n1, n2)
+3 B27 1 B64 1 N43 1
+4 B65 1 B64 0 N43 0 N42 1
+board((N44), slow1-0, n1, n1, n2)
+3 B28 1 B64 1 N44 1
+4 B65 1 B64 0 N44 0 N42 1
+board((N45), slow1-0, n2, n1, n2)
+3 B29 1 B64 1 N45 1
+4 B65 1 B64 0 N45 0 N42 1
+board((N46), slow1-0, n3, n1, n2)
+3 B30 1 B64 1 N46 1
+4 B65 1 B64 0 N46 0 N42 1
+board((N47), slow1-0, n4, n1, n2)
+3 B31 1 B64 1 N47 1
+4 B65 1 B64 0 N47 0 N42 1
+board((N48), slow1-0, n5, n1, n2)
+3 B32 1 B64 1 N48 1
+4 B65 1 B64 0 N48 0 N42 1
+board((N49), slow1-0, n6, n1, n2)
+3 B33 1 B64 1 N49 1
+4 B65 1 B64 0 N49 0 N42 1
+board((N50), slow1-0, n7, n1, n2)
+3 B34 1 B64 1 N50 1
+4 B65 1 B64 0 N50 0 N42 1
+board((N51), slow1-0, n8, n1, n2)
+3 B35 1 B64 1 N51 1
+4 B65 1 B64 0 N51 0 N42 1
+board((N4), fast0, n0, n2, n3)
+3 B0 1 B38 1 N4 1
+4 B39 1 B38 0 N4 0 N0 1
+board((N5), fast0, n1, n2, n3)
+3 B1 1 B38 1 N5 1
+4 B39 1 B38 0 N5 0 N0 1
+board((N6), fast0, n2, n2, n3)
+3 B2 1 B38 1 N6 1
+4 B39 1 B38 0 N6 0 N0 1
+board((N7), fast0, n3, n2, n3)
+3 B3 1 B38 1 N7 1
+4 B39 1 B38 0 N7 0 N0 1
+board((N8), fast0, n4, n2, n3)
+3 B4 1 B38 1 N8 1
+4 B39 1 B38 0 N8 0 N0 1
+board((N9), fast0, n5, n2, n3)
+3 B5 1 B38 1 N9 1
+4 B39 1 B38 0 N9 0 N0 1
+board((N10), fast0, n6, n2, n3)
+3 B6 1 B38 1 N10 1
+4 B39 1 B38 0 N10 0 N0 1
+board((N11), fast0, n7, n2, n3)
+3 B7 1 B38 1 N11 1
+4 B39 1 B38 0 N11 0 N0 1
+board((N12), fast0, n8, n2, n3)
+3 B8 1 B38 1 N12 1
+4 B39 1 B38 0 N12 0 N0 1
+board((N17), fast0, n0, n2, n3)
+3 B0 1 B38 1 N17 1
+4 B39 1 B38 0 N17 0 N13 1
+board((N18), fast0, n1, n2, n3)
+3 B1 1 B38 1 N18 1
+4 B39 1 B38 0 N18 0 N13 1
+board((N19), fast0, n2, n2, n3)
+3 B2 1 B38 1 N19 1
+4 B39 1 B38 0 N19 0 N13 1
+board((N20), fast0, n3, n2, n3)
+3 B3 1 B38 1 N20 1
+4 B39 1 B38 0 N20 0 N13 1
+board((N21), fast0, n4, n2, n3)
+3 B4 1 B38 1 N21 1
+4 B39 1 B38 0 N21 0 N13 1
+board((N22), fast0, n5, n2, n3)
+3 B5 1 B38 1 N22 1
+4 B39 1 B38 0 N22 0 N13 1
+board((N23), fast0, n6, n2, n3)
+3 B6 1 B38 1 N23 1
+4 B39 1 B38 0 N23 0 N13 1
+board((N24), fast0, n7, n2, n3)
+3 B7 1 B38 1 N24 1
+4 B39 1 B38 0 N24 0 N13 1
+board((N25), fast0, n8, n2, n3)
+3 B8 1 B38 1 N25 1
+4 B39 1 B38 0 N25 0 N13 1
+board((N30), fast0, n0, n2, n3)
+3 B0 1 B38 1 N30 1
+4 B39 1 B38 0 N30 0 N26 1
+board((N31), fast0, n1, n2, n3)
+3 B1 1 B38 1 N31 1
+4 B39 1 B38 0 N31 0 N26 1
+board((N32), fast0, n2, n2, n3)
+3 B2 1 B38 1 N32 1
+4 B39 1 B38 0 N32 0 N26 1
+board((N33), fast0, n3, n2, n3)
+3 B3 1 B38 1 N33 1
+4 B39 1 B38 0 N33 0 N26 1
+board((N34), fast0, n4, n2, n3)
+3 B4 1 B38 1 N34 1
+4 B39 1 B38 0 N34 0 N26 1
+board((N35), fast0, n5, n2, n3)
+3 B5 1 B38 1 N35 1
+4 B39 1 B38 0 N35 0 N26 1
+board((N36), fast0, n6, n2, n3)
+3 B6 1 B38 1 N36 1
+4 B39 1 B38 0 N36 0 N26 1
+board((N37), fast0, n7, n2, n3)
+3 B7 1 B38 1 N37 1
+4 B39 1 B38 0 N37 0 N26 1
+board((N38), fast0, n8, n2, n3)
+3 B8 1 B38 1 N38 1
+4 B39 1 B38 0 N38 0 N26 1
+board((N43), fast0, n0, n2, n3)
+3 B0 1 B38 1 N43 1
+4 B39 1 B38 0 N43 0 N39 1
+board((N44), fast0, n1, n2, n3)
+3 B1 1 B38 1 N44 1
+4 B39 1 B38 0 N44 0 N39 1
+board((N45), fast0, n2, n2, n3)
+3 B2 1 B38 1 N45 1
+4 B39 1 B38 0 N45 0 N39 1
+board((N46), fast0, n3, n2, n3)
+3 B3 1 B38 1 N46 1
+4 B39 1 B38 0 N46 0 N39 1
+board((N47), fast0, n4, n2, n3)
+3 B4 1 B38 1 N47 1
+4 B39 1 B38 0 N47 0 N39 1
+board((N48), fast0, n5, n2, n3)
+3 B5 1 B38 1 N48 1
+4 B39 1 B38 0 N48 0 N39 1
+board((N49), fast0, n6, n2, n3)
+3 B6 1 B38 1 N49 1
+4 B39 1 B38 0 N49 0 N39 1
+board((N50), fast0, n7, n2, n3)
+3 B7 1 B38 1 N50 1
+4 B39 1 B38 0 N50 0 N39 1
+board((N51), fast0, n8, n2, n3)
+3 B8 1 B38 1 N51 1
+4 B39 1 B38 0 N51 0 N39 1
+board((N4), fast1, n0, n2, n3)
+3 B9 1 B47 1 N4 1
+4 B48 1 B47 0 N4 0 N1 1
+board((N5), fast1, n1, n2, n3)
+3 B10 1 B47 1 N5 1
+4 B48 1 B47 0 N5 0 N1 1
+board((N6), fast1, n2, n2, n3)
+3 B11 1 B47 1 N6 1
+4 B48 1 B47 0 N6 0 N1 1
+board((N7), fast1, n3, n2, n3)
+3 B12 1 B47 1 N7 1
+4 B48 1 B47 0 N7 0 N1 1
+board((N8), fast1, n4, n2, n3)
+3 B13 1 B47 1 N8 1
+4 B48 1 B47 0 N8 0 N1 1
+board((N9), fast1, n5, n2, n3)
+3 B14 1 B47 1 N9 1
+4 B48 1 B47 0 N9 0 N1 1
+board((N10), fast1, n6, n2, n3)
+3 B15 1 B47 1 N10 1
+4 B48 1 B47 0 N10 0 N1 1
+board((N11), fast1, n7, n2, n3)
+3 B16 1 B47 1 N11 1
+4 B48 1 B47 0 N11 0 N1 1
+board((N12), fast1, n8, n2, n3)
+3 B17 1 B47 1 N12 1
+4 B48 1 B47 0 N12 0 N1 1
+board((N17), fast1, n0, n2, n3)
+3 B9 1 B47 1 N17 1
+4 B48 1 B47 0 N17 0 N14 1
+board((N18), fast1, n1, n2, n3)
+3 B10 1 B47 1 N18 1
+4 B48 1 B47 0 N18 0 N14 1
+board((N19), fast1, n2, n2, n3)
+3 B11 1 B47 1 N19 1
+4 B48 1 B47 0 N19 0 N14 1
+board((N20), fast1, n3, n2, n3)
+3 B12 1 B47 1 N20 1
+4 B48 1 B47 0 N20 0 N14 1
+board((N21), fast1, n4, n2, n3)
+3 B13 1 B47 1 N21 1
+4 B48 1 B47 0 N21 0 N14 1
+board((N22), fast1, n5, n2, n3)
+3 B14 1 B47 1 N22 1
+4 B48 1 B47 0 N22 0 N14 1
+board((N23), fast1, n6, n2, n3)
+3 B15 1 B47 1 N23 1
+4 B48 1 B47 0 N23 0 N14 1
+board((N24), fast1, n7, n2, n3)
+3 B16 1 B47 1 N24 1
+4 B48 1 B47 0 N24 0 N14 1
+board((N25), fast1, n8, n2, n3)
+3 B17 1 B47 1 N25 1
+4 B48 1 B47 0 N25 0 N14 1
+board((N30), fast1, n0, n2, n3)
+3 B9 1 B47 1 N30 1
+4 B48 1 B47 0 N30 0 N27 1
+board((N31), fast1, n1, n2, n3)
+3 B10 1 B47 1 N31 1
+4 B48 1 B47 0 N31 0 N27 1
+board((N32), fast1, n2, n2, n3)
+3 B11 1 B47 1 N32 1
+4 B48 1 B47 0 N32 0 N27 1
+board((N33), fast1, n3, n2, n3)
+3 B12 1 B47 1 N33 1
+4 B48 1 B47 0 N33 0 N27 1
+board((N34), fast1, n4, n2, n3)
+3 B13 1 B47 1 N34 1
+4 B48 1 B47 0 N34 0 N27 1
+board((N35), fast1, n5, n2, n3)
+3 B14 1 B47 1 N35 1
+4 B48 1 B47 0 N35 0 N27 1
+board((N36), fast1, n6, n2, n3)
+3 B15 1 B47 1 N36 1
+4 B48 1 B47 0 N36 0 N27 1
+board((N37), fast1, n7, n2, n3)
+3 B16 1 B47 1 N37 1
+4 B48 1 B47 0 N37 0 N27 1
+board((N38), fast1, n8, n2, n3)
+3 B17 1 B47 1 N38 1
+4 B48 1 B47 0 N38 0 N27 1
+board((N43), fast1, n0, n2, n3)
+3 B9 1 B47 1 N43 1
+4 B48 1 B47 0 N43 0 N40 1
+board((N44), fast1, n1, n2, n3)
+3 B10 1 B47 1 N44 1
+4 B48 1 B47 0 N44 0 N40 1
+board((N45), fast1, n2, n2, n3)
+3 B11 1 B47 1 N45 1
+4 B48 1 B47 0 N45 0 N40 1
+board((N46), fast1, n3, n2, n3)
+3 B12 1 B47 1 N46 1
+4 B48 1 B47 0 N46 0 N40 1
+board((N47), fast1, n4, n2, n3)
+3 B13 1 B47 1 N47 1
+4 B48 1 B47 0 N47 0 N40 1
+board((N48), fast1, n5, n2, n3)
+3 B14 1 B47 1 N48 1
+4 B48 1 B47 0 N48 0 N40 1
+board((N49), fast1, n6, n2, n3)
+3 B15 1 B47 1 N49 1
+4 B48 1 B47 0 N49 0 N40 1
+board((N50), fast1, n7, n2, n3)
+3 B16 1 B47 1 N50 1
+4 B48 1 B47 0 N50 0 N40 1
+board((N51), fast1, n8, n2, n3)
+3 B17 1 B47 1 N51 1
+4 B48 1 B47 0 N51 0 N40 1
+leave((N0), fast0, n0, n1, n0)
+3 B0 1 B37 1 N0 1
+4 B36 1 B37 0 N0 0 N4 1
+leave((N0), fast0, n1, n1, n0)
+3 B1 1 B37 1 N0 1
+4 B36 1 B37 0 N0 0 N5 1
+leave((N0), fast0, n2, n1, n0)
+3 B2 1 B37 1 N0 1
+4 B36 1 B37 0 N0 0 N6 1
+leave((N0), fast0, n3, n1, n0)
+3 B3 1 B37 1 N0 1
+4 B36 1 B37 0 N0 0 N7 1
+leave((N0), fast0, n4, n1, n0)
+3 B4 1 B37 1 N0 1
+4 B36 1 B37 0 N0 0 N8 1
+leave((N0), fast0, n5, n1, n0)
+3 B5 1 B37 1 N0 1
+4 B36 1 B37 0 N0 0 N9 1
+leave((N0), fast0, n6, n1, n0)
+3 B6 1 B37 1 N0 1
+4 B36 1 B37 0 N0 0 N10 1
+leave((N0), fast0, n7, n1, n0)
+3 B7 1 B37 1 N0 1
+4 B36 1 B37 0 N0 0 N11 1
+leave((N0), fast0, n8, n1, n0)
+3 B8 1 B37 1 N0 1
+4 B36 1 B37 0 N0 0 N12 1
+leave((N1), fast1, n0, n1, n0)
+3 B9 1 B46 1 N1 1
+4 B45 1 B46 0 N1 0 N4 1
+leave((N1), fast1, n1, n1, n0)
+3 B10 1 B46 1 N1 1
+4 B45 1 B46 0 N1 0 N5 1
+leave((N1), fast1, n2, n1, n0)
+3 B11 1 B46 1 N1 1
+4 B45 1 B46 0 N1 0 N6 1
+leave((N1), fast1, n3, n1, n0)
+3 B12 1 B46 1 N1 1
+4 B45 1 B46 0 N1 0 N7 1
+leave((N1), fast1, n4, n1, n0)
+3 B13 1 B46 1 N1 1
+4 B45 1 B46 0 N1 0 N8 1
+leave((N1), fast1, n5, n1, n0)
+3 B14 1 B46 1 N1 1
+4 B45 1 B46 0 N1 0 N9 1
+leave((N1), fast1, n6, n1, n0)
+3 B15 1 B46 1 N1 1
+4 B45 1 B46 0 N1 0 N10 1
+leave((N1), fast1, n7, n1, n0)
+3 B16 1 B46 1 N1 1
+4 B45 1 B46 0 N1 0 N11 1
+leave((N1), fast1, n8, n1, n0)
+3 B17 1 B46 1 N1 1
+4 B45 1 B46 0 N1 0 N12 1
+leave((N2), slow0-0, n0, n1, n0)
+3 B18 1 B55 1 N2 1
+4 B54 1 B55 0 N2 0 N4 1
+leave((N2), slow0-0, n1, n1, n0)
+3 B19 1 B55 1 N2 1
+4 B54 1 B55 0 N2 0 N5 1
+leave((N2), slow0-0, n2, n1, n0)
+3 B20 1 B55 1 N2 1
+4 B54 1 B55 0 N2 0 N6 1
+leave((N2), slow0-0, n3, n1, n0)
+3 B21 1 B55 1 N2 1
+4 B54 1 B55 0 N2 0 N7 1
+leave((N2), slow0-0, n4, n1, n0)
+3 B22 1 B55 1 N2 1
+4 B54 1 B55 0 N2 0 N8 1
+leave((N2), slow0-0, n5, n1, n0)
+3 B23 1 B55 1 N2 1
+4 B54 1 B55 0 N2 0 N9 1
+leave((N2), slow0-0, n6, n1, n0)
+3 B24 1 B55 1 N2 1
+4 B54 1 B55 0 N2 0 N10 1
+leave((N2), slow0-0, n7, n1, n0)
+3 B25 1 B55 1 N2 1
+4 B54 1 B55 0 N2 0 N11 1
+leave((N2), slow0-0, n8, n1, n0)
+3 B26 1 B55 1 N2 1
+4 B54 1 B55 0 N2 0 N12 1
+leave((N3), slow1-0, n0, n1, n0)
+3 B27 1 B64 1 N3 1
+4 B63 1 B64 0 N3 0 N4 1
+leave((N3), slow1-0, n1, n1, n0)
+3 B28 1 B64 1 N3 1
+4 B63 1 B64 0 N3 0 N5 1
+leave((N3), slow1-0, n2, n1, n0)
+3 B29 1 B64 1 N3 1
+4 B63 1 B64 0 N3 0 N6 1
+leave((N3), slow1-0, n3, n1, n0)
+3 B30 1 B64 1 N3 1
+4 B63 1 B64 0 N3 0 N7 1
+leave((N3), slow1-0, n4, n1, n0)
+3 B31 1 B64 1 N3 1
+4 B63 1 B64 0 N3 0 N8 1
+leave((N3), slow1-0, n5, n1, n0)
+3 B32 1 B64 1 N3 1
+4 B63 1 B64 0 N3 0 N9 1
+leave((N3), slow1-0, n6, n1, n0)
+3 B33 1 B64 1 N3 1
+4 B63 1 B64 0 N3 0 N10 1
+leave((N3), slow1-0, n7, n1, n0)
+3 B34 1 B64 1 N3 1
+4 B63 1 B64 0 N3 0 N11 1
+leave((N3), slow1-0, n8, n1, n0)
+3 B35 1 B64 1 N3 1
+4 B63 1 B64 0 N3 0 N12 1
+leave((N13), fast0, n0, n1, n0)
+3 B0 1 B37 1 N13 1
+4 B36 1 B37 0 N13 0 N17 1
+leave((N13), fast0, n1, n1, n0)
+3 B1 1 B37 1 N13 1
+4 B36 1 B37 0 N13 0 N18 1
+leave((N13), fast0, n2, n1, n0)
+3 B2 1 B37 1 N13 1
+4 B36 1 B37 0 N13 0 N19 1
+leave((N13), fast0, n3, n1, n0)
+3 B3 1 B37 1 N13 1
+4 B36 1 B37 0 N13 0 N20 1
+leave((N13), fast0, n4, n1, n0)
+3 B4 1 B37 1 N13 1
+4 B36 1 B37 0 N13 0 N21 1
+leave((N13), fast0, n5, n1, n0)
+3 B5 1 B37 1 N13 1
+4 B36 1 B37 0 N13 0 N22 1
+leave((N13), fast0, n6, n1, n0)
+3 B6 1 B37 1 N13 1
+4 B36 1 B37 0 N13 0 N23 1
+leave((N13), fast0, n7, n1, n0)
+3 B7 1 B37 1 N13 1
+4 B36 1 B37 0 N13 0 N24 1
+leave((N13), fast0, n8, n1, n0)
+3 B8 1 B37 1 N13 1
+4 B36 1 B37 0 N13 0 N25 1
+leave((N14), fast1, n0, n1, n0)
+3 B9 1 B46 1 N14 1
+4 B45 1 B46 0 N14 0 N17 1
+leave((N14), fast1, n1, n1, n0)
+3 B10 1 B46 1 N14 1
+4 B45 1 B46 0 N14 0 N18 1
+leave((N14), fast1, n2, n1, n0)
+3 B11 1 B46 1 N14 1
+4 B45 1 B46 0 N14 0 N19 1
+leave((N14), fast1, n3, n1, n0)
+3 B12 1 B46 1 N14 1
+4 B45 1 B46 0 N14 0 N20 1
+leave((N14), fast1, n4, n1, n0)
+3 B13 1 B46 1 N14 1
+4 B45 1 B46 0 N14 0 N21 1
+leave((N14), fast1, n5, n1, n0)
+3 B14 1 B46 1 N14 1
+4 B45 1 B46 0 N14 0 N22 1
+leave((N14), fast1, n6, n1, n0)
+3 B15 1 B46 1 N14 1
+4 B45 1 B46 0 N14 0 N23 1
+leave((N14), fast1, n7, n1, n0)
+3 B16 1 B46 1 N14 1
+4 B45 1 B46 0 N14 0 N24 1
+leave((N14), fast1, n8, n1, n0)
+3 B17 1 B46 1 N14 1
+4 B45 1 B46 0 N14 0 N25 1
+leave((N15), slow0-0, n0, n1, n0)
+3 B18 1 B55 1 N15 1
+4 B54 1 B55 0 N15 0 N17 1
+leave((N15), slow0-0, n1, n1, n0)
+3 B19 1 B55 1 N15 1
+4 B54 1 B55 0 N15 0 N18 1
+leave((N15), slow0-0, n2, n1, n0)
+3 B20 1 B55 1 N15 1
+4 B54 1 B55 0 N15 0 N19 1
+leave((N15), slow0-0, n3, n1, n0)
+3 B21 1 B55 1 N15 1
+4 B54 1 B55 0 N15 0 N20 1
+leave((N15), slow0-0, n4, n1, n0)
+3 B22 1 B55 1 N15 1
+4 B54 1 B55 0 N15 0 N21 1
+leave((N15), slow0-0, n5, n1, n0)
+3 B23 1 B55 1 N15 1
+4 B54 1 B55 0 N15 0 N22 1
+leave((N15), slow0-0, n6, n1, n0)
+3 B24 1 B55 1 N15 1
+4 B54 1 B55 0 N15 0 N23 1
+leave((N15), slow0-0, n7, n1, n0)
+3 B25 1 B55 1 N15 1
+4 B54 1 B55 0 N15 0 N24 1
+leave((N15), slow0-0, n8, n1, n0)
+3 B26 1 B55 1 N15 1
+4 B54 1 B55 0 N15 0 N25 1
+leave((N16), slow1-0, n0, n1, n0)
+3 B27 1 B64 1 N16 1
+4 B63 1 B64 0 N16 0 N17 1
+leave((N16), slow1-0, n1, n1, n0)
+3 B28 1 B64 1 N16 1
+4 B63 1 B64 0 N16 0 N18 1
+leave((N16), slow1-0, n2, n1, n0)
+3 B29 1 B64 1 N16 1
+4 B63 1 B64 0 N16 0 N19 1
+leave((N16), slow1-0, n3, n1, n0)
+3 B30 1 B64 1 N16 1
+4 B63 1 B64 0 N16 0 N20 1
+leave((N16), slow1-0, n4, n1, n0)
+3 B31 1 B64 1 N16 1
+4 B63 1 B64 0 N16 0 N21 1
+leave((N16), slow1-0, n5, n1, n0)
+3 B32 1 B64 1 N16 1
+4 B63 1 B64 0 N16 0 N22 1
+leave((N16), slow1-0, n6, n1, n0)
+3 B33 1 B64 1 N16 1
+4 B63 1 B64 0 N16 0 N23 1
+leave((N16), slow1-0, n7, n1, n0)
+3 B34 1 B64 1 N16 1
+4 B63 1 B64 0 N16 0 N24 1
+leave((N16), slow1-0, n8, n1, n0)
+3 B35 1 B64 1 N16 1
+4 B63 1 B64 0 N16 0 N25 1
+leave((N26), fast0, n0, n1, n0)
+3 B0 1 B37 1 N26 1
+4 B36 1 B37 0 N26 0 N30 1
+leave((N26), fast0, n1, n1, n0)
+3 B1 1 B37 1 N26 1
+4 B36 1 B37 0 N26 0 N31 1
+leave((N26), fast0, n2, n1, n0)
+3 B2 1 B37 1 N26 1
+4 B36 1 B37 0 N26 0 N32 1
+leave((N26), fast0, n3, n1, n0)
+3 B3 1 B37 1 N26 1
+4 B36 1 B37 0 N26 0 N33 1
+leave((N26), fast0, n4, n1, n0)
+3 B4 1 B37 1 N26 1
+4 B36 1 B37 0 N26 0 N34 1
+leave((N26), fast0, n5, n1, n0)
+3 B5 1 B37 1 N26 1
+4 B36 1 B37 0 N26 0 N35 1
+leave((N26), fast0, n6, n1, n0)
+3 B6 1 B37 1 N26 1
+4 B36 1 B37 0 N26 0 N36 1
+leave((N26), fast0, n7, n1, n0)
+3 B7 1 B37 1 N26 1
+4 B36 1 B37 0 N26 0 N37 1
+leave((N26), fast0, n8, n1, n0)
+3 B8 1 B37 1 N26 1
+4 B36 1 B37 0 N26 0 N38 1
+leave((N27), fast1, n0, n1, n0)
+3 B9 1 B46 1 N27 1
+4 B45 1 B46 0 N27 0 N30 1
+leave((N27), fast1, n1, n1, n0)
+3 B10 1 B46 1 N27 1
+4 B45 1 B46 0 N27 0 N31 1
+leave((N27), fast1, n2, n1, n0)
+3 B11 1 B46 1 N27 1
+4 B45 1 B46 0 N27 0 N32 1
+leave((N27), fast1, n3, n1, n0)
+3 B12 1 B46 1 N27 1
+4 B45 1 B46 0 N27 0 N33 1
+leave((N27), fast1, n4, n1, n0)
+3 B13 1 B46 1 N27 1
+4 B45 1 B46 0 N27 0 N34 1
+leave((N27), fast1, n5, n1, n0)
+3 B14 1 B46 1 N27 1
+4 B45 1 B46 0 N27 0 N35 1
+leave((N27), fast1, n6, n1, n0)
+3 B15 1 B46 1 N27 1
+4 B45 1 B46 0 N27 0 N36 1
+leave((N27), fast1, n7, n1, n0)
+3 B16 1 B46 1 N27 1
+4 B45 1 B46 0 N27 0 N37 1
+leave((N27), fast1, n8, n1, n0)
+3 B17 1 B46 1 N27 1
+4 B45 1 B46 0 N27 0 N38 1
+leave((N28), slow0-0, n0, n1, n0)
+3 B18 1 B55 1 N28 1
+4 B54 1 B55 0 N28 0 N30 1
+leave((N28), slow0-0, n1, n1, n0)
+3 B19 1 B55 1 N28 1
+4 B54 1 B55 0 N28 0 N31 1
+leave((N28), slow0-0, n2, n1, n0)
+3 B20 1 B55 1 N28 1
+4 B54 1 B55 0 N28 0 N32 1
+leave((N28), slow0-0, n3, n1, n0)
+3 B21 1 B55 1 N28 1
+4 B54 1 B55 0 N28 0 N33 1
+leave((N28), slow0-0, n4, n1, n0)
+3 B22 1 B55 1 N28 1
+4 B54 1 B55 0 N28 0 N34 1
+leave((N28), slow0-0, n5, n1, n0)
+3 B23 1 B55 1 N28 1
+4 B54 1 B55 0 N28 0 N35 1
+leave((N28), slow0-0, n6, n1, n0)
+3 B24 1 B55 1 N28 1
+4 B54 1 B55 0 N28 0 N36 1
+leave((N28), slow0-0, n7, n1, n0)
+3 B25 1 B55 1 N28 1
+4 B54 1 B55 0 N28 0 N37 1
+leave((N28), slow0-0, n8, n1, n0)
+3 B26 1 B55 1 N28 1
+4 B54 1 B55 0 N28 0 N38 1
+leave((N29), slow1-0, n0, n1, n0)
+3 B27 1 B64 1 N29 1
+4 B63 1 B64 0 N29 0 N30 1
+leave((N29), slow1-0, n1, n1, n0)
+3 B28 1 B64 1 N29 1
+4 B63 1 B64 0 N29 0 N31 1
+leave((N29), slow1-0, n2, n1, n0)
+3 B29 1 B64 1 N29 1
+4 B63 1 B64 0 N29 0 N32 1
+leave((N29), slow1-0, n3, n1, n0)
+3 B30 1 B64 1 N29 1
+4 B63 1 B64 0 N29 0 N33 1
+leave((N29), slow1-0, n4, n1, n0)
+3 B31 1 B64 1 N29 1
+4 B63 1 B64 0 N29 0 N34 1
+leave((N29), slow1-0, n5, n1, n0)
+3 B32 1 B64 1 N29 1
+4 B63 1 B64 0 N29 0 N35 1
+leave((N29), slow1-0, n6, n1, n0)
+3 B33 1 B64 1 N29 1
+4 B63 1 B64 0 N29 0 N36 1
+leave((N29), slow1-0, n7, n1, n0)
+3 B34 1 B64 1 N29 1
+4 B63 1 B64 0 N29 0 N37 1
+leave((N29), slow1-0, n8, n1, n0)
+3 B35 1 B64 1 N29 1
+4 B63 1 B64 0 N29 0 N38 1
+leave((N39), fast0, n0, n1, n0)
+3 B0 1 B37 1 N39 1
+4 B36 1 B37 0 N39 0 N43 1
+leave((N39), fast0, n1, n1, n0)
+3 B1 1 B37 1 N39 1
+4 B36 1 B37 0 N39 0 N44 1
+leave((N39), fast0, n2, n1, n0)
+3 B2 1 B37 1 N39 1
+4 B36 1 B37 0 N39 0 N45 1
+leave((N39), fast0, n3, n1, n0)
+3 B3 1 B37 1 N39 1
+4 B36 1 B37 0 N39 0 N46 1
+leave((N39), fast0, n4, n1, n0)
+3 B4 1 B37 1 N39 1
+4 B36 1 B37 0 N39 0 N47 1
+leave((N39), fast0, n5, n1, n0)
+3 B5 1 B37 1 N39 1
+4 B36 1 B37 0 N39 0 N48 1
+leave((N39), fast0, n6, n1, n0)
+3 B6 1 B37 1 N39 1
+4 B36 1 B37 0 N39 0 N49 1
+leave((N39), fast0, n7, n1, n0)
+3 B7 1 B37 1 N39 1
+4 B36 1 B37 0 N39 0 N50 1
+leave((N39), fast0, n8, n1, n0)
+3 B8 1 B37 1 N39 1
+4 B36 1 B37 0 N39 0 N51 1
+leave((N40), fast1, n0, n1, n0)
+3 B9 1 B46 1 N40 1
+4 B45 1 B46 0 N40 0 N43 1
+leave((N40), fast1, n1, n1, n0)
+3 B10 1 B46 1 N40 1
+4 B45 1 B46 0 N40 0 N44 1
+leave((N40), fast1, n2, n1, n0)
+3 B11 1 B46 1 N40 1
+4 B45 1 B46 0 N40 0 N45 1
+leave((N40), fast1, n3, n1, n0)
+3 B12 1 B46 1 N40 1
+4 B45 1 B46 0 N40 0 N46 1
+leave((N40), fast1, n4, n1, n0)
+3 B13 1 B46 1 N40 1
+4 B45 1 B46 0 N40 0 N47 1
+leave((N40), fast1, n5, n1, n0)
+3 B14 1 B46 1 N40 1
+4 B45 1 B46 0 N40 0 N48 1
+leave((N40), fast1, n6, n1, n0)
+3 B15 1 B46 1 N40 1
+4 B45 1 B46 0 N40 0 N49 1
+leave((N40), fast1, n7, n1, n0)
+3 B16 1 B46 1 N40 1
+4 B45 1 B46 0 N40 0 N50 1
+leave((N40), fast1, n8, n1, n0)
+3 B17 1 B46 1 N40 1
+4 B45 1 B46 0 N40 0 N51 1
+leave((N41), slow0-0, n0, n1, n0)
+3 B18 1 B55 1 N41 1
+4 B54 1 B55 0 N41 0 N43 1
+leave((N41), slow0-0, n1, n1, n0)
+3 B19 1 B55 1 N41 1
+4 B54 1 B55 0 N41 0 N44 1
+leave((N41), slow0-0, n2, n1, n0)
+3 B20 1 B55 1 N41 1
+4 B54 1 B55 0 N41 0 N45 1
+leave((N41), slow0-0, n3, n1, n0)
+3 B21 1 B55 1 N41 1
+4 B54 1 B55 0 N41 0 N46 1
+leave((N41), slow0-0, n4, n1, n0)
+3 B22 1 B55 1 N41 1
+4 B54 1 B55 0 N41 0 N47 1
+leave((N41), slow0-0, n5, n1, n0)
+3 B23 1 B55 1 N41 1
+4 B54 1 B55 0 N41 0 N48 1
+leave((N41), slow0-0, n6, n1, n0)
+3 B24 1 B55 1 N41 1
+4 B54 1 B55 0 N41 0 N49 1
+leave((N41), slow0-0, n7, n1, n0)
+3 B25 1 B55 1 N41 1
+4 B54 1 B55 0 N41 0 N50 1
+leave((N41), slow0-0, n8, n1, n0)
+3 B26 1 B55 1 N41 1
+4 B54 1 B55 0 N41 0 N51 1
+leave((N42), slow1-0, n0, n1, n0)
+3 B27 1 B64 1 N42 1
+4 B63 1 B64 0 N42 0 N43 1
+leave((N42), slow1-0, n1, n1, n0)
+3 B28 1 B64 1 N42 1
+4 B63 1 B64 0 N42 0 N44 1
+leave((N42), slow1-0, n2, n1, n0)
+3 B29 1 B64 1 N42 1
+4 B63 1 B64 0 N42 0 N45 1
+leave((N42), slow1-0, n3, n1, n0)
+3 B30 1 B64 1 N42 1
+4 B63 1 B64 0 N42 0 N46 1
+leave((N42), slow1-0, n4, n1, n0)
+3 B31 1 B64 1 N42 1
+4 B63 1 B64 0 N42 0 N47 1
+leave((N42), slow1-0, n5, n1, n0)
+3 B32 1 B64 1 N42 1
+4 B63 1 B64 0 N42 0 N48 1
+leave((N42), slow1-0, n6, n1, n0)
+3 B33 1 B64 1 N42 1
+4 B63 1 B64 0 N42 0 N49 1
+leave((N42), slow1-0, n7, n1, n0)
+3 B34 1 B64 1 N42 1
+4 B63 1 B64 0 N42 0 N50 1
+leave((N42), slow1-0, n8, n1, n0)
+3 B35 1 B64 1 N42 1
+4 B63 1 B64 0 N42 0 N51 1
+leave((N0), fast0, n0, n2, n1)
+3 B0 1 B38 1 N0 1
+4 B37 1 B38 0 N0 0 N4 1
+leave((N0), fast0, n1, n2, n1)
+3 B1 1 B38 1 N0 1
+4 B37 1 B38 0 N0 0 N5 1
+leave((N0), fast0, n2, n2, n1)
+3 B2 1 B38 1 N0 1
+4 B37 1 B38 0 N0 0 N6 1
+leave((N0), fast0, n3, n2, n1)
+3 B3 1 B38 1 N0 1
+4 B37 1 B38 0 N0 0 N7 1
+leave((N0), fast0, n4, n2, n1)
+3 B4 1 B38 1 N0 1
+4 B37 1 B38 0 N0 0 N8 1
+leave((N0), fast0, n5, n2, n1)
+3 B5 1 B38 1 N0 1
+4 B37 1 B38 0 N0 0 N9 1
+leave((N0), fast0, n6, n2, n1)
+3 B6 1 B38 1 N0 1
+4 B37 1 B38 0 N0 0 N10 1
+leave((N0), fast0, n7, n2, n1)
+3 B7 1 B38 1 N0 1
+4 B37 1 B38 0 N0 0 N11 1
+leave((N0), fast0, n8, n2, n1)
+3 B8 1 B38 1 N0 1
+4 B37 1 B38 0 N0 0 N12 1
+leave((N1), fast1, n0, n2, n1)
+3 B9 1 B47 1 N1 1
+4 B46 1 B47 0 N1 0 N4 1
+leave((N1), fast1, n1, n2, n1)
+3 B10 1 B47 1 N1 1
+4 B46 1 B47 0 N1 0 N5 1
+leave((N1), fast1, n2, n2, n1)
+3 B11 1 B47 1 N1 1
+4 B46 1 B47 0 N1 0 N6 1
+leave((N1), fast1, n3, n2, n1)
+3 B12 1 B47 1 N1 1
+4 B46 1 B47 0 N1 0 N7 1
+leave((N1), fast1, n4, n2, n1)
+3 B13 1 B47 1 N1 1
+4 B46 1 B47 0 N1 0 N8 1
+leave((N1), fast1, n5, n2, n1)
+3 B14 1 B47 1 N1 1
+4 B46 1 B47 0 N1 0 N9 1
+leave((N1), fast1, n6, n2, n1)
+3 B15 1 B47 1 N1 1
+4 B46 1 B47 0 N1 0 N10 1
+leave((N1), fast1, n7, n2, n1)
+3 B16 1 B47 1 N1 1
+4 B46 1 B47 0 N1 0 N11 1
+leave((N1), fast1, n8, n2, n1)
+3 B17 1 B47 1 N1 1
+4 B46 1 B47 0 N1 0 N12 1
+leave((N2), slow0-0, n0, n2, n1)
+3 B18 1 B56 1 N2 1
+4 B55 1 B56 0 N2 0 N4 1
+leave((N2), slow0-0, n1, n2, n1)
+3 B19 1 B56 1 N2 1
+4 B55 1 B56 0 N2 0 N5 1
+leave((N2), slow0-0, n2, n2, n1)
+3 B20 1 B56 1 N2 1
+4 B55 1 B56 0 N2 0 N6 1
+leave((N2), slow0-0, n3, n2, n1)
+3 B21 1 B56 1 N2 1
+4 B55 1 B56 0 N2 0 N7 1
+leave((N2), slow0-0, n4, n2, n1)
+3 B22 1 B56 1 N2 1
+4 B55 1 B56 0 N2 0 N8 1
+leave((N2), slow0-0, n5, n2, n1)
+3 B23 1 B56 1 N2 1
+4 B55 1 B56 0 N2 0 N9 1
+leave((N2), slow0-0, n6, n2, n1)
+3 B24 1 B56 1 N2 1
+4 B55 1 B56 0 N2 0 N10 1
+leave((N2), slow0-0, n7, n2, n1)
+3 B25 1 B56 1 N2 1
+4 B55 1 B56 0 N2 0 N11 1
+leave((N2), slow0-0, n8, n2, n1)
+3 B26 1 B56 1 N2 1
+4 B55 1 B56 0 N2 0 N12 1
+leave((N3), slow1-0, n0, n2, n1)
+3 B27 1 B65 1 N3 1
+4 B64 1 B65 0 N3 0 N4 1
+leave((N3), slow1-0, n1, n2, n1)
+3 B28 1 B65 1 N3 1
+4 B64 1 B65 0 N3 0 N5 1
+leave((N3), slow1-0, n2, n2, n1)
+3 B29 1 B65 1 N3 1
+4 B64 1 B65 0 N3 0 N6 1
+leave((N3), slow1-0, n3, n2, n1)
+3 B30 1 B65 1 N3 1
+4 B64 1 B65 0 N3 0 N7 1
+leave((N3), slow1-0, n4, n2, n1)
+3 B31 1 B65 1 N3 1
+4 B64 1 B65 0 N3 0 N8 1
+leave((N3), slow1-0, n5, n2, n1)
+3 B32 1 B65 1 N3 1
+4 B64 1 B65 0 N3 0 N9 1
+leave((N3), slow1-0, n6, n2, n1)
+3 B33 1 B65 1 N3 1
+4 B64 1 B65 0 N3 0 N10 1
+leave((N3), slow1-0, n7, n2, n1)
+3 B34 1 B65 1 N3 1
+4 B64 1 B65 0 N3 0 N11 1
+leave((N3), slow1-0, n8, n2, n1)
+3 B35 1 B65 1 N3 1
+4 B64 1 B65 0 N3 0 N12 1
+leave((N13), fast0, n0, n2, n1)
+3 B0 1 B38 1 N13 1
+4 B37 1 B38 0 N13 0 N17 1
+leave((N13), fast0, n1, n2, n1)
+3 B1 1 B38 1 N13 1
+4 B37 1 B38 0 N13 0 N18 1
+leave((N13), fast0, n2, n2, n1)
+3 B2 1 B38 1 N13 1
+4 B37 1 B38 0 N13 0 N19 1
+leave((N13), fast0, n3, n2, n1)
+3 B3 1 B38 1 N13 1
+4 B37 1 B38 0 N13 0 N20 1
+leave((N13), fast0, n4, n2, n1)
+3 B4 1 B38 1 N13 1
+4 B37 1 B38 0 N13 0 N21 1
+leave((N13), fast0, n5, n2, n1)
+3 B5 1 B38 1 N13 1
+4 B37 1 B38 0 N13 0 N22 1
+leave((N13), fast0, n6, n2, n1)
+3 B6 1 B38 1 N13 1
+4 B37 1 B38 0 N13 0 N23 1
+leave((N13), fast0, n7, n2, n1)
+3 B7 1 B38 1 N13 1
+4 B37 1 B38 0 N13 0 N24 1
+leave((N13), fast0, n8, n2, n1)
+3 B8 1 B38 1 N13 1
+4 B37 1 B38 0 N13 0 N25 1
+leave((N14), fast1, n0, n2, n1)
+3 B9 1 B47 1 N14 1
+4 B46 1 B47 0 N14 0 N17 1
+leave((N14), fast1, n1, n2, n1)
+3 B10 1 B47 1 N14 1
+4 B46 1 B47 0 N14 0 N18 1
+leave((N14), fast1, n2, n2, n1)
+3 B11 1 B47 1 N14 1
+4 B46 1 B47 0 N14 0 N19 1
+leave((N14), fast1, n3, n2, n1)
+3 B12 1 B47 1 N14 1
+4 B46 1 B47 0 N14 0 N20 1
+leave((N14), fast1, n4, n2, n1)
+3 B13 1 B47 1 N14 1
+4 B46 1 B47 0 N14 0 N21 1
+leave((N14), fast1, n5, n2, n1)
+3 B14 1 B47 1 N14 1
+4 B46 1 B47 0 N14 0 N22 1
+leave((N14), fast1, n6, n2, n1)
+3 B15 1 B47 1 N14 1
+4 B46 1 B47 0 N14 0 N23 1
+leave((N14), fast1, n7, n2, n1)
+3 B16 1 B47 1 N14 1
+4 B46 1 B47 0 N14 0 N24 1
+leave((N14), fast1, n8, n2, n1)
+3 B17 1 B47 1 N14 1
+4 B46 1 B47 0 N14 0 N25 1
+leave((N15), slow0-0, n0, n2, n1)
+3 B18 1 B56 1 N15 1
+4 B55 1 B56 0 N15 0 N17 1
+leave((N15), slow0-0, n1, n2, n1)
+3 B19 1 B56 1 N15 1
+4 B55 1 B56 0 N15 0 N18 1
+leave((N15), slow0-0, n2, n2, n1)
+3 B20 1 B56 1 N15 1
+4 B55 1 B56 0 N15 0 N19 1
+leave((N15), slow0-0, n3, n2, n1)
+3 B21 1 B56 1 N15 1
+4 B55 1 B56 0 N15 0 N20 1
+leave((N15), slow0-0, n4, n2, n1)
+3 B22 1 B56 1 N15 1
+4 B55 1 B56 0 N15 0 N21 1
+leave((N15), slow0-0, n5, n2, n1)
+3 B23 1 B56 1 N15 1
+4 B55 1 B56 0 N15 0 N22 1
+leave((N15), slow0-0, n6, n2, n1)
+3 B24 1 B56 1 N15 1
+4 B55 1 B56 0 N15 0 N23 1
+leave((N15), slow0-0, n7, n2, n1)
+3 B25 1 B56 1 N15 1
+4 B55 1 B56 0 N15 0 N24 1
+leave((N15), slow0-0, n8, n2, n1)
+3 B26 1 B56 1 N15 1
+4 B55 1 B56 0 N15 0 N25 1
+leave((N16), slow1-0, n0, n2, n1)
+3 B27 1 B65 1 N16 1
+4 B64 1 B65 0 N16 0 N17 1
+leave((N16), slow1-0, n1, n2, n1)
+3 B28 1 B65 1 N16 1
+4 B64 1 B65 0 N16 0 N18 1
+leave((N16), slow1-0, n2, n2, n1)
+3 B29 1 B65 1 N16 1
+4 B64 1 B65 0 N16 0 N19 1
+leave((N16), slow1-0, n3, n2, n1)
+3 B30 1 B65 1 N16 1
+4 B64 1 B65 0 N16 0 N20 1
+leave((N16), slow1-0, n4, n2, n1)
+3 B31 1 B65 1 N16 1
+4 B64 1 B65 0 N16 0 N21 1
+leave((N16), slow1-0, n5, n2, n1)
+3 B32 1 B65 1 N16 1
+4 B64 1 B65 0 N16 0 N22 1
+leave((N16), slow1-0, n6, n2, n1)
+3 B33 1 B65 1 N16 1
+4 B64 1 B65 0 N16 0 N23 1
+leave((N16), slow1-0, n7, n2, n1)
+3 B34 1 B65 1 N16 1
+4 B64 1 B65 0 N16 0 N24 1
+leave((N16), slow1-0, n8, n2, n1)
+3 B35 1 B65 1 N16 1
+4 B64 1 B65 0 N16 0 N25 1
+leave((N26), fast0, n0, n2, n1)
+3 B0 1 B38 1 N26 1
+4 B37 1 B38 0 N26 0 N30 1
+leave((N26), fast0, n1, n2, n1)
+3 B1 1 B38 1 N26 1
+4 B37 1 B38 0 N26 0 N31 1
+leave((N26), fast0, n2, n2, n1)
+3 B2 1 B38 1 N26 1
+4 B37 1 B38 0 N26 0 N32 1
+leave((N26), fast0, n3, n2, n1)
+3 B3 1 B38 1 N26 1
+4 B37 1 B38 0 N26 0 N33 1
+leave((N26), fast0, n4, n2, n1)
+3 B4 1 B38 1 N26 1
+4 B37 1 B38 0 N26 0 N34 1
+leave((N26), fast0, n5, n2, n1)
+3 B5 1 B38 1 N26 1
+4 B37 1 B38 0 N26 0 N35 1
+leave((N26), fast0, n6, n2, n1)
+3 B6 1 B38 1 N26 1
+4 B37 1 B38 0 N26 0 N36 1
+leave((N26), fast0, n7, n2, n1)
+3 B7 1 B38 1 N26 1
+4 B37 1 B38 0 N26 0 N37 1
+leave((N26), fast0, n8, n2, n1)
+3 B8 1 B38 1 N26 1
+4 B37 1 B38 0 N26 0 N38 1
+leave((N27), fast1, n0, n2, n1)
+3 B9 1 B47 1 N27 1
+4 B46 1 B47 0 N27 0 N30 1
+leave((N27), fast1, n1, n2, n1)
+3 B10 1 B47 1 N27 1
+4 B46 1 B47 0 N27 0 N31 1
+leave((N27), fast1, n2, n2, n1)
+3 B11 1 B47 1 N27 1
+4 B46 1 B47 0 N27 0 N32 1
+leave((N27), fast1, n3, n2, n1)
+3 B12 1 B47 1 N27 1
+4 B46 1 B47 0 N27 0 N33 1
+leave((N27), fast1, n4, n2, n1)
+3 B13 1 B47 1 N27 1
+4 B46 1 B47 0 N27 0 N34 1
+leave((N27), fast1, n5, n2, n1)
+3 B14 1 B47 1 N27 1
+4 B46 1 B47 0 N27 0 N35 1
+leave((N27), fast1, n6, n2, n1)
+3 B15 1 B47 1 N27 1
+4 B46 1 B47 0 N27 0 N36 1
+leave((N27), fast1, n7, n2, n1)
+3 B16 1 B47 1 N27 1
+4 B46 1 B47 0 N27 0 N37 1
+leave((N27), fast1, n8, n2, n1)
+3 B17 1 B47 1 N27 1
+4 B46 1 B47 0 N27 0 N38 1
+leave((N28), slow0-0, n0, n2, n1)
+3 B18 1 B56 1 N28 1
+4 B55 1 B56 0 N28 0 N30 1
+leave((N28), slow0-0, n1, n2, n1)
+3 B19 1 B56 1 N28 1
+4 B55 1 B56 0 N28 0 N31 1
+leave((N28), slow0-0, n2, n2, n1)
+3 B20 1 B56 1 N28 1
+4 B55 1 B56 0 N28 0 N32 1
+leave((N28), slow0-0, n3, n2, n1)
+3 B21 1 B56 1 N28 1
+4 B55 1 B56 0 N28 0 N33 1
+leave((N28), slow0-0, n4, n2, n1)
+3 B22 1 B56 1 N28 1
+4 B55 1 B56 0 N28 0 N34 1
+leave((N28), slow0-0, n5, n2, n1)
+3 B23 1 B56 1 N28 1
+4 B55 1 B56 0 N28 0 N35 1
+leave((N28), slow0-0, n6, n2, n1)
+3 B24 1 B56 1 N28 1
+4 B55 1 B56 0 N28 0 N36 1
+leave((N28), slow0-0, n7, n2, n1)
+3 B25 1 B56 1 N28 1
+4 B55 1 B56 0 N28 0 N37 1
+leave((N28), slow0-0, n8, n2, n1)
+3 B26 1 B56 1 N28 1
+4 B55 1 B56 0 N28 0 N38 1
+leave((N29), slow1-0, n0, n2, n1)
+3 B27 1 B65 1 N29 1
+4 B64 1 B65 0 N29 0 N30 1
+leave((N29), slow1-0, n1, n2, n1)
+3 B28 1 B65 1 N29 1
+4 B64 1 B65 0 N29 0 N31 1
+leave((N29), slow1-0, n2, n2, n1)
+3 B29 1 B65 1 N29 1
+4 B64 1 B65 0 N29 0 N32 1
+leave((N29), slow1-0, n3, n2, n1)
+3 B30 1 B65 1 N29 1
+4 B64 1 B65 0 N29 0 N33 1
+leave((N29), slow1-0, n4, n2, n1)
+3 B31 1 B65 1 N29 1
+4 B64 1 B65 0 N29 0 N34 1
+leave((N29), slow1-0, n5, n2, n1)
+3 B32 1 B65 1 N29 1
+4 B64 1 B65 0 N29 0 N35 1
+leave((N29), slow1-0, n6, n2, n1)
+3 B33 1 B65 1 N29 1
+4 B64 1 B65 0 N29 0 N36 1
+leave((N29), slow1-0, n7, n2, n1)
+3 B34 1 B65 1 N29 1
+4 B64 1 B65 0 N29 0 N37 1
+leave((N29), slow1-0, n8, n2, n1)
+3 B35 1 B65 1 N29 1
+4 B64 1 B65 0 N29 0 N38 1
+leave((N39), fast0, n0, n2, n1)
+3 B0 1 B38 1 N39 1
+4 B37 1 B38 0 N39 0 N43 1
+leave((N39), fast0, n1, n2, n1)
+3 B1 1 B38 1 N39 1
+4 B37 1 B38 0 N39 0 N44 1
+leave((N39), fast0, n2, n2, n1)
+3 B2 1 B38 1 N39 1
+4 B37 1 B38 0 N39 0 N45 1
+leave((N39), fast0, n3, n2, n1)
+3 B3 1 B38 1 N39 1
+4 B37 1 B38 0 N39 0 N46 1
+leave((N39), fast0, n4, n2, n1)
+3 B4 1 B38 1 N39 1
+4 B37 1 B38 0 N39 0 N47 1
+leave((N39), fast0, n5, n2, n1)
+3 B5 1 B38 1 N39 1
+4 B37 1 B38 0 N39 0 N48 1
+leave((N39), fast0, n6, n2, n1)
+3 B6 1 B38 1 N39 1
+4 B37 1 B38 0 N39 0 N49 1
+leave((N39), fast0, n7, n2, n1)
+3 B7 1 B38 1 N39 1
+4 B37 1 B38 0 N39 0 N50 1
+leave((N39), fast0, n8, n2, n1)
+3 B8 1 B38 1 N39 1
+4 B37 1 B38 0 N39 0 N51 1
+leave((N40), fast1, n0, n2, n1)
+3 B9 1 B47 1 N40 1
+4 B46 1 B47 0 N40 0 N43 1
+leave((N40), fast1, n1, n2, n1)
+3 B10 1 B47 1 N40 1
+4 B46 1 B47 0 N40 0 N44 1
+leave((N40), fast1, n2, n2, n1)
+3 B11 1 B47 1 N40 1
+4 B46 1 B47 0 N40 0 N45 1
+leave((N40), fast1, n3, n2, n1)
+3 B12 1 B47 1 N40 1
+4 B46 1 B47 0 N40 0 N46 1
+leave((N40), fast1, n4, n2, n1)
+3 B13 1 B47 1 N40 1
+4 B46 1 B47 0 N40 0 N47 1
+leave((N40), fast1, n5, n2, n1)
+3 B14 1 B47 1 N40 1
+4 B46 1 B47 0 N40 0 N48 1
+leave((N40), fast1, n6, n2, n1)
+3 B15 1 B47 1 N40 1
+4 B46 1 B47 0 N40 0 N49 1
+leave((N40), fast1, n7, n2, n1)
+3 B16 1 B47 1 N40 1
+4 B46 1 B47 0 N40 0 N50 1
+leave((N40), fast1, n8, n2, n1)
+3 B17 1 B47 1 N40 1
+4 B46 1 B47 0 N40 0 N51 1
+leave((N41), slow0-0, n0, n2, n1)
+3 B18 1 B56 1 N41 1
+4 B55 1 B56 0 N41 0 N43 1
+leave((N41), slow0-0, n1, n2, n1)
+3 B19 1 B56 1 N41 1
+4 B55 1 B56 0 N41 0 N44 1
+leave((N41), slow0-0, n2, n2, n1)
+3 B20 1 B56 1 N41 1
+4 B55 1 B56 0 N41 0 N45 1
+leave((N41), slow0-0, n3, n2, n1)
+3 B21 1 B56 1 N41 1
+4 B55 1 B56 0 N41 0 N46 1
+leave((N41), slow0-0, n4, n2, n1)
+3 B22 1 B56 1 N41 1
+4 B55 1 B56 0 N41 0 N47 1
+leave((N41), slow0-0, n5, n2, n1)
+3 B23 1 B56 1 N41 1
+4 B55 1 B56 0 N41 0 N48 1
+leave((N41), slow0-0, n6, n2, n1)
+3 B24 1 B56 1 N41 1
+4 B55 1 B56 0 N41 0 N49 1
+leave((N41), slow0-0, n7, n2, n1)
+3 B25 1 B56 1 N41 1
+4 B55 1 B56 0 N41 0 N50 1
+leave((N41), slow0-0, n8, n2, n1)
+3 B26 1 B56 1 N41 1
+4 B55 1 B56 0 N41 0 N51 1
+leave((N42), slow1-0, n0, n2, n1)
+3 B27 1 B65 1 N42 1
+4 B64 1 B65 0 N42 0 N43 1
+leave((N42), slow1-0, n1, n2, n1)
+3 B28 1 B65 1 N42 1
+4 B64 1 B65 0 N42 0 N44 1
+leave((N42), slow1-0, n2, n2, n1)
+3 B29 1 B65 1 N42 1
+4 B64 1 B65 0 N42 0 N45 1
+leave((N42), slow1-0, n3, n2, n1)
+3 B30 1 B65 1 N42 1
+4 B64 1 B65 0 N42 0 N46 1
+leave((N42), slow1-0, n4, n2, n1)
+3 B31 1 B65 1 N42 1
+4 B64 1 B65 0 N42 0 N47 1
+leave((N42), slow1-0, n5, n2, n1)
+3 B32 1 B65 1 N42 1
+4 B64 1 B65 0 N42 0 N48 1
+leave((N42), slow1-0, n6, n2, n1)
+3 B33 1 B65 1 N42 1
+4 B64 1 B65 0 N42 0 N49 1
+leave((N42), slow1-0, n7, n2, n1)
+3 B34 1 B65 1 N42 1
+4 B64 1 B65 0 N42 0 N50 1
+leave((N42), slow1-0, n8, n2, n1)
+3 B35 1 B65 1 N42 1
+4 B64 1 B65 0 N42 0 N51 1
+leave((N0), fast0, n0, n3, n2)
+3 B0 1 B39 1 N0 1
+4 B38 1 B39 0 N0 0 N4 1
+leave((N0), fast0, n1, n3, n2)
+3 B1 1 B39 1 N0 1
+4 B38 1 B39 0 N0 0 N5 1
+leave((N0), fast0, n2, n3, n2)
+3 B2 1 B39 1 N0 1
+4 B38 1 B39 0 N0 0 N6 1
+leave((N0), fast0, n3, n3, n2)
+3 B3 1 B39 1 N0 1
+4 B38 1 B39 0 N0 0 N7 1
+leave((N0), fast0, n4, n3, n2)
+3 B4 1 B39 1 N0 1
+4 B38 1 B39 0 N0 0 N8 1
+leave((N0), fast0, n5, n3, n2)
+3 B5 1 B39 1 N0 1
+4 B38 1 B39 0 N0 0 N9 1
+leave((N0), fast0, n6, n3, n2)
+3 B6 1 B39 1 N0 1
+4 B38 1 B39 0 N0 0 N10 1
+leave((N0), fast0, n7, n3, n2)
+3 B7 1 B39 1 N0 1
+4 B38 1 B39 0 N0 0 N11 1
+leave((N0), fast0, n8, n3, n2)
+3 B8 1 B39 1 N0 1
+4 B38 1 B39 0 N0 0 N12 1
+leave((N1), fast1, n0, n3, n2)
+3 B9 1 B48 1 N1 1
+4 B47 1 B48 0 N1 0 N4 1
+leave((N1), fast1, n1, n3, n2)
+3 B10 1 B48 1 N1 1
+4 B47 1 B48 0 N1 0 N5 1
+leave((N1), fast1, n2, n3, n2)
+3 B11 1 B48 1 N1 1
+4 B47 1 B48 0 N1 0 N6 1
+leave((N1), fast1, n3, n3, n2)
+3 B12 1 B48 1 N1 1
+4 B47 1 B48 0 N1 0 N7 1
+leave((N1), fast1, n4, n3, n2)
+3 B13 1 B48 1 N1 1
+4 B47 1 B48 0 N1 0 N8 1
+leave((N1), fast1, n5, n3, n2)
+3 B14 1 B48 1 N1 1
+4 B47 1 B48 0 N1 0 N9 1
+leave((N1), fast1, n6, n3, n2)
+3 B15 1 B48 1 N1 1
+4 B47 1 B48 0 N1 0 N10 1
+leave((N1), fast1, n7, n3, n2)
+3 B16 1 B48 1 N1 1
+4 B47 1 B48 0 N1 0 N11 1
+leave((N1), fast1, n8, n3, n2)
+3 B17 1 B48 1 N1 1
+4 B47 1 B48 0 N1 0 N12 1
+leave((N2), slow0-0, n0, n3, n2)
+3 B18 1 B57 1 N2 1
+4 B56 1 B57 0 N2 0 N4 1
+leave((N2), slow0-0, n1, n3, n2)
+3 B19 1 B57 1 N2 1
+4 B56 1 B57 0 N2 0 N5 1
+leave((N2), slow0-0, n2, n3, n2)
+3 B20 1 B57 1 N2 1
+4 B56 1 B57 0 N2 0 N6 1
+leave((N2), slow0-0, n3, n3, n2)
+3 B21 1 B57 1 N2 1
+4 B56 1 B57 0 N2 0 N7 1
+leave((N2), slow0-0, n4, n3, n2)
+3 B22 1 B57 1 N2 1
+4 B56 1 B57 0 N2 0 N8 1
+leave((N2), slow0-0, n5, n3, n2)
+3 B23 1 B57 1 N2 1
+4 B56 1 B57 0 N2 0 N9 1
+leave((N2), slow0-0, n6, n3, n2)
+3 B24 1 B57 1 N2 1
+4 B56 1 B57 0 N2 0 N10 1
+leave((N2), slow0-0, n7, n3, n2)
+3 B25 1 B57 1 N2 1
+4 B56 1 B57 0 N2 0 N11 1
+leave((N2), slow0-0, n8, n3, n2)
+3 B26 1 B57 1 N2 1
+4 B56 1 B57 0 N2 0 N12 1
+leave((N3), slow1-0, n0, n3, n2)
+3 B27 1 B66 1 N3 1
+4 B65 1 B66 0 N3 0 N4 1
+leave((N3), slow1-0, n1, n3, n2)
+3 B28 1 B66 1 N3 1
+4 B65 1 B66 0 N3 0 N5 1
+leave((N3), slow1-0, n2, n3, n2)
+3 B29 1 B66 1 N3 1
+4 B65 1 B66 0 N3 0 N6 1
+leave((N3), slow1-0, n3, n3, n2)
+3 B30 1 B66 1 N3 1
+4 B65 1 B66 0 N3 0 N7 1
+leave((N3), slow1-0, n4, n3, n2)
+3 B31 1 B66 1 N3 1
+4 B65 1 B66 0 N3 0 N8 1
+leave((N3), slow1-0, n5, n3, n2)
+3 B32 1 B66 1 N3 1
+4 B65 1 B66 0 N3 0 N9 1
+leave((N3), slow1-0, n6, n3, n2)
+3 B33 1 B66 1 N3 1
+4 B65 1 B66 0 N3 0 N10 1
+leave((N3), slow1-0, n7, n3, n2)
+3 B34 1 B66 1 N3 1
+4 B65 1 B66 0 N3 0 N11 1
+leave((N3), slow1-0, n8, n3, n2)
+3 B35 1 B66 1 N3 1
+4 B65 1 B66 0 N3 0 N12 1
+leave((N13), fast0, n0, n3, n2)
+3 B0 1 B39 1 N13 1
+4 B38 1 B39 0 N13 0 N17 1
+leave((N13), fast0, n1, n3, n2)
+3 B1 1 B39 1 N13 1
+4 B38 1 B39 0 N13 0 N18 1
+leave((N13), fast0, n2, n3, n2)
+3 B2 1 B39 1 N13 1
+4 B38 1 B39 0 N13 0 N19 1
+leave((N13), fast0, n3, n3, n2)
+3 B3 1 B39 1 N13 1
+4 B38 1 B39 0 N13 0 N20 1
+leave((N13), fast0, n4, n3, n2)
+3 B4 1 B39 1 N13 1
+4 B38 1 B39 0 N13 0 N21 1
+leave((N13), fast0, n5, n3, n2)
+3 B5 1 B39 1 N13 1
+4 B38 1 B39 0 N13 0 N22 1
+leave((N13), fast0, n6, n3, n2)
+3 B6 1 B39 1 N13 1
+4 B38 1 B39 0 N13 0 N23 1
+leave((N13), fast0, n7, n3, n2)
+3 B7 1 B39 1 N13 1
+4 B38 1 B39 0 N13 0 N24 1
+leave((N13), fast0, n8, n3, n2)
+3 B8 1 B39 1 N13 1
+4 B38 1 B39 0 N13 0 N25 1
+leave((N14), fast1, n0, n3, n2)
+3 B9 1 B48 1 N14 1
+4 B47 1 B48 0 N14 0 N17 1
+leave((N14), fast1, n1, n3, n2)
+3 B10 1 B48 1 N14 1
+4 B47 1 B48 0 N14 0 N18 1
+leave((N14), fast1, n2, n3, n2)
+3 B11 1 B48 1 N14 1
+4 B47 1 B48 0 N14 0 N19 1
+leave((N14), fast1, n3, n3, n2)
+3 B12 1 B48 1 N14 1
+4 B47 1 B48 0 N14 0 N20 1
+leave((N14), fast1, n4, n3, n2)
+3 B13 1 B48 1 N14 1
+4 B47 1 B48 0 N14 0 N21 1
+leave((N14), fast1, n5, n3, n2)
+3 B14 1 B48 1 N14 1
+4 B47 1 B48 0 N14 0 N22 1
+leave((N14), fast1, n6, n3, n2)
+3 B15 1 B48 1 N14 1
+4 B47 1 B48 0 N14 0 N23 1
+leave((N14), fast1, n7, n3, n2)
+3 B16 1 B48 1 N14 1
+4 B47 1 B48 0 N14 0 N24 1
+leave((N14), fast1, n8, n3, n2)
+3 B17 1 B48 1 N14 1
+4 B47 1 B48 0 N14 0 N25 1
+leave((N15), slow0-0, n0, n3, n2)
+3 B18 1 B57 1 N15 1
+4 B56 1 B57 0 N15 0 N17 1
+leave((N15), slow0-0, n1, n3, n2)
+3 B19 1 B57 1 N15 1
+4 B56 1 B57 0 N15 0 N18 1
+leave((N15), slow0-0, n2, n3, n2)
+3 B20 1 B57 1 N15 1
+4 B56 1 B57 0 N15 0 N19 1
+leave((N15), slow0-0, n3, n3, n2)
+3 B21 1 B57 1 N15 1
+4 B56 1 B57 0 N15 0 N20 1
+leave((N15), slow0-0, n4, n3, n2)
+3 B22 1 B57 1 N15 1
+4 B56 1 B57 0 N15 0 N21 1
+leave((N15), slow0-0, n5, n3, n2)
+3 B23 1 B57 1 N15 1
+4 B56 1 B57 0 N15 0 N22 1
+leave((N15), slow0-0, n6, n3, n2)
+3 B24 1 B57 1 N15 1
+4 B56 1 B57 0 N15 0 N23 1
+leave((N15), slow0-0, n7, n3, n2)
+3 B25 1 B57 1 N15 1
+4 B56 1 B57 0 N15 0 N24 1
+leave((N15), slow0-0, n8, n3, n2)
+3 B26 1 B57 1 N15 1
+4 B56 1 B57 0 N15 0 N25 1
+leave((N16), slow1-0, n0, n3, n2)
+3 B27 1 B66 1 N16 1
+4 B65 1 B66 0 N16 0 N17 1
+leave((N16), slow1-0, n1, n3, n2)
+3 B28 1 B66 1 N16 1
+4 B65 1 B66 0 N16 0 N18 1
+leave((N16), slow1-0, n2, n3, n2)
+3 B29 1 B66 1 N16 1
+4 B65 1 B66 0 N16 0 N19 1
+leave((N16), slow1-0, n3, n3, n2)
+3 B30 1 B66 1 N16 1
+4 B65 1 B66 0 N16 0 N20 1
+leave((N16), slow1-0, n4, n3, n2)
+3 B31 1 B66 1 N16 1
+4 B65 1 B66 0 N16 0 N21 1
+leave((N16), slow1-0, n5, n3, n2)
+3 B32 1 B66 1 N16 1
+4 B65 1 B66 0 N16 0 N22 1
+leave((N16), slow1-0, n6, n3, n2)
+3 B33 1 B66 1 N16 1
+4 B65 1 B66 0 N16 0 N23 1
+leave((N16), slow1-0, n7, n3, n2)
+3 B34 1 B66 1 N16 1
+4 B65 1 B66 0 N16 0 N24 1
+leave((N16), slow1-0, n8, n3, n2)
+3 B35 1 B66 1 N16 1
+4 B65 1 B66 0 N16 0 N25 1
+leave((N26), fast0, n0, n3, n2)
+3 B0 1 B39 1 N26 1
+4 B38 1 B39 0 N26 0 N30 1
+leave((N26), fast0, n1, n3, n2)
+3 B1 1 B39 1 N26 1
+4 B38 1 B39 0 N26 0 N31 1
+leave((N26), fast0, n2, n3, n2)
+3 B2 1 B39 1 N26 1
+4 B38 1 B39 0 N26 0 N32 1
+leave((N26), fast0, n3, n3, n2)
+3 B3 1 B39 1 N26 1
+4 B38 1 B39 0 N26 0 N33 1
+leave((N26), fast0, n4, n3, n2)
+3 B4 1 B39 1 N26 1
+4 B38 1 B39 0 N26 0 N34 1
+leave((N26), fast0, n5, n3, n2)
+3 B5 1 B39 1 N26 1
+4 B38 1 B39 0 N26 0 N35 1
+leave((N26), fast0, n6, n3, n2)
+3 B6 1 B39 1 N26 1
+4 B38 1 B39 0 N26 0 N36 1
+leave((N26), fast0, n7, n3, n2)
+3 B7 1 B39 1 N26 1
+4 B38 1 B39 0 N26 0 N37 1
+leave((N26), fast0, n8, n3, n2)
+3 B8 1 B39 1 N26 1
+4 B38 1 B39 0 N26 0 N38 1
+leave((N27), fast1, n0, n3, n2)
+3 B9 1 B48 1 N27 1
+4 B47 1 B48 0 N27 0 N30 1
+leave((N27), fast1, n1, n3, n2)
+3 B10 1 B48 1 N27 1
+4 B47 1 B48 0 N27 0 N31 1
+leave((N27), fast1, n2, n3, n2)
+3 B11 1 B48 1 N27 1
+4 B47 1 B48 0 N27 0 N32 1
+leave((N27), fast1, n3, n3, n2)
+3 B12 1 B48 1 N27 1
+4 B47 1 B48 0 N27 0 N33 1
+leave((N27), fast1, n4, n3, n2)
+3 B13 1 B48 1 N27 1
+4 B47 1 B48 0 N27 0 N34 1
+leave((N27), fast1, n5, n3, n2)
+3 B14 1 B48 1 N27 1
+4 B47 1 B48 0 N27 0 N35 1
+leave((N27), fast1, n6, n3, n2)
+3 B15 1 B48 1 N27 1
+4 B47 1 B48 0 N27 0 N36 1
+leave((N27), fast1, n7, n3, n2)
+3 B16 1 B48 1 N27 1
+4 B47 1 B48 0 N27 0 N37 1
+leave((N27), fast1, n8, n3, n2)
+3 B17 1 B48 1 N27 1
+4 B47 1 B48 0 N27 0 N38 1
+leave((N28), slow0-0, n0, n3, n2)
+3 B18 1 B57 1 N28 1
+4 B56 1 B57 0 N28 0 N30 1
+leave((N28), slow0-0, n1, n3, n2)
+3 B19 1 B57 1 N28 1
+4 B56 1 B57 0 N28 0 N31 1
+leave((N28), slow0-0, n2, n3, n2)
+3 B20 1 B57 1 N28 1
+4 B56 1 B57 0 N28 0 N32 1
+leave((N28), slow0-0, n3, n3, n2)
+3 B21 1 B57 1 N28 1
+4 B56 1 B57 0 N28 0 N33 1
+leave((N28), slow0-0, n4, n3, n2)
+3 B22 1 B57 1 N28 1
+4 B56 1 B57 0 N28 0 N34 1
+leave((N28), slow0-0, n5, n3, n2)
+3 B23 1 B57 1 N28 1
+4 B56 1 B57 0 N28 0 N35 1
+leave((N28), slow0-0, n6, n3, n2)
+3 B24 1 B57 1 N28 1
+4 B56 1 B57 0 N28 0 N36 1
+leave((N28), slow0-0, n7, n3, n2)
+3 B25 1 B57 1 N28 1
+4 B56 1 B57 0 N28 0 N37 1
+leave((N28), slow0-0, n8, n3, n2)
+3 B26 1 B57 1 N28 1
+4 B56 1 B57 0 N28 0 N38 1
+leave((N29), slow1-0, n0, n3, n2)
+3 B27 1 B66 1 N29 1
+4 B65 1 B66 0 N29 0 N30 1
+leave((N29), slow1-0, n1, n3, n2)
+3 B28 1 B66 1 N29 1
+4 B65 1 B66 0 N29 0 N31 1
+leave((N29), slow1-0, n2, n3, n2)
+3 B29 1 B66 1 N29 1
+4 B65 1 B66 0 N29 0 N32 1
+leave((N29), slow1-0, n3, n3, n2)
+3 B30 1 B66 1 N29 1
+4 B65 1 B66 0 N29 0 N33 1
+leave((N29), slow1-0, n4, n3, n2)
+3 B31 1 B66 1 N29 1
+4 B65 1 B66 0 N29 0 N34 1
+leave((N29), slow1-0, n5, n3, n2)
+3 B32 1 B66 1 N29 1
+4 B65 1 B66 0 N29 0 N35 1
+leave((N29), slow1-0, n6, n3, n2)
+3 B33 1 B66 1 N29 1
+4 B65 1 B66 0 N29 0 N36 1
+leave((N29), slow1-0, n7, n3, n2)
+3 B34 1 B66 1 N29 1
+4 B65 1 B66 0 N29 0 N37 1
+leave((N29), slow1-0, n8, n3, n2)
+3 B35 1 B66 1 N29 1
+4 B65 1 B66 0 N29 0 N38 1
+leave((N39), fast0, n0, n3, n2)
+3 B0 1 B39 1 N39 1
+4 B38 1 B39 0 N39 0 N43 1
+leave((N39), fast0, n1, n3, n2)
+3 B1 1 B39 1 N39 1
+4 B38 1 B39 0 N39 0 N44 1
+leave((N39), fast0, n2, n3, n2)
+3 B2 1 B39 1 N39 1
+4 B38 1 B39 0 N39 0 N45 1
+leave((N39), fast0, n3, n3, n2)
+3 B3 1 B39 1 N39 1
+4 B38 1 B39 0 N39 0 N46 1
+leave((N39), fast0, n4, n3, n2)
+3 B4 1 B39 1 N39 1
+4 B38 1 B39 0 N39 0 N47 1
+leave((N39), fast0, n5, n3, n2)
+3 B5 1 B39 1 N39 1
+4 B38 1 B39 0 N39 0 N48 1
+leave((N39), fast0, n6, n3, n2)
+3 B6 1 B39 1 N39 1
+4 B38 1 B39 0 N39 0 N49 1
+leave((N39), fast0, n7, n3, n2)
+3 B7 1 B39 1 N39 1
+4 B38 1 B39 0 N39 0 N50 1
+leave((N39), fast0, n8, n3, n2)
+3 B8 1 B39 1 N39 1
+4 B38 1 B39 0 N39 0 N51 1
+leave((N40), fast1, n0, n3, n2)
+3 B9 1 B48 1 N40 1
+4 B47 1 B48 0 N40 0 N43 1
+leave((N40), fast1, n1, n3, n2)
+3 B10 1 B48 1 N40 1
+4 B47 1 B48 0 N40 0 N44 1
+leave((N40), fast1, n2, n3, n2)
+3 B11 1 B48 1 N40 1
+4 B47 1 B48 0 N40 0 N45 1
+leave((N40), fast1, n3, n3, n2)
+3 B12 1 B48 1 N40 1
+4 B47 1 B48 0 N40 0 N46 1
+leave((N40), fast1, n4, n3, n2)
+3 B13 1 B48 1 N40 1
+4 B47 1 B48 0 N40 0 N47 1
+leave((N40), fast1, n5, n3, n2)
+3 B14 1 B48 1 N40 1
+4 B47 1 B48 0 N40 0 N48 1
+leave((N40), fast1, n6, n3, n2)
+3 B15 1 B48 1 N40 1
+4 B47 1 B48 0 N40 0 N49 1
+leave((N40), fast1, n7, n3, n2)
+3 B16 1 B48 1 N40 1
+4 B47 1 B48 0 N40 0 N50 1
+leave((N40), fast1, n8, n3, n2)
+3 B17 1 B48 1 N40 1
+4 B47 1 B48 0 N40 0 N51 1
+leave((N41), slow0-0, n0, n3, n2)
+3 B18 1 B57 1 N41 1
+4 B56 1 B57 0 N41 0 N43 1
+leave((N41), slow0-0, n1, n3, n2)
+3 B19 1 B57 1 N41 1
+4 B56 1 B57 0 N41 0 N44 1
+leave((N41), slow0-0, n2, n3, n2)
+3 B20 1 B57 1 N41 1
+4 B56 1 B57 0 N41 0 N45 1
+leave((N41), slow0-0, n3, n3, n2)
+3 B21 1 B57 1 N41 1
+4 B56 1 B57 0 N41 0 N46 1
+leave((N41), slow0-0, n4, n3, n2)
+3 B22 1 B57 1 N41 1
+4 B56 1 B57 0 N41 0 N47 1
+leave((N41), slow0-0, n5, n3, n2)
+3 B23 1 B57 1 N41 1
+4 B56 1 B57 0 N41 0 N48 1
+leave((N41), slow0-0, n6, n3, n2)
+3 B24 1 B57 1 N41 1
+4 B56 1 B57 0 N41 0 N49 1
+leave((N41), slow0-0, n7, n3, n2)
+3 B25 1 B57 1 N41 1
+4 B56 1 B57 0 N41 0 N50 1
+leave((N41), slow0-0, n8, n3, n2)
+3 B26 1 B57 1 N41 1
+4 B56 1 B57 0 N41 0 N51 1
+leave((N42), slow1-0, n0, n3, n2)
+3 B27 1 B66 1 N42 1
+4 B65 1 B66 0 N42 0 N43 1
+leave((N42), slow1-0, n1, n3, n2)
+3 B28 1 B66 1 N42 1
+4 B65 1 B66 0 N42 0 N44 1
+leave((N42), slow1-0, n2, n3, n2)
+3 B29 1 B66 1 N42 1
+4 B65 1 B66 0 N42 0 N45 1
+leave((N42), slow1-0, n3, n3, n2)
+3 B30 1 B66 1 N42 1
+4 B65 1 B66 0 N42 0 N46 1
+leave((N42), slow1-0, n4, n3, n2)
+3 B31 1 B66 1 N42 1
+4 B65 1 B66 0 N42 0 N47 1
+leave((N42), slow1-0, n5, n3, n2)
+3 B32 1 B66 1 N42 1
+4 B65 1 B66 0 N42 0 N48 1
+leave((N42), slow1-0, n6, n3, n2)
+3 B33 1 B66 1 N42 1
+4 B65 1 B66 0 N42 0 N49 1
+leave((N42), slow1-0, n7, n3, n2)
+3 B34 1 B66 1 N42 1
+4 B65 1 B66 0 N42 0 N50 1
+leave((N42), slow1-0, n8, n3, n2)
+3 B35 1 B66 1 N42 1
+4 B65 1 B66 0 N42 0 N51 1
+leave((N0), fast0, n0, n4, n3)
+3 B0 1 B40 1 N0 1
+4 B39 1 B40 0 N0 0 N4 1
+leave((N0), fast0, n1, n4, n3)
+3 B1 1 B40 1 N0 1
+4 B39 1 B40 0 N0 0 N5 1
+leave((N0), fast0, n2, n4, n3)
+3 B2 1 B40 1 N0 1
+4 B39 1 B40 0 N0 0 N6 1
+leave((N0), fast0, n3, n4, n3)
+3 B3 1 B40 1 N0 1
+4 B39 1 B40 0 N0 0 N7 1
+leave((N0), fast0, n4, n4, n3)
+3 B4 1 B40 1 N0 1
+4 B39 1 B40 0 N0 0 N8 1
+leave((N0), fast0, n5, n4, n3)
+3 B5 1 B40 1 N0 1
+4 B39 1 B40 0 N0 0 N9 1
+leave((N0), fast0, n6, n4, n3)
+3 B6 1 B40 1 N0 1
+4 B39 1 B40 0 N0 0 N10 1
+leave((N0), fast0, n7, n4, n3)
+3 B7 1 B40 1 N0 1
+4 B39 1 B40 0 N0 0 N11 1
+leave((N0), fast0, n8, n4, n3)
+3 B8 1 B40 1 N0 1
+4 B39 1 B40 0 N0 0 N12 1
+leave((N1), fast1, n0, n4, n3)
+3 B9 1 B49 1 N1 1
+4 B48 1 B49 0 N1 0 N4 1
+leave((N1), fast1, n1, n4, n3)
+3 B10 1 B49 1 N1 1
+4 B48 1 B49 0 N1 0 N5 1
+leave((N1), fast1, n2, n4, n3)
+3 B11 1 B49 1 N1 1
+4 B48 1 B49 0 N1 0 N6 1
+leave((N1), fast1, n3, n4, n3)
+3 B12 1 B49 1 N1 1
+4 B48 1 B49 0 N1 0 N7 1
+leave((N1), fast1, n4, n4, n3)
+3 B13 1 B49 1 N1 1
+4 B48 1 B49 0 N1 0 N8 1
+leave((N1), fast1, n5, n4, n3)
+3 B14 1 B49 1 N1 1
+4 B48 1 B49 0 N1 0 N9 1
+leave((N1), fast1, n6, n4, n3)
+3 B15 1 B49 1 N1 1
+4 B48 1 B49 0 N1 0 N10 1
+leave((N1), fast1, n7, n4, n3)
+3 B16 1 B49 1 N1 1
+4 B48 1 B49 0 N1 0 N11 1
+leave((N1), fast1, n8, n4, n3)
+3 B17 1 B49 1 N1 1
+4 B48 1 B49 0 N1 0 N12 1
+leave((N2), slow0-0, n0, n4, n3)
+3 B18 1 B58 1 N2 1
+4 B57 1 B58 0 N2 0 N4 1
+leave((N2), slow0-0, n1, n4, n3)
+3 B19 1 B58 1 N2 1
+4 B57 1 B58 0 N2 0 N5 1
+leave((N2), slow0-0, n2, n4, n3)
+3 B20 1 B58 1 N2 1
+4 B57 1 B58 0 N2 0 N6 1
+leave((N2), slow0-0, n3, n4, n3)
+3 B21 1 B58 1 N2 1
+4 B57 1 B58 0 N2 0 N7 1
+leave((N2), slow0-0, n4, n4, n3)
+3 B22 1 B58 1 N2 1
+4 B57 1 B58 0 N2 0 N8 1
+leave((N2), slow0-0, n5, n4, n3)
+3 B23 1 B58 1 N2 1
+4 B57 1 B58 0 N2 0 N9 1
+leave((N2), slow0-0, n6, n4, n3)
+3 B24 1 B58 1 N2 1
+4 B57 1 B58 0 N2 0 N10 1
+leave((N2), slow0-0, n7, n4, n3)
+3 B25 1 B58 1 N2 1
+4 B57 1 B58 0 N2 0 N11 1
+leave((N2), slow0-0, n8, n4, n3)
+3 B26 1 B58 1 N2 1
+4 B57 1 B58 0 N2 0 N12 1
+leave((N3), slow1-0, n0, n4, n3)
+3 B27 1 B67 1 N3 1
+4 B66 1 B67 0 N3 0 N4 1
+leave((N3), slow1-0, n1, n4, n3)
+3 B28 1 B67 1 N3 1
+4 B66 1 B67 0 N3 0 N5 1
+leave((N3), slow1-0, n2, n4, n3)
+3 B29 1 B67 1 N3 1
+4 B66 1 B67 0 N3 0 N6 1
+leave((N3), slow1-0, n3, n4, n3)
+3 B30 1 B67 1 N3 1
+4 B66 1 B67 0 N3 0 N7 1
+leave((N3), slow1-0, n4, n4, n3)
+3 B31 1 B67 1 N3 1
+4 B66 1 B67 0 N3 0 N8 1
+leave((N3), slow1-0, n5, n4, n3)
+3 B32 1 B67 1 N3 1
+4 B66 1 B67 0 N3 0 N9 1
+leave((N3), slow1-0, n6, n4, n3)
+3 B33 1 B67 1 N3 1
+4 B66 1 B67 0 N3 0 N10 1
+leave((N3), slow1-0, n7, n4, n3)
+3 B34 1 B67 1 N3 1
+4 B66 1 B67 0 N3 0 N11 1
+leave((N3), slow1-0, n8, n4, n3)
+3 B35 1 B67 1 N3 1
+4 B66 1 B67 0 N3 0 N12 1
+leave((N13), fast0, n0, n4, n3)
+3 B0 1 B40 1 N13 1
+4 B39 1 B40 0 N13 0 N17 1
+leave((N13), fast0, n1, n4, n3)
+3 B1 1 B40 1 N13 1
+4 B39 1 B40 0 N13 0 N18 1
+leave((N13), fast0, n2, n4, n3)
+3 B2 1 B40 1 N13 1
+4 B39 1 B40 0 N13 0 N19 1
+leave((N13), fast0, n3, n4, n3)
+3 B3 1 B40 1 N13 1
+4 B39 1 B40 0 N13 0 N20 1
+leave((N13), fast0, n4, n4, n3)
+3 B4 1 B40 1 N13 1
+4 B39 1 B40 0 N13 0 N21 1
+leave((N13), fast0, n5, n4, n3)
+3 B5 1 B40 1 N13 1
+4 B39 1 B40 0 N13 0 N22 1
+leave((N13), fast0, n6, n4, n3)
+3 B6 1 B40 1 N13 1
+4 B39 1 B40 0 N13 0 N23 1
+leave((N13), fast0, n7, n4, n3)
+3 B7 1 B40 1 N13 1
+4 B39 1 B40 0 N13 0 N24 1
+leave((N13), fast0, n8, n4, n3)
+3 B8 1 B40 1 N13 1
+4 B39 1 B40 0 N13 0 N25 1
+leave((N14), fast1, n0, n4, n3)
+3 B9 1 B49 1 N14 1
+4 B48 1 B49 0 N14 0 N17 1
+leave((N14), fast1, n1, n4, n3)
+3 B10 1 B49 1 N14 1
+4 B48 1 B49 0 N14 0 N18 1
+leave((N14), fast1, n2, n4, n3)
+3 B11 1 B49 1 N14 1
+4 B48 1 B49 0 N14 0 N19 1
+leave((N14), fast1, n3, n4, n3)
+3 B12 1 B49 1 N14 1
+4 B48 1 B49 0 N14 0 N20 1
+leave((N14), fast1, n4, n4, n3)
+3 B13 1 B49 1 N14 1
+4 B48 1 B49 0 N14 0 N21 1
+leave((N14), fast1, n5, n4, n3)
+3 B14 1 B49 1 N14 1
+4 B48 1 B49 0 N14 0 N22 1
+leave((N14), fast1, n6, n4, n3)
+3 B15 1 B49 1 N14 1
+4 B48 1 B49 0 N14 0 N23 1
+leave((N14), fast1, n7, n4, n3)
+3 B16 1 B49 1 N14 1
+4 B48 1 B49 0 N14 0 N24 1
+leave((N14), fast1, n8, n4, n3)
+3 B17 1 B49 1 N14 1
+4 B48 1 B49 0 N14 0 N25 1
+leave((N15), slow0-0, n0, n4, n3)
+3 B18 1 B58 1 N15 1
+4 B57 1 B58 0 N15 0 N17 1
+leave((N15), slow0-0, n1, n4, n3)
+3 B19 1 B58 1 N15 1
+4 B57 1 B58 0 N15 0 N18 1
+leave((N15), slow0-0, n2, n4, n3)
+3 B20 1 B58 1 N15 1
+4 B57 1 B58 0 N15 0 N19 1
+leave((N15), slow0-0, n3, n4, n3)
+3 B21 1 B58 1 N15 1
+4 B57 1 B58 0 N15 0 N20 1
+leave((N15), slow0-0, n4, n4, n3)
+3 B22 1 B58 1 N15 1
+4 B57 1 B58 0 N15 0 N21 1
+leave((N15), slow0-0, n5, n4, n3)
+3 B23 1 B58 1 N15 1
+4 B57 1 B58 0 N15 0 N22 1
+leave((N15), slow0-0, n6, n4, n3)
+3 B24 1 B58 1 N15 1
+4 B57 1 B58 0 N15 0 N23 1
+leave((N15), slow0-0, n7, n4, n3)
+3 B25 1 B58 1 N15 1
+4 B57 1 B58 0 N15 0 N24 1
+leave((N15), slow0-0, n8, n4, n3)
+3 B26 1 B58 1 N15 1
+4 B57 1 B58 0 N15 0 N25 1
+leave((N16), slow1-0, n0, n4, n3)
+3 B27 1 B67 1 N16 1
+4 B66 1 B67 0 N16 0 N17 1
+leave((N16), slow1-0, n1, n4, n3)
+3 B28 1 B67 1 N16 1
+4 B66 1 B67 0 N16 0 N18 1
+leave((N16), slow1-0, n2, n4, n3)
+3 B29 1 B67 1 N16 1
+4 B66 1 B67 0 N16 0 N19 1
+leave((N16), slow1-0, n3, n4, n3)
+3 B30 1 B67 1 N16 1
+4 B66 1 B67 0 N16 0 N20 1
+leave((N16), slow1-0, n4, n4, n3)
+3 B31 1 B67 1 N16 1
+4 B66 1 B67 0 N16 0 N21 1
+leave((N16), slow1-0, n5, n4, n3)
+3 B32 1 B67 1 N16 1
+4 B66 1 B67 0 N16 0 N22 1
+leave((N16), slow1-0, n6, n4, n3)
+3 B33 1 B67 1 N16 1
+4 B66 1 B67 0 N16 0 N23 1
+leave((N16), slow1-0, n7, n4, n3)
+3 B34 1 B67 1 N16 1
+4 B66 1 B67 0 N16 0 N24 1
+leave((N16), slow1-0, n8, n4, n3)
+3 B35 1 B67 1 N16 1
+4 B66 1 B67 0 N16 0 N25 1
+leave((N26), fast0, n0, n4, n3)
+3 B0 1 B40 1 N26 1
+4 B39 1 B40 0 N26 0 N30 1
+leave((N26), fast0, n1, n4, n3)
+3 B1 1 B40 1 N26 1
+4 B39 1 B40 0 N26 0 N31 1
+leave((N26), fast0, n2, n4, n3)
+3 B2 1 B40 1 N26 1
+4 B39 1 B40 0 N26 0 N32 1
+leave((N26), fast0, n3, n4, n3)
+3 B3 1 B40 1 N26 1
+4 B39 1 B40 0 N26 0 N33 1
+leave((N26), fast0, n4, n4, n3)
+3 B4 1 B40 1 N26 1
+4 B39 1 B40 0 N26 0 N34 1
+leave((N26), fast0, n5, n4, n3)
+3 B5 1 B40 1 N26 1
+4 B39 1 B40 0 N26 0 N35 1
+leave((N26), fast0, n6, n4, n3)
+3 B6 1 B40 1 N26 1
+4 B39 1 B40 0 N26 0 N36 1
+leave((N26), fast0, n7, n4, n3)
+3 B7 1 B40 1 N26 1
+4 B39 1 B40 0 N26 0 N37 1
+leave((N26), fast0, n8, n4, n3)
+3 B8 1 B40 1 N26 1
+4 B39 1 B40 0 N26 0 N38 1
+leave((N27), fast1, n0, n4, n3)
+3 B9 1 B49 1 N27 1
+4 B48 1 B49 0 N27 0 N30 1
+leave((N27), fast1, n1, n4, n3)
+3 B10 1 B49 1 N27 1
+4 B48 1 B49 0 N27 0 N31 1
+leave((N27), fast1, n2, n4, n3)
+3 B11 1 B49 1 N27 1
+4 B48 1 B49 0 N27 0 N32 1
+leave((N27), fast1, n3, n4, n3)
+3 B12 1 B49 1 N27 1
+4 B48 1 B49 0 N27 0 N33 1
+leave((N27), fast1, n4, n4, n3)
+3 B13 1 B49 1 N27 1
+4 B48 1 B49 0 N27 0 N34 1
+leave((N27), fast1, n5, n4, n3)
+3 B14 1 B49 1 N27 1
+4 B48 1 B49 0 N27 0 N35 1
+leave((N27), fast1, n6, n4, n3)
+3 B15 1 B49 1 N27 1
+4 B48 1 B49 0 N27 0 N36 1
+leave((N27), fast1, n7, n4, n3)
+3 B16 1 B49 1 N27 1
+4 B48 1 B49 0 N27 0 N37 1
+leave((N27), fast1, n8, n4, n3)
+3 B17 1 B49 1 N27 1
+4 B48 1 B49 0 N27 0 N38 1
+leave((N28), slow0-0, n0, n4, n3)
+3 B18 1 B58 1 N28 1
+4 B57 1 B58 0 N28 0 N30 1
+leave((N28), slow0-0, n1, n4, n3)
+3 B19 1 B58 1 N28 1
+4 B57 1 B58 0 N28 0 N31 1
+leave((N28), slow0-0, n2, n4, n3)
+3 B20 1 B58 1 N28 1
+4 B57 1 B58 0 N28 0 N32 1
+leave((N28), slow0-0, n3, n4, n3)
+3 B21 1 B58 1 N28 1
+4 B57 1 B58 0 N28 0 N33 1
+leave((N28), slow0-0, n4, n4, n3)
+3 B22 1 B58 1 N28 1
+4 B57 1 B58 0 N28 0 N34 1
+leave((N28), slow0-0, n5, n4, n3)
+3 B23 1 B58 1 N28 1
+4 B57 1 B58 0 N28 0 N35 1
+leave((N28), slow0-0, n6, n4, n3)
+3 B24 1 B58 1 N28 1
+4 B57 1 B58 0 N28 0 N36 1
+leave((N28), slow0-0, n7, n4, n3)
+3 B25 1 B58 1 N28 1
+4 B57 1 B58 0 N28 0 N37 1
+leave((N28), slow0-0, n8, n4, n3)
+3 B26 1 B58 1 N28 1
+4 B57 1 B58 0 N28 0 N38 1
+leave((N29), slow1-0, n0, n4, n3)
+3 B27 1 B67 1 N29 1
+4 B66 1 B67 0 N29 0 N30 1
+leave((N29), slow1-0, n1, n4, n3)
+3 B28 1 B67 1 N29 1
+4 B66 1 B67 0 N29 0 N31 1
+leave((N29), slow1-0, n2, n4, n3)
+3 B29 1 B67 1 N29 1
+4 B66 1 B67 0 N29 0 N32 1
+leave((N29), slow1-0, n3, n4, n3)
+3 B30 1 B67 1 N29 1
+4 B66 1 B67 0 N29 0 N33 1
+leave((N29), slow1-0, n4, n4, n3)
+3 B31 1 B67 1 N29 1
+4 B66 1 B67 0 N29 0 N34 1
+leave((N29), slow1-0, n5, n4, n3)
+3 B32 1 B67 1 N29 1
+4 B66 1 B67 0 N29 0 N35 1
+leave((N29), slow1-0, n6, n4, n3)
+3 B33 1 B67 1 N29 1
+4 B66 1 B67 0 N29 0 N36 1
+leave((N29), slow1-0, n7, n4, n3)
+3 B34 1 B67 1 N29 1
+4 B66 1 B67 0 N29 0 N37 1
+leave((N29), slow1-0, n8, n4, n3)
+3 B35 1 B67 1 N29 1
+4 B66 1 B67 0 N29 0 N38 1
+leave((N39), fast0, n0, n4, n3)
+3 B0 1 B40 1 N39 1
+4 B39 1 B40 0 N39 0 N43 1
+leave((N39), fast0, n1, n4, n3)
+3 B1 1 B40 1 N39 1
+4 B39 1 B40 0 N39 0 N44 1
+leave((N39), fast0, n2, n4, n3)
+3 B2 1 B40 1 N39 1
+4 B39 1 B40 0 N39 0 N45 1
+leave((N39), fast0, n3, n4, n3)
+3 B3 1 B40 1 N39 1
+4 B39 1 B40 0 N39 0 N46 1
+leave((N39), fast0, n4, n4, n3)
+3 B4 1 B40 1 N39 1
+4 B39 1 B40 0 N39 0 N47 1
+leave((N39), fast0, n5, n4, n3)
+3 B5 1 B40 1 N39 1
+4 B39 1 B40 0 N39 0 N48 1
+leave((N39), fast0, n6, n4, n3)
+3 B6 1 B40 1 N39 1
+4 B39 1 B40 0 N39 0 N49 1
+leave((N39), fast0, n7, n4, n3)
+3 B7 1 B40 1 N39 1
+4 B39 1 B40 0 N39 0 N50 1
+leave((N39), fast0, n8, n4, n3)
+3 B8 1 B40 1 N39 1
+4 B39 1 B40 0 N39 0 N51 1
+leave((N40), fast1, n0, n4, n3)
+3 B9 1 B49 1 N40 1
+4 B48 1 B49 0 N40 0 N43 1
+leave((N40), fast1, n1, n4, n3)
+3 B10 1 B49 1 N40 1
+4 B48 1 B49 0 N40 0 N44 1
+leave((N40), fast1, n2, n4, n3)
+3 B11 1 B49 1 N40 1
+4 B48 1 B49 0 N40 0 N45 1
+leave((N40), fast1, n3, n4, n3)
+3 B12 1 B49 1 N40 1
+4 B48 1 B49 0 N40 0 N46 1
+leave((N40), fast1, n4, n4, n3)
+3 B13 1 B49 1 N40 1
+4 B48 1 B49 0 N40 0 N47 1
+leave((N40), fast1, n5, n4, n3)
+3 B14 1 B49 1 N40 1
+4 B48 1 B49 0 N40 0 N48 1
+leave((N40), fast1, n6, n4, n3)
+3 B15 1 B49 1 N40 1
+4 B48 1 B49 0 N40 0 N49 1
+leave((N40), fast1, n7, n4, n3)
+3 B16 1 B49 1 N40 1
+4 B48 1 B49 0 N40 0 N50 1
+leave((N40), fast1, n8, n4, n3)
+3 B17 1 B49 1 N40 1
+4 B48 1 B49 0 N40 0 N51 1
+leave((N41), slow0-0, n0, n4, n3)
+3 B18 1 B58 1 N41 1
+4 B57 1 B58 0 N41 0 N43 1
+leave((N41), slow0-0, n1, n4, n3)
+3 B19 1 B58 1 N41 1
+4 B57 1 B58 0 N41 0 N44 1
+leave((N41), slow0-0, n2, n4, n3)
+3 B20 1 B58 1 N41 1
+4 B57 1 B58 0 N41 0 N45 1
+leave((N41), slow0-0, n3, n4, n3)
+3 B21 1 B58 1 N41 1
+4 B57 1 B58 0 N41 0 N46 1
+leave((N41), slow0-0, n4, n4, n3)
+3 B22 1 B58 1 N41 1
+4 B57 1 B58 0 N41 0 N47 1
+leave((N41), slow0-0, n5, n4, n3)
+3 B23 1 B58 1 N41 1
+4 B57 1 B58 0 N41 0 N48 1
+leave((N41), slow0-0, n6, n4, n3)
+3 B24 1 B58 1 N41 1
+4 B57 1 B58 0 N41 0 N49 1
+leave((N41), slow0-0, n7, n4, n3)
+3 B25 1 B58 1 N41 1
+4 B57 1 B58 0 N41 0 N50 1
+leave((N41), slow0-0, n8, n4, n3)
+3 B26 1 B58 1 N41 1
+4 B57 1 B58 0 N41 0 N51 1
+leave((N42), slow1-0, n0, n4, n3)
+3 B27 1 B67 1 N42 1
+4 B66 1 B67 0 N42 0 N43 1
+leave((N42), slow1-0, n1, n4, n3)
+3 B28 1 B67 1 N42 1
+4 B66 1 B67 0 N42 0 N44 1
+leave((N42), slow1-0, n2, n4, n3)
+3 B29 1 B67 1 N42 1
+4 B66 1 B67 0 N42 0 N45 1
+leave((N42), slow1-0, n3, n4, n3)
+3 B30 1 B67 1 N42 1
+4 B66 1 B67 0 N42 0 N46 1
+leave((N42), slow1-0, n4, n4, n3)
+3 B31 1 B67 1 N42 1
+4 B66 1 B67 0 N42 0 N47 1
+leave((N42), slow1-0, n5, n4, n3)
+3 B32 1 B67 1 N42 1
+4 B66 1 B67 0 N42 0 N48 1
+leave((N42), slow1-0, n6, n4, n3)
+3 B33 1 B67 1 N42 1
+4 B66 1 B67 0 N42 0 N49 1
+leave((N42), slow1-0, n7, n4, n3)
+3 B34 1 B67 1 N42 1
+4 B66 1 B67 0 N42 0 N50 1
+leave((N42), slow1-0, n8, n4, n3)
+3 B35 1 B67 1 N42 1
+4 B66 1 B67 0 N42 0 N51 1
+leave((N0), fast0, n0, n5, n4)
+3 B0 1 B41 1 N0 1
+4 B40 1 B41 0 N0 0 N4 1
+leave((N0), fast0, n1, n5, n4)
+3 B1 1 B41 1 N0 1
+4 B40 1 B41 0 N0 0 N5 1
+leave((N0), fast0, n2, n5, n4)
+3 B2 1 B41 1 N0 1
+4 B40 1 B41 0 N0 0 N6 1
+leave((N0), fast0, n3, n5, n4)
+3 B3 1 B41 1 N0 1
+4 B40 1 B41 0 N0 0 N7 1
+leave((N0), fast0, n4, n5, n4)
+3 B4 1 B41 1 N0 1
+4 B40 1 B41 0 N0 0 N8 1
+leave((N0), fast0, n5, n5, n4)
+3 B5 1 B41 1 N0 1
+4 B40 1 B41 0 N0 0 N9 1
+leave((N0), fast0, n6, n5, n4)
+3 B6 1 B41 1 N0 1
+4 B40 1 B41 0 N0 0 N10 1
+leave((N0), fast0, n7, n5, n4)
+3 B7 1 B41 1 N0 1
+4 B40 1 B41 0 N0 0 N11 1
+leave((N0), fast0, n8, n5, n4)
+3 B8 1 B41 1 N0 1
+4 B40 1 B41 0 N0 0 N12 1
+leave((N1), fast1, n0, n5, n4)
+3 B9 1 B50 1 N1 1
+4 B49 1 B50 0 N1 0 N4 1
+leave((N1), fast1, n1, n5, n4)
+3 B10 1 B50 1 N1 1
+4 B49 1 B50 0 N1 0 N5 1
+leave((N1), fast1, n2, n5, n4)
+3 B11 1 B50 1 N1 1
+4 B49 1 B50 0 N1 0 N6 1
+leave((N1), fast1, n3, n5, n4)
+3 B12 1 B50 1 N1 1
+4 B49 1 B50 0 N1 0 N7 1
+leave((N1), fast1, n4, n5, n4)
+3 B13 1 B50 1 N1 1
+4 B49 1 B50 0 N1 0 N8 1
+leave((N1), fast1, n5, n5, n4)
+3 B14 1 B50 1 N1 1
+4 B49 1 B50 0 N1 0 N9 1
+leave((N1), fast1, n6, n5, n4)
+3 B15 1 B50 1 N1 1
+4 B49 1 B50 0 N1 0 N10 1
+leave((N1), fast1, n7, n5, n4)
+3 B16 1 B50 1 N1 1
+4 B49 1 B50 0 N1 0 N11 1
+leave((N1), fast1, n8, n5, n4)
+3 B17 1 B50 1 N1 1
+4 B49 1 B50 0 N1 0 N12 1
+leave((N2), slow0-0, n0, n5, n4)
+3 B18 1 B59 1 N2 1
+4 B58 1 B59 0 N2 0 N4 1
+leave((N2), slow0-0, n1, n5, n4)
+3 B19 1 B59 1 N2 1
+4 B58 1 B59 0 N2 0 N5 1
+leave((N2), slow0-0, n2, n5, n4)
+3 B20 1 B59 1 N2 1
+4 B58 1 B59 0 N2 0 N6 1
+leave((N2), slow0-0, n3, n5, n4)
+3 B21 1 B59 1 N2 1
+4 B58 1 B59 0 N2 0 N7 1
+leave((N2), slow0-0, n4, n5, n4)
+3 B22 1 B59 1 N2 1
+4 B58 1 B59 0 N2 0 N8 1
+leave((N2), slow0-0, n5, n5, n4)
+3 B23 1 B59 1 N2 1
+4 B58 1 B59 0 N2 0 N9 1
+leave((N2), slow0-0, n6, n5, n4)
+3 B24 1 B59 1 N2 1
+4 B58 1 B59 0 N2 0 N10 1
+leave((N2), slow0-0, n7, n5, n4)
+3 B25 1 B59 1 N2 1
+4 B58 1 B59 0 N2 0 N11 1
+leave((N2), slow0-0, n8, n5, n4)
+3 B26 1 B59 1 N2 1
+4 B58 1 B59 0 N2 0 N12 1
+leave((N3), slow1-0, n0, n5, n4)
+3 B27 1 B68 1 N3 1
+4 B67 1 B68 0 N3 0 N4 1
+leave((N3), slow1-0, n1, n5, n4)
+3 B28 1 B68 1 N3 1
+4 B67 1 B68 0 N3 0 N5 1
+leave((N3), slow1-0, n2, n5, n4)
+3 B29 1 B68 1 N3 1
+4 B67 1 B68 0 N3 0 N6 1
+leave((N3), slow1-0, n3, n5, n4)
+3 B30 1 B68 1 N3 1
+4 B67 1 B68 0 N3 0 N7 1
+leave((N3), slow1-0, n4, n5, n4)
+3 B31 1 B68 1 N3 1
+4 B67 1 B68 0 N3 0 N8 1
+leave((N3), slow1-0, n5, n5, n4)
+3 B32 1 B68 1 N3 1
+4 B67 1 B68 0 N3 0 N9 1
+leave((N3), slow1-0, n6, n5, n4)
+3 B33 1 B68 1 N3 1
+4 B67 1 B68 0 N3 0 N10 1
+leave((N3), slow1-0, n7, n5, n4)
+3 B34 1 B68 1 N3 1
+4 B67 1 B68 0 N3 0 N11 1
+leave((N3), slow1-0, n8, n5, n4)
+3 B35 1 B68 1 N3 1
+4 B67 1 B68 0 N3 0 N12 1
+leave((N13), fast0, n0, n5, n4)
+3 B0 1 B41 1 N13 1
+4 B40 1 B41 0 N13 0 N17 1
+leave((N13), fast0, n1, n5, n4)
+3 B1 1 B41 1 N13 1
+4 B40 1 B41 0 N13 0 N18 1
+leave((N13), fast0, n2, n5, n4)
+3 B2 1 B41 1 N13 1
+4 B40 1 B41 0 N13 0 N19 1
+leave((N13), fast0, n3, n5, n4)
+3 B3 1 B41 1 N13 1
+4 B40 1 B41 0 N13 0 N20 1
+leave((N13), fast0, n4, n5, n4)
+3 B4 1 B41 1 N13 1
+4 B40 1 B41 0 N13 0 N21 1
+leave((N13), fast0, n5, n5, n4)
+3 B5 1 B41 1 N13 1
+4 B40 1 B41 0 N13 0 N22 1
+leave((N13), fast0, n6, n5, n4)
+3 B6 1 B41 1 N13 1
+4 B40 1 B41 0 N13 0 N23 1
+leave((N13), fast0, n7, n5, n4)
+3 B7 1 B41 1 N13 1
+4 B40 1 B41 0 N13 0 N24 1
+leave((N13), fast0, n8, n5, n4)
+3 B8 1 B41 1 N13 1
+4 B40 1 B41 0 N13 0 N25 1
+leave((N14), fast1, n0, n5, n4)
+3 B9 1 B50 1 N14 1
+4 B49 1 B50 0 N14 0 N17 1
+leave((N14), fast1, n1, n5, n4)
+3 B10 1 B50 1 N14 1
+4 B49 1 B50 0 N14 0 N18 1
+leave((N14), fast1, n2, n5, n4)
+3 B11 1 B50 1 N14 1
+4 B49 1 B50 0 N14 0 N19 1
+leave((N14), fast1, n3, n5, n4)
+3 B12 1 B50 1 N14 1
+4 B49 1 B50 0 N14 0 N20 1
+leave((N14), fast1, n4, n5, n4)
+3 B13 1 B50 1 N14 1
+4 B49 1 B50 0 N14 0 N21 1
+leave((N14), fast1, n5, n5, n4)
+3 B14 1 B50 1 N14 1
+4 B49 1 B50 0 N14 0 N22 1
+leave((N14), fast1, n6, n5, n4)
+3 B15 1 B50 1 N14 1
+4 B49 1 B50 0 N14 0 N23 1
+leave((N14), fast1, n7, n5, n4)
+3 B16 1 B50 1 N14 1
+4 B49 1 B50 0 N14 0 N24 1
+leave((N14), fast1, n8, n5, n4)
+3 B17 1 B50 1 N14 1
+4 B49 1 B50 0 N14 0 N25 1
+leave((N15), slow0-0, n0, n5, n4)
+3 B18 1 B59 1 N15 1
+4 B58 1 B59 0 N15 0 N17 1
+leave((N15), slow0-0, n1, n5, n4)
+3 B19 1 B59 1 N15 1
+4 B58 1 B59 0 N15 0 N18 1
+leave((N15), slow0-0, n2, n5, n4)
+3 B20 1 B59 1 N15 1
+4 B58 1 B59 0 N15 0 N19 1
+leave((N15), slow0-0, n3, n5, n4)
+3 B21 1 B59 1 N15 1
+4 B58 1 B59 0 N15 0 N20 1
+leave((N15), slow0-0, n4, n5, n4)
+3 B22 1 B59 1 N15 1
+4 B58 1 B59 0 N15 0 N21 1
+leave((N15), slow0-0, n5, n5, n4)
+3 B23 1 B59 1 N15 1
+4 B58 1 B59 0 N15 0 N22 1
+leave((N15), slow0-0, n6, n5, n4)
+3 B24 1 B59 1 N15 1
+4 B58 1 B59 0 N15 0 N23 1
+leave((N15), slow0-0, n7, n5, n4)
+3 B25 1 B59 1 N15 1
+4 B58 1 B59 0 N15 0 N24 1
+leave((N15), slow0-0, n8, n5, n4)
+3 B26 1 B59 1 N15 1
+4 B58 1 B59 0 N15 0 N25 1
+leave((N16), slow1-0, n0, n5, n4)
+3 B27 1 B68 1 N16 1
+4 B67 1 B68 0 N16 0 N17 1
+leave((N16), slow1-0, n1, n5, n4)
+3 B28 1 B68 1 N16 1
+4 B67 1 B68 0 N16 0 N18 1
+leave((N16), slow1-0, n2, n5, n4)
+3 B29 1 B68 1 N16 1
+4 B67 1 B68 0 N16 0 N19 1
+leave((N16), slow1-0, n3, n5, n4)
+3 B30 1 B68 1 N16 1
+4 B67 1 B68 0 N16 0 N20 1
+leave((N16), slow1-0, n4, n5, n4)
+3 B31 1 B68 1 N16 1
+4 B67 1 B68 0 N16 0 N21 1
+leave((N16), slow1-0, n5, n5, n4)
+3 B32 1 B68 1 N16 1
+4 B67 1 B68 0 N16 0 N22 1
+leave((N16), slow1-0, n6, n5, n4)
+3 B33 1 B68 1 N16 1
+4 B67 1 B68 0 N16 0 N23 1
+leave((N16), slow1-0, n7, n5, n4)
+3 B34 1 B68 1 N16 1
+4 B67 1 B68 0 N16 0 N24 1
+leave((N16), slow1-0, n8, n5, n4)
+3 B35 1 B68 1 N16 1
+4 B67 1 B68 0 N16 0 N25 1
+leave((N26), fast0, n0, n5, n4)
+3 B0 1 B41 1 N26 1
+4 B40 1 B41 0 N26 0 N30 1
+leave((N26), fast0, n1, n5, n4)
+3 B1 1 B41 1 N26 1
+4 B40 1 B41 0 N26 0 N31 1
+leave((N26), fast0, n2, n5, n4)
+3 B2 1 B41 1 N26 1
+4 B40 1 B41 0 N26 0 N32 1
+leave((N26), fast0, n3, n5, n4)
+3 B3 1 B41 1 N26 1
+4 B40 1 B41 0 N26 0 N33 1
+leave((N26), fast0, n4, n5, n4)
+3 B4 1 B41 1 N26 1
+4 B40 1 B41 0 N26 0 N34 1
+leave((N26), fast0, n5, n5, n4)
+3 B5 1 B41 1 N26 1
+4 B40 1 B41 0 N26 0 N35 1
+leave((N26), fast0, n6, n5, n4)
+3 B6 1 B41 1 N26 1
+4 B40 1 B41 0 N26 0 N36 1
+leave((N26), fast0, n7, n5, n4)
+3 B7 1 B41 1 N26 1
+4 B40 1 B41 0 N26 0 N37 1
+leave((N26), fast0, n8, n5, n4)
+3 B8 1 B41 1 N26 1
+4 B40 1 B41 0 N26 0 N38 1
+leave((N27), fast1, n0, n5, n4)
+3 B9 1 B50 1 N27 1
+4 B49 1 B50 0 N27 0 N30 1
+leave((N27), fast1, n1, n5, n4)
+3 B10 1 B50 1 N27 1
+4 B49 1 B50 0 N27 0 N31 1
+leave((N27), fast1, n2, n5, n4)
+3 B11 1 B50 1 N27 1
+4 B49 1 B50 0 N27 0 N32 1
+leave((N27), fast1, n3, n5, n4)
+3 B12 1 B50 1 N27 1
+4 B49 1 B50 0 N27 0 N33 1
+leave((N27), fast1, n4, n5, n4)
+3 B13 1 B50 1 N27 1
+4 B49 1 B50 0 N27 0 N34 1
+leave((N27), fast1, n5, n5, n4)
+3 B14 1 B50 1 N27 1
+4 B49 1 B50 0 N27 0 N35 1
+leave((N27), fast1, n6, n5, n4)
+3 B15 1 B50 1 N27 1
+4 B49 1 B50 0 N27 0 N36 1
+leave((N27), fast1, n7, n5, n4)
+3 B16 1 B50 1 N27 1
+4 B49 1 B50 0 N27 0 N37 1
+leave((N27), fast1, n8, n5, n4)
+3 B17 1 B50 1 N27 1
+4 B49 1 B50 0 N27 0 N38 1
+leave((N28), slow0-0, n0, n5, n4)
+3 B18 1 B59 1 N28 1
+4 B58 1 B59 0 N28 0 N30 1
+leave((N28), slow0-0, n1, n5, n4)
+3 B19 1 B59 1 N28 1
+4 B58 1 B59 0 N28 0 N31 1
+leave((N28), slow0-0, n2, n5, n4)
+3 B20 1 B59 1 N28 1
+4 B58 1 B59 0 N28 0 N32 1
+leave((N28), slow0-0, n3, n5, n4)
+3 B21 1 B59 1 N28 1
+4 B58 1 B59 0 N28 0 N33 1
+leave((N28), slow0-0, n4, n5, n4)
+3 B22 1 B59 1 N28 1
+4 B58 1 B59 0 N28 0 N34 1
+leave((N28), slow0-0, n5, n5, n4)
+3 B23 1 B59 1 N28 1
+4 B58 1 B59 0 N28 0 N35 1
+leave((N28), slow0-0, n6, n5, n4)
+3 B24 1 B59 1 N28 1
+4 B58 1 B59 0 N28 0 N36 1
+leave((N28), slow0-0, n7, n5, n4)
+3 B25 1 B59 1 N28 1
+4 B58 1 B59 0 N28 0 N37 1
+leave((N28), slow0-0, n8, n5, n4)
+3 B26 1 B59 1 N28 1
+4 B58 1 B59 0 N28 0 N38 1
+leave((N29), slow1-0, n0, n5, n4)
+3 B27 1 B68 1 N29 1
+4 B67 1 B68 0 N29 0 N30 1
+leave((N29), slow1-0, n1, n5, n4)
+3 B28 1 B68 1 N29 1
+4 B67 1 B68 0 N29 0 N31 1
+leave((N29), slow1-0, n2, n5, n4)
+3 B29 1 B68 1 N29 1
+4 B67 1 B68 0 N29 0 N32 1
+leave((N29), slow1-0, n3, n5, n4)
+3 B30 1 B68 1 N29 1
+4 B67 1 B68 0 N29 0 N33 1
+leave((N29), slow1-0, n4, n5, n4)
+3 B31 1 B68 1 N29 1
+4 B67 1 B68 0 N29 0 N34 1
+leave((N29), slow1-0, n5, n5, n4)
+3 B32 1 B68 1 N29 1
+4 B67 1 B68 0 N29 0 N35 1
+leave((N29), slow1-0, n6, n5, n4)
+3 B33 1 B68 1 N29 1
+4 B67 1 B68 0 N29 0 N36 1
+leave((N29), slow1-0, n7, n5, n4)
+3 B34 1 B68 1 N29 1
+4 B67 1 B68 0 N29 0 N37 1
+leave((N29), slow1-0, n8, n5, n4)
+3 B35 1 B68 1 N29 1
+4 B67 1 B68 0 N29 0 N38 1
+leave((N39), fast0, n0, n5, n4)
+3 B0 1 B41 1 N39 1
+4 B40 1 B41 0 N39 0 N43 1
+leave((N39), fast0, n1, n5, n4)
+3 B1 1 B41 1 N39 1
+4 B40 1 B41 0 N39 0 N44 1
+leave((N39), fast0, n2, n5, n4)
+3 B2 1 B41 1 N39 1
+4 B40 1 B41 0 N39 0 N45 1
+leave((N39), fast0, n3, n5, n4)
+3 B3 1 B41 1 N39 1
+4 B40 1 B41 0 N39 0 N46 1
+leave((N39), fast0, n4, n5, n4)
+3 B4 1 B41 1 N39 1
+4 B40 1 B41 0 N39 0 N47 1
+leave((N39), fast0, n5, n5, n4)
+3 B5 1 B41 1 N39 1
+4 B40 1 B41 0 N39 0 N48 1
+leave((N39), fast0, n6, n5, n4)
+3 B6 1 B41 1 N39 1
+4 B40 1 B41 0 N39 0 N49 1
+leave((N39), fast0, n7, n5, n4)
+3 B7 1 B41 1 N39 1
+4 B40 1 B41 0 N39 0 N50 1
+leave((N39), fast0, n8, n5, n4)
+3 B8 1 B41 1 N39 1
+4 B40 1 B41 0 N39 0 N51 1
+leave((N40), fast1, n0, n5, n4)
+3 B9 1 B50 1 N40 1
+4 B49 1 B50 0 N40 0 N43 1
+leave((N40), fast1, n1, n5, n4)
+3 B10 1 B50 1 N40 1
+4 B49 1 B50 0 N40 0 N44 1
+leave((N40), fast1, n2, n5, n4)
+3 B11 1 B50 1 N40 1
+4 B49 1 B50 0 N40 0 N45 1
+leave((N40), fast1, n3, n5, n4)
+3 B12 1 B50 1 N40 1
+4 B49 1 B50 0 N40 0 N46 1
+leave((N40), fast1, n4, n5, n4)
+3 B13 1 B50 1 N40 1
+4 B49 1 B50 0 N40 0 N47 1
+leave((N40), fast1, n5, n5, n4)
+3 B14 1 B50 1 N40 1
+4 B49 1 B50 0 N40 0 N48 1
+leave((N40), fast1, n6, n5, n4)
+3 B15 1 B50 1 N40 1
+4 B49 1 B50 0 N40 0 N49 1
+leave((N40), fast1, n7, n5, n4)
+3 B16 1 B50 1 N40 1
+4 B49 1 B50 0 N40 0 N50 1
+leave((N40), fast1, n8, n5, n4)
+3 B17 1 B50 1 N40 1
+4 B49 1 B50 0 N40 0 N51 1
+leave((N41), slow0-0, n0, n5, n4)
+3 B18 1 B59 1 N41 1
+4 B58 1 B59 0 N41 0 N43 1
+leave((N41), slow0-0, n1, n5, n4)
+3 B19 1 B59 1 N41 1
+4 B58 1 B59 0 N41 0 N44 1
+leave((N41), slow0-0, n2, n5, n4)
+3 B20 1 B59 1 N41 1
+4 B58 1 B59 0 N41 0 N45 1
+leave((N41), slow0-0, n3, n5, n4)
+3 B21 1 B59 1 N41 1
+4 B58 1 B59 0 N41 0 N46 1
+leave((N41), slow0-0, n4, n5, n4)
+3 B22 1 B59 1 N41 1
+4 B58 1 B59 0 N41 0 N47 1
+leave((N41), slow0-0, n5, n5, n4)
+3 B23 1 B59 1 N41 1
+4 B58 1 B59 0 N41 0 N48 1
+leave((N41), slow0-0, n6, n5, n4)
+3 B24 1 B59 1 N41 1
+4 B58 1 B59 0 N41 0 N49 1
+leave((N41), slow0-0, n7, n5, n4)
+3 B25 1 B59 1 N41 1
+4 B58 1 B59 0 N41 0 N50 1
+leave((N41), slow0-0, n8, n5, n4)
+3 B26 1 B59 1 N41 1
+4 B58 1 B59 0 N41 0 N51 1
+leave((N42), slow1-0, n0, n5, n4)
+3 B27 1 B68 1 N42 1
+4 B67 1 B68 0 N42 0 N43 1
+leave((N42), slow1-0, n1, n5, n4)
+3 B28 1 B68 1 N42 1
+4 B67 1 B68 0 N42 0 N44 1
+leave((N42), slow1-0, n2, n5, n4)
+3 B29 1 B68 1 N42 1
+4 B67 1 B68 0 N42 0 N45 1
+leave((N42), slow1-0, n3, n5, n4)
+3 B30 1 B68 1 N42 1
+4 B67 1 B68 0 N42 0 N46 1
+leave((N42), slow1-0, n4, n5, n4)
+3 B31 1 B68 1 N42 1
+4 B67 1 B68 0 N42 0 N47 1
+leave((N42), slow1-0, n5, n5, n4)
+3 B32 1 B68 1 N42 1
+4 B67 1 B68 0 N42 0 N48 1
+leave((N42), slow1-0, n6, n5, n4)
+3 B33 1 B68 1 N42 1
+4 B67 1 B68 0 N42 0 N49 1
+leave((N42), slow1-0, n7, n5, n4)
+3 B34 1 B68 1 N42 1
+4 B67 1 B68 0 N42 0 N50 1
+leave((N42), slow1-0, n8, n5, n4)
+3 B35 1 B68 1 N42 1
+4 B67 1 B68 0 N42 0 N51 1
+leave((N0), fast0, n0, n6, n5)
+3 B0 1 B42 1 N0 1
+4 B41 1 B42 0 N0 0 N4 1
+leave((N0), fast0, n1, n6, n5)
+3 B1 1 B42 1 N0 1
+4 B41 1 B42 0 N0 0 N5 1
+leave((N0), fast0, n2, n6, n5)
+3 B2 1 B42 1 N0 1
+4 B41 1 B42 0 N0 0 N6 1
+leave((N0), fast0, n3, n6, n5)
+3 B3 1 B42 1 N0 1
+4 B41 1 B42 0 N0 0 N7 1
+leave((N0), fast0, n4, n6, n5)
+3 B4 1 B42 1 N0 1
+4 B41 1 B42 0 N0 0 N8 1
+leave((N0), fast0, n5, n6, n5)
+3 B5 1 B42 1 N0 1
+4 B41 1 B42 0 N0 0 N9 1
+leave((N0), fast0, n6, n6, n5)
+3 B6 1 B42 1 N0 1
+4 B41 1 B42 0 N0 0 N10 1
+leave((N0), fast0, n7, n6, n5)
+3 B7 1 B42 1 N0 1
+4 B41 1 B42 0 N0 0 N11 1
+leave((N0), fast0, n8, n6, n5)
+3 B8 1 B42 1 N0 1
+4 B41 1 B42 0 N0 0 N12 1
+leave((N1), fast1, n0, n6, n5)
+3 B9 1 B51 1 N1 1
+4 B50 1 B51 0 N1 0 N4 1
+leave((N1), fast1, n1, n6, n5)
+3 B10 1 B51 1 N1 1
+4 B50 1 B51 0 N1 0 N5 1
+leave((N1), fast1, n2, n6, n5)
+3 B11 1 B51 1 N1 1
+4 B50 1 B51 0 N1 0 N6 1
+leave((N1), fast1, n3, n6, n5)
+3 B12 1 B51 1 N1 1
+4 B50 1 B51 0 N1 0 N7 1
+leave((N1), fast1, n4, n6, n5)
+3 B13 1 B51 1 N1 1
+4 B50 1 B51 0 N1 0 N8 1
+leave((N1), fast1, n5, n6, n5)
+3 B14 1 B51 1 N1 1
+4 B50 1 B51 0 N1 0 N9 1
+leave((N1), fast1, n6, n6, n5)
+3 B15 1 B51 1 N1 1
+4 B50 1 B51 0 N1 0 N10 1
+leave((N1), fast1, n7, n6, n5)
+3 B16 1 B51 1 N1 1
+4 B50 1 B51 0 N1 0 N11 1
+leave((N1), fast1, n8, n6, n5)
+3 B17 1 B51 1 N1 1
+4 B50 1 B51 0 N1 0 N12 1
+leave((N2), slow0-0, n0, n6, n5)
+3 B18 1 B60 1 N2 1
+4 B59 1 B60 0 N2 0 N4 1
+leave((N2), slow0-0, n1, n6, n5)
+3 B19 1 B60 1 N2 1
+4 B59 1 B60 0 N2 0 N5 1
+leave((N2), slow0-0, n2, n6, n5)
+3 B20 1 B60 1 N2 1
+4 B59 1 B60 0 N2 0 N6 1
+leave((N2), slow0-0, n3, n6, n5)
+3 B21 1 B60 1 N2 1
+4 B59 1 B60 0 N2 0 N7 1
+leave((N2), slow0-0, n4, n6, n5)
+3 B22 1 B60 1 N2 1
+4 B59 1 B60 0 N2 0 N8 1
+leave((N2), slow0-0, n5, n6, n5)
+3 B23 1 B60 1 N2 1
+4 B59 1 B60 0 N2 0 N9 1
+leave((N2), slow0-0, n6, n6, n5)
+3 B24 1 B60 1 N2 1
+4 B59 1 B60 0 N2 0 N10 1
+leave((N2), slow0-0, n7, n6, n5)
+3 B25 1 B60 1 N2 1
+4 B59 1 B60 0 N2 0 N11 1
+leave((N2), slow0-0, n8, n6, n5)
+3 B26 1 B60 1 N2 1
+4 B59 1 B60 0 N2 0 N12 1
+leave((N3), slow1-0, n0, n6, n5)
+3 B27 1 B69 1 N3 1
+4 B68 1 B69 0 N3 0 N4 1
+leave((N3), slow1-0, n1, n6, n5)
+3 B28 1 B69 1 N3 1
+4 B68 1 B69 0 N3 0 N5 1
+leave((N3), slow1-0, n2, n6, n5)
+3 B29 1 B69 1 N3 1
+4 B68 1 B69 0 N3 0 N6 1
+leave((N3), slow1-0, n3, n6, n5)
+3 B30 1 B69 1 N3 1
+4 B68 1 B69 0 N3 0 N7 1
+leave((N3), slow1-0, n4, n6, n5)
+3 B31 1 B69 1 N3 1
+4 B68 1 B69 0 N3 0 N8 1
+leave((N3), slow1-0, n5, n6, n5)
+3 B32 1 B69 1 N3 1
+4 B68 1 B69 0 N3 0 N9 1
+leave((N3), slow1-0, n6, n6, n5)
+3 B33 1 B69 1 N3 1
+4 B68 1 B69 0 N3 0 N10 1
+leave((N3), slow1-0, n7, n6, n5)
+3 B34 1 B69 1 N3 1
+4 B68 1 B69 0 N3 0 N11 1
+leave((N3), slow1-0, n8, n6, n5)
+3 B35 1 B69 1 N3 1
+4 B68 1 B69 0 N3 0 N12 1
+leave((N13), fast0, n0, n6, n5)
+3 B0 1 B42 1 N13 1
+4 B41 1 B42 0 N13 0 N17 1
+leave((N13), fast0, n1, n6, n5)
+3 B1 1 B42 1 N13 1
+4 B41 1 B42 0 N13 0 N18 1
+leave((N13), fast0, n2, n6, n5)
+3 B2 1 B42 1 N13 1
+4 B41 1 B42 0 N13 0 N19 1
+leave((N13), fast0, n3, n6, n5)
+3 B3 1 B42 1 N13 1
+4 B41 1 B42 0 N13 0 N20 1
+leave((N13), fast0, n4, n6, n5)
+3 B4 1 B42 1 N13 1
+4 B41 1 B42 0 N13 0 N21 1
+leave((N13), fast0, n5, n6, n5)
+3 B5 1 B42 1 N13 1
+4 B41 1 B42 0 N13 0 N22 1
+leave((N13), fast0, n6, n6, n5)
+3 B6 1 B42 1 N13 1
+4 B41 1 B42 0 N13 0 N23 1
+leave((N13), fast0, n7, n6, n5)
+3 B7 1 B42 1 N13 1
+4 B41 1 B42 0 N13 0 N24 1
+leave((N13), fast0, n8, n6, n5)
+3 B8 1 B42 1 N13 1
+4 B41 1 B42 0 N13 0 N25 1
+leave((N14), fast1, n0, n6, n5)
+3 B9 1 B51 1 N14 1
+4 B50 1 B51 0 N14 0 N17 1
+leave((N14), fast1, n1, n6, n5)
+3 B10 1 B51 1 N14 1
+4 B50 1 B51 0 N14 0 N18 1
+leave((N14), fast1, n2, n6, n5)
+3 B11 1 B51 1 N14 1
+4 B50 1 B51 0 N14 0 N19 1
+leave((N14), fast1, n3, n6, n5)
+3 B12 1 B51 1 N14 1
+4 B50 1 B51 0 N14 0 N20 1
+leave((N14), fast1, n4, n6, n5)
+3 B13 1 B51 1 N14 1
+4 B50 1 B51 0 N14 0 N21 1
+leave((N14), fast1, n5, n6, n5)
+3 B14 1 B51 1 N14 1
+4 B50 1 B51 0 N14 0 N22 1
+leave((N14), fast1, n6, n6, n5)
+3 B15 1 B51 1 N14 1
+4 B50 1 B51 0 N14 0 N23 1
+leave((N14), fast1, n7, n6, n5)
+3 B16 1 B51 1 N14 1
+4 B50 1 B51 0 N14 0 N24 1
+leave((N14), fast1, n8, n6, n5)
+3 B17 1 B51 1 N14 1
+4 B50 1 B51 0 N14 0 N25 1
+leave((N15), slow0-0, n0, n6, n5)
+3 B18 1 B60 1 N15 1
+4 B59 1 B60 0 N15 0 N17 1
+leave((N15), slow0-0, n1, n6, n5)
+3 B19 1 B60 1 N15 1
+4 B59 1 B60 0 N15 0 N18 1
+leave((N15), slow0-0, n2, n6, n5)
+3 B20 1 B60 1 N15 1
+4 B59 1 B60 0 N15 0 N19 1
+leave((N15), slow0-0, n3, n6, n5)
+3 B21 1 B60 1 N15 1
+4 B59 1 B60 0 N15 0 N20 1
+leave((N15), slow0-0, n4, n6, n5)
+3 B22 1 B60 1 N15 1
+4 B59 1 B60 0 N15 0 N21 1
+leave((N15), slow0-0, n5, n6, n5)
+3 B23 1 B60 1 N15 1
+4 B59 1 B60 0 N15 0 N22 1
+leave((N15), slow0-0, n6, n6, n5)
+3 B24 1 B60 1 N15 1
+4 B59 1 B60 0 N15 0 N23 1
+leave((N15), slow0-0, n7, n6, n5)
+3 B25 1 B60 1 N15 1
+4 B59 1 B60 0 N15 0 N24 1
+leave((N15), slow0-0, n8, n6, n5)
+3 B26 1 B60 1 N15 1
+4 B59 1 B60 0 N15 0 N25 1
+leave((N16), slow1-0, n0, n6, n5)
+3 B27 1 B69 1 N16 1
+4 B68 1 B69 0 N16 0 N17 1
+leave((N16), slow1-0, n1, n6, n5)
+3 B28 1 B69 1 N16 1
+4 B68 1 B69 0 N16 0 N18 1
+leave((N16), slow1-0, n2, n6, n5)
+3 B29 1 B69 1 N16 1
+4 B68 1 B69 0 N16 0 N19 1
+leave((N16), slow1-0, n3, n6, n5)
+3 B30 1 B69 1 N16 1
+4 B68 1 B69 0 N16 0 N20 1
+leave((N16), slow1-0, n4, n6, n5)
+3 B31 1 B69 1 N16 1
+4 B68 1 B69 0 N16 0 N21 1
+leave((N16), slow1-0, n5, n6, n5)
+3 B32 1 B69 1 N16 1
+4 B68 1 B69 0 N16 0 N22 1
+leave((N16), slow1-0, n6, n6, n5)
+3 B33 1 B69 1 N16 1
+4 B68 1 B69 0 N16 0 N23 1
+leave((N16), slow1-0, n7, n6, n5)
+3 B34 1 B69 1 N16 1
+4 B68 1 B69 0 N16 0 N24 1
+leave((N16), slow1-0, n8, n6, n5)
+3 B35 1 B69 1 N16 1
+4 B68 1 B69 0 N16 0 N25 1
+leave((N26), fast0, n0, n6, n5)
+3 B0 1 B42 1 N26 1
+4 B41 1 B42 0 N26 0 N30 1
+leave((N26), fast0, n1, n6, n5)
+3 B1 1 B42 1 N26 1
+4 B41 1 B42 0 N26 0 N31 1
+leave((N26), fast0, n2, n6, n5)
+3 B2 1 B42 1 N26 1
+4 B41 1 B42 0 N26 0 N32 1
+leave((N26), fast0, n3, n6, n5)
+3 B3 1 B42 1 N26 1
+4 B41 1 B42 0 N26 0 N33 1
+leave((N26), fast0, n4, n6, n5)
+3 B4 1 B42 1 N26 1
+4 B41 1 B42 0 N26 0 N34 1
+leave((N26), fast0, n5, n6, n5)
+3 B5 1 B42 1 N26 1
+4 B41 1 B42 0 N26 0 N35 1
+leave((N26), fast0, n6, n6, n5)
+3 B6 1 B42 1 N26 1
+4 B41 1 B42 0 N26 0 N36 1
+leave((N26), fast0, n7, n6, n5)
+3 B7 1 B42 1 N26 1
+4 B41 1 B42 0 N26 0 N37 1
+leave((N26), fast0, n8, n6, n5)
+3 B8 1 B42 1 N26 1
+4 B41 1 B42 0 N26 0 N38 1
+leave((N27), fast1, n0, n6, n5)
+3 B9 1 B51 1 N27 1
+4 B50 1 B51 0 N27 0 N30 1
+leave((N27), fast1, n1, n6, n5)
+3 B10 1 B51 1 N27 1
+4 B50 1 B51 0 N27 0 N31 1
+leave((N27), fast1, n2, n6, n5)
+3 B11 1 B51 1 N27 1
+4 B50 1 B51 0 N27 0 N32 1
+leave((N27), fast1, n3, n6, n5)
+3 B12 1 B51 1 N27 1
+4 B50 1 B51 0 N27 0 N33 1
+leave((N27), fast1, n4, n6, n5)
+3 B13 1 B51 1 N27 1
+4 B50 1 B51 0 N27 0 N34 1
+leave((N27), fast1, n5, n6, n5)
+3 B14 1 B51 1 N27 1
+4 B50 1 B51 0 N27 0 N35 1
+leave((N27), fast1, n6, n6, n5)
+3 B15 1 B51 1 N27 1
+4 B50 1 B51 0 N27 0 N36 1
+leave((N27), fast1, n7, n6, n5)
+3 B16 1 B51 1 N27 1
+4 B50 1 B51 0 N27 0 N37 1
+leave((N27), fast1, n8, n6, n5)
+3 B17 1 B51 1 N27 1
+4 B50 1 B51 0 N27 0 N38 1
+leave((N28), slow0-0, n0, n6, n5)
+3 B18 1 B60 1 N28 1
+4 B59 1 B60 0 N28 0 N30 1
+leave((N28), slow0-0, n1, n6, n5)
+3 B19 1 B60 1 N28 1
+4 B59 1 B60 0 N28 0 N31 1
+leave((N28), slow0-0, n2, n6, n5)
+3 B20 1 B60 1 N28 1
+4 B59 1 B60 0 N28 0 N32 1
+leave((N28), slow0-0, n3, n6, n5)
+3 B21 1 B60 1 N28 1
+4 B59 1 B60 0 N28 0 N33 1
+leave((N28), slow0-0, n4, n6, n5)
+3 B22 1 B60 1 N28 1
+4 B59 1 B60 0 N28 0 N34 1
+leave((N28), slow0-0, n5, n6, n5)
+3 B23 1 B60 1 N28 1
+4 B59 1 B60 0 N28 0 N35 1
+leave((N28), slow0-0, n6, n6, n5)
+3 B24 1 B60 1 N28 1
+4 B59 1 B60 0 N28 0 N36 1
+leave((N28), slow0-0, n7, n6, n5)
+3 B25 1 B60 1 N28 1
+4 B59 1 B60 0 N28 0 N37 1
+leave((N28), slow0-0, n8, n6, n5)
+3 B26 1 B60 1 N28 1
+4 B59 1 B60 0 N28 0 N38 1
+leave((N29), slow1-0, n0, n6, n5)
+3 B27 1 B69 1 N29 1
+4 B68 1 B69 0 N29 0 N30 1
+leave((N29), slow1-0, n1, n6, n5)
+3 B28 1 B69 1 N29 1
+4 B68 1 B69 0 N29 0 N31 1
+leave((N29), slow1-0, n2, n6, n5)
+3 B29 1 B69 1 N29 1
+4 B68 1 B69 0 N29 0 N32 1
+leave((N29), slow1-0, n3, n6, n5)
+3 B30 1 B69 1 N29 1
+4 B68 1 B69 0 N29 0 N33 1
+leave((N29), slow1-0, n4, n6, n5)
+3 B31 1 B69 1 N29 1
+4 B68 1 B69 0 N29 0 N34 1
+leave((N29), slow1-0, n5, n6, n5)
+3 B32 1 B69 1 N29 1
+4 B68 1 B69 0 N29 0 N35 1
+leave((N29), slow1-0, n6, n6, n5)
+3 B33 1 B69 1 N29 1
+4 B68 1 B69 0 N29 0 N36 1
+leave((N29), slow1-0, n7, n6, n5)
+3 B34 1 B69 1 N29 1
+4 B68 1 B69 0 N29 0 N37 1
+leave((N29), slow1-0, n8, n6, n5)
+3 B35 1 B69 1 N29 1
+4 B68 1 B69 0 N29 0 N38 1
+leave((N39), fast0, n0, n6, n5)
+3 B0 1 B42 1 N39 1
+4 B41 1 B42 0 N39 0 N43 1
+leave((N39), fast0, n1, n6, n5)
+3 B1 1 B42 1 N39 1
+4 B41 1 B42 0 N39 0 N44 1
+leave((N39), fast0, n2, n6, n5)
+3 B2 1 B42 1 N39 1
+4 B41 1 B42 0 N39 0 N45 1
+leave((N39), fast0, n3, n6, n5)
+3 B3 1 B42 1 N39 1
+4 B41 1 B42 0 N39 0 N46 1
+leave((N39), fast0, n4, n6, n5)
+3 B4 1 B42 1 N39 1
+4 B41 1 B42 0 N39 0 N47 1
+leave((N39), fast0, n5, n6, n5)
+3 B5 1 B42 1 N39 1
+4 B41 1 B42 0 N39 0 N48 1
+leave((N39), fast0, n6, n6, n5)
+3 B6 1 B42 1 N39 1
+4 B41 1 B42 0 N39 0 N49 1
+leave((N39), fast0, n7, n6, n5)
+3 B7 1 B42 1 N39 1
+4 B41 1 B42 0 N39 0 N50 1
+leave((N39), fast0, n8, n6, n5)
+3 B8 1 B42 1 N39 1
+4 B41 1 B42 0 N39 0 N51 1
+leave((N40), fast1, n0, n6, n5)
+3 B9 1 B51 1 N40 1
+4 B50 1 B51 0 N40 0 N43 1
+leave((N40), fast1, n1, n6, n5)
+3 B10 1 B51 1 N40 1
+4 B50 1 B51 0 N40 0 N44 1
+leave((N40), fast1, n2, n6, n5)
+3 B11 1 B51 1 N40 1
+4 B50 1 B51 0 N40 0 N45 1
+leave((N40), fast1, n3, n6, n5)
+3 B12 1 B51 1 N40 1
+4 B50 1 B51 0 N40 0 N46 1
+leave((N40), fast1, n4, n6, n5)
+3 B13 1 B51 1 N40 1
+4 B50 1 B51 0 N40 0 N47 1
+leave((N40), fast1, n5, n6, n5)
+3 B14 1 B51 1 N40 1
+4 B50 1 B51 0 N40 0 N48 1
+leave((N40), fast1, n6, n6, n5)
+3 B15 1 B51 1 N40 1
+4 B50 1 B51 0 N40 0 N49 1
+leave((N40), fast1, n7, n6, n5)
+3 B16 1 B51 1 N40 1
+4 B50 1 B51 0 N40 0 N50 1
+leave((N40), fast1, n8, n6, n5)
+3 B17 1 B51 1 N40 1
+4 B50 1 B51 0 N40 0 N51 1
+leave((N41), slow0-0, n0, n6, n5)
+3 B18 1 B60 1 N41 1
+4 B59 1 B60 0 N41 0 N43 1
+leave((N41), slow0-0, n1, n6, n5)
+3 B19 1 B60 1 N41 1
+4 B59 1 B60 0 N41 0 N44 1
+leave((N41), slow0-0, n2, n6, n5)
+3 B20 1 B60 1 N41 1
+4 B59 1 B60 0 N41 0 N45 1
+leave((N41), slow0-0, n3, n6, n5)
+3 B21 1 B60 1 N41 1
+4 B59 1 B60 0 N41 0 N46 1
+leave((N41), slow0-0, n4, n6, n5)
+3 B22 1 B60 1 N41 1
+4 B59 1 B60 0 N41 0 N47 1
+leave((N41), slow0-0, n5, n6, n5)
+3 B23 1 B60 1 N41 1
+4 B59 1 B60 0 N41 0 N48 1
+leave((N41), slow0-0, n6, n6, n5)
+3 B24 1 B60 1 N41 1
+4 B59 1 B60 0 N41 0 N49 1
+leave((N41), slow0-0, n7, n6, n5)
+3 B25 1 B60 1 N41 1
+4 B59 1 B60 0 N41 0 N50 1
+leave((N41), slow0-0, n8, n6, n5)
+3 B26 1 B60 1 N41 1
+4 B59 1 B60 0 N41 0 N51 1
+leave((N42), slow1-0, n0, n6, n5)
+3 B27 1 B69 1 N42 1
+4 B68 1 B69 0 N42 0 N43 1
+leave((N42), slow1-0, n1, n6, n5)
+3 B28 1 B69 1 N42 1
+4 B68 1 B69 0 N42 0 N44 1
+leave((N42), slow1-0, n2, n6, n5)
+3 B29 1 B69 1 N42 1
+4 B68 1 B69 0 N42 0 N45 1
+leave((N42), slow1-0, n3, n6, n5)
+3 B30 1 B69 1 N42 1
+4 B68 1 B69 0 N42 0 N46 1
+leave((N42), slow1-0, n4, n6, n5)
+3 B31 1 B69 1 N42 1
+4 B68 1 B69 0 N42 0 N47 1
+leave((N42), slow1-0, n5, n6, n5)
+3 B32 1 B69 1 N42 1
+4 B68 1 B69 0 N42 0 N48 1
+leave((N42), slow1-0, n6, n6, n5)
+3 B33 1 B69 1 N42 1
+4 B68 1 B69 0 N42 0 N49 1
+leave((N42), slow1-0, n7, n6, n5)
+3 B34 1 B69 1 N42 1
+4 B68 1 B69 0 N42 0 N50 1
+leave((N42), slow1-0, n8, n6, n5)
+3 B35 1 B69 1 N42 1
+4 B68 1 B69 0 N42 0 N51 1
+leave((N0), fast0, n0, n7, n6)
+3 B0 1 B43 1 N0 1
+4 B42 1 B43 0 N0 0 N4 1
+leave((N0), fast0, n1, n7, n6)
+3 B1 1 B43 1 N0 1
+4 B42 1 B43 0 N0 0 N5 1
+leave((N0), fast0, n2, n7, n6)
+3 B2 1 B43 1 N0 1
+4 B42 1 B43 0 N0 0 N6 1
+leave((N0), fast0, n3, n7, n6)
+3 B3 1 B43 1 N0 1
+4 B42 1 B43 0 N0 0 N7 1
+leave((N0), fast0, n4, n7, n6)
+3 B4 1 B43 1 N0 1
+4 B42 1 B43 0 N0 0 N8 1
+leave((N0), fast0, n5, n7, n6)
+3 B5 1 B43 1 N0 1
+4 B42 1 B43 0 N0 0 N9 1
+leave((N0), fast0, n6, n7, n6)
+3 B6 1 B43 1 N0 1
+4 B42 1 B43 0 N0 0 N10 1
+leave((N0), fast0, n7, n7, n6)
+3 B7 1 B43 1 N0 1
+4 B42 1 B43 0 N0 0 N11 1
+leave((N0), fast0, n8, n7, n6)
+3 B8 1 B43 1 N0 1
+4 B42 1 B43 0 N0 0 N12 1
+leave((N1), fast1, n0, n7, n6)
+3 B9 1 B52 1 N1 1
+4 B51 1 B52 0 N1 0 N4 1
+leave((N1), fast1, n1, n7, n6)
+3 B10 1 B52 1 N1 1
+4 B51 1 B52 0 N1 0 N5 1
+leave((N1), fast1, n2, n7, n6)
+3 B11 1 B52 1 N1 1
+4 B51 1 B52 0 N1 0 N6 1
+leave((N1), fast1, n3, n7, n6)
+3 B12 1 B52 1 N1 1
+4 B51 1 B52 0 N1 0 N7 1
+leave((N1), fast1, n4, n7, n6)
+3 B13 1 B52 1 N1 1
+4 B51 1 B52 0 N1 0 N8 1
+leave((N1), fast1, n5, n7, n6)
+3 B14 1 B52 1 N1 1
+4 B51 1 B52 0 N1 0 N9 1
+leave((N1), fast1, n6, n7, n6)
+3 B15 1 B52 1 N1 1
+4 B51 1 B52 0 N1 0 N10 1
+leave((N1), fast1, n7, n7, n6)
+3 B16 1 B52 1 N1 1
+4 B51 1 B52 0 N1 0 N11 1
+leave((N1), fast1, n8, n7, n6)
+3 B17 1 B52 1 N1 1
+4 B51 1 B52 0 N1 0 N12 1
+leave((N2), slow0-0, n0, n7, n6)
+3 B18 1 B61 1 N2 1
+4 B60 1 B61 0 N2 0 N4 1
+leave((N2), slow0-0, n1, n7, n6)
+3 B19 1 B61 1 N2 1
+4 B60 1 B61 0 N2 0 N5 1
+leave((N2), slow0-0, n2, n7, n6)
+3 B20 1 B61 1 N2 1
+4 B60 1 B61 0 N2 0 N6 1
+leave((N2), slow0-0, n3, n7, n6)
+3 B21 1 B61 1 N2 1
+4 B60 1 B61 0 N2 0 N7 1
+leave((N2), slow0-0, n4, n7, n6)
+3 B22 1 B61 1 N2 1
+4 B60 1 B61 0 N2 0 N8 1
+leave((N2), slow0-0, n5, n7, n6)
+3 B23 1 B61 1 N2 1
+4 B60 1 B61 0 N2 0 N9 1
+leave((N2), slow0-0, n6, n7, n6)
+3 B24 1 B61 1 N2 1
+4 B60 1 B61 0 N2 0 N10 1
+leave((N2), slow0-0, n7, n7, n6)
+3 B25 1 B61 1 N2 1
+4 B60 1 B61 0 N2 0 N11 1
+leave((N2), slow0-0, n8, n7, n6)
+3 B26 1 B61 1 N2 1
+4 B60 1 B61 0 N2 0 N12 1
+leave((N3), slow1-0, n0, n7, n6)
+3 B27 1 B70 1 N3 1
+4 B69 1 B70 0 N3 0 N4 1
+leave((N3), slow1-0, n1, n7, n6)
+3 B28 1 B70 1 N3 1
+4 B69 1 B70 0 N3 0 N5 1
+leave((N3), slow1-0, n2, n7, n6)
+3 B29 1 B70 1 N3 1
+4 B69 1 B70 0 N3 0 N6 1
+leave((N3), slow1-0, n3, n7, n6)
+3 B30 1 B70 1 N3 1
+4 B69 1 B70 0 N3 0 N7 1
+leave((N3), slow1-0, n4, n7, n6)
+3 B31 1 B70 1 N3 1
+4 B69 1 B70 0 N3 0 N8 1
+leave((N3), slow1-0, n5, n7, n6)
+3 B32 1 B70 1 N3 1
+4 B69 1 B70 0 N3 0 N9 1
+leave((N3), slow1-0, n6, n7, n6)
+3 B33 1 B70 1 N3 1
+4 B69 1 B70 0 N3 0 N10 1
+leave((N3), slow1-0, n7, n7, n6)
+3 B34 1 B70 1 N3 1
+4 B69 1 B70 0 N3 0 N11 1
+leave((N3), slow1-0, n8, n7, n6)
+3 B35 1 B70 1 N3 1
+4 B69 1 B70 0 N3 0 N12 1
+leave((N13), fast0, n0, n7, n6)
+3 B0 1 B43 1 N13 1
+4 B42 1 B43 0 N13 0 N17 1
+leave((N13), fast0, n1, n7, n6)
+3 B1 1 B43 1 N13 1
+4 B42 1 B43 0 N13 0 N18 1
+leave((N13), fast0, n2, n7, n6)
+3 B2 1 B43 1 N13 1
+4 B42 1 B43 0 N13 0 N19 1
+leave((N13), fast0, n3, n7, n6)
+3 B3 1 B43 1 N13 1
+4 B42 1 B43 0 N13 0 N20 1
+leave((N13), fast0, n4, n7, n6)
+3 B4 1 B43 1 N13 1
+4 B42 1 B43 0 N13 0 N21 1
+leave((N13), fast0, n5, n7, n6)
+3 B5 1 B43 1 N13 1
+4 B42 1 B43 0 N13 0 N22 1
+leave((N13), fast0, n6, n7, n6)
+3 B6 1 B43 1 N13 1
+4 B42 1 B43 0 N13 0 N23 1
+leave((N13), fast0, n7, n7, n6)
+3 B7 1 B43 1 N13 1
+4 B42 1 B43 0 N13 0 N24 1
+leave((N13), fast0, n8, n7, n6)
+3 B8 1 B43 1 N13 1
+4 B42 1 B43 0 N13 0 N25 1
+leave((N14), fast1, n0, n7, n6)
+3 B9 1 B52 1 N14 1
+4 B51 1 B52 0 N14 0 N17 1
+leave((N14), fast1, n1, n7, n6)
+3 B10 1 B52 1 N14 1
+4 B51 1 B52 0 N14 0 N18 1
+leave((N14), fast1, n2, n7, n6)
+3 B11 1 B52 1 N14 1
+4 B51 1 B52 0 N14 0 N19 1
+leave((N14), fast1, n3, n7, n6)
+3 B12 1 B52 1 N14 1
+4 B51 1 B52 0 N14 0 N20 1
+leave((N14), fast1, n4, n7, n6)
+3 B13 1 B52 1 N14 1
+4 B51 1 B52 0 N14 0 N21 1
+leave((N14), fast1, n5, n7, n6)
+3 B14 1 B52 1 N14 1
+4 B51 1 B52 0 N14 0 N22 1
+leave((N14), fast1, n6, n7, n6)
+3 B15 1 B52 1 N14 1
+4 B51 1 B52 0 N14 0 N23 1
+leave((N14), fast1, n7, n7, n6)
+3 B16 1 B52 1 N14 1
+4 B51 1 B52 0 N14 0 N24 1
+leave((N14), fast1, n8, n7, n6)
+3 B17 1 B52 1 N14 1
+4 B51 1 B52 0 N14 0 N25 1
+leave((N15), slow0-0, n0, n7, n6)
+3 B18 1 B61 1 N15 1
+4 B60 1 B61 0 N15 0 N17 1
+leave((N15), slow0-0, n1, n7, n6)
+3 B19 1 B61 1 N15 1
+4 B60 1 B61 0 N15 0 N18 1
+leave((N15), slow0-0, n2, n7, n6)
+3 B20 1 B61 1 N15 1
+4 B60 1 B61 0 N15 0 N19 1
+leave((N15), slow0-0, n3, n7, n6)
+3 B21 1 B61 1 N15 1
+4 B60 1 B61 0 N15 0 N20 1
+leave((N15), slow0-0, n4, n7, n6)
+3 B22 1 B61 1 N15 1
+4 B60 1 B61 0 N15 0 N21 1
+leave((N15), slow0-0, n5, n7, n6)
+3 B23 1 B61 1 N15 1
+4 B60 1 B61 0 N15 0 N22 1
+leave((N15), slow0-0, n6, n7, n6)
+3 B24 1 B61 1 N15 1
+4 B60 1 B61 0 N15 0 N23 1
+leave((N15), slow0-0, n7, n7, n6)
+3 B25 1 B61 1 N15 1
+4 B60 1 B61 0 N15 0 N24 1
+leave((N15), slow0-0, n8, n7, n6)
+3 B26 1 B61 1 N15 1
+4 B60 1 B61 0 N15 0 N25 1
+leave((N16), slow1-0, n0, n7, n6)
+3 B27 1 B70 1 N16 1
+4 B69 1 B70 0 N16 0 N17 1
+leave((N16), slow1-0, n1, n7, n6)
+3 B28 1 B70 1 N16 1
+4 B69 1 B70 0 N16 0 N18 1
+leave((N16), slow1-0, n2, n7, n6)
+3 B29 1 B70 1 N16 1
+4 B69 1 B70 0 N16 0 N19 1
+leave((N16), slow1-0, n3, n7, n6)
+3 B30 1 B70 1 N16 1
+4 B69 1 B70 0 N16 0 N20 1
+leave((N16), slow1-0, n4, n7, n6)
+3 B31 1 B70 1 N16 1
+4 B69 1 B70 0 N16 0 N21 1
+leave((N16), slow1-0, n5, n7, n6)
+3 B32 1 B70 1 N16 1
+4 B69 1 B70 0 N16 0 N22 1
+leave((N16), slow1-0, n6, n7, n6)
+3 B33 1 B70 1 N16 1
+4 B69 1 B70 0 N16 0 N23 1
+leave((N16), slow1-0, n7, n7, n6)
+3 B34 1 B70 1 N16 1
+4 B69 1 B70 0 N16 0 N24 1
+leave((N16), slow1-0, n8, n7, n6)
+3 B35 1 B70 1 N16 1
+4 B69 1 B70 0 N16 0 N25 1
+leave((N26), fast0, n0, n7, n6)
+3 B0 1 B43 1 N26 1
+4 B42 1 B43 0 N26 0 N30 1
+leave((N26), fast0, n1, n7, n6)
+3 B1 1 B43 1 N26 1
+4 B42 1 B43 0 N26 0 N31 1
+leave((N26), fast0, n2, n7, n6)
+3 B2 1 B43 1 N26 1
+4 B42 1 B43 0 N26 0 N32 1
+leave((N26), fast0, n3, n7, n6)
+3 B3 1 B43 1 N26 1
+4 B42 1 B43 0 N26 0 N33 1
+leave((N26), fast0, n4, n7, n6)
+3 B4 1 B43 1 N26 1
+4 B42 1 B43 0 N26 0 N34 1
+leave((N26), fast0, n5, n7, n6)
+3 B5 1 B43 1 N26 1
+4 B42 1 B43 0 N26 0 N35 1
+leave((N26), fast0, n6, n7, n6)
+3 B6 1 B43 1 N26 1
+4 B42 1 B43 0 N26 0 N36 1
+leave((N26), fast0, n7, n7, n6)
+3 B7 1 B43 1 N26 1
+4 B42 1 B43 0 N26 0 N37 1
+leave((N26), fast0, n8, n7, n6)
+3 B8 1 B43 1 N26 1
+4 B42 1 B43 0 N26 0 N38 1
+leave((N27), fast1, n0, n7, n6)
+3 B9 1 B52 1 N27 1
+4 B51 1 B52 0 N27 0 N30 1
+leave((N27), fast1, n1, n7, n6)
+3 B10 1 B52 1 N27 1
+4 B51 1 B52 0 N27 0 N31 1
+leave((N27), fast1, n2, n7, n6)
+3 B11 1 B52 1 N27 1
+4 B51 1 B52 0 N27 0 N32 1
+leave((N27), fast1, n3, n7, n6)
+3 B12 1 B52 1 N27 1
+4 B51 1 B52 0 N27 0 N33 1
+leave((N27), fast1, n4, n7, n6)
+3 B13 1 B52 1 N27 1
+4 B51 1 B52 0 N27 0 N34 1
+leave((N27), fast1, n5, n7, n6)
+3 B14 1 B52 1 N27 1
+4 B51 1 B52 0 N27 0 N35 1
+leave((N27), fast1, n6, n7, n6)
+3 B15 1 B52 1 N27 1
+4 B51 1 B52 0 N27 0 N36 1
+leave((N27), fast1, n7, n7, n6)
+3 B16 1 B52 1 N27 1
+4 B51 1 B52 0 N27 0 N37 1
+leave((N27), fast1, n8, n7, n6)
+3 B17 1 B52 1 N27 1
+4 B51 1 B52 0 N27 0 N38 1
+leave((N28), slow0-0, n0, n7, n6)
+3 B18 1 B61 1 N28 1
+4 B60 1 B61 0 N28 0 N30 1
+leave((N28), slow0-0, n1, n7, n6)
+3 B19 1 B61 1 N28 1
+4 B60 1 B61 0 N28 0 N31 1
+leave((N28), slow0-0, n2, n7, n6)
+3 B20 1 B61 1 N28 1
+4 B60 1 B61 0 N28 0 N32 1
+leave((N28), slow0-0, n3, n7, n6)
+3 B21 1 B61 1 N28 1
+4 B60 1 B61 0 N28 0 N33 1
+leave((N28), slow0-0, n4, n7, n6)
+3 B22 1 B61 1 N28 1
+4 B60 1 B61 0 N28 0 N34 1
+leave((N28), slow0-0, n5, n7, n6)
+3 B23 1 B61 1 N28 1
+4 B60 1 B61 0 N28 0 N35 1
+leave((N28), slow0-0, n6, n7, n6)
+3 B24 1 B61 1 N28 1
+4 B60 1 B61 0 N28 0 N36 1
+leave((N28), slow0-0, n7, n7, n6)
+3 B25 1 B61 1 N28 1
+4 B60 1 B61 0 N28 0 N37 1
+leave((N28), slow0-0, n8, n7, n6)
+3 B26 1 B61 1 N28 1
+4 B60 1 B61 0 N28 0 N38 1
+leave((N29), slow1-0, n0, n7, n6)
+3 B27 1 B70 1 N29 1
+4 B69 1 B70 0 N29 0 N30 1
+leave((N29), slow1-0, n1, n7, n6)
+3 B28 1 B70 1 N29 1
+4 B69 1 B70 0 N29 0 N31 1
+leave((N29), slow1-0, n2, n7, n6)
+3 B29 1 B70 1 N29 1
+4 B69 1 B70 0 N29 0 N32 1
+leave((N29), slow1-0, n3, n7, n6)
+3 B30 1 B70 1 N29 1
+4 B69 1 B70 0 N29 0 N33 1
+leave((N29), slow1-0, n4, n7, n6)
+3 B31 1 B70 1 N29 1
+4 B69 1 B70 0 N29 0 N34 1
+leave((N29), slow1-0, n5, n7, n6)
+3 B32 1 B70 1 N29 1
+4 B69 1 B70 0 N29 0 N35 1
+leave((N29), slow1-0, n6, n7, n6)
+3 B33 1 B70 1 N29 1
+4 B69 1 B70 0 N29 0 N36 1
+leave((N29), slow1-0, n7, n7, n6)
+3 B34 1 B70 1 N29 1
+4 B69 1 B70 0 N29 0 N37 1
+leave((N29), slow1-0, n8, n7, n6)
+3 B35 1 B70 1 N29 1
+4 B69 1 B70 0 N29 0 N38 1
+leave((N39), fast0, n0, n7, n6)
+3 B0 1 B43 1 N39 1
+4 B42 1 B43 0 N39 0 N43 1
+leave((N39), fast0, n1, n7, n6)
+3 B1 1 B43 1 N39 1
+4 B42 1 B43 0 N39 0 N44 1
+leave((N39), fast0, n2, n7, n6)
+3 B2 1 B43 1 N39 1
+4 B42 1 B43 0 N39 0 N45 1
+leave((N39), fast0, n3, n7, n6)
+3 B3 1 B43 1 N39 1
+4 B42 1 B43 0 N39 0 N46 1
+leave((N39), fast0, n4, n7, n6)
+3 B4 1 B43 1 N39 1
+4 B42 1 B43 0 N39 0 N47 1
+leave((N39), fast0, n5, n7, n6)
+3 B5 1 B43 1 N39 1
+4 B42 1 B43 0 N39 0 N48 1
+leave((N39), fast0, n6, n7, n6)
+3 B6 1 B43 1 N39 1
+4 B42 1 B43 0 N39 0 N49 1
+leave((N39), fast0, n7, n7, n6)
+3 B7 1 B43 1 N39 1
+4 B42 1 B43 0 N39 0 N50 1
+leave((N39), fast0, n8, n7, n6)
+3 B8 1 B43 1 N39 1
+4 B42 1 B43 0 N39 0 N51 1
+leave((N40), fast1, n0, n7, n6)
+3 B9 1 B52 1 N40 1
+4 B51 1 B52 0 N40 0 N43 1
+leave((N40), fast1, n1, n7, n6)
+3 B10 1 B52 1 N40 1
+4 B51 1 B52 0 N40 0 N44 1
+leave((N40), fast1, n2, n7, n6)
+3 B11 1 B52 1 N40 1
+4 B51 1 B52 0 N40 0 N45 1
+leave((N40), fast1, n3, n7, n6)
+3 B12 1 B52 1 N40 1
+4 B51 1 B52 0 N40 0 N46 1
+leave((N40), fast1, n4, n7, n6)
+3 B13 1 B52 1 N40 1
+4 B51 1 B52 0 N40 0 N47 1
+leave((N40), fast1, n5, n7, n6)
+3 B14 1 B52 1 N40 1
+4 B51 1 B52 0 N40 0 N48 1
+leave((N40), fast1, n6, n7, n6)
+3 B15 1 B52 1 N40 1
+4 B51 1 B52 0 N40 0 N49 1
+leave((N40), fast1, n7, n7, n6)
+3 B16 1 B52 1 N40 1
+4 B51 1 B52 0 N40 0 N50 1
+leave((N40), fast1, n8, n7, n6)
+3 B17 1 B52 1 N40 1
+4 B51 1 B52 0 N40 0 N51 1
+leave((N41), slow0-0, n0, n7, n6)
+3 B18 1 B61 1 N41 1
+4 B60 1 B61 0 N41 0 N43 1
+leave((N41), slow0-0, n1, n7, n6)
+3 B19 1 B61 1 N41 1
+4 B60 1 B61 0 N41 0 N44 1
+leave((N41), slow0-0, n2, n7, n6)
+3 B20 1 B61 1 N41 1
+4 B60 1 B61 0 N41 0 N45 1
+leave((N41), slow0-0, n3, n7, n6)
+3 B21 1 B61 1 N41 1
+4 B60 1 B61 0 N41 0 N46 1
+leave((N41), slow0-0, n4, n7, n6)
+3 B22 1 B61 1 N41 1
+4 B60 1 B61 0 N41 0 N47 1
+leave((N41), slow0-0, n5, n7, n6)
+3 B23 1 B61 1 N41 1
+4 B60 1 B61 0 N41 0 N48 1
+leave((N41), slow0-0, n6, n7, n6)
+3 B24 1 B61 1 N41 1
+4 B60 1 B61 0 N41 0 N49 1
+leave((N41), slow0-0, n7, n7, n6)
+3 B25 1 B61 1 N41 1
+4 B60 1 B61 0 N41 0 N50 1
+leave((N41), slow0-0, n8, n7, n6)
+3 B26 1 B61 1 N41 1
+4 B60 1 B61 0 N41 0 N51 1
+leave((N42), slow1-0, n0, n7, n6)
+3 B27 1 B70 1 N42 1
+4 B69 1 B70 0 N42 0 N43 1
+leave((N42), slow1-0, n1, n7, n6)
+3 B28 1 B70 1 N42 1
+4 B69 1 B70 0 N42 0 N44 1
+leave((N42), slow1-0, n2, n7, n6)
+3 B29 1 B70 1 N42 1
+4 B69 1 B70 0 N42 0 N45 1
+leave((N42), slow1-0, n3, n7, n6)
+3 B30 1 B70 1 N42 1
+4 B69 1 B70 0 N42 0 N46 1
+leave((N42), slow1-0, n4, n7, n6)
+3 B31 1 B70 1 N42 1
+4 B69 1 B70 0 N42 0 N47 1
+leave((N42), slow1-0, n5, n7, n6)
+3 B32 1 B70 1 N42 1
+4 B69 1 B70 0 N42 0 N48 1
+leave((N42), slow1-0, n6, n7, n6)
+3 B33 1 B70 1 N42 1
+4 B69 1 B70 0 N42 0 N49 1
+leave((N42), slow1-0, n7, n7, n6)
+3 B34 1 B70 1 N42 1
+4 B69 1 B70 0 N42 0 N50 1
+leave((N42), slow1-0, n8, n7, n6)
+3 B35 1 B70 1 N42 1
+4 B69 1 B70 0 N42 0 N51 1
+leave((N0), fast0, n0, n8, n7)
+3 B0 1 B44 1 N0 1
+4 B43 1 B44 0 N0 0 N4 1
+leave((N0), fast0, n1, n8, n7)
+3 B1 1 B44 1 N0 1
+4 B43 1 B44 0 N0 0 N5 1
+leave((N0), fast0, n2, n8, n7)
+3 B2 1 B44 1 N0 1
+4 B43 1 B44 0 N0 0 N6 1
+leave((N0), fast0, n3, n8, n7)
+3 B3 1 B44 1 N0 1
+4 B43 1 B44 0 N0 0 N7 1
+leave((N0), fast0, n4, n8, n7)
+3 B4 1 B44 1 N0 1
+4 B43 1 B44 0 N0 0 N8 1
+leave((N0), fast0, n5, n8, n7)
+3 B5 1 B44 1 N0 1
+4 B43 1 B44 0 N0 0 N9 1
+leave((N0), fast0, n6, n8, n7)
+3 B6 1 B44 1 N0 1
+4 B43 1 B44 0 N0 0 N10 1
+leave((N0), fast0, n7, n8, n7)
+3 B7 1 B44 1 N0 1
+4 B43 1 B44 0 N0 0 N11 1
+leave((N0), fast0, n8, n8, n7)
+3 B8 1 B44 1 N0 1
+4 B43 1 B44 0 N0 0 N12 1
+leave((N1), fast1, n0, n8, n7)
+3 B9 1 B53 1 N1 1
+4 B52 1 B53 0 N1 0 N4 1
+leave((N1), fast1, n1, n8, n7)
+3 B10 1 B53 1 N1 1
+4 B52 1 B53 0 N1 0 N5 1
+leave((N1), fast1, n2, n8, n7)
+3 B11 1 B53 1 N1 1
+4 B52 1 B53 0 N1 0 N6 1
+leave((N1), fast1, n3, n8, n7)
+3 B12 1 B53 1 N1 1
+4 B52 1 B53 0 N1 0 N7 1
+leave((N1), fast1, n4, n8, n7)
+3 B13 1 B53 1 N1 1
+4 B52 1 B53 0 N1 0 N8 1
+leave((N1), fast1, n5, n8, n7)
+3 B14 1 B53 1 N1 1
+4 B52 1 B53 0 N1 0 N9 1
+leave((N1), fast1, n6, n8, n7)
+3 B15 1 B53 1 N1 1
+4 B52 1 B53 0 N1 0 N10 1
+leave((N1), fast1, n7, n8, n7)
+3 B16 1 B53 1 N1 1
+4 B52 1 B53 0 N1 0 N11 1
+leave((N1), fast1, n8, n8, n7)
+3 B17 1 B53 1 N1 1
+4 B52 1 B53 0 N1 0 N12 1
+leave((N2), slow0-0, n0, n8, n7)
+3 B18 1 B62 1 N2 1
+4 B61 1 B62 0 N2 0 N4 1
+leave((N2), slow0-0, n1, n8, n7)
+3 B19 1 B62 1 N2 1
+4 B61 1 B62 0 N2 0 N5 1
+leave((N2), slow0-0, n2, n8, n7)
+3 B20 1 B62 1 N2 1
+4 B61 1 B62 0 N2 0 N6 1
+leave((N2), slow0-0, n3, n8, n7)
+3 B21 1 B62 1 N2 1
+4 B61 1 B62 0 N2 0 N7 1
+leave((N2), slow0-0, n4, n8, n7)
+3 B22 1 B62 1 N2 1
+4 B61 1 B62 0 N2 0 N8 1
+leave((N2), slow0-0, n5, n8, n7)
+3 B23 1 B62 1 N2 1
+4 B61 1 B62 0 N2 0 N9 1
+leave((N2), slow0-0, n6, n8, n7)
+3 B24 1 B62 1 N2 1
+4 B61 1 B62 0 N2 0 N10 1
+leave((N2), slow0-0, n7, n8, n7)
+3 B25 1 B62 1 N2 1
+4 B61 1 B62 0 N2 0 N11 1
+leave((N2), slow0-0, n8, n8, n7)
+3 B26 1 B62 1 N2 1
+4 B61 1 B62 0 N2 0 N12 1
+leave((N3), slow1-0, n0, n8, n7)
+3 B27 1 B71 1 N3 1
+4 B70 1 B71 0 N3 0 N4 1
+leave((N3), slow1-0, n1, n8, n7)
+3 B28 1 B71 1 N3 1
+4 B70 1 B71 0 N3 0 N5 1
+leave((N3), slow1-0, n2, n8, n7)
+3 B29 1 B71 1 N3 1
+4 B70 1 B71 0 N3 0 N6 1
+leave((N3), slow1-0, n3, n8, n7)
+3 B30 1 B71 1 N3 1
+4 B70 1 B71 0 N3 0 N7 1
+leave((N3), slow1-0, n4, n8, n7)
+3 B31 1 B71 1 N3 1
+4 B70 1 B71 0 N3 0 N8 1
+leave((N3), slow1-0, n5, n8, n7)
+3 B32 1 B71 1 N3 1
+4 B70 1 B71 0 N3 0 N9 1
+leave((N3), slow1-0, n6, n8, n7)
+3 B33 1 B71 1 N3 1
+4 B70 1 B71 0 N3 0 N10 1
+leave((N3), slow1-0, n7, n8, n7)
+3 B34 1 B71 1 N3 1
+4 B70 1 B71 0 N3 0 N11 1
+leave((N3), slow1-0, n8, n8, n7)
+3 B35 1 B71 1 N3 1
+4 B70 1 B71 0 N3 0 N12 1
+leave((N13), fast0, n0, n8, n7)
+3 B0 1 B44 1 N13 1
+4 B43 1 B44 0 N13 0 N17 1
+leave((N13), fast0, n1, n8, n7)
+3 B1 1 B44 1 N13 1
+4 B43 1 B44 0 N13 0 N18 1
+leave((N13), fast0, n2, n8, n7)
+3 B2 1 B44 1 N13 1
+4 B43 1 B44 0 N13 0 N19 1
+leave((N13), fast0, n3, n8, n7)
+3 B3 1 B44 1 N13 1
+4 B43 1 B44 0 N13 0 N20 1
+leave((N13), fast0, n4, n8, n7)
+3 B4 1 B44 1 N13 1
+4 B43 1 B44 0 N13 0 N21 1
+leave((N13), fast0, n5, n8, n7)
+3 B5 1 B44 1 N13 1
+4 B43 1 B44 0 N13 0 N22 1
+leave((N13), fast0, n6, n8, n7)
+3 B6 1 B44 1 N13 1
+4 B43 1 B44 0 N13 0 N23 1
+leave((N13), fast0, n7, n8, n7)
+3 B7 1 B44 1 N13 1
+4 B43 1 B44 0 N13 0 N24 1
+leave((N13), fast0, n8, n8, n7)
+3 B8 1 B44 1 N13 1
+4 B43 1 B44 0 N13 0 N25 1
+leave((N14), fast1, n0, n8, n7)
+3 B9 1 B53 1 N14 1
+4 B52 1 B53 0 N14 0 N17 1
+leave((N14), fast1, n1, n8, n7)
+3 B10 1 B53 1 N14 1
+4 B52 1 B53 0 N14 0 N18 1
+leave((N14), fast1, n2, n8, n7)
+3 B11 1 B53 1 N14 1
+4 B52 1 B53 0 N14 0 N19 1
+leave((N14), fast1, n3, n8, n7)
+3 B12 1 B53 1 N14 1
+4 B52 1 B53 0 N14 0 N20 1
+leave((N14), fast1, n4, n8, n7)
+3 B13 1 B53 1 N14 1
+4 B52 1 B53 0 N14 0 N21 1
+leave((N14), fast1, n5, n8, n7)
+3 B14 1 B53 1 N14 1
+4 B52 1 B53 0 N14 0 N22 1
+leave((N14), fast1, n6, n8, n7)
+3 B15 1 B53 1 N14 1
+4 B52 1 B53 0 N14 0 N23 1
+leave((N14), fast1, n7, n8, n7)
+3 B16 1 B53 1 N14 1
+4 B52 1 B53 0 N14 0 N24 1
+leave((N14), fast1, n8, n8, n7)
+3 B17 1 B53 1 N14 1
+4 B52 1 B53 0 N14 0 N25 1
+leave((N15), slow0-0, n0, n8, n7)
+3 B18 1 B62 1 N15 1
+4 B61 1 B62 0 N15 0 N17 1
+leave((N15), slow0-0, n1, n8, n7)
+3 B19 1 B62 1 N15 1
+4 B61 1 B62 0 N15 0 N18 1
+leave((N15), slow0-0, n2, n8, n7)
+3 B20 1 B62 1 N15 1
+4 B61 1 B62 0 N15 0 N19 1
+leave((N15), slow0-0, n3, n8, n7)
+3 B21 1 B62 1 N15 1
+4 B61 1 B62 0 N15 0 N20 1
+leave((N15), slow0-0, n4, n8, n7)
+3 B22 1 B62 1 N15 1
+4 B61 1 B62 0 N15 0 N21 1
+leave((N15), slow0-0, n5, n8, n7)
+3 B23 1 B62 1 N15 1
+4 B61 1 B62 0 N15 0 N22 1
+leave((N15), slow0-0, n6, n8, n7)
+3 B24 1 B62 1 N15 1
+4 B61 1 B62 0 N15 0 N23 1
+leave((N15), slow0-0, n7, n8, n7)
+3 B25 1 B62 1 N15 1
+4 B61 1 B62 0 N15 0 N24 1
+leave((N15), slow0-0, n8, n8, n7)
+3 B26 1 B62 1 N15 1
+4 B61 1 B62 0 N15 0 N25 1
+leave((N16), slow1-0, n0, n8, n7)
+3 B27 1 B71 1 N16 1
+4 B70 1 B71 0 N16 0 N17 1
+leave((N16), slow1-0, n1, n8, n7)
+3 B28 1 B71 1 N16 1
+4 B70 1 B71 0 N16 0 N18 1
+leave((N16), slow1-0, n2, n8, n7)
+3 B29 1 B71 1 N16 1
+4 B70 1 B71 0 N16 0 N19 1
+leave((N16), slow1-0, n3, n8, n7)
+3 B30 1 B71 1 N16 1
+4 B70 1 B71 0 N16 0 N20 1
+leave((N16), slow1-0, n4, n8, n7)
+3 B31 1 B71 1 N16 1
+4 B70 1 B71 0 N16 0 N21 1
+leave((N16), slow1-0, n5, n8, n7)
+3 B32 1 B71 1 N16 1
+4 B70 1 B71 0 N16 0 N22 1
+leave((N16), slow1-0, n6, n8, n7)
+3 B33 1 B71 1 N16 1
+4 B70 1 B71 0 N16 0 N23 1
+leave((N16), slow1-0, n7, n8, n7)
+3 B34 1 B71 1 N16 1
+4 B70 1 B71 0 N16 0 N24 1
+leave((N16), slow1-0, n8, n8, n7)
+3 B35 1 B71 1 N16 1
+4 B70 1 B71 0 N16 0 N25 1
+leave((N26), fast0, n0, n8, n7)
+3 B0 1 B44 1 N26 1
+4 B43 1 B44 0 N26 0 N30 1
+leave((N26), fast0, n1, n8, n7)
+3 B1 1 B44 1 N26 1
+4 B43 1 B44 0 N26 0 N31 1
+leave((N26), fast0, n2, n8, n7)
+3 B2 1 B44 1 N26 1
+4 B43 1 B44 0 N26 0 N32 1
+leave((N26), fast0, n3, n8, n7)
+3 B3 1 B44 1 N26 1
+4 B43 1 B44 0 N26 0 N33 1
+leave((N26), fast0, n4, n8, n7)
+3 B4 1 B44 1 N26 1
+4 B43 1 B44 0 N26 0 N34 1
+leave((N26), fast0, n5, n8, n7)
+3 B5 1 B44 1 N26 1
+4 B43 1 B44 0 N26 0 N35 1
+leave((N26), fast0, n6, n8, n7)
+3 B6 1 B44 1 N26 1
+4 B43 1 B44 0 N26 0 N36 1
+leave((N26), fast0, n7, n8, n7)
+3 B7 1 B44 1 N26 1
+4 B43 1 B44 0 N26 0 N37 1
+leave((N26), fast0, n8, n8, n7)
+3 B8 1 B44 1 N26 1
+4 B43 1 B44 0 N26 0 N38 1
+leave((N27), fast1, n0, n8, n7)
+3 B9 1 B53 1 N27 1
+4 B52 1 B53 0 N27 0 N30 1
+leave((N27), fast1, n1, n8, n7)
+3 B10 1 B53 1 N27 1
+4 B52 1 B53 0 N27 0 N31 1
+leave((N27), fast1, n2, n8, n7)
+3 B11 1 B53 1 N27 1
+4 B52 1 B53 0 N27 0 N32 1
+leave((N27), fast1, n3, n8, n7)
+3 B12 1 B53 1 N27 1
+4 B52 1 B53 0 N27 0 N33 1
+leave((N27), fast1, n4, n8, n7)
+3 B13 1 B53 1 N27 1
+4 B52 1 B53 0 N27 0 N34 1
+leave((N27), fast1, n5, n8, n7)
+3 B14 1 B53 1 N27 1
+4 B52 1 B53 0 N27 0 N35 1
+leave((N27), fast1, n6, n8, n7)
+3 B15 1 B53 1 N27 1
+4 B52 1 B53 0 N27 0 N36 1
+leave((N27), fast1, n7, n8, n7)
+3 B16 1 B53 1 N27 1
+4 B52 1 B53 0 N27 0 N37 1
+leave((N27), fast1, n8, n8, n7)
+3 B17 1 B53 1 N27 1
+4 B52 1 B53 0 N27 0 N38 1
+leave((N28), slow0-0, n0, n8, n7)
+3 B18 1 B62 1 N28 1
+4 B61 1 B62 0 N28 0 N30 1
+leave((N28), slow0-0, n1, n8, n7)
+3 B19 1 B62 1 N28 1
+4 B61 1 B62 0 N28 0 N31 1
+leave((N28), slow0-0, n2, n8, n7)
+3 B20 1 B62 1 N28 1
+4 B61 1 B62 0 N28 0 N32 1
+leave((N28), slow0-0, n3, n8, n7)
+3 B21 1 B62 1 N28 1
+4 B61 1 B62 0 N28 0 N33 1
+leave((N28), slow0-0, n4, n8, n7)
+3 B22 1 B62 1 N28 1
+4 B61 1 B62 0 N28 0 N34 1
+leave((N28), slow0-0, n5, n8, n7)
+3 B23 1 B62 1 N28 1
+4 B61 1 B62 0 N28 0 N35 1
+leave((N28), slow0-0, n6, n8, n7)
+3 B24 1 B62 1 N28 1
+4 B61 1 B62 0 N28 0 N36 1
+leave((N28), slow0-0, n7, n8, n7)
+3 B25 1 B62 1 N28 1
+4 B61 1 B62 0 N28 0 N37 1
+leave((N28), slow0-0, n8, n8, n7)
+3 B26 1 B62 1 N28 1
+4 B61 1 B62 0 N28 0 N38 1
+leave((N29), slow1-0, n0, n8, n7)
+3 B27 1 B71 1 N29 1
+4 B70 1 B71 0 N29 0 N30 1
+leave((N29), slow1-0, n1, n8, n7)
+3 B28 1 B71 1 N29 1
+4 B70 1 B71 0 N29 0 N31 1
+leave((N29), slow1-0, n2, n8, n7)
+3 B29 1 B71 1 N29 1
+4 B70 1 B71 0 N29 0 N32 1
+leave((N29), slow1-0, n3, n8, n7)
+3 B30 1 B71 1 N29 1
+4 B70 1 B71 0 N29 0 N33 1
+leave((N29), slow1-0, n4, n8, n7)
+3 B31 1 B71 1 N29 1
+4 B70 1 B71 0 N29 0 N34 1
+leave((N29), slow1-0, n5, n8, n7)
+3 B32 1 B71 1 N29 1
+4 B70 1 B71 0 N29 0 N35 1
+leave((N29), slow1-0, n6, n8, n7)
+3 B33 1 B71 1 N29 1
+4 B70 1 B71 0 N29 0 N36 1
+leave((N29), slow1-0, n7, n8, n7)
+3 B34 1 B71 1 N29 1
+4 B70 1 B71 0 N29 0 N37 1
+leave((N29), slow1-0, n8, n8, n7)
+3 B35 1 B71 1 N29 1
+4 B70 1 B71 0 N29 0 N38 1
+leave((N39), fast0, n0, n8, n7)
+3 B0 1 B44 1 N39 1
+4 B43 1 B44 0 N39 0 N43 1
+leave((N39), fast0, n1, n8, n7)
+3 B1 1 B44 1 N39 1
+4 B43 1 B44 0 N39 0 N44 1
+leave((N39), fast0, n2, n8, n7)
+3 B2 1 B44 1 N39 1
+4 B43 1 B44 0 N39 0 N45 1
+leave((N39), fast0, n3, n8, n7)
+3 B3 1 B44 1 N39 1
+4 B43 1 B44 0 N39 0 N46 1
+leave((N39), fast0, n4, n8, n7)
+3 B4 1 B44 1 N39 1
+4 B43 1 B44 0 N39 0 N47 1
+leave((N39), fast0, n5, n8, n7)
+3 B5 1 B44 1 N39 1
+4 B43 1 B44 0 N39 0 N48 1
+leave((N39), fast0, n6, n8, n7)
+3 B6 1 B44 1 N39 1
+4 B43 1 B44 0 N39 0 N49 1
+leave((N39), fast0, n7, n8, n7)
+3 B7 1 B44 1 N39 1
+4 B43 1 B44 0 N39 0 N50 1
+leave((N39), fast0, n8, n8, n7)
+3 B8 1 B44 1 N39 1
+4 B43 1 B44 0 N39 0 N51 1
+leave((N40), fast1, n0, n8, n7)
+3 B9 1 B53 1 N40 1
+4 B52 1 B53 0 N40 0 N43 1
+leave((N40), fast1, n1, n8, n7)
+3 B10 1 B53 1 N40 1
+4 B52 1 B53 0 N40 0 N44 1
+leave((N40), fast1, n2, n8, n7)
+3 B11 1 B53 1 N40 1
+4 B52 1 B53 0 N40 0 N45 1
+leave((N40), fast1, n3, n8, n7)
+3 B12 1 B53 1 N40 1
+4 B52 1 B53 0 N40 0 N46 1
+leave((N40), fast1, n4, n8, n7)
+3 B13 1 B53 1 N40 1
+4 B52 1 B53 0 N40 0 N47 1
+leave((N40), fast1, n5, n8, n7)
+3 B14 1 B53 1 N40 1
+4 B52 1 B53 0 N40 0 N48 1
+leave((N40), fast1, n6, n8, n7)
+3 B15 1 B53 1 N40 1
+4 B52 1 B53 0 N40 0 N49 1
+leave((N40), fast1, n7, n8, n7)
+3 B16 1 B53 1 N40 1
+4 B52 1 B53 0 N40 0 N50 1
+leave((N40), fast1, n8, n8, n7)
+3 B17 1 B53 1 N40 1
+4 B52 1 B53 0 N40 0 N51 1
+leave((N41), slow0-0, n0, n8, n7)
+3 B18 1 B62 1 N41 1
+4 B61 1 B62 0 N41 0 N43 1
+leave((N41), slow0-0, n1, n8, n7)
+3 B19 1 B62 1 N41 1
+4 B61 1 B62 0 N41 0 N44 1
+leave((N41), slow0-0, n2, n8, n7)
+3 B20 1 B62 1 N41 1
+4 B61 1 B62 0 N41 0 N45 1
+leave((N41), slow0-0, n3, n8, n7)
+3 B21 1 B62 1 N41 1
+4 B61 1 B62 0 N41 0 N46 1
+leave((N41), slow0-0, n4, n8, n7)
+3 B22 1 B62 1 N41 1
+4 B61 1 B62 0 N41 0 N47 1
+leave((N41), slow0-0, n5, n8, n7)
+3 B23 1 B62 1 N41 1
+4 B61 1 B62 0 N41 0 N48 1
+leave((N41), slow0-0, n6, n8, n7)
+3 B24 1 B62 1 N41 1
+4 B61 1 B62 0 N41 0 N49 1
+leave((N41), slow0-0, n7, n8, n7)
+3 B25 1 B62 1 N41 1
+4 B61 1 B62 0 N41 0 N50 1
+leave((N41), slow0-0, n8, n8, n7)
+3 B26 1 B62 1 N41 1
+4 B61 1 B62 0 N41 0 N51 1
+leave((N42), slow1-0, n0, n8, n7)
+3 B27 1 B71 1 N42 1
+4 B70 1 B71 0 N42 0 N43 1
+leave((N42), slow1-0, n1, n8, n7)
+3 B28 1 B71 1 N42 1
+4 B70 1 B71 0 N42 0 N44 1
+leave((N42), slow1-0, n2, n8, n7)
+3 B29 1 B71 1 N42 1
+4 B70 1 B71 0 N42 0 N45 1
+leave((N42), slow1-0, n3, n8, n7)
+3 B30 1 B71 1 N42 1
+4 B70 1 B71 0 N42 0 N46 1
+leave((N42), slow1-0, n4, n8, n7)
+3 B31 1 B71 1 N42 1
+4 B70 1 B71 0 N42 0 N47 1
+leave((N42), slow1-0, n5, n8, n7)
+3 B32 1 B71 1 N42 1
+4 B70 1 B71 0 N42 0 N48 1
+leave((N42), slow1-0, n6, n8, n7)
+3 B33 1 B71 1 N42 1
+4 B70 1 B71 0 N42 0 N49 1
+leave((N42), slow1-0, n7, n8, n7)
+3 B34 1 B71 1 N42 1
+4 B70 1 B71 0 N42 0 N50 1
+leave((N42), slow1-0, n8, n8, n7)
+3 B35 1 B71 1 N42 1
+4 B70 1 B71 0 N42 0 N51 1

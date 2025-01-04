@@ -1,0 +1,17 @@
+===========================
+Subtypes:
+
+Subtypes of wheel:
+	st1(wheel) = { w1 w2 w3 w4 }
+
+===========================
+Feature Mapping:
+
+N0 = ( { st1(wheel) } , { fastened(wheel) flat(wheel) } )
+
+N1 = ( { st1(wheel) } , { fastened(wheel) inflated(wheel) } )
+
+N2 = ( { st1(wheel) } , { flat(wheel) have(wheel) } )
+
+N3 = ( { st1(wheel) } , { have(wheel) inflated(wheel) } )
+

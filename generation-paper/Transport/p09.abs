@@ -1,0 +1,249 @@
+===========================
+Subtypes:
+
+Subtypes of package:
+	st1(package) = { package-1 package-5 }
+	st2(package) = { package-2 package-6 }
+	st3(package) = { package-3 }
+	st4(package) = { package-4 }
+	st5(package) = { package-7 }
+
+===========================
+Feature Mapping:
+
+N0 = ( { st1(package) } , { at(package, city-loc-1) } )
+
+N1 = ( { st1(package) } , { at(package, city-loc-10) } )
+
+N2 = ( { st1(package) } , { at(package, city-loc-11) } )
+
+N3 = ( { st1(package) } , { at(package, city-loc-12) } )
+
+N4 = ( { st1(package) } , { at(package, city-loc-13) } )
+
+N5 = ( { st1(package) } , { at(package, city-loc-14) } )
+
+N6 = ( { st1(package) } , { at(package, city-loc-2) } )
+
+N7 = ( { st1(package) } , { at(package, city-loc-3) } )
+
+N8 = ( { st1(package) } , { at(package, city-loc-4) } )
+
+N9 = ( { st1(package) } , { at(package, city-loc-5) } )
+
+N10 = ( { st1(package) } , { at(package, city-loc-6) } )
+
+N11 = ( { st1(package) } , { at(package, city-loc-7) } )
+
+N12 = ( { st1(package) } , { at(package, city-loc-8) } )
+
+N13 = ( { st1(package) } , { at(package, city-loc-9) } )
+
+N14 = ( { st1(package) } , { in(package, truck-1) } )
+
+N15 = ( { st1(package) } , { in(package, truck-2) } )
+
+N16 = ( { st2(package) } , { at(package, city-loc-1) } )
+
+N17 = ( { st2(package) } , { at(package, city-loc-10) } )
+
+N18 = ( { st2(package) } , { at(package, city-loc-11) } )
+
+N19 = ( { st2(package) } , { at(package, city-loc-12) } )
+
+N20 = ( { st2(package) } , { at(package, city-loc-13) } )
+
+N21 = ( { st2(package) } , { at(package, city-loc-14) } )
+
+N22 = ( { st2(package) } , { at(package, city-loc-2) } )
+
+N23 = ( { st2(package) } , { at(package, city-loc-3) } )
+
+N24 = ( { st2(package) } , { at(package, city-loc-4) } )
+
+N25 = ( { st2(package) } , { at(package, city-loc-5) } )
+
+N26 = ( { st2(package) } , { at(package, city-loc-6) } )
+
+N27 = ( { st2(package) } , { at(package, city-loc-7) } )
+
+N28 = ( { st2(package) } , { at(package, city-loc-8) } )
+
+N29 = ( { st2(package) } , { at(package, city-loc-9) } )
+
+N30 = ( { st2(package) } , { in(package, truck-1) } )
+
+N31 = ( { st2(package) } , { in(package, truck-2) } )
+
+N32 = ( { st3(package) } , { at(package, city-loc-1) } )
+
+N33 = ( { st3(package) } , { at(package, city-loc-10) } )
+
+N34 = ( { st3(package) } , { at(package, city-loc-11) } )
+
+N35 = ( { st3(package) } , { at(package, city-loc-12) } )
+
+N36 = ( { st3(package) } , { at(package, city-loc-13) } )
+
+N37 = ( { st3(package) } , { at(package, city-loc-14) } )
+
+N38 = ( { st3(package) } , { at(package, city-loc-2) } )
+
+N39 = ( { st3(package) } , { at(package, city-loc-3) } )
+
+N40 = ( { st3(package) } , { at(package, city-loc-4) } )
+
+N41 = ( { st3(package) } , { at(package, city-loc-5) } )
+
+N42 = ( { st3(package) } , { at(package, city-loc-6) } )
+
+N43 = ( { st3(package) } , { at(package, city-loc-7) } )
+
+N44 = ( { st3(package) } , { at(package, city-loc-8) } )
+
+N45 = ( { st3(package) } , { at(package, city-loc-9) } )
+
+N46 = ( { st3(package) } , { in(package, truck-1) } )
+
+N47 = ( { st3(package) } , { in(package, truck-2) } )
+
+N48 = ( { st4(package) } , { at(package, city-loc-1) } )
+
+N49 = ( { st4(package) } , { at(package, city-loc-10) } )
+
+N50 = ( { st4(package) } , { at(package, city-loc-11) } )
+
+N51 = ( { st4(package) } , { at(package, city-loc-12) } )
+
+N52 = ( { st4(package) } , { at(package, city-loc-13) } )
+
+N53 = ( { st4(package) } , { at(package, city-loc-14) } )
+
+N54 = ( { st4(package) } , { at(package, city-loc-2) } )
+
+N55 = ( { st4(package) } , { at(package, city-loc-3) } )
+
+N56 = ( { st4(package) } , { at(package, city-loc-4) } )
+
+N57 = ( { st4(package) } , { at(package, city-loc-5) } )
+
+N58 = ( { st4(package) } , { at(package, city-loc-6) } )
+
+N59 = ( { st4(package) } , { at(package, city-loc-7) } )
+
+N60 = ( { st4(package) } , { at(package, city-loc-8) } )
+
+N61 = ( { st4(package) } , { at(package, city-loc-9) } )
+
+N62 = ( { st4(package) } , { in(package, truck-1) } )
+
+N63 = ( { st4(package) } , { in(package, truck-2) } )
+
+N64 = ( { st5(package) } , { at(package, city-loc-1) } )
+
+N65 = ( { st5(package) } , { at(package, city-loc-10) } )
+
+N66 = ( { st5(package) } , { at(package, city-loc-11) } )
+
+N67 = ( { st5(package) } , { at(package, city-loc-12) } )
+
+N68 = ( { st5(package) } , { at(package, city-loc-13) } )
+
+N69 = ( { st5(package) } , { at(package, city-loc-14) } )
+
+N70 = ( { st5(package) } , { at(package, city-loc-2) } )
+
+N71 = ( { st5(package) } , { at(package, city-loc-3) } )
+
+N72 = ( { st5(package) } , { at(package, city-loc-4) } )
+
+N73 = ( { st5(package) } , { at(package, city-loc-5) } )
+
+N74 = ( { st5(package) } , { at(package, city-loc-6) } )
+
+N75 = ( { st5(package) } , { at(package, city-loc-7) } )
+
+N76 = ( { st5(package) } , { at(package, city-loc-8) } )
+
+N77 = ( { st5(package) } , { at(package, city-loc-9) } )
+
+N78 = ( { st5(package) } , { in(package, truck-1) } )
+
+N79 = ( { st5(package) } , { in(package, truck-2) } )
+
+B0 = at(truck-1, city-loc-1)
+
+B1 = at(truck-1, city-loc-2)
+
+B2 = at(truck-1, city-loc-3)
+
+B3 = at(truck-1, city-loc-4)
+
+B4 = at(truck-1, city-loc-5)
+
+B5 = at(truck-1, city-loc-6)
+
+B6 = at(truck-1, city-loc-7)
+
+B7 = at(truck-1, city-loc-8)
+
+B8 = at(truck-1, city-loc-9)
+
+B9 = at(truck-1, city-loc-10)
+
+B10 = at(truck-1, city-loc-11)
+
+B11 = at(truck-1, city-loc-12)
+
+B12 = at(truck-1, city-loc-13)
+
+B13 = at(truck-1, city-loc-14)
+
+B14 = at(truck-2, city-loc-1)
+
+B15 = at(truck-2, city-loc-2)
+
+B16 = at(truck-2, city-loc-3)
+
+B17 = at(truck-2, city-loc-4)
+
+B18 = at(truck-2, city-loc-5)
+
+B19 = at(truck-2, city-loc-6)
+
+B20 = at(truck-2, city-loc-7)
+
+B21 = at(truck-2, city-loc-8)
+
+B22 = at(truck-2, city-loc-9)
+
+B23 = at(truck-2, city-loc-10)
+
+B24 = at(truck-2, city-loc-11)
+
+B25 = at(truck-2, city-loc-12)
+
+B26 = at(truck-2, city-loc-13)
+
+B27 = at(truck-2, city-loc-14)
+
+B28 = capacity(truck-1, capacity-0)
+
+B29 = capacity(truck-1, capacity-1)
+
+B30 = capacity(truck-1, capacity-2)
+
+B31 = capacity(truck-1, capacity-3)
+
+B32 = capacity(truck-1, capacity-4)
+
+B33 = capacity(truck-2, capacity-0)
+
+B34 = capacity(truck-2, capacity-1)
+
+B35 = capacity(truck-2, capacity-2)
+
+B36 = capacity(truck-2, capacity-3)
+
+B37 = capacity(truck-2, capacity-4)
+
