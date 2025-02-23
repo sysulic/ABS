@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractGraph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AccumulatedDelta.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Agents.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Analyser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Cascader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CausalGraph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugWriteController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Evaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Events.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Exceptions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FastEnvironment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlexLexer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncAnalysis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FuncExp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GoalHypSpace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graphconstruct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HowAnalyser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="instantiation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InstPropLinker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LaTeXSupport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LibLink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LPGPTranslator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OptInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Ownership.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="parse_error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Partitions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pddl+.lex.yy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PinguPlanGenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Plan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanExecutionTracker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Polynomial.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PrettyPrinter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Proposition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ptree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="random.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RelaxTranslator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RepairAdvice.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RobustAnalyse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SASActions.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleEval.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sStack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StateObserver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tDistribution.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TIM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TimSupport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TIMUtilities.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ToFunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TrajectoryConstraints.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="typecheck.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TypedAnalyser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Validator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="valLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="valLibExport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VisitController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AccumulatedDelta.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CausalGraph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugWriteController.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Evaluator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Events.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FastEnvironment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncAnalysis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FuncExp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graphconstruct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HowAnalyser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="instantiation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InstPropLinker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LaTeXSupport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LibLink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Ownership.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pddl+.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PinguPlanGenerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Plan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Polynomial.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PrettyPrinter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Proposition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ptree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="random.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RelaxTranslator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RepairAdvice.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RobustAnalyse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SASActions.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleEval.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TIM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TimSupport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ToFunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TrajectoryConstraints.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="typecheck.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TypedAnalyser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Validator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="valLib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pddl+.l" />
+    <None Include="pddl+.y" />
+  </ItemGroup>
+</Project>
