@@ -99,6 +99,7 @@ class AbsMutex:
         else:
             with open(file_path,'w') as f:
                 f.write(self._getAddition())
+            print(f"\nSuccessfully written to {file_path}.\n")
 
 def analyseActions(task,abs_mutex:AbsMutex,debug=False):
     map_subclasses = {type_.name:[type_.name] for type_ in task.types}
@@ -285,9 +286,9 @@ def main():
         normalize.normalize(task)
 
     abs_mutex = buildAbsMutex(task,debug=False)
-    abs_mutex.dumpAddition(args.output)
     print("============ dump mutex addition file ============")
     print(abs_mutex._getAddition())
+    abs_mutex.dumpAddition(args.output)
 
 if __name__ == "__main__":
     main()
