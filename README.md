@@ -91,4 +91,4 @@ bin\ABS.exe .\domains\Gripper-HLWB prob1-1 .\generation\Gripper-HLWB
 
 ## For solving
 
-An available BQNP solver can be accessed via: https://github.com/ResA212/BQS
+An available BQNP solver can be accessed via: https://github.com/sysulic/ABS-BQS
